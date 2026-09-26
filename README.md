@@ -14,7 +14,7 @@ A navigable timeline of the entire Star Trek canon, built as the console a futur
 
 ## Data
 
-Episode and film records, in-universe dates, stardates and cast lists come from [Memory Alpha](https://memory-alpha.fandom.com) through its API (CC BY-NC). History events, incursions, divergences, threads and dossiers were compiled for this archive from on-screen canon, and every entry cites its source episodes. Loglines are written for the archive.
+Episode and film records, in-universe dates, stardates and cast lists come from [Memory Alpha](https://memory-alpha.fandom.com) through its API (CC BY-NC). Personnel portraits are small thumbnails of each character's lead image on Memory Alpha (screencaps and publicity stills © CBS Studios and Paramount), fetched in batches by `tools/fetch_portraits.py` and shown only to identify characters. History events, incursions, divergences, threads and dossiers were compiled for this archive from on-screen canon, and every entry cites its source episodes. Loglines are written for the archive.
 
 Rebuild the data:
 
@@ -22,6 +22,7 @@ Rebuild the data:
 python3 tools/fetch_records.py      # fetch episode and film pages into cache/ (idempotent)
 python3 tools/parse_records.py      # dates, stardates, cast -> build/records.raw.json
 python3 tools/render_briefs.py      # research/<thread>.md -> docs/briefs/
+python3 tools/fetch_portraits.py resolve && python3 tools/fetch_portraits.py download   # portraits -> docs/img/p/
 python3 tools/build.py              # merge with data/curated/ -> docs/data/archive.json
 ```
 

@@ -251,13 +251,21 @@ def main():
             'ca': sorted({pidx[c['c']] for c in r['cast'] if c.get('archive') and c['c'] in pidx and not c.get('credit_only')}),
             'sh': r.get('short'),
         })
+    # personnel portraits (tools/fetch_portraits.py): only those actually on disk
+    portraits = {}
+    pm = os.path.join(ROOT, 'data', 'portraits.json')
+    if os.path.exists(pm):
+        for k, v in json.load(open(pm)).items():
+            if v and os.path.exists(os.path.join(ROOT, 'docs', 'img', 'p', v['id'] + '.webp')):
+                portraits[k] = v['id']
+    print('portraits:', len(portraits))
     archive = {
         'meta': {'built': TODAY, 'records': len(out_recs), 'people': len(people),
                  'source': 'Memory Alpha (memory-alpha.fandom.com), CC BY-NC; curated overlays'},
         'lanes': [dict(id=a, label=b, sub=c, tok=d) for a, b, c, d in LANES],
         'series': SERIES_NAME,
         'records': out_recs,
-        'people': [{'k': k, 'n': cnt.get(k, 0)} for k in people],
+        'people': [dict({'k': k, 'n': cnt.get(k, 0)}, **({'im': portraits[k]} if k in portraits else {})) for k in people],
         'events': load('events-early.json', []) + load('events-late.json', []),
         'incursions': load('incursions.json', []),
         'divergences': load('divergences.json', {}).get('divergences', []),

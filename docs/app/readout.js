@@ -204,9 +204,19 @@ export class Readout {
     const lists = S.lanes.filter((l) => byLane.has(l.id)).map((l) => `<details${byLane.size === 1 ? ' open' : ''}><summary class="yearhead" style="position:static;cursor:pointer">${esc(l.label)}<span class="sub">${byLane.get(l.id).length} records</span></summary><ul class="list">${byLane.get(l.id).map((r) => this.recRow(r, r.tt)).join('')}</ul></details>`).join('');
     const posts = (d.posts || []).map((x) => `<dt>${esc(x.from)}${x.to && x.to !== x.from ? '–' + esc(x.to) : ''}</dt><dd>${esc(x.text)}</dd>`).join('');
     const dis = (d.displacements || []).map((x) => `<div class="leg"><div class="end"><div class="k">From</div><div class="v">${esc(fmtTime(x.from))}</div></div><div class="arrow"></div><div class="end" style="border-left-color:var(--gold)"><div class="k">To</div><div class="v">${esc(fmtTime(x.to))}</div></div></div><p class="note">${esc(x.via || '')}</p>`).join('');
+    const L = this.primaryLane(p);
+    const initials = p.name.replace(/\(.*?\)/g, '').split(/\s+/).filter(Boolean).map((w) => w[0]).slice(0, 2).join('').toUpperCase();
+    const portrait = p.im
+      ? `<figure class="portrait" style="--ring:${L.color}"><img src="img/p/${esc(p.im)}.webp" alt="${esc(p.name)}" width="76" height="76" decoding="async"></figure>`
+      : `<figure class="portrait none" style="--ring:${L.color}" aria-hidden="true"><svg viewBox="-60 -70 120 150"><path d="M0 -64 C -14 -24, -28 22, -38 66 L 0 44 L 38 66 C 28 22, 14 -24, 0 -64 Z"/></svg><span>${esc(initials)}</span></figure>`;
     const html = `
-      <div class="series-tag"><i style="background:var(--gold)"></i>Personnel file</div>
-      <h2>${esc(p.name)}</h2>
+      <div class="dossier-head">
+        <div class="dh-text">
+          <div class="series-tag"><i style="background:var(--gold)"></i>Personnel file</div>
+          <h2>${esc(p.name)}</h2>
+        </div>
+        ${portrait}
+      </div>
       <div class="cells">
         ${cell('Species', d.species)}${cell('Born', d.born && d.born.tText)}${cell('Died', d.died && d.died.tText)}
         ${cell('Records', recs.length)}${cell('First', first && first.tt, 'gold')}${cell('Last', last && last.tt)}
@@ -403,6 +413,7 @@ export class Readout {
       <dl class="kv"><dt>/</dt><dd>Search</dd><dt>← →</dt><dd>Step to the previous or next entry in time</dd><dt>+ −</dt><dd>Zoom</dd><dt>0</dt><dd>Reset the view</dd><dt>Esc</dt><dd>Close the record</dd></dl>
       <h3>Sources</h3>
       <p>Episode data, in-universe dates and cast lists come from <a href="https://memory-alpha.fandom.com" target="_blank" rel="noopener">Memory Alpha</a> (CC BY-NC). History, incursions, divergences, threads and dossiers were compiled for this archive from on-screen canon, with sources cited on every entry.</p>
+      <p>Personnel portraits are small thumbnails of each character's lead image on Memory Alpha: screencaps and publicity stills © CBS Studios and Paramount, shown only to identify characters in this non-commercial reference.</p>
       <div class="cells">${cell('Records', m.records)}${cell('Personnel', S.people.length)}${cell('Events', S.events.length)}${cell('Incursions', S.incursions.length)}${cell('Divergences', S.divergences.length)}${cell('Data built', m.built, 'gold')}</div>
       <p class="fine">An unofficial fan reference. Star Trek and related marks belong to CBS Studios and Paramount; this archive is not affiliated with or endorsed by them. The Temporal Integrity Commission is a fictional agency.</p>`;
     this.set('Archive', html);

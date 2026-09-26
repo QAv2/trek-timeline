@@ -232,8 +232,7 @@ const inCoreOf = (lane) => { const core = CORE[lane]; return core ? (t) => core.
 function homeTime(S, r) {
   const inCore = inCoreOf(r.l);
   if (!inCore || inCore(r.t)) return r.t;
-  const v = (r.v || []).find((x) => inCore(x.t));
-  if (v) return v.t;
+  // nearest home-era neighbour in broadcast order first; a bare "other date" year is too coarse
   const arr = S.bySeries.get(r.s) || [];
   const i = arr.indexOf(r);
   for (let d = 1; d < arr.length; d++) {
@@ -242,35 +241,39 @@ function homeTime(S, r) {
       if (x && x.l === r.l && inCore(x.t)) return x.t + (i - j) * 0.002;
     }
   }
-  return r.t;
+  const v = (r.v || []).find((x) => inCore(x.t));
+  return v ? v.t : r.t;
 }
 
 function worldline(S, p) {
   if (p._wl) return p._wl;
   const dis = ((p.dossier && p.dossier.displacements) || []).filter((d) => typeof d.from === 'number' && typeof d.to === 'number' && Math.abs(d.to - d.from) >= 0.5);
   const used = new Set();
+  // a film set in two eras (Generations: 2293 and 2371): this person was in the era nearest their other records
+  const choose = (r) => {
+    const cands = [r.t, ...(r.v || []).map((v) => v.t)];
+    if (cands.length < 2 || CORE[r.l]) return r.t;
+    let best = r.t, bd = Infinity;
+    for (const c of cands) {
+      let d = Infinity;
+      for (const q of p.recs) if (q !== r && q.l !== 'ST') d = Math.min(d, Math.abs(q.t - c));
+      if (d < bd - 1e-9) { bd = d; best = c; }
+    }
+    return best;
+  };
   const ents = p.recs.filter((r) => r.l !== 'ST').map((r) => {
-    let h = homeTime(S, r), via = null;
+    const t0 = choose(r);
+    let h = CORE[r.l] ? homeTime(S, r) : t0, via = null;
     // a record reached by a displacement happens after the departure in this person's time
     // (Spock Prime meets young Kirk in 2258, but only after leaving 2387)
-    const d = dis.find((x) => Math.abs(x.to - r.t) <= 2.5 && Math.abs(x.from - r.t) > 2.5 && x.from > r.t);
+    const home = inCoreOf(r.l);
+    const d = home && home(r.t) ? null : dis.find((x) => Math.abs(x.to - r.t) <= 2.5 && Math.abs(x.from - r.t) > 2.5 && x.from > r.t);
     if (d) { h = Math.max(h, d.from + 0.01); via = d; used.add(d); }
-    return { r, h, via };
+    return { r, h, via, t0 };
   }).sort((a, b) => a.h - b.h || (a.r.ad || '').localeCompare(b.r.ad || ''));
   const pts = [];
-  ents.forEach((e, i) => {
-    const r = e.r;
-    let t = r.t;
-    const cands = [r.t, ...(r.v || []).map((v) => v.t)];
-    if (cands.length > 1 && Math.abs(r.t - e.h) <= 2) {
-      // a record set in two eras (Generations: 2293 and 2371): take the one nearest this person's neighbours
-      const nb = [ents[i - 1], ents[i + 1]].filter(Boolean).map((x) => x.h);
-      let bd = Infinity;
-      for (const c of cands) {
-        const d = nb.length ? Math.min(...nb.map((n) => Math.abs(n - c))) : 0;
-        if (d < bd - 1e-9) { bd = d; t = c; }
-      }
-    }
+  ents.forEach((e) => {
+    const r = e.r, t = e.t0;
     pts.push({ t, h: e.h, l: r.l, r, exc: Math.abs(t - e.h) > 2 && !e.via, jump: !!e.via, via: e.via && e.via.via });
   });
   for (let i = 1; i < pts.length; i++) {

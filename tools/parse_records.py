@@ -263,18 +263,23 @@ def cast_of(text, title=""):
                 continue  # roles follow on ** lines
         else:
             continue
-        credit_only = "credit only" in flags_src or "does not appear" in flags_src
-        archive = "archive" in flags_src or "recording" in flags_src or bool(re.search(r"archive|footage|appearing in the original|stock", section, re.I))
-        voice = "(voice" in flags_src
-        tg = role_targets(role_part)
-        if tg:
-            out.append({"c": tg[0], "a": actor, "credit_only": credit_only, "archive": archive, "voice": voice,
-                        "unc": uncredited, "sec": section})
+        sec_archive = bool(re.search(r"archive|footage|appearing in the original|stock", section, re.I))
+        # a note like "(voice only; archive audio)" belongs to the role it follows, so read each role separately
+        segments = [x for x in re.split(r"\s+/\s+|<br\s*/?>", role_part) if x.strip()]
+        for seg in segments:
+            tg = role_targets(seg)
+            if not tg:
+                continue
+            fl = seg.lower() if len(segments) > 1 else flags_src
+            out.append({"c": tg[0], "a": actor,
+                        "credit_only": "credit only" in fl or "does not appear" in fl,
+                        "archive": sec_archive or "archive" in fl or "recording" in fl,
+                        "voice": "(voice" in fl, "unc": uncredited, "sec": section})
     out = film_extra + out
     seen = {}
     for c in out:
         k = c["c"]
-        if k not in seen or (seen[k]["credit_only"] and not c["credit_only"]):
+        if k not in seen or (seen[k]["credit_only"] and not c["credit_only"]) or (seen[k]["archive"] and not c["archive"]):
             seen[k] = c
     return list(seen.values())
 
