@@ -8,7 +8,7 @@ import { fmtTime, centuryLabel, sdForTime, uToT, tToU } from './scale.js';
 import { chirp, audioOn, setAudio } from './audio.js';
 
 const $ = (s) => document.querySelector(s);
-const MODES = ['continuum', 'incursions', 'divergences', 'personnel', 'threads', 'records', 'stardate', 'archive'];
+const MODES = ['continuum', 'incursions', 'divergences', 'personnel', 'threads', 'records', 'anomalies', 'stardate', 'archive'];
 const HOME = [2140, 2410];
 const state = { mode: 'continuum', sel: null, route: null };
 
@@ -114,7 +114,8 @@ async function boot() {
   new Search({ input: $('#q'), results: $('#results'), store: S, go });
 
   // nav counts
-  const counts = { incursions: S.incursions.length, divergences: S.divergences.length, personnel: S.people.filter((p) => p.recs.length).length, threads: S.threads.length, records: S.records.length };
+  const counts = { incursions: S.incursions.length, divergences: S.divergences.length, personnel: S.people.filter((p) => p.recs.length).length, threads: S.threads.length, records: S.records.length,
+    anomalies: [...S.events, ...S.incursions, ...S.divergences].filter((x) => x.conflict).length };
   document.querySelectorAll('.navbtn[data-mode]').forEach((b) => { const n = counts[b.dataset.mode]; if (n) b.querySelector('.num').textContent = n; });
   $('#navwrap').innerHTML = [...document.querySelectorAll('.rail .navbtn[data-mode]')].map((b) => b.outerHTML).join('');
   $('#data-stamp').textContent = `DATA ${S.meta.built.slice(0, 7).replace('-', '.')}`;

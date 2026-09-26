@@ -330,6 +330,23 @@ export class Readout {
     this.set(`Records: ${name}`, html);
   }
 
+  list_anomalies() {
+    const S = this.S;
+    const groups = [
+      ['History', S.events.filter((e) => e.conflict), (e) => `#/e/${enc(e.id)}`, (e) => e.title, (e) => e.tText],
+      ['Incursions', S.incursions.filter((i) => i.conflict), (i) => `#/i/${enc(i.id)}`, (i) => i.title, (i) => i.legs[0].from.tText],
+      ['Divergences', S.divergences.filter((d) => d.conflict), (d) => `#/d/${enc(d.id)}`, (d) => d.title, (d) => d.branch && d.branch.tText],
+    ];
+    const n = groups.reduce((a, g) => a + g[1].length, 0);
+    let html = `<p class="note">Places where the canon contradicts itself: two dates for one event, a first contact that happened twice, a war moved by a later series. The archive keeps the best-supported reading and files the rival here.</p>`;
+    for (const [label, arr, go, title, when] of groups) {
+      if (!arr.length) continue;
+      html += `<h3>${esc(label)}</h3><ul class="list">${arr.sort((a, b) => a.t - b.t).map((x) => `<li><button class="row" data-go="${go(x)}">${this.chip('ANOM', '#ff5b5b')}
+        <span class="t">${esc(title(x))}<small>${esc(x.conflict)}</small></span><span class="d">${esc(when(x) || '')}</span></button></li>`).join('')}</ul>`;
+    }
+    this.set(`Chronometric anomalies: ${n}`, html);
+  }
+
   list_stardate() {
     const html = `
       <p class="note">Stardates only convert cleanly from the 24th century on, where each thousand units is a year. Earlier stardates don't follow a formula, so the resolver shows the nearest records instead.</p>

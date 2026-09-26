@@ -335,6 +335,7 @@ export class Field {
 
   alphaFor(laneId) {
     if (this.muted.has(laneId)) return 0.12;
+    if (this.mode === 'anomalies') return laneId === 'HISTORY' ? 1 : 0.3;
     if (this.worlds.length) return 0.34;
     if (this.mode === 'incursions') return 0.5;
     if (this.mode === 'divergences') return ['ALT', 'KELVIN', 'MIRROR'].includes(laneId) ? 1 : 0.45;
@@ -477,7 +478,7 @@ export class Field {
       const e = ev[i];
       const x = this.X(e.u), y = L.yc + (e.row - 1) * rowOff;
       const s = e.w >= 3 ? 5.5 : e.w === 2 ? 4.2 : 3.2;
-      ctx.globalAlpha = a;
+      ctx.globalAlpha = this.mode === 'anomalies' && !e.conflict ? 0.25 : a;
       ctx.fillStyle = e.conflict ? RED : e.category === 'temporal' ? ICE : BONE;
       ctx.beginPath(); ctx.moveTo(x, y - s); ctx.lineTo(x + s, y); ctx.lineTo(x, y + s); ctx.lineTo(x - s, y); ctx.closePath(); ctx.fill();
     }
