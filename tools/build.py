@@ -200,6 +200,16 @@ def main():
     raw = json.load(open(os.path.join(ROOT, 'build', 'records.raw.json')))
     raw = [r for r in raw if (r['airdate'] or '0') <= TODAY or r['series'] == 'FLM' and r['airdate']]
     recs = place_records(raw)
+    # own-words loglines replace Memory Alpha's lead blurbs where written
+    lines = {}
+    ldir = os.path.join(CUR, 'loglines')
+    if os.path.isdir(ldir):
+        for f in sorted(os.listdir(ldir)):
+            if f.startswith('out-') and f.endswith('.json'):
+                try:
+                    lines.update(json.load(open(os.path.join(ldir, f))))
+                except ValueError:
+                    print('skipping unreadable', f)
     # characters: count appearances (excluding credit-only)
     cnt = collections.Counter()
     for r in recs:
@@ -235,7 +245,8 @@ def main():
         out_recs.append({
             'id': r['id'], 's': r['series'], 'l': r['lane'], 'ti': r['title'], 'se': r['season'], 'ep': r['episode'],
             'n': r['num'], 'ad': r['airdate'], 'sd': r['stardate'], 't': round(r['_t'], 4), 'tt': ttext(r), 'pr': r['_prec'],
-            'tl': tl, 'lg': r['logline'], 'v': visits, 'ma': r['ma'], 'dr': r['dateRaw'], 'or': r['otherRaw'],
+            'tl': tl, 'lg': (lines.get(r['id']) or r['logline']).strip(), 'lgs': 'tic' if lines.get(r['id']) else 'ma',
+            'v': visits, 'ma': r['ma'], 'dr': r['dateRaw'], 'or': r['otherRaw'],
             'c': ordered_cast(r['cast'], pidx)[0], 'cu': ordered_cast(r['cast'], pidx)[1],
             'ca': sorted({pidx[c['c']] for c in r['cast'] if c.get('archive') and c['c'] in pidx and not c.get('credit_only')}),
             'sh': r.get('short'),
@@ -257,6 +268,7 @@ def main():
     os.makedirs(os.path.join(ROOT, 'docs', 'data'), exist_ok=True)
     p = os.path.join(ROOT, 'docs', 'data', 'archive.json')
     json.dump(archive, open(p, 'w'), ensure_ascii=False, separators=(',', ':'))
+    print('loglines:', sum(1 for r in out_recs if r['lgs'] == 'tic'), 'own-words,', sum(1 for r in out_recs if r['lgs'] == 'ma'), 'Memory Alpha')
     print('wrote', p, os.path.getsize(p) // 1024, 'KB;', len(out_recs), 'records;', len(people), 'people;',
           len(archive['events']), 'events;', len(archive['incursions']), 'incursions;', len(archive['divergences']), 'divergences;',
           len(archive['threads']), 'threads')

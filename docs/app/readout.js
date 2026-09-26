@@ -128,7 +128,7 @@ export class Readout {
       <ul class="list">${nb(prev)}${nb(next)}</ul>
       ${r.prevAir || r.nextAir ? `<h3>Previous and next ${r.s === 'FLM' ? 'film' : 'episode'}</h3><ul class="list">${r.prevAir ? this.recRow(r.prevAir, 'Previous') : ''}${r.nextAir ? this.recRow(r.nextAir, 'Next') : ''}</ul>` : ''}
       <div class="btnrow"><a class="btn f3" href="${MA(r.ma)}" target="_blank" rel="noopener">Memory Alpha</a><button class="btn f1" data-act="fit-rec" data-id="${esc(r.id)}">Center in continuum</button></div>
-      <p class="fine">Synopsis adapted from Memory Alpha. Dates follow Memory Alpha's in-universe dating.</p>`;
+      <p class="fine">${r.lgs === 'ma' ? 'Synopsis from Memory Alpha (CC BY-NC). ' : ''}In-universe dating follows Memory Alpha.</p>`;
     this.set(`Record ${this.code(r)}`, html, this.back('#/continuum', 'In view'));
   }
 
