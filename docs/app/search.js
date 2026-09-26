@@ -16,16 +16,23 @@ const STOP = new Set(('a an and the of to in on at by for from with into onto ab
 // a small synonym ring for how people describe plots
 const SYN = {};
 [['build', 'create', 'construct', 'make', 'invent'], ['daughter', 'child', 'girl'], ['son', 'child', 'boy'], ['kill', 'murder', 'death', 'die', 'dead'],
- ['wife', 'marry', 'married', 'wedding'], ['husband', 'marry', 'married', 'wedding'], ['love', 'romance', 'kiss'], ['past', 'back', 'earlier'],
+ ['wife', 'marry', 'married', 'wedding'], ['husband', 'marry', 'married', 'wedding'], ['love', 'romance', 'kiss', 'feelings', 'date', 'relationship'], ['past', 'back', 'earlier'],
  ['future', 'forward', 'later'], ['alien', 'species', 'lifeform'], ['ghost', 'spirit', 'haunt'], ['robot', 'android'], ['clone', 'duplicate', 'copy'],
  ['body', 'swap', 'switch'], ['hologram', 'holodeck', 'holographic'], ['war', 'battle', 'fight'], ['sick', 'disease', 'illness', 'plague', 'virus'],
  ['dream', 'vision', 'hallucination'], ['old', 'age', 'aging', 'elderly'], ['young', 'child', 'kid'], ['brother', 'sibling'], ['sister', 'sibling'],
- ['trapped', 'stuck', 'stranded'], ['loop', 'repeat', 'causality'], ['stranded', 'lost']]
+ ['trapped', 'stuck', 'stranded'], ['loop', 'repeat', 'causality'], ['stranded', 'lost'], ['lifetime', 'life', 'decades', 'years'],
+ ['dying', 'dead', 'doomed', 'extinct'], ['planet', 'world'], ['music', 'song', 'flute', 'sing']]
   .forEach((g) => g.forEach((w) => { SYN[w] = [...new Set([...(SYN[w] || []), ...g.filter((x) => x !== w)])]; }));
 
-const stem = (w) => (w.length > 4 && w.endsWith('ies') ? w.slice(0, -3) + 'y'
-  : w.length > 4 && w.endsWith('es') && !w.endsWith('ses') ? w.slice(0, -1)
-    : w.length > 3 && w.endsWith('s') && !w.endsWith('ss') ? w.slice(0, -1) : w);
+// light suffix stripping, applied identically to the index and the query
+const SUFFIX = [['ies', 'y'], ['ing', ''], ['ied', 'y'], ['ed', ''], ['ive', ''], ['ions', ''], ['ion', ''], ['ly', ''], ['es', ''], ['s', '']];
+const stem = (w) => {
+  if (w.length <= 4) return w.endsWith('s') && w.length === 4 && !w.endsWith('ss') ? w.slice(0, -1) : w;
+  for (const [suf, rep] of SUFFIX) {
+    if (w.endsWith(suf) && w.length - suf.length >= 4) return w.slice(0, -suf.length) + rep;
+  }
+  return w;
+};
 const tokens = (s) => norm(s).split(' ').filter((w) => w && !STOP.has(w)).map(stem);
 
 export class Search {
@@ -105,7 +112,7 @@ export class Search {
     const out = [];
     for (const [idx, v] of acc) {
       const cover = hitCount.get(idx) / terms.length;
-      if (terms.length > 1 && cover < 0.5) continue;
+      if (terms.length > 1 && cover < (terms.length >= 5 ? 0.4 : 0.5)) continue;
       out.push([v * (0.4 + cover), this.items[idx]]);
     }
     return out.sort((a, b) => b[0] - a[0]).slice(0, 40);
