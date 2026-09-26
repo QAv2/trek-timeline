@@ -1,0 +1,2043 @@
+[
+ {
+  "id": "picard-crusher",
+  "title": "Picard & Crusher",
+  "people": [
+   "Jean-Luc Picard",
+   "Beverly Crusher"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "Picard carried the body of his friend Jack Crusher home to Beverly in 2353, and the unspoken feeling between the captain and his chief medical officer shadowed seven years on the Enterprise-D. They tried a relationship after the Nemesis era and ended it, and Beverly hid their son Jack for twenty years before a 2401 distress call brought Picard back into their lives.",
+  "status": "Reconciled as Jack's parents in 2401; by 2402 Beverly heads Starfleet Medical and Jack serves on the Enterprise-G.",
+  "beats": [
+   {
+    "t": 2353.5,
+    "tText": "2353",
+    "confidence": "inferred",
+    "source": "Violations (episode)",
+    "title": "Jack Crusher dies on Stargazer",
+    "note": "Beverly's husband is killed on an away mission under Picard's command; Picard escorts the body home, a moment she relives in 2368.",
+    "weight": 3
+   },
+   {
+    "t": 2364.15,
+    "tText": "2364",
+    "confidence": "inferred",
+    "source": "Encounter at Farpoint (episode)",
+    "title": "Reunion on the Enterprise-D",
+    "note": "Beverly joins Picard's crew for the first time since Jack's death, bringing Wesley to the bridge; Picard offers her the chance to decline the posting.",
+    "weight": 2
+   },
+   {
+    "t": 2364.21,
+    "tText": "2364",
+    "confidence": "inferred",
+    "source": "The Naked Now (episode)",
+    "title": "Intoxicated flirtation",
+    "note": "Under the Psi 2000 intoxication Beverly openly pursues Picard, letting slip what both normally keep buried.",
+    "weight": 1
+   },
+   {
+    "t": 2365.07,
+    "tText": "2365",
+    "confidence": "inferred",
+    "source": "The Child (episode)",
+    "title": "Beverly leaves for Starfleet Medical",
+    "note": "Beverly spends a year heading Starfleet Medical while Katherine Pulaski takes her place aboard.",
+    "weight": 1
+   },
+   {
+    "t": 2366.13,
+    "tText": "2366",
+    "confidence": "inferred",
+    "source": "Evolution (episode)",
+    "title": "Beverly returns aboard",
+    "note": "She resumes her post as the Enterprise-D's chief medical officer.",
+    "weight": 1
+   },
+   {
+    "t": 2370.3,
+    "tText": "2370",
+    "confidence": "inferred",
+    "source": "Attached (episode)",
+    "title": "The telepathic link",
+    "note": "Linked by Kes-Prytt implants, Beverly learns Picard has loved her since before Jack died; back aboard, she chooses to let the moment pass.",
+    "weight": 3
+   },
+   {
+    "t": 2370.99,
+    "tText": "2370",
+    "confidence": "inferred",
+    "source": "All Good Things... (episode)",
+    "title": "Married and divorced, in one future",
+    "note": "In the alternate 2395 Beverly captains the USS Pasteur, having married and divorced Picard; she still keeps his name.",
+    "weight": 2
+   },
+   {
+    "t": 2381.0,
+    "tText": "c. 2381",
+    "confidence": "estimated",
+    "source": "Seventeen Seconds (episode)",
+    "title": "Jack born in secret",
+    "note": "After they end their on-off romance (for the fifth time), Beverly gives birth to Jack c. 2381 and raises him without telling Picard.",
+    "weight": 3
+   },
+   {
+    "t": 2401.25,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "The Next Generation (episode)",
+    "title": "A coded distress call",
+    "note": "Beverly's message draws Picard and Riker out on the Titan; Picard admits both fear and the prospect of seeing her again quicken his pulse.",
+    "weight": 2
+   },
+   {
+    "t": 2401.26,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "Disengage (episode)",
+    "title": "Picard meets his son",
+    "note": "Picard encounters Jack aboard the Eleos while Beverly is comatose; Riker tells him to 'do the math'.",
+    "weight": 3
+   },
+   {
+    "t": 2401.27,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "Seventeen Seconds (episode)",
+    "title": "Why she hid Jack",
+    "note": "Beverly explains that being Picard's son would have made Jack a target, after the stars had already taken her husband and Wesley.",
+    "weight": 2
+   },
+   {
+    "t": 2401.28,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "No Win Scenario (episode)",
+    "title": "Father and son in the Nebula",
+    "note": "Trapped in the nebula, Picard opens up to Jack, and Beverly sees the two finally talk.",
+    "weight": 1
+   },
+   {
+    "t": 2401.33,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "Võx (episode)",
+    "title": "Jack claimed by the Borg",
+    "note": "Jack's inherited Borg-altered neurology lets the Queen take him, and both parents set out to get him back.",
+    "weight": 2
+   },
+   {
+    "t": 2401.34,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "The Last Generation (episode)",
+    "title": "Picard brings Jack home",
+    "note": "Picard reaches Jack inside the Borg cube; Beverly helps destroy it and the family is united aboard the Enterprise-D.",
+    "weight": 3
+   },
+   {
+    "t": 2402.3,
+    "tText": "2402",
+    "confidence": "explicit",
+    "source": "The Last Generation (episode)",
+    "title": "A family in Starfleet",
+    "note": "A year on, Admiral Crusher heads Starfleet Medical and Ensign Jack Crusher reports to the Enterprise-G.",
+    "weight": 2
+   }
+  ]
+ },
+ {
+  "id": "riker-troi",
+  "title": "Riker & Troi",
+  "people": [
+   "William T. Riker",
+   "Deanna Troi"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "Imzadi since Riker's posting on Betazed, they chose friendship and careers when they served together on the Enterprise-D, while a transporter duplicate reopened the old wound. They rekindled their romance on the Ba'ku world, married in 2379 and took the Titan out together, before grief over their son Thad strained them in the 2390s.",
+  "status": "Married since 2379; parents of Thad (born 2381, died young) and Kestra; reconciled in 2401.",
+  "beats": [
+   {
+    "t": 2359.5,
+    "tText": "c. 2359",
+    "confidence": "estimated",
+    "source": "Ménage à Troi (episode)",
+    "title": "Betazed romance",
+    "note": "As a junior officer stationed on Betazed, Riker falls for psychology student Deanna; they later revisit their old spot there.",
+    "weight": 2
+   },
+   {
+    "t": 2361.5,
+    "tText": "2361",
+    "confidence": "inferred",
+    "source": "Second Chances (episode)",
+    "title": "The missed rendezvous",
+    "note": "In 2361 Riker picks his career and never reaches their Risa meeting; the same year a transporter duplicate of him is left on Nervala IV.",
+    "weight": 2
+   },
+   {
+    "t": 2364.15,
+    "tText": "2364",
+    "confidence": "inferred",
+    "source": "Encounter at Farpoint (episode)",
+    "title": "Reunion on the Enterprise-D",
+    "note": "Assigned to the same ship, they meet awkwardly on the bridge and speak telepathically as imzadi.",
+    "weight": 3
+   },
+   {
+    "t": 2364.29,
+    "tText": "2364",
+    "confidence": "inferred",
+    "source": "Haven (episode)",
+    "title": "Troi's arranged wedding",
+    "note": "Lwaxana arrives for Deanna's pre-arranged marriage to Wyatt Miller, and Riker struggles to hide his feelings.",
+    "weight": 1
+   },
+   {
+    "t": 2366.93,
+    "tText": "2366",
+    "confidence": "inferred",
+    "source": "Ménage à Troi (episode)",
+    "title": "Shore leave on Betazed",
+    "note": "They revisit their old haunts before Ferengi DaiMon Tog abducts them along with Lwaxana.",
+    "weight": 1
+   },
+   {
+    "t": 2369.91,
+    "tText": "2369",
+    "confidence": "inferred",
+    "source": "Second Chances (episode)",
+    "title": "Thomas Riker",
+    "note": "Riker's stranded duplicate, Thomas, resumes the romance Will had abandoned, then leaves; Troi is heartbroken again.",
+    "weight": 2
+   },
+   {
+    "t": 2370.46,
+    "tText": "2370",
+    "confidence": "inferred",
+    "source": "These Are The Voyages... (episode)",
+    "title": "Counsel on the holodeck",
+    "note": "Troi advises Riker as he weighs the Pegasus secret, and the two agree to share supper.",
+    "weight": 1
+   },
+   {
+    "t": 2370.99,
+    "tText": "2370",
+    "confidence": "inferred",
+    "source": "All Good Things... (episode)",
+    "title": "A future without Deanna",
+    "note": "In the alternate 2395 Troi has died, and Riker and Worf are estranged over her.",
+    "weight": 1
+   },
+   {
+    "t": 2375.5,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "Star Trek: Insurrection",
+    "title": "Rekindled on the Ba'ku world",
+    "note": "The planet's youthful effect revives their romance; Troi shaves off Riker's beard in the bathtub.",
+    "weight": 3
+   },
+   {
+    "t": 2379.84,
+    "tText": "2379",
+    "confidence": "inferred",
+    "source": "Star Trek Nemesis",
+    "title": "The wedding",
+    "note": "They marry in Alaska and leave the Enterprise-E together, Riker to command the Titan with Troi as its counselor.",
+    "weight": 3
+   },
+   {
+    "t": 2380.78,
+    "tText": "2380",
+    "confidence": "inferred",
+    "source": "No Small Parts (episode)",
+    "title": "The Titan to the rescue",
+    "note": "Captain Riker's Titan, with Troi aboard, rescues the Cerritos from the Pakleds.",
+    "weight": 1
+   },
+   {
+    "t": 2381.5,
+    "tText": "2381",
+    "confidence": "inferred",
+    "source": "Seventeen Seconds (episode)",
+    "title": "Thad is born",
+    "note": "Picard and Riker toast the birth of Riker and Troi's first child, Thaddeus.",
+    "weight": 2
+   },
+   {
+    "t": 2399.64,
+    "tText": "2399",
+    "confidence": "explicit",
+    "source": "Nepenthe (episode)",
+    "title": "Life on Nepenthe",
+    "note": "Living with daughter Kestra on Nepenthe, they are still grieving Thad, who died young of a disease; they shelter Picard and Soji.",
+    "weight": 2
+   },
+   {
+    "t": 2401.28,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "No Win Scenario (episode)",
+    "title": "Running from grief",
+    "note": "Riker admits he left home because he could not face Deanna feeling everything while he felt nothing.",
+    "weight": 2
+   },
+   {
+    "t": 2401.32,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "Surrender (episode)",
+    "title": "Reunited as prisoners",
+    "note": "Captured together aboard the Shrike, they laugh about the Changeling who impersonated Riker and reconcile.",
+    "weight": 3
+   },
+   {
+    "t": 2401.34,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "The Last Generation (episode)",
+    "title": "Imzadi",
+    "note": "Facing the Borg, Riker tells Deanna he loves her and will see her soon.",
+    "weight": 1
+   }
+  ]
+ },
+ {
+  "id": "seven-raffi",
+  "title": "Seven of Nine & Raffi",
+  "people": [
+   "Seven of Nine",
+   "Raffaela Musiker"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "Former Borg drone turned Fenris Ranger and a disgraced intelligence officer met aboard La Sirena in 2399 and fell together on Coppelius. Q's detour through an alternate 2401 and 2024 Los Angeles tested them and ended in a kiss, but the romance lapsed; in 2401–2402 they became a command team instead.",
+  "status": "Former lovers; since 2402 Captain Seven and her first officer Raffi command the Enterprise-G.",
+  "beats": [
+   {
+    "t": 2024.29,
+    "tText": "2024",
+    "confidence": "explicit",
+    "source": "Assimilation (episode)",
+    "title": "Elnor falls",
+    "note": "Arriving in 2024, Raffi stays with the dying Elnor while Seven helps Rios keep the ship alive.",
+    "weight": 2
+   },
+   {
+    "t": 2024.29,
+    "tText": "2024",
+    "confidence": "explicit",
+    "source": "Fly Me to the Moon (episode)",
+    "title": "Careless versus careful",
+    "note": "Hunting for Rios, they clash over risk; Seven sees that Raffi's anger is really grief for Elnor and her son Gabe.",
+    "weight": 2
+   },
+   {
+    "t": 2024.29,
+    "tText": "2024",
+    "confidence": "explicit",
+    "source": "Monsters (episode)",
+    "title": "Growing old together",
+    "note": "Raffi calls them 'the main event' and pictures them old on a park bench, tripping teenagers with their canes.",
+    "weight": 1
+   },
+   {
+    "t": 2024.3,
+    "tText": "2024",
+    "confidence": "explicit",
+    "source": "Hide and Seek (episode)",
+    "title": "Back to back",
+    "note": "They fight Soong's mercenaries through La Sirena and hold the Jurati-Queen at gunpoint.",
+    "weight": 1
+   },
+   {
+    "t": 2399.36,
+    "tText": "2399",
+    "confidence": "explicit",
+    "source": "Absolute Candor (episode)",
+    "title": "Seven beams aboard La Sirena",
+    "note": "A wounded Seven arrives on Rios's ship, where Raffi is riding along to Freecloud.",
+    "weight": 2
+   },
+   {
+    "t": 2399.45,
+    "tText": "2399",
+    "confidence": "explicit",
+    "source": "Stardust City Rag (episode)",
+    "title": "The Freecloud job",
+    "note": "Raffi and Seven work the same rescue mission on Freecloud as Seven settles her score with Bjayzl.",
+    "weight": 1
+   },
+   {
+    "t": 2399.91,
+    "tText": "2399",
+    "confidence": "explicit",
+    "source": "Et in Arcadia Ego, Part 2 (episode)",
+    "title": "Hands held on Coppelius",
+    "note": "After the synth crisis they reunite on La Sirena and quietly take each other's hand, beginning their romance.",
+    "weight": 3
+   },
+   {
+    "t": 2401.1,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "The Star Gazer (episode)",
+    "title": "Strained by distance",
+    "note": "Seven's Fenris Ranger work keeps her from Raffi; Q then drops them into the Confederation of Earth.",
+    "weight": 1
+   },
+   {
+    "t": 2401.1,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "Penance (episode)",
+    "title": "Stranded in an alternate 2401",
+    "note": "In Q's Confederation timeline they fight to rejoin Picard and escape with a captive Borg Queen.",
+    "weight": 1
+   },
+   {
+    "t": 2401.11,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "Farewell (episode)",
+    "title": "The kiss",
+    "note": "Back in 2401, Seven cuts off Raffi's worried speech with a kiss and tells her to 'let it breathe'.",
+    "weight": 3
+   },
+   {
+    "t": 2401.3,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "The Bounty (episode)",
+    "title": "Former lovers",
+    "note": "Aboard the Titan-A, Raffi greets Seven, now her ex, and they work together against the Changelings.",
+    "weight": 2
+   },
+   {
+    "t": 2401.33,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "Võx (episode)",
+    "title": "Staying behind",
+    "note": "When the Titan's young crew is assimilated, Seven and Raffi both choose to stay and retake the ship.",
+    "weight": 1
+   },
+   {
+    "t": 2402.3,
+    "tText": "2402",
+    "confidence": "explicit",
+    "source": "The Last Generation (episode)",
+    "title": "Captain and first officer",
+    "note": "After retaking the Titan's bridge side by side, they take command of the renamed Enterprise-G a year later, Seven as captain and Raffi as her first officer.",
+    "weight": 3
+   }
+  ]
+ },
+ {
+  "id": "picard-q",
+  "title": "Picard & Q",
+  "people": [
+   "Jean-Luc Picard",
+   "Q"
+  ],
+  "kind": "rivalry",
+  "timeline": "prime",
+  "summary": "Q put humanity on trial through Picard at Farpoint and spent the next six years testing, tormenting and occasionally helping him, ending with a trial that spanned three eras. Returning, dying, in 2401, Q used the Confederation timeline and 2024 Los Angeles as a last lesson and a gift before letting Picard go.",
+  "status": "Q says goodbye in 2024/2401 and is supposed to be dead, yet in 2402 he appears to Jack Crusher; the trial passes to the next generation.",
+  "beats": [
+   {
+    "t": 2024.29,
+    "tText": "2024",
+    "confidence": "explicit",
+    "source": "Mercy (episode)",
+    "title": "Q is dying",
+    "note": "In 2024, Guinan senses that Q's powers are failing and tells Picard that Q is dying.",
+    "weight": 2
+   },
+   {
+    "t": 2024.31,
+    "tText": "2024",
+    "confidence": "explicit",
+    "source": "Farewell (episode)",
+    "title": "Farewell",
+    "note": "Q reveals the test was a gift to free Picard from his past, dies in Picard's presence and returns the crew home, reviving Elnor as a last surprise.",
+    "weight": 3
+   },
+   {
+    "t": 2364.15,
+    "tText": "2364",
+    "confidence": "inferred",
+    "source": "Encounter at Farpoint (episode)",
+    "title": "Humanity on trial",
+    "note": "Q halts the Enterprise-D and puts humanity in the dock, with Picard as its defendant.",
+    "weight": 3
+   },
+   {
+    "t": 2364.59,
+    "tText": "2364",
+    "confidence": "inferred",
+    "source": "Hide And Q (episode)",
+    "title": "Tempting Riker",
+    "note": "Q offers Riker the power of the Q, and Picard's faith in humanity wins the round.",
+    "weight": 1
+   },
+   {
+    "t": 2365.76,
+    "tText": "2365",
+    "confidence": "inferred",
+    "source": "Q Who (episode)",
+    "title": "Meeting the Borg",
+    "note": "Q flings the Enterprise to System J-25 to show them the Borg; Picard admits he needs Q to get home.",
+    "weight": 3
+   },
+   {
+    "t": 2366.54,
+    "tText": "2366",
+    "confidence": "inferred",
+    "source": "Deja Q (episode)",
+    "title": "Q stripped of power",
+    "note": "Expelled from the Continuum and mortal, Q seeks refuge with Picard, then earns back his powers with an unselfish act.",
+    "weight": 2
+   },
+   {
+    "t": 2367.74,
+    "tText": "2367",
+    "confidence": "inferred",
+    "source": "Qpid (episode)",
+    "title": "Robin Hood",
+    "note": "Q casts Picard's crew as the Merry Men to 'repay a debt', using Vash as bait.",
+    "weight": 1
+   },
+   {
+    "t": 2369.19,
+    "tText": "2369",
+    "confidence": "inferred",
+    "source": "True Q (episode)",
+    "title": "Amanda Rogers",
+    "note": "Picard challenges Q's intent to judge the young Q Amanda Rogers.",
+    "weight": 1
+   },
+   {
+    "t": 2369.55,
+    "tText": "2369",
+    "confidence": "inferred",
+    "source": "Tapestry (episode)",
+    "title": "A second chance at 2327",
+    "note": "After Picard's artificial heart fails, Q lets him relive his youth; Picard learns that the brash ensign made the captain.",
+    "weight": 3
+   },
+   {
+    "t": 2370.99,
+    "tText": "2370",
+    "confidence": "inferred",
+    "source": "All Good Things... (episode)",
+    "title": "The trial never ends",
+    "note": "Q sends Picard across 2364, 2370 and an alternate 2395 to solve the anti-time anomaly, then says the trial never ends.",
+    "weight": 3
+   },
+   {
+    "t": 2401.1,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "The Star Gazer (episode)",
+    "title": "Q's return",
+    "note": "Thirty years later Q reappears, older, and moves Picard into the Confederation of Earth.",
+    "weight": 3
+   },
+   {
+    "t": 2401.1,
+    "tText": "2401",
+    "confidence": "explicit",
+    "source": "Penance (episode)",
+    "title": "The road not taken",
+    "note": "Q shows Picard the tyrannical Confederation and makes him find the 2024 turning point that created it.",
+    "weight": 2
+   },
+   {
+    "t": 2402.3,
+    "tText": "2402",
+    "confidence": "explicit",
+    "source": "The Last Generation (episode)",
+    "title": "The next generation",
+    "note": "A year after his apparent death Q appears to Picard's son Jack aboard the Enterprise-G: Jack's trial has just begun.",
+    "weight": 2
+   }
+  ]
+ },
+ {
+  "id": "kirk-spock",
+  "title": "Kirk & Spock",
+  "people": [
+   "James T. Kirk",
+   "Spock"
+  ],
+  "kind": "friendship",
+  "timeline": "prime",
+  "summary": "They met at a party aboard Pike's Enterprise in 2259, when Kirk was a Farragut lieutenant, and became the Federation's most storied command partnership. Their friendship was forged in SNW-era crises, deepened over Kirk's five-year mission, broken by Spock's death and restored on Vulcan. It outlived Kirk: an aged Spock carried it into the 24th century and, thrown into another reality, passed it on to a young alternate Kirk.",
+  "status": "Kirk vanished into the Nexus in 2293 and died on Veridian III in 2371; Spock outlived him, was thrown into the alternate reality in 2387, and died there (reported in that reality's 2263).",
+  "beats": [
+   {
+    "t": 2258.42,
+    "tText": "2258 (alternate reality)",
+    "confidence": "explicit",
+    "source": "Star Trek (film)",
+    "title": "An old friend meets young Kirk",
+    "note": "Stranded on Delta Vega after following Nero back from 2387, the elderly Spock rescues the alternate reality's young Kirk, melds with him to explain Nero's attack, and steers him toward command. It is a different Kirk, but Spock greets him as his oldest friend.",
+    "weight": 2
+   },
+   {
+    "t": 2259.83,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "Lost in Translation (episode)",
+    "title": "First meeting at a party",
+    "note": "After the Bannon's Nebula mission, Uhura introduces Lieutenant Kirk of the Farragut to Spock at a celebration aboard the Enterprise, the first time the two meet.",
+    "weight": 3
+   },
+   {
+    "t": 2261.6,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "The Sehlat Who Ate Its Tail (episode)",
+    "title": "Spock steadies an acting captain",
+    "note": "With Captain V'Rel wounded, Kirk commands the crippled Farragut with Spock, Uhura, Chapel and Scott as his crew; when he loses his nerve, Spock's counsel puts him back in the chair.",
+    "weight": 2
+   },
+   {
+    "t": 2261.89,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "New Life and New Civilizations (episode)",
+    "title": "A mind meld, and 'Jim'",
+    "note": "To fire the Farragut and Enterprise in perfect sync, Spock melds with Kirk and, at Kirk's request, starts calling him 'Jim'. Over chess afterwards they agree to stay friends and hope to serve on the same ship one day.",
+    "weight": 2
+   },
+   {
+    "t": 2262.27,
+    "tText": "2262",
+    "confidence": "inferred",
+    "source": "Human Best Friend (episode)",
+    "title": "Wanting a human best friend",
+    "note": "Intoxicated on Cesnar, Spock mistakes a vacationing Kirk for a hallucination, confides everything and concludes he wants a 'human best friend'. Kirk slaps him to prove he is real, helps save Ortegas and Scott, and promises to keep Spock's secrets.",
+    "weight": 2
+   },
+   {
+    "t": 2263.2,
+    "tText": "2263 (alternate reality)",
+    "confidence": "explicit",
+    "source": "Star Trek Beyond",
+    "title": "Spock Prime's death",
+    "note": "In the alternate reality, the young Spock learns that his elder self has died and finds among his effects a photograph of the prime Enterprise crew, Kirk among them.",
+    "weight": 1
+   },
+   {
+    "t": 2263.5,
+    "tText": "2263 (altered timeline)",
+    "confidence": "inferred",
+    "source": "Tomorrow's Enterprise (episode)",
+    "title": "Captain Kirk, Commander Spock",
+    "note": "A displaced Uhura finds Kirk in command of the Enterprise a year ahead, with Spock as his first officer: the partnership to come. That 2263 belongs to a timeline that is later reset.",
+    "weight": 1
+   },
+   {
+    "t": 2265.5,
+    "tText": "2265",
+    "confidence": "inferred",
+    "source": "Where No Man Has Gone Before (episode)",
+    "title": "Captain and first officer",
+    "note": "Now Kirk's first officer, Spock trades chess barbs with him and, as Gary Mitchell's powers grow, presses for the hard call; Kirk comes to rely on Spock's logic as the counterweight to his instincts.",
+    "weight": 2
+   },
+   {
+    "t": 2267.1,
+    "tText": "2267",
+    "confidence": "inferred",
+    "source": "The Menagerie, Part I (episode)",
+    "title": "Mutiny for Pike",
+    "note": "Spock hijacks the Enterprise to carry the crippled Pike to Talos IV, risking execution. Kirk must sit in judgment of him, and in the end backs his friend's loyalty to his old captain.",
+    "weight": 2
+   },
+   {
+    "t": 2267.53,
+    "tText": "2267 (in 1930)",
+    "confidence": "inferred",
+    "source": "The City on the Edge of Forever (episode)",
+    "title": "Together into 1930",
+    "note": "Kirk and Spock follow a delirious McCoy through the Guardian of Forever to 1930 New York. Spock works out that Edith Keeler must die, and stands with Kirk as he lets history take her.",
+    "weight": 2
+   },
+   {
+    "t": 2267.73,
+    "tText": "2267",
+    "confidence": "inferred",
+    "source": "Amok Time (episode)",
+    "title": "'Jim!'",
+    "note": "Kirk defies orders to get Spock to Vulcan for his pon farr and is forced into ritual combat with him. Believing he has killed his captain, Spock breaks into open joy on finding Kirk alive.",
+    "weight": 3
+   },
+   {
+    "t": 2269.12,
+    "tText": "2269",
+    "confidence": "inferred",
+    "source": "Yesteryear (episode)",
+    "title": "A history without Spock",
+    "note": "Back from a Guardian of Forever survey, Kirk alone remembers Spock in a timeline where he died as a boy and an Andorian is first officer; Spock goes into Vulcan's past to put things right.",
+    "weight": 2
+   },
+   {
+    "t": 2273.5,
+    "tText": "c. 2273",
+    "confidence": "estimated",
+    "source": "Star Trek: The Motion Picture",
+    "title": "This simple feeling",
+    "note": "Back from the Kolinahr and cold at first, Spock is shaken by his meld with V'Ger and finally takes Kirk's hand, recognizing what simple friendship is worth.",
+    "weight": 2
+   },
+   {
+    "t": 2285.21,
+    "tText": "2285",
+    "confidence": "inferred",
+    "source": "Star Trek II: The Wrath of Khan",
+    "title": "Always shall be your friend",
+    "note": "Spock saves the Enterprise from the Genesis wave by restoring the warp drive in a flooded radiation chamber, and dies behind the glass after telling Kirk he has always been his friend.",
+    "weight": 3
+   },
+   {
+    "t": 2285.5,
+    "tText": "2285",
+    "confidence": "inferred",
+    "source": "Star Trek III: The Search for Spock",
+    "title": "Stealing a ship for a friend",
+    "note": "Kirk defies Starfleet, steals and then destroys the Enterprise, and loses his son to recover Spock. After the fal-tor-pan the first person Spock recognizes is Kirk: 'Your name is Jim.'",
+    "weight": 2
+   },
+   {
+    "t": 2286.5,
+    "tText": "2286",
+    "confidence": "inferred",
+    "source": "Star Trek IV: The Voyage Home",
+    "title": "Relearning the friendship",
+    "note": "On the trip to 1986 to fetch humpback whales, Kirk coaches the recovering Spock back into their old rapport; afterwards Spock tells Sarek that his shipmates are his friends.",
+    "weight": 1
+   },
+   {
+    "t": 2287.5,
+    "tText": "2287",
+    "confidence": "inferred",
+    "source": "Star Trek V: The Final Frontier",
+    "title": "Campfire at Yosemite",
+    "note": "Shore leave with McCoy at Yosemite ends in Sybok's hijacking; when it is over, Kirk calls Spock his brother and names his two friends his real family.",
+    "weight": 1
+   },
+   {
+    "t": 2293.5,
+    "tText": "2293",
+    "confidence": "inferred",
+    "source": "Star Trek VI: The Undiscovered Country",
+    "title": "'Only Nixon could go to China'",
+    "note": "Spock volunteers a resentful Kirk to escort Chancellor Gorkon, forcing him to face his hatred of Klingons; together they expose the conspiracy at Khitomer on the Enterprise-A's last mission.",
+    "weight": 2
+   },
+   {
+    "t": 2293.8,
+    "tText": "2293",
+    "confidence": "inferred",
+    "source": "Star Trek Generations",
+    "title": "Kirk lost to the Nexus",
+    "note": "At the Enterprise-B's launch Kirk is swept away by the Nexus ribbon and presumed dead; Spock is not aboard. Kirk resurfaces in 2371 only to die on Veridian III.",
+    "weight": 3
+   },
+   {
+    "t": 2368.25,
+    "tText": "2368",
+    "confidence": "inferred",
+    "source": "Unification II (episode)",
+    "title": "Carrying Khitomer's weight",
+    "note": "Working underground on Romulus, Spock tells Picard that he still bears the responsibility for committing Kirk and his crew to the Khitomer peace mission.",
+    "weight": 1
+   }
+  ]
+ },
+ {
+  "id": "spock-chapel",
+  "title": "Spock & Chapel",
+  "people": [
+   "Spock",
+   "Christine Chapel"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "Nurse Chapel was drawn to the Enterprise's half-Vulcan science officer from the day she came aboard in 2259. On Pike's ship it became a short, real relationship that ended when she chose Roger Korby's fellowship; a decade later, under Kirk, it survived as a longing Spock could not answer. By the 2270s they are colleagues on the refitted Enterprise.",
+  "status": "Never rekindled: Chapel became a doctor and later a commander at Starfleet Command, while Spock's path led to Vulcan diplomacy.",
+  "beats": [
+   {
+    "t": 2259.06,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "Children of the Comet (episode)",
+    "title": "An instant attraction",
+    "note": "Newly aboard through a civilian exchange, Chapel is drawn to Spock at once and flirts with him openly.",
+    "weight": 1
+   },
+   {
+    "t": 2259.22,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "Spock Amok (episode)",
+    "title": "Confidante in the T'Pring trouble",
+    "note": "On Starbase 1 leave, Chapel helps Spock and T'Pring cope after a botched soul-sharing swaps their minds, and becomes his sounding board.",
+    "weight": 1
+   },
+   {
+    "t": 2259.33,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "The Serene Squall (episode)",
+    "title": "A kiss staged for pirates",
+    "note": "Held hostage by Captain Angel, Spock and Chapel fake a love affair to derail a scheme to free Sybok. The kiss is an act, and part of the act is Spock pretending to break with T'Pring.",
+    "weight": 2
+   },
+   {
+    "t": 2259.44,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "All Those Who Wander (episode)",
+    "title": "Comfort after Hemmer",
+    "note": "Grieving Hemmer, Spock is swamped by rage and pain; Chapel follows him despite his wishes and holds him.",
+    "weight": 1
+   },
+   {
+    "t": 2259.78,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "Charades (episode)",
+    "title": "Finally together",
+    "note": "Chapel's work restores the Vulcan half the Kerkhovians stripped from Spock. Once his engagement to T'Pring is over, the two admit their feelings and begin a relationship.",
+    "weight": 3
+   },
+   {
+    "t": 2259.89,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "Those Old Scientists (episode)",
+    "title": "A slip from the future",
+    "note": "Time-displaced Ensign Boimler lets slip that the future Spock shows no emotion, planting Chapel's doubt that their romance can last.",
+    "weight": 1
+   },
+   {
+    "t": 2260.5,
+    "tText": "2260",
+    "confidence": "inferred",
+    "source": "Subspace Rhapsody (episode)",
+    "title": "The fellowship and the breakup",
+    "note": "Chapel is accepted into Roger Korby's fellowship and, in the crew's singing crisis, admits she is ready to leave Spock behind. Their relationship ends.",
+    "weight": 3
+   },
+   {
+    "t": 2261.11,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Hegemony (episode)",
+    "title": "Reunited under the Gorn",
+    "note": "Surviving the Cayuga's destruction, Chapel fights beside Spock and they crash the saucer into a Gorn tower together; afterwards she tells him their romance is over.",
+    "weight": 2
+   },
+   {
+    "t": 2261.33,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Wedding Bell Blues (episode)",
+    "title": "Trelane's forced wedding",
+    "note": "Spock learns to dance for her return, only to find Chapel arriving with Korby. When Trelane rewrites reality so they wake up engaged, Spock breaks the spell and works with Korby to undo it.",
+    "weight": 2
+   },
+   {
+    "t": 2261.67,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Four-and-a-Half Vulcans (episode)",
+    "title": "Reaching her katra",
+    "note": "Turned Vulcan for a mission and unwilling to change back, Chapel is reached by Spock through her katra and takes the cure, then apologizes to both Spock and Korby over dinner.",
+    "weight": 1
+   },
+   {
+    "t": 2262.18,
+    "tText": "2262",
+    "confidence": "inferred",
+    "source": "The Griffin Incident (episode)",
+    "title": "House calls",
+    "note": "Too shaken after the Griffin to set foot in sickbay, Spock lets Chapel treat him in his quarters, and she shares her own wartime trauma from Yrti.",
+    "weight": 1
+   },
+   {
+    "t": 2266.42,
+    "tText": "2266",
+    "confidence": "inferred",
+    "source": "The Naked Time (episode)",
+    "title": "A confession under infection",
+    "note": "Years later, the Psi 2000 intoxication pulls a confession of love out of Nurse Chapel, and Spock is stunned.",
+    "weight": 3
+   },
+   {
+    "t": 2267.73,
+    "tText": "2267",
+    "confidence": "inferred",
+    "source": "Amok Time (episode)",
+    "title": "Plomeek soup",
+    "note": "In the grip of pon farr Spock hurls away the soup Chapel made him; later, seeing she has been crying, he gently asks her for more.",
+    "weight": 2
+   },
+   {
+    "t": 2268.13,
+    "tText": "2268",
+    "confidence": "inferred",
+    "source": "A Private Little War (episode)",
+    "title": "A hand held in sickbay",
+    "note": "While Spock lies in a Vulcan healing trance after being shot on Neural, Chapel holds his hand, and lets go quickly when Dr. M'Benga walks in.",
+    "weight": 1
+   },
+   {
+    "t": 2268.32,
+    "tText": "2268",
+    "confidence": "inferred",
+    "source": "Return to Tomorrow (episode)",
+    "title": "Carrying his mind",
+    "note": "While Henoch holds Spock's body, Sargon secretly places Spock's consciousness inside Chapel; she carries it until Henoch is defeated and Spock is restored.",
+    "weight": 1
+   },
+   {
+    "t": 2268.81,
+    "tText": "2268",
+    "confidence": "inferred",
+    "source": "Plato's Stepchildren (episode)",
+    "title": "A forced kiss",
+    "note": "The telekinetic Platonians force Spock and Chapel into a kiss neither wants; she says the humiliation makes her want to crawl away.",
+    "weight": 1
+   },
+   {
+    "t": 2269.59,
+    "tText": "2269",
+    "confidence": "inferred",
+    "source": "Mudd's Passion (episode)",
+    "title": "Mudd's love potion",
+    "note": "Chapel reluctantly tries Harry Mudd's love crystals on Spock. He briefly falls for her, then notes that minutes of love paid for with hours of hatred are no bargain.",
+    "weight": 1
+   },
+   {
+    "t": 2273.5,
+    "tText": "c. 2273",
+    "confidence": "estimated",
+    "source": "Star Trek: The Motion Picture",
+    "title": "A cold homecoming",
+    "note": "Now Dr. Chapel, she comes to the bridge to welcome Spock back from Vulcan and gets only a cold look from a man still bound to the Kolinahr.",
+    "weight": 1
+   }
+  ]
+ },
+ {
+  "id": "pike-batel",
+  "title": "Pike & Batel",
+  "people": [
+   "Christopher Pike",
+   "Marie Batel"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "Captains Pike and Batel kept their relationship casual until duty set them against each other, with Batel arresting and prosecuting Pike's first officer. The Gorn changed everything: Batel survived an implanted infection only through hybrid gene treatments, and that transformation let her become the Beholder, the eternal warden of the Vezda. Pike was left with the memory of a whole shared life that never happened.",
+  "status": "Batel stands forever as the Beholder on Vadia IX (2261); Pike is still grieving in 2262, when he finally mourns Juliet, the daughter they had only in the vision.",
+  "beats": [
+   {
+    "t": 2259.03,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "Strange New Worlds (episode)",
+    "title": "Breakfast in Montana",
+    "note": "On leave at Pike's Bear Creek cabin, Batel presses him about whatever is keeping him from returning to command, just before Admiral April recalls him to the Enterprise.",
+    "weight": 2
+   },
+   {
+    "t": 2259.5,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "A Quality of Mercy (episode)",
+    "title": "Orders to arrest Una",
+    "note": "Batel shares a meal with Pike aboard the Enterprise near the Neutral Zone outposts, then carries out orders she dislikes: arresting his first officer for hiding her Illyrian heritage.",
+    "weight": 2
+   },
+   {
+    "t": 2259.61,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "Ad Astra per Aspera (episode)",
+    "title": "Opposite sides of the court",
+    "note": "Batel reluctantly prosecutes Una at her court-martial and tries to win her a plea deal; Una refuses it and is acquitted.",
+    "weight": 2
+   },
+   {
+    "t": 2259.72,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "Among the Lotus Eaters (episode)",
+    "title": "A promotion lost, amends made",
+    "note": "Passed over for commodore in apparent retaliation for losing the case, Batel is at odds with Pike until he makes amends.",
+    "weight": 1
+   },
+   {
+    "t": 2260.5,
+    "tText": "2260",
+    "confidence": "inferred",
+    "source": "Subspace Rhapsody (episode)",
+    "title": "A quarrel in song",
+    "note": "When a quantum field forces the crew to sing, Batel and Pike air a fight over a planned vacation in a duet, then patch things up over dinner in his quarters.",
+    "weight": 1
+   },
+   {
+    "t": 2261.11,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Hegemony (episode)",
+    "title": "Infected by the Gorn",
+    "note": "The Gorn destroy the Cayuga at Parnassus Beta. Pike's search party finds Batel alive but implanted with Gorn eggs, and she asks to be killed if there is no cure.",
+    "weight": 3
+   },
+   {
+    "t": 2261.22,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Hegemony, Part II (episode)",
+    "title": "Saved by Una's blood",
+    "note": "Allergic to stasis, Batel is saved by a treatment Spock and Chapel build around Una's Illyrian plasma; Pike visits as her long recovery begins.",
+    "weight": 2
+   },
+   {
+    "t": 2261.33,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Wedding Bell Blues (episode)",
+    "title": "A dance at the Centennial",
+    "note": "Recovering aboard the Enterprise, Batel dances with Pike at the Federation Day Centennial once Trelane's meddling is undone.",
+    "weight": 1
+   },
+   {
+    "t": 2261.44,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Shuttle to Kenfori (episode)",
+    "title": "The infection returns",
+    "note": "When the Gorn infection flares again, Batel accepts an experimental chimera-blossom gene treatment without telling Pike its full nature, and he takes the Enterprise into forbidden space to get the flowers.",
+    "weight": 2
+   },
+   {
+    "t": 2261.56,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Through the Lens of Time (episode)",
+    "title": "A stranger behind her eyes",
+    "note": "A Gorn species memory surfaces: Batel attacks the Vezda-possessed Gamble and briefly fails to recognize Pike until sedation brings her back.",
+    "weight": 1
+   },
+   {
+    "t": 2261.67,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Four-and-a-Half Vulcans (episode)",
+    "title": "Blunt Vulcan honesty",
+    "note": "A temporarily Vulcan Pike undercuts Batel's bid to return to Starfleet's judicial service. He apologizes once human again, and her own bluntness wins her the offer to head the department.",
+    "weight": 1
+   },
+   {
+    "t": 2261.89,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "New Life and New Civilizations (episode)",
+    "title": "She becomes the Beholder",
+    "note": "Her Gorn, Illyrian and chimera-altered body makes Batel the Beholder. Trapped by the Vezda, she and Pike live out a whole vision-life, marriage and a daughter named Juliet, before she seals the Vezda away as their eternal guardian.",
+    "weight": 3
+   },
+   {
+    "t": 2262.09,
+    "tText": "2262",
+    "confidence": "inferred",
+    "source": "Valles Marineris (episode)",
+    "title": "Six months without her",
+    "note": "Half a year later, Pike is still driving himself and his crew nonstop so he won't have to think about Batel.",
+    "weight": 1
+   },
+   {
+    "t": 2262.64,
+    "tText": "2262",
+    "confidence": "inferred",
+    "source": "Like Chronitons Through the Hourglass (episode)",
+    "title": "Mourning Juliet",
+    "note": "Caught in Trelane's soap-opera experiment, Pike finally lets himself grieve Juliet, the daughter he raised with Batel only in the vision, and goes back to counseling.",
+    "weight": 2
+   }
+  ]
+ },
+ {
+  "id": "laan-kirk",
+  "title": "La'an & Kirk",
+  "people": [
+   "La'An Noonien-Singh",
+   "James T. Kirk"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "La'an's feelings for Kirk began with a different man: an alternate-timeline Captain Kirk she fell for, kissed and lost in 2022 Toronto while repairing history. The prime Kirk, a Farragut lieutenant, turned out to be taken, and their road since has run through a confession, a stabbing under alien madness and an arrest before a long-promised drink let them start over.",
+  "status": "They agree to start over in 2262; in the altered 2263 of 'Tomorrow's Enterprise' La'an is no longer aboard, and Captain Kirk will not say why.",
+  "beats": [
+   {
+    "t": 2259.66,
+    "tText": "2259 (in 2022, alternate timeline)",
+    "confidence": "inferred",
+    "source": "Tomorrow and Tomorrow and Tomorrow (episode)",
+    "title": "Falling for another Kirk",
+    "note": "Caught in an altered 2259 and thrown back to 2022 Toronto, La'an works beside that timeline's Captain Kirk, kisses him, and loses him to a Romulan agent before restoring history. This is the alternate-timeline Kirk (MA 'James T. Kirk (alternate timeline)'), not the prime one.",
+    "weight": 3
+   },
+   {
+    "t": 2259.68,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "Tomorrow and Tomorrow and Tomorrow (episode)",
+    "title": "A call to the real Kirk",
+    "note": "Back in her own timeline, La'an invents a pretext to call Lieutenant Kirk of the Farragut and breaks down after the call; he offers her a drink if they ever share a starbase.",
+    "weight": 2
+   },
+   {
+    "t": 2259.83,
+    "tText": "2259",
+    "confidence": "inferred",
+    "source": "Lost in Translation (episode)",
+    "title": "Face to face",
+    "note": "La'an meets the prime Kirk in person during the Bannon's Nebula mission and sees him go out of his way to help a struggling Uhura.",
+    "weight": 1
+   },
+   {
+    "t": 2260.5,
+    "tText": "2260",
+    "confidence": "inferred",
+    "source": "Subspace Rhapsody (episode)",
+    "title": "The confession",
+    "note": "Shadowing Una aboard the Enterprise, Kirk reminds La'an she owes him a drink. When the singing field pushes her to tell him about his other self, he admits the connection but reveals that Carol Marcus is pregnant with his child.",
+    "weight": 3
+   },
+   {
+    "t": 2261.11,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Hegemony (episode)",
+    "title": "Landing party at Parnassus Beta",
+    "note": "Kirk and La'an go down together with the landing party searching the Gorn-ravaged colony for survivors.",
+    "weight": 1
+   },
+   {
+    "t": 2261.67,
+    "tText": "2261",
+    "confidence": "inferred",
+    "source": "Four-and-a-Half Vulcans (episode)",
+    "title": "A Vulcan punch",
+    "note": "Turned Vulcan and bent on arming the Enterprise for war, La'an floors Kirk with one punch; she later apologizes, and Una tells her to hit Kirk only when he deserves it.",
+    "weight": 1
+   },
+   {
+    "t": 2262.18,
+    "tText": "2262",
+    "confidence": "inferred",
+    "source": "The Griffin Incident (episode)",
+    "title": "A knife on the Griffin",
+    "note": "Driven mad aboard the derelict Griffin, La'an stabs Kirk and is about to kill him when the Enterprise beams them out; horrified, she thinks she deserves harsher judgment than Pike gives her.",
+    "weight": 2
+   },
+   {
+    "t": 2262.73,
+    "tText": "2262",
+    "confidence": "inferred",
+    "source": "Orders of Magnitude (episode)",
+    "title": "Arrest and escape",
+    "note": "Kirk comes aboard to talk about the Griffin just as Admiral Reeger takes over the ship. La'an arrests Kirk on Reeger's orders, he stuns her and escapes, and in the end she stuns the rogue admiral herself.",
+    "weight": 2
+   },
+   {
+    "t": 2262.82,
+    "tText": "2262",
+    "confidence": "inferred",
+    "source": "Once La'An a Time (episode)",
+    "title": "The long-promised drink",
+    "note": "At peace with herself after a fairy-tale ordeal, La'an finally has that drink with Kirk, tells him what her necklace means, and they agree to start over with a dance.",
+    "weight": 3
+   },
+   {
+    "t": 2263.5,
+    "tText": "2263 (altered timeline)",
+    "confidence": "inferred",
+    "source": "Tomorrow's Enterprise (episode)",
+    "title": "An unanswered question",
+    "note": "In an altered 2263, Captain Kirk turns visibly sad and deflects when a displaced Uhura asks where La'an is, a hint of what lies ahead.",
+    "weight": 1
+   }
+  ]
+ },
+ {
+  "id": "burnham-book",
+  "title": "Burnham & Book",
+  "people": [
+   "Michael Burnham",
+   "Cleveland Booker"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "A 23rd-century officer who leapt 930 years ahead, and the 32nd-century courier she literally crashed into on arrival. Their partnership became a romance during the Federation's rebuilding, broke when Book sided with Ruon Tarka against the Dark Matter Anomaly, and was repaired on the hunt for the Progenitors' technology. The finale's epilogue shows them married decades later, with a son.",
+  "status": "Married; decades later they share a homestead on Sanctuary Four and their son Leto has just made captain (33rd century).",
+  "beats": [
+   {
+    "t": 3188.33,
+    "tText": "3188",
+    "confidence": "explicit",
+    "source": "That Hope Is You, Part 1 (episode)",
+    "title": "Crash landing on Hima",
+    "note": "Burnham's Red Angel suit spits her out of the wormhole directly into the path of Book's ship. The wary courier becomes her guide to a galaxy without a working Federation, and they escape the Mercantile together.",
+    "weight": 3
+   },
+   {
+    "t": 3188.67,
+    "tText": "3188–3189",
+    "confidence": "explicit",
+    "source": "People of Earth (episode)",
+    "title": "A year as couriers",
+    "note": "Discovery emerges a full year after her, and Burnham spends that year running courier jobs, often alongside Book, learning the new century from him.",
+    "weight": 2
+   },
+   {
+    "t": 3189.38,
+    "tText": "3189",
+    "confidence": "explicit",
+    "source": "Scavengers (episode)",
+    "title": "Unauthorized rescue on Hunhau",
+    "note": "When the Emerald Chain captures Book, Burnham takes his ship without orders to free him from a salvage-yard labor camp. The rescue costs her the first officer's post.",
+    "weight": 2
+   },
+   {
+    "t": 3189.54,
+    "tText": "3189",
+    "confidence": "explicit",
+    "source": "The Sanctuary (episode)",
+    "title": "Home to Kwejian",
+    "note": "Book goes back to Kwejian to face the Emerald Chain's grip on his homeworld. Burnham meets his estranged brother Kyheem and his nephew Leto.",
+    "weight": 1
+   },
+   {
+    "t": 3189.92,
+    "tText": "3189",
+    "confidence": "explicit",
+    "source": "That Hope Is You, Part 2 (episode)",
+    "title": "Retaking Discovery together",
+    "note": "Osyraa tortures Book with a neural lock to pressure Burnham. Once the ship is retaken, his Kwejian empathy lets him navigate the spore drive, and Burnham takes command of Discovery.",
+    "weight": 2
+   },
+   {
+    "t": 3190.08,
+    "tText": "3190",
+    "confidence": "explicit",
+    "source": "Kobayashi Maru (episode)",
+    "title": "Kwejian destroyed",
+    "note": "The Dark Matter Anomaly tears Kwejian apart, killing Kyheem and Leto. Book's grief, and Burnham's attempts to reach him through it, shape the whole year.",
+    "weight": 3
+   },
+   {
+    "t": 3190.5,
+    "tText": "3190",
+    "confidence": "explicit",
+    "source": "Stormy Weather (episode)",
+    "title": "Saying it out loud",
+    "note": "With Discovery trapped in a subspace rift, Book says a private farewell to his lost family, and he and Burnham tell each other they love one another before he beams to safety.",
+    "weight": 1
+   },
+   {
+    "t": 3190.54,
+    "tText": "3190",
+    "confidence": "inferred",
+    "source": "...But to Connect (episode)",
+    "title": "The vote that splits them",
+    "note": "The Federation assembly chooses first contact over destroying the anomaly. Book leaves with Ruon Tarka and the prototype spore drive to do it themselves, which puts him on the opposite side from Burnham.",
+    "weight": 3
+   },
+   {
+    "t": 3190.67,
+    "tText": "3190",
+    "confidence": "explicit",
+    "source": "Rubicon (episode)",
+    "title": "Standoff at the anomaly",
+    "note": "Burnham leads the pursuit of Book's cloaked ship with orders to use lethal force if needed. In the confrontation neither of them can bring themselves to destroy the other.",
+    "weight": 2
+   },
+   {
+    "t": 3190.96,
+    "tText": "3190",
+    "confidence": "inferred",
+    "source": "Coming Home (episode)",
+    "title": "Choosing Earth over Tarka",
+    "note": "Book turns on Tarka to protect Discovery and Earth, and he survives only because Species 10-C pull him out as his ship is destroyed. He accepts a sentence of relief work for families displaced by the anomaly.",
+    "weight": 2
+   },
+   {
+    "t": 3191.09,
+    "tText": "3191",
+    "confidence": "explicit",
+    "source": "Red Directive (episode)",
+    "title": "Partners again, warily",
+    "note": "After months of not speaking, the two are paired on the classified Progenitors mission and fall back into their old courier banter.",
+    "weight": 1
+   },
+   {
+    "t": 3191.73,
+    "tText": "3191",
+    "confidence": "explicit",
+    "source": "Labyrinths (episode)",
+    "title": "Kwejian's World Root saved",
+    "note": "At the Eternal Gallery and Archive, Book receives two surviving cuttings of Kwejian's World Root, a way to replant the living symbol of his people somewhere new.",
+    "weight": 1
+   },
+   {
+    "t": 3191.91,
+    "tText": "3191",
+    "confidence": "explicit",
+    "source": "Life, Itself (episode)",
+    "title": "\"I never stopped\"",
+    "note": "At Saru and T'Rina's wedding, Burnham tells Book she never stopped loving him; they kiss and head off on Kovich's next assignment together. He has planted the World Root on Sanctuary Four, the planet of their first adventure.",
+    "weight": 3
+   },
+   {
+    "t": 3230.0,
+    "tText": "decades later (33rd c.)",
+    "confidence": "estimated",
+    "source": "Life, Itself (episode)",
+    "title": "Admiral Burnham, husband Book",
+    "note": "Decades on, a grey-haired Admiral Burnham wakes beside Book at their Sanctuary Four homestead. Their son Leto, newly made captain, flies her to Discovery's final mission. The year is not given; this placement is an estimate.",
+    "weight": 3
+   }
+  ]
+ },
+ {
+  "id": "stamets-culber",
+  "title": "Stamets & Culber",
+  "people": [
+   "Paul Stamets",
+   "Hugh Culber"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "Discovery's spore-drive engineer and its doctor, a couple from the ship's first months at war in 2256. Culber's murder in the mirror universe seemed to end them, until Stamets found him alive inside the mycelial network and he was rebuilt in a new body. They rode Discovery into 3189 and formed a family there with Adira Tal and Gray.",
+  "status": "Married and serving together aboard Discovery as of 3191; they do not appear in the series' epilogue.",
+  "beats": [
+   {
+    "t": 2256.96,
+    "tText": "2256",
+    "confidence": "inferred",
+    "source": "Choose Your Pain (episode)",
+    "title": "Two toothbrushes, one worry",
+    "note": "Their first scene as a couple: brushing their teeth in shared quarters, with Culber worried about what the spore drive is doing to Stamets. Dialogue here says they first met in a café.",
+    "weight": 3
+   },
+   {
+    "t": 2257.1,
+    "tText": "2257",
+    "confidence": "inferred",
+    "source": "Into the Forest I Go (episode)",
+    "title": "A kiss before the last jump",
+    "note": "Culber objects to the toll of 133 spore jumps. Stamets kisses him before what is meant to be his final jump, which goes wrong and strands Discovery in the mirror universe.",
+    "weight": 2
+   },
+   {
+    "t": 2257.14,
+    "tText": "2257",
+    "confidence": "inferred",
+    "source": "Despite Yourself (episode)",
+    "title": "Culber is murdered",
+    "note": "While Stamets lies comatose, Culber's examination exposes the surgically altered Tyler, and the surfacing Voq kills him by breaking his neck.",
+    "weight": 3
+   },
+   {
+    "t": 2257.24,
+    "tText": "2257",
+    "confidence": "inferred",
+    "source": "Vaulting Ambition (episode)",
+    "title": "Goodbye in the network",
+    "note": "Trapped inside the mycelial network, Stamets meets Culber's consciousness, which pushes him to save the network and go back to the living.",
+    "weight": 2
+   },
+   {
+    "t": 2257.62,
+    "tText": "2257",
+    "confidence": "inferred",
+    "source": "Saints of Imperfection (episode)",
+    "title": "Brought back to life",
+    "note": "Searching the network for Tilly, Stamets finds that Culber still exists there. The jahSepp rebuild his body from a cocoon and he walks out alive.",
+    "weight": 3
+   },
+   {
+    "t": 2257.76,
+    "tText": "2257",
+    "confidence": "inferred",
+    "source": "If Memory Serves (episode)",
+    "title": "Home, but not himself",
+    "note": "Culber's memories are intact but his rebuilt body feels foreign, and seeing Tyler, his killer, in the corridors makes it worse.",
+    "weight": 1
+   },
+   {
+    "t": 2257.81,
+    "tText": "2257",
+    "confidence": "inferred",
+    "source": "Project Daedalus (episode)",
+    "title": "Culber moves out",
+    "note": "Culber leaves their quarters to find his footing. Spock suggests to a hurt Stamets that the distance is about Culber's sense of self, not his feelings.",
+    "weight": 2
+   },
+   {
+    "t": 2258.67,
+    "tText": "2258",
+    "confidence": "inferred",
+    "source": "Such Sweet Sorrow, Part 2 (episode)",
+    "title": "\"You are my home\"",
+    "note": "Culber had planned a transfer to the Enterprise but stays. With Stamets badly wounded in the battle against Control, he tells him he is his home as Discovery leaps into the future.",
+    "weight": 3
+   },
+   {
+    "t": 3189.38,
+    "tText": "3189",
+    "confidence": "explicit",
+    "source": "Scavengers (episode)",
+    "title": "Back under one roof",
+    "note": "In the 32nd century they move back in together, and Stamets confides how much Adira has come to mean to him.",
+    "weight": 2
+   },
+   {
+    "t": 3189.85,
+    "tText": "3189",
+    "confidence": "explicit",
+    "source": "There Is A Tide... (episode)",
+    "title": "A family on the line",
+    "note": "While Culber and Adira are stuck in the radiation-soaked Verubin Nebula, Stamets frets over both and calls Adira his child. The family they have built with Adira and Gray is now said out loud.",
+    "weight": 1
+   },
+   {
+    "t": 3190.42,
+    "tText": "3190",
+    "confidence": "explicit",
+    "source": "The Examples (episode)",
+    "title": "Comparing notes at home",
+    "note": "In their quarters they trade accounts of the day: refugees resettled for Culber, the arrogant Ruon Tarka for Stamets. A snapshot of a settled married life.",
+    "weight": 1
+   },
+   {
+    "t": 3190.58,
+    "tText": "3190",
+    "confidence": "explicit",
+    "source": "All In (episode)",
+    "title": "The counselor cracks",
+    "note": "Stamets finds Culber stress-cleaning their quarters. The doctor who has been counseling everyone blames himself for not reaching Book, and Stamets tries to lift that weight.",
+    "weight": 1
+   },
+   {
+    "t": 3191.27,
+    "tText": "3191",
+    "confidence": "explicit",
+    "source": "Jinaal (episode)",
+    "title": "Hosting Jinaal Bix",
+    "note": "Culber volunteers to carry the consciousness of Trill scientist Jinaal Bix through zhian'tara. The experience sets off a spiritual awakening he cannot explain scientifically.",
+    "weight": 2
+   },
+   {
+    "t": 3191.55,
+    "tText": "3191",
+    "confidence": "explicit",
+    "source": "Whistlespeak (episode)",
+    "title": "Mofongo and a brain scan",
+    "note": "Culber tries to recreate his grandmother's mofongo for his husband and asks Stamets for a full neural scan to study the after-effects of zhian'tara; Stamets is uneasy but helps.",
+    "weight": 1
+   },
+   {
+    "t": 3191.91,
+    "tText": "3191",
+    "confidence": "explicit",
+    "source": "Life, Itself (episode)",
+    "title": "\"I'll come back\"",
+    "note": "Following an instinct he cannot explain, Culber insists on joining Book's dangerous portal mission. Stamets lets him go, and Culber keeps his promise to return.",
+    "weight": 2
+   }
+  ]
+ },
+ {
+  "id": "worf-jadzia",
+  "title": "Worf & Jadzia Dax",
+  "people": [
+   "Worf",
+   "Jadzia Dax"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "Worf's transfer to Deep Space 9 in 2372 put him opposite Jadzia Dax, whose appetite for Klingon culture and relentless teasing wore down his reserve. After a courtship fought partly with bat'leths they married in 2374, only for Jadzia to be murdered months later; Worf then risked his life in battle to win her a place in Sto-Vo-Kor.",
+  "status": "Ended by Jadzia's death (2374); Worf and the symbiont's next host, Ezri, settle into friendship in 2375.",
+  "beats": [
+   {
+    "t": 2372.01,
+    "tText": "2372",
+    "confidence": "inferred",
+    "source": "The Way of the Warrior (episode)",
+    "title": "Sparks in the holosuite",
+    "note": "Worf arrives on the station amid the Klingon crisis. Jadzia is visibly taken with him and challenges him to bat'leth practice.",
+    "weight": 3
+   },
+   {
+    "t": 2372.3,
+    "tText": "2372",
+    "confidence": "inferred",
+    "source": "The Sword of Kahless (episode)",
+    "title": "Questing with Kor",
+    "note": "Jadzia brings Worf together with her old friend Kor, and the three hunt for the legendary Sword of Kahless.",
+    "weight": 1
+   },
+   {
+    "t": 2373.09,
+    "tText": "2373",
+    "confidence": "inferred",
+    "source": "Looking for par'Mach in All the Wrong Places (episode)",
+    "title": "A bat'leth courtship",
+    "note": "Tired of Worf missing her hints, Jadzia starts a holosuite fight that becomes a Klingon mating ritual; they become a couple.",
+    "weight": 3
+   },
+   {
+    "t": 2373.25,
+    "tText": "2373",
+    "confidence": "inferred",
+    "source": "Let He Who Is Without Sin... (episode)",
+    "title": "Trouble on Risa",
+    "note": "A vacation on Risa turns tense when Worf falls in with the New Essentialists, forcing the two to confront how differently they approach love.",
+    "weight": 1
+   },
+   {
+    "t": 2373.78,
+    "tText": "2373",
+    "confidence": "inferred",
+    "source": "Soldiers of the Empire (episode)",
+    "title": "Aboard the Rotarran",
+    "note": "Jadzia serves with Worf on Martok's battered bird-of-prey; the mission ends with Martok taking Worf into his House.",
+    "weight": 1
+   },
+   {
+    "t": 2373.97,
+    "tText": "2373",
+    "confidence": "inferred",
+    "source": "Call to Arms (episode)",
+    "title": "Marry me after the war",
+    "note": "As the Federation abandons the station to the Dominion, Jadzia says goodbye to Worf and agrees to marry him once the war ends.",
+    "weight": 2
+   },
+   {
+    "t": 2374.25,
+    "tText": "2374",
+    "confidence": "inferred",
+    "source": "You Are Cordially Invited (episode)",
+    "title": "A Klingon wedding",
+    "note": "After surviving the hostility of Martok's wife Sirella, Jadzia marries Worf and joins the House of Martok.",
+    "weight": 3
+   },
+   {
+    "t": 2374.6,
+    "tText": "2374",
+    "confidence": "inferred",
+    "source": "Change of Heart (episode)",
+    "title": "Love over duty",
+    "note": "Worf aborts a vital intelligence extraction to carry the badly wounded Jadzia to safety; Sisko warns it has cost him a command of his own.",
+    "weight": 2
+   },
+   {
+    "t": 2374.96,
+    "tText": "2374",
+    "confidence": "inferred",
+    "source": "Tears of the Prophets (episode)",
+    "title": "Jadzia is killed",
+    "note": "Dukat, possessed by a Pah-wraith, strikes Jadzia down in the station's temple. The Dax symbiont survives and is rushed to Trill.",
+    "weight": 3
+   },
+   {
+    "t": 2375.14,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "Image in the Sand (episode)",
+    "title": "A place in Sto-Vo-Kor",
+    "note": "Worf learns that dying outside battle bars Jadzia from Sto-Vo-Kor, and resolves to win a great victory in her name.",
+    "weight": 2
+   },
+   {
+    "t": 2375.15,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "Shadows and Symbols (episode)",
+    "title": "Battle in her name",
+    "note": "Worf, Martok, O'Brien, Bashir and Quark destroy the Dominion's Monac shipyard, dedicating the victory to Jadzia.",
+    "weight": 2
+   },
+   {
+    "t": 2375.16,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "Afterimage (episode)",
+    "title": "Meeting Ezri",
+    "note": "The Dax symbiont returns to the station in a new host, Ezri; Worf walks out of Quark's rather than face her.",
+    "weight": 2
+   },
+   {
+    "t": 2375.58,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "Penumbra (episode)",
+    "title": "Stranded with Ezri",
+    "note": "Ezri finds Worf after his ship is lost; old feelings resurface and they spend a night together before the Breen capture them.",
+    "weight": 1
+   },
+   {
+    "t": 2375.63,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "Strange Bedfellows (episode)",
+    "title": "Letting Jadzia go",
+    "note": "Facing execution as Dominion prisoners, Worf and Ezri admit their attraction was an echo of Jadzia and agree to be friends.",
+    "weight": 2
+   }
+  ]
+ },
+ {
+  "id": "odo-kira",
+  "title": "Odo & Kira",
+  "people": [
+   "Odo",
+   "Kira Nerys"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "Odo and Kira met on Cardassian-run Terok Nor in 2365 and after 2369 became the station's most trusted partnership, while Odo hid his love for her for years. Tested by the Founders, a time paradox and the Dominion occupation, they finally became a couple in 2374, until Odo left to heal the Great Link.",
+  "status": "Parted in 2375 when Odo joined the Great Link; Kira stayed to command Deep Space 9.",
+  "beats": [
+   {
+    "t": 2365.5,
+    "tText": "2365",
+    "confidence": "estimated",
+    "source": "Necessary Evil (episode)",
+    "title": "First meeting on Terok Nor",
+    "note": "During the Occupation, Odo questions young resistance fighter Kira about the murder of the collaborator Vaatrik, and accepts her alibi.",
+    "weight": 3
+   },
+   {
+    "t": 2370.28,
+    "tText": "2370",
+    "confidence": "inferred",
+    "source": "Necessary Evil (episode)",
+    "title": "The Vaatrik lie uncovered",
+    "note": "Reopening the old case, Odo learns Kira was Vaatrik's killer and had lied to him; the friendship survives the shock.",
+    "weight": 2
+   },
+   {
+    "t": 2371.52,
+    "tText": "2371",
+    "confidence": "inferred",
+    "source": "Heart of Stone (episode)",
+    "title": "A confession to the wrong Kira",
+    "note": "Odo tells a trapped 'Kira' that he loves her, only to realize she is the Female Changeling testing his ties to the solids.",
+    "weight": 2
+   },
+   {
+    "t": 2372.43,
+    "tText": "2372",
+    "confidence": "inferred",
+    "source": "Crossfire (episode)",
+    "title": "Jealousy over Shakaar",
+    "note": "Assigned to protect First Minister Shakaar as Kira falls for him, Odo hides his heartbreak and wrecks his own quarters.",
+    "weight": 2
+   },
+   {
+    "t": 2373.29,
+    "tText": "2373",
+    "confidence": "inferred",
+    "source": "Things Past (episode)",
+    "title": "The Terok Nor executions",
+    "note": "Odo admits that as the Cardassians' security chief he let three innocent Bajorans be executed, shaking Kira's faith in him.",
+    "weight": 1
+   },
+   {
+    "t": 2373.81,
+    "tText": "2373",
+    "confidence": "inferred",
+    "source": "Children of Time (episode)",
+    "title": "The future Odo's secret",
+    "note": "An elder Odo from a timeline where the crew was stranded in 2173 reveals his love to Kira and sabotages their escape to save her, erasing his colony.",
+    "weight": 3
+   },
+   {
+    "t": 2373.97,
+    "tText": "2373",
+    "confidence": "inferred",
+    "source": "Call to Arms (episode)",
+    "title": "Left behind with the enemy",
+    "note": "Both remain aboard when the Dominion occupies the station, Kira as Bajor's liaison and Odo keeping order.",
+    "weight": 1
+   },
+   {
+    "t": 2374.14,
+    "tText": "2374",
+    "confidence": "inferred",
+    "source": "Behind the Lines (episode)",
+    "title": "Odo chooses the Link",
+    "note": "Odo links with the Female Changeling and fails Kira's resistance cell at a critical moment; she feels betrayed.",
+    "weight": 2
+   },
+   {
+    "t": 2374.21,
+    "tText": "2374",
+    "confidence": "inferred",
+    "source": "Sacrifice of Angels (episode)",
+    "title": "Odo saves Kira",
+    "note": "Learning Kira is to be executed, Odo breaks from the Female Changeling and frees her, helping the Federation retake the station.",
+    "weight": 2
+   },
+   {
+    "t": 2374.76,
+    "tText": "2374",
+    "confidence": "inferred",
+    "source": "His Way (episode)",
+    "title": "Finally together",
+    "note": "Coached by the holographic Vic Fontaine, Odo stops hiding his feelings and he and Kira kiss, beginning their relationship.",
+    "weight": 3
+   },
+   {
+    "t": 2375.49,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "Chimera (episode)",
+    "title": "Loved as he is",
+    "note": "When Odo is tempted to leave with the Changeling Laas, Kira tells him she loves the man he has chosen to be.",
+    "weight": 2
+   },
+   {
+    "t": 2375.68,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "When It Rains... (episode)",
+    "title": "A hidden illness",
+    "note": "Bashir finds Odo carries the disease killing the Founders; Odo heads to Cardassia with Kira and Garak without telling her.",
+    "weight": 1
+   },
+   {
+    "t": 2375.74,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "Tacking Into the Wind (episode)",
+    "title": "Kira sees the sickness",
+    "note": "In the Cardassian underground Kira discovers how badly Odo's disease has advanced.",
+    "weight": 1
+   },
+   {
+    "t": 2375.9,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "What You Leave Behind (episode)",
+    "title": "Farewell at the Great Link",
+    "note": "With the war over, Odo goes home to cure the Founders and teach them; Kira takes him to the Great Link for a last goodbye.",
+    "weight": 3
+   }
+  ]
+ },
+ {
+  "id": "paris-torres",
+  "title": "Paris & Torres",
+  "people": [
+   "Tom Paris",
+   "B'Elanna Torres"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "A disgraced pilot out of a penal colony and a half-Klingon Maquis engineer start out needling each other aboard a ship stranded 70,000 light-years from home. Seven years of shared crises turn the sparring into devotion: she admits her love while both float toward death in EV suits, they marry during a starship race, and their daughter arrives as Voyager crosses into the Alpha Quadrant.",
+  "status": "Married since 2377, daughter Miral born 2378; both stayed in Starfleet after Voyager's return.",
+  "beats": [
+   {
+    "t": 2371.32,
+    "tText": "2371",
+    "confidence": "inferred",
+    "source": "Caretaker (episode)",
+    "title": "Stranded on the same ship",
+    "note": "Paris, a cashiered pilot let out of a penal colony to guide Voyager, and Torres, the hot-tempered engineer of Chakotay's Maquis cell, both end up aboard after the Caretaker hurls them into the Delta Quadrant.",
+    "weight": 2
+   },
+   {
+    "t": 2371.78,
+    "tText": "2371",
+    "confidence": "inferred",
+    "source": "Faces (episode)",
+    "title": "Prisoners of the Vidiians",
+    "note": "Vidiian scientists split Torres into separate Klingon and Human women; Paris, held with her in a labor camp, looks out for the frightened Human half.",
+    "weight": 1
+   },
+   {
+    "t": 2373.54,
+    "tText": "2373",
+    "confidence": "inferred",
+    "source": "Blood Fever (episode)",
+    "title": "Pon farr on an away mission",
+    "note": "Caught up in Vorik's pon farr, Torres bites Paris to begin a Klingon mating ritual; he refuses to take advantage of her even when she pleads with him.",
+    "weight": 2
+   },
+   {
+    "t": 2374.05,
+    "tText": "2374",
+    "confidence": "inferred",
+    "source": "Day of Honor (episode)",
+    "title": "Confession in EV suits",
+    "note": "Drifting in space suits with their air running out after the Caatati take their shuttle's warp core, Torres tells Paris she loves him; Voyager reaches them in time.",
+    "weight": 3
+   },
+   {
+    "t": 2374.19,
+    "tText": "2374",
+    "confidence": "inferred",
+    "source": "Revulsion (episode)",
+    "title": "The first kiss",
+    "note": "When Torres tries to take the confession back and suggests they forget it, Paris cuts her off with a kiss.",
+    "weight": 2
+   },
+   {
+    "t": 2374.24,
+    "tText": "2374",
+    "confidence": "inferred",
+    "source": "Scientific Method (episode)",
+    "title": "Watched, and reprimanded",
+    "note": "Hidden Srivani researchers are scanning the new couple as part of their experiments on the crew, and Janeway gives both a stern dressing-down after they are caught getting too close on duty.",
+    "weight": 1
+   },
+   {
+    "t": 2374.76,
+    "tText": "2374",
+    "confidence": "inferred",
+    "source": "Vis à Vis (episode)",
+    "title": "Restless pilot, broken dates",
+    "note": "Paris keeps canceling dates to tinker with an alien test pilot's ship, and Torres storms off; he makes peace with a kiss in his Grease Monkey garage program.",
+    "weight": 1
+   },
+   {
+    "t": 2375.12,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "Extreme Risk (episode)",
+    "title": "She shuts him out",
+    "note": "Numb after learning the Maquis were wiped out, Torres pushes Paris away and secretly runs holodeck programs with the safeties off until Chakotay confronts her.",
+    "weight": 1
+   },
+   {
+    "t": 2375.59,
+    "tText": "2375",
+    "confidence": "inferred",
+    "source": "Course: Oblivion (episode)",
+    "title": "Their duplicates marry first",
+    "note": "Biomimetic copies of the crew, who believe they are the real Voyager, stage a Paris and Torres wedding before their ship dissolves; the real couple never learns of it.",
+    "weight": 1
+   },
+   {
+    "t": 2377.06,
+    "tText": "2377",
+    "confidence": "inferred",
+    "source": "Drive (episode)",
+    "title": "A proposal mid-race, then marriage",
+    "note": "During an interstellar rally in the Delta Flyer, Paris asks Torres to marry him; they wed and fly off on a honeymoon with 'Just Married' painted on the stern.",
+    "weight": 3
+   },
+   {
+    "t": 2377.45,
+    "tText": "2377",
+    "confidence": "inferred",
+    "source": "Lineage (episode)",
+    "title": "A daughter on the way",
+    "note": "Pregnant with a girl, Torres secretly tries to edit the baby's Klingon traits out of her genome, fearing her own childhood pain; Paris objects and they reconcile.",
+    "weight": 2
+   },
+   {
+    "t": 2377.52,
+    "tText": "2377",
+    "confidence": "inferred",
+    "source": "Prophecy (episode)",
+    "title": "The prophesied kuvah'magh",
+    "note": "A generational ship of Klingons hails Torres's unborn child as their promised savior, and Paris accepts a warrior's challenge to defend her honor.",
+    "weight": 1
+   },
+   {
+    "t": 2377.58,
+    "tText": "2377",
+    "confidence": "inferred",
+    "source": "Workforce (episode)",
+    "title": "Strangers again on Quarra",
+    "note": "Memory-wiped and put to work on Quarra, Paris the bartender flirts with Torres as if meeting her for the first time; once restored, she reads his logs and sees how much he loves her.",
+    "weight": 1
+   },
+   {
+    "t": 2378.26,
+    "tText": "2378",
+    "confidence": "inferred",
+    "source": "Author, Author (episode)",
+    "title": "A call home together",
+    "note": "With Paris at her side, Torres uses Voyager's new real-time link with Earth to speak with her estranged father, who wants to reconnect.",
+    "weight": 1
+   },
+   {
+    "t": 2378.31,
+    "tText": "2378",
+    "confidence": "inferred",
+    "source": "Endgame (episode)",
+    "title": "Miral born on the way home",
+    "note": "Torres gives birth to their daughter Miral during the final dash through the Borg transwarp hub; Paris, needed at the helm, is sent to meet her once Voyager is home.",
+    "weight": 3
+   },
+   {
+    "t": 2404.5,
+    "tText": "2404 (erased timeline)",
+    "confidence": "explicit",
+    "source": "Endgame (episode)",
+    "title": "A future that was undone",
+    "note": "In Admiral Janeway's original timeline Voyager got home only in 2394; by 2404 Paris writes holonovels, Torres is the Federation's liaison to Qo'noS, and Miral is an ensign. Janeway's trip into the past erases it.",
+    "weight": 1
+   }
+  ]
+ },
+ {
+  "id": "mariner-boimler",
+  "title": "Mariner & Boimler",
+  "people": [
+   "Beckett Mariner",
+   "Brad Boimler"
+  ],
+  "kind": "friendship",
+  "timeline": "prime",
+  "summary": "Assigned to spy on the Cerritos' most insubordinate ensign, Boimler instead gains a fierce ally and mentor in Mariner. Their friendship survives his Titan transfer and duplication, her exile and resignation, a detour to 2259 and a parallel universe. It ends with the two sharing the first officer's post.",
+  "status": "Provisional co-first officers of the USS Cerritos in 2382; 32nd-century Academy records list Mariner as a commander.",
+  "beats": [
+   {
+    "t": 2259.89,
+    "tText": "2259 (from 2381)",
+    "confidence": "inferred",
+    "source": "Those Old Scientists (episode)",
+    "title": "Two ensigns in Pike's era",
+    "note": "Boimler falls through a dormant time portal on Krulmuth-B into 2259 and Mariner leaps in after him. They help Pike's Enterprise recover the portal, then go home using horonium from a piece of the NX-01's hull.",
+    "weight": 3
+   },
+   {
+    "t": 2380.44,
+    "tText": "2380",
+    "confidence": "inferred",
+    "source": "Second Contact (episode)",
+    "title": "Ordered to spy, befriended instead",
+    "note": "Freeman quietly tasks Boimler with reporting on Mariner's conduct. When he is ready to quit, Mariner deliberately takes the blame to rescue his confidence and decides to coach him toward a captain's chair.",
+    "weight": 3
+   },
+   {
+    "t": 2380.78,
+    "tText": "2380",
+    "confidence": "inferred",
+    "source": "No Small Parts (episode)",
+    "title": "Secret out, Boimler leaves",
+    "note": "Boimler discovers that Captain Freeman is Mariner's mother and blurts it over an open channel. He then takes a promotion to the USS Titan without saying goodbye, which stings her badly.",
+    "weight": 3
+   },
+   {
+    "t": 2381.0,
+    "tText": "2381",
+    "confidence": "inferred",
+    "source": "Kayshon, His Eyes Open (episode)",
+    "title": "Two Boimlers, one comes home",
+    "note": "A transporter escape on a Titan mission splits Boimler in two. Brad volunteers to return to the Cerritos as an ensign, while his duplicate stays with Riker as William Boimler.",
+    "weight": 2
+   },
+   {
+    "t": 2381.05,
+    "tText": "2381",
+    "confidence": "inferred",
+    "source": "An Embarrassment Of Dooplers (episode)",
+    "title": "The overdue apology",
+    "note": "Outside an exclusive Starbase 25 party, Boimler finally apologizes for leaving for the Titan without a word, and the two patch things up.",
+    "weight": 2
+   },
+   {
+    "t": 2381.35,
+    "tText": "2381",
+    "confidence": "inferred",
+    "source": "Reflections (episode)",
+    "title": "Stuck at the recruiting booth",
+    "note": "Paired at a Starfleet recruitment booth, the usually timid Boimler snaps into a furious defense of Starfleet that lands him in the brig and wins over recruits.",
+    "weight": 1
+   },
+   {
+    "t": 2381.5,
+    "tText": "2381",
+    "confidence": "inferred",
+    "source": "Trusted Sources (episode)",
+    "title": "Mariner exiled to Starbase 80",
+    "note": "Wrongly blamed for a damaging news interview, Mariner is shipped off to Starbase 80 and soon resigns from Starfleet. Boimler regrets not speaking up for her.",
+    "weight": 2
+   },
+   {
+    "t": 2381.51,
+    "tText": "2381",
+    "confidence": "inferred",
+    "source": "The Stars At Night (episode)",
+    "title": "Mariner brings the cavalry",
+    "note": "Mariner returns with a fleet of California-class ships to save the Cerritos from rogue automated starships, then rejoins Starfleet with a new resolve to advance.",
+    "weight": 2
+   },
+   {
+    "t": 2381.72,
+    "tText": "2381",
+    "confidence": "inferred",
+    "source": "Twovix (episode)",
+    "title": "Promoted on her recommendation",
+    "note": "Boimler panics over a pending promotion until he learns Mariner recommended him; both end the mission as lieutenants junior grade.",
+    "weight": 2
+   },
+   {
+    "t": 2381.95,
+    "tText": "2381",
+    "confidence": "estimated",
+    "source": "Old Friends, New Planets (episode)",
+    "title": "The crew defies orders for her",
+    "note": "After Nick Locarno abducts Mariner, Freeman takes the Cerritos against orders to get her back, leaving Boimler briefly in the captain's chair.",
+    "weight": 2
+   },
+   {
+    "t": 2382.35,
+    "tText": "2382",
+    "confidence": "estimated",
+    "source": "Dos Cerritos (episode)",
+    "title": "Their doubles in a fissure",
+    "note": "A quantum fissure drags the Cerritos into a parallel universe where Mariner is 'Becky Freeman', a tyrant captain, and Boimler has a bearded double. The prime crew escapes home.",
+    "weight": 1
+   },
+   {
+    "t": 2382.5,
+    "tText": "2382",
+    "confidence": "inferred",
+    "source": "Fully Dilated (episode)",
+    "title": "A lost year on Dilmer III",
+    "note": "A transporter snag on a time-dilated world strands Mariner, Tendi and T'Lyn for nearly a year of planet time, while Boimler and Rutherford spend only seconds clearing the console.",
+    "weight": 1
+   },
+   {
+    "t": 2382.7,
+    "tText": "2382",
+    "confidence": "inferred",
+    "source": "The New Next Generation (episode)",
+    "title": "Side by side at command",
+    "note": "Ransom, newly captain, names both provisional first officers and invites them to compete for the job. They take the seats flanking the captain's chair, worried about what rivalry will do to their friendship.",
+    "weight": 3
+   }
+  ]
+ }
+]

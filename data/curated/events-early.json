@@ -1,0 +1,2461 @@
+[
+  {
+    "id": "birth-of-the-universe",
+    "title": "The universe is born",
+    "t": -16000000000.0,
+    "tText": "c. 16 billion years ago",
+    "confidence": "explicit",
+    "category": "deep-time",
+    "civ": "galactic",
+    "summary": "The cosmos begins in a primordial expansion. Q later use the instant of creation as a hiding place, and Voyager is briefly carried there.",
+    "sources": [
+      "Death Wish (episode)",
+      "Good Shepherd (episode)",
+      "Latent Image (episode)"
+    ],
+    "ma": "Big Bang",
+    "conflict": "Voyager crew give two ages for the cosmos: 16 billion years ('Good Shepherd') and 20 billion years since the 'primordial atom burst' ('Latent Image'). Both run older than real-world cosmology's 13.8 billion.",
+    "weight": 2
+  },
+  {
+    "id": "black-cluster-forms",
+    "title": "Black Cluster forms",
+    "t": -9000000000.0,
+    "tText": "c. 9 billion years ago",
+    "confidence": "explicit",
+    "category": "deep-time",
+    "civ": "galactic",
+    "summary": "Hundreds of protostars collapse close together, creating the gravitational hazard later called the Black Cluster, where the USS Vico is lost in 2368.",
+    "sources": [
+      "Hero Worship (episode)"
+    ],
+    "ma": "Black cluster",
+    "weight": 1
+  },
+  {
+    "id": "guardian-of-forever-predates-sol",
+    "title": "Guardian of Forever already waiting",
+    "t": -4600000000.0,
+    "tText": "before Sol ignited (over 4.6 billion years ago)",
+    "confidence": "inferred",
+    "category": "deep-time",
+    "civ": "galactic",
+    "summary": "The time portal later found by Kirk's crew says it has awaited a question since before Earth's sun burned hot. The ruins around it are judged at least a million years old.",
+    "sources": [
+      "The City on the Edge of Forever (episode)"
+    ],
+    "ma": "Guardian of Forever",
+    "weight": 2
+  },
+  {
+    "id": "progenitors-seed-the-galaxy",
+    "title": "Progenitors seed the galaxy",
+    "t": -4000000000.0,
+    "tText": "c. 4 billion years ago",
+    "confidence": "explicit",
+    "category": "deep-time",
+    "civ": "Progenitor",
+    "summary": "Finding themselves alone in the galaxy, an ancient humanoid species seeds the primordial oceans of many worlds with a genetic program that steers life toward their own form. Discovery later learns they were themselves made by unknown creators whose technology they inherited.",
+    "sources": [
+      "The Chase (episode)",
+      "Life, Itself (episode)"
+    ],
+    "ma": "Progenitor",
+    "weight": 3
+  },
+  {
+    "id": "q-anti-time-eruption",
+    "title": "Anti-time eruption at life's dawn",
+    "t": -3500000000.0,
+    "tText": "c. 3.5 billion years ago",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Q",
+    "summary": "Amino acids in Earth's primordial soup are about to form the first proteins. In Q's final test of humanity, a 24th-century anti-time anomaly grows backward through time and stops life on Earth from ever forming, until Picard, acting in three eras at once, collapses it.",
+    "sources": [
+      "All Good Things... (episode)"
+    ],
+    "ma": "Anti-time",
+    "weight": 3
+  },
+  {
+    "id": "slaver-empire-falls",
+    "title": "Slaver Empire falls",
+    "t": -1000000000.0,
+    "tText": "c. 1 billion years ago",
+    "confidence": "explicit",
+    "category": "deep-time",
+    "civ": "Slaver",
+    "summary": "The Slavers rule most intelligent life in the galaxy until a revolt ends in a war that wipes out masters and subjects alike. Only their stasis boxes survive.",
+    "sources": [
+      "The Slaver Weapon (episode)"
+    ],
+    "ma": "Slaver Empire",
+    "weight": 2
+  },
+  {
+    "id": "questar-m17-ship-scuttled",
+    "title": "Insectoid ship scuttled at Questar M-17",
+    "t": -300000000.0,
+    "tText": "c. 300 million years ago",
+    "confidence": "explicit",
+    "category": "deep-time",
+    "civ": "unknown insectoid",
+    "summary": "An alien vessel is taken over by a magnetic life-form, and its insectoid crew destroy their own ship rather than let the entity spread. The derelict still orbits Questar M-17 when the Enterprise finds it in 2269.",
+    "sources": [
+      "Beyond the Farthest Star (episode)"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "darsay-archive-launched",
+    "title": "D'Arsay archive launched",
+    "t": -87000000.0,
+    "tText": "c. 87 million years ago",
+    "confidence": "explicit",
+    "category": "deep-time",
+    "civ": "D'Arsay",
+    "summary": "The D'Arsay civilization sends a comet-borne archive of its culture into space. It reaches the Enterprise-D in 2368 and briefly rewrites the ship and Data in its own image.",
+    "sources": [
+      "Masks (episode)"
+    ],
+    "ma": "D'Arsay",
+    "weight": 1
+  },
+  {
+    "id": "martian-doldrm-war",
+    "title": "Martians and Dol'drm at war",
+    "t": -65000000.0,
+    "tText": "c. 65 million years ago",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Martian",
+    "summary": "Prehistoric humanoid Martians fight an endless war with the arachnid Dol'drm of Sol's fifth planet. When Commander Cassell destroys the Dol'drm world, the planets' orbits shift and Mars slowly becomes uninhabitable.",
+    "sources": [
+      "Valles Marineris (episode)"
+    ],
+    "ma": "Dol'drm",
+    "weight": 2
+  },
+  {
+    "id": "chicxulub-impact",
+    "title": "Chicxulub impact ends the dinosaurs",
+    "t": -65000000.0,
+    "tText": "c. 65 million years ago",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "galactic",
+    "summary": "Cassell learns from the time-displaced Enterprise's records that Mars will die, and she destroys the Dol'drm homeworld with antimatter taken from the ship. A large fragment strikes Earth's Yucatán, the dinosaurs die out, and the way opens for humanity, in a causal loop the Enterprise of 2262 helped close.",
+    "sources": [
+      "Valles Marineris (episode)",
+      "Distant Origin (episode)"
+    ],
+    "ma": "Chicxulub asteroid",
+    "weight": 3
+  },
+  {
+    "id": "voth-ancestors-leave-earth",
+    "title": "Voth ancestors leave Earth",
+    "t": -20000000.0,
+    "tText": "before c. 20 million years ago",
+    "confidence": "estimated",
+    "category": "deep-time",
+    "civ": "Voth",
+    "summary": "Hadrosaurs that survived the extinction evolve intelligence, reach space and leave Earth. By about 20 million years ago their Voth descendants in the Delta Quadrant have begun the recorded history that later hides their origin.",
+    "sources": [
+      "Distant Origin (episode)"
+    ],
+    "ma": "Distant Origin Theory",
+    "weight": 3
+  },
+  {
+    "id": "vexilon-creators-ascend",
+    "title": "Vexilon's builders ascend",
+    "t": -6000000.0,
+    "tText": "c. 6 million years ago",
+    "confidence": "explicit",
+    "category": "deep-time",
+    "civ": "unknown",
+    "summary": "The makers of the planet-sized computer Vexilon ascend to the fifth dimension without updating its software, leaving it to run unattended for millions of years.",
+    "sources": [
+      "In the Cradle of Vexilon (episode)"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "tkon-empire-falls",
+    "title": "Tkon Empire falls",
+    "t": -600000.0,
+    "tText": "c. 600,000 years ago",
+    "confidence": "explicit",
+    "category": "deep-time",
+    "civ": "Tkon",
+    "summary": "A vast empire able to move whole stars ends when the central star of its home system goes supernova. Automated guardians such as Portal 63 outlast it.",
+    "sources": [
+      "The Last Outpost (episode)",
+      "Terra Firma, Part 1 (episode)"
+    ],
+    "ma": "Tkon Empire",
+    "weight": 3
+  },
+  {
+    "id": "arretans-colonize-galaxy",
+    "title": "Arretans colonize the galaxy",
+    "t": -600000.0,
+    "tText": "c. 600,000 years ago",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Arretan",
+    "summary": "Sargon's people of Arret are the galaxy's great spacefarers of their age and plant colonies widely. Sargon suggests Humans may descend from those colonists, and Spock notes that it could explain parts of Vulcan prehistory.",
+    "sources": [
+      "Return to Tomorrow (episode)"
+    ],
+    "ma": "Arret",
+    "weight": 2
+  },
+  {
+    "id": "arret-cataclysm",
+    "title": "Arretan civilization destroys itself",
+    "t": -500000.0,
+    "tText": "c. 500,000 years ago",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Arretan",
+    "summary": "A final war strips Arret of its atmosphere. Sargon and a few others survive only as minds stored in receptacles deep underground.",
+    "sources": [
+      "Return to Tomorrow (episode)"
+    ],
+    "ma": "Sargon",
+    "weight": 2
+  },
+  {
+    "id": "exo-iii-sun-dims",
+    "title": "Old Ones retreat beneath Exo III",
+    "t": -500000.0,
+    "tText": "c. 500,000 years ago",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Old Ones",
+    "summary": "Exo III's sun begins to dim and the surface freezes. Its people move underground and build androids to serve them, and the machines eventually destroy their makers.",
+    "sources": [
+      "What Are Little Girls Made Of? (episode)"
+    ],
+    "ma": "Exo III",
+    "weight": 2
+  },
+  {
+    "id": "talos-iv-nuclear-war",
+    "title": "Nuclear war drives Talosians underground",
+    "t": -300000.0,
+    "tText": "hundreds of thousands of years before 2254",
+    "confidence": "estimated",
+    "category": "war",
+    "civ": "Talosian",
+    "summary": "A nuclear war nearly wipes out Talos IV's warp-capable civilization. The survivors retreat underground and let their technology decay while they develop their powers of illusion, the world Pike finds in 2254.",
+    "sources": [
+      "The Cage (episode)",
+      "If Memory Serves (episode)"
+    ],
+    "ma": "Talos IV",
+    "weight": 2
+  },
+  {
+    "id": "admonition-placed-at-aia",
+    "title": "Admonition placed at the Eightfold Stars",
+    "t": -250000.0,
+    "tText": "c. 200,000–300,000 years ago",
+    "confidence": "inferred",
+    "category": "deep-time",
+    "civ": "synthetic",
+    "summary": "A synthetic civilization arranges eight stars around the planet Aia and leaves a warning there. Romulans who find it centuries later found the anti-synthetic Zhat Vash.",
+    "sources": [
+      "Broken Pieces (episode)"
+    ],
+    "ma": "Admonition",
+    "weight": 2
+  },
+  {
+    "id": "iconia-destroyed",
+    "title": "Iconia bombarded from orbit",
+    "t": -200000.0,
+    "tText": "c. 200,000 years ago",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Iconian",
+    "summary": "The gateway-building Iconians, remembered as 'Demons of Air and Darkness', are presumed wiped out when their homeworld is devastated from orbit. Their gateways still work in the 24th century.",
+    "sources": [
+      "Contagion (episode)",
+      "To the Death (episode)"
+    ],
+    "ma": "Iconian",
+    "weight": 3
+  },
+  {
+    "id": "borg-cybernetic-evolution-begins",
+    "title": "Borg begin cybernetic evolution",
+    "t": -200000.0,
+    "tText": "'thousands of centuries' before 2365",
+    "confidence": "estimated",
+    "category": "deep-time",
+    "civ": "Borg",
+    "summary": "Guinan describes the Borg as organic and artificial life that has been developing for thousands of centuries. Their true origin is never given on screen.",
+    "sources": [
+      "Q Who (episode)"
+    ],
+    "ma": "Borg",
+    "weight": 2
+  },
+  {
+    "id": "hirogen-relay-network-built",
+    "title": "Ancient relay network built",
+    "t": -100000.0,
+    "tText": "at least 100,000 years ago",
+    "confidence": "explicit",
+    "category": "deep-time",
+    "civ": "unknown",
+    "summary": "Unknown builders construct a subspace relay network stretching across the Delta Quadrant. The Hirogen later claim it, and Voyager uses it to call home.",
+    "sources": [
+      "Hunters (episode)",
+      "Message in a Bottle (episode)"
+    ],
+    "ma": "Hirogen sensor network",
+    "weight": 2
+  },
+  {
+    "id": "horta-cycle-begins",
+    "title": "Horta's latest birth cycle begins",
+    "t": -47733,
+    "tText": "c. 50,000 years ago",
+    "confidence": "explicit",
+    "category": "ancient",
+    "civ": "Horta",
+    "summary": "On Janus VI, every Horta dies except one mother, who guards the eggs of the next generation. The cycle Kirk encounters began about fifty thousand years before 2267.",
+    "sources": [
+      "The Devil in the Dark (episode)"
+    ],
+    "ma": "Horta",
+    "weight": 1
+  },
+  {
+    "id": "bele-pursues-lokai",
+    "title": "Bele begins hunting Lokai",
+    "t": -47732,
+    "tText": "c. 50,000 years ago",
+    "confidence": "explicit",
+    "category": "ancient",
+    "civ": "Cheron",
+    "summary": "The Cheronian officer Bele sets out after the revolutionary Lokai. The chase lasts fifty thousand years, and by the time it ends on a dead Cheron their hatred has outlived their people.",
+    "sources": [
+      "Let That Be Your Last Battlefield (episode)"
+    ],
+    "ma": "Cheron",
+    "weight": 1
+  },
+  {
+    "id": "sky-spirits-visit-earth",
+    "title": "Sky Spirits visit early Americans",
+    "t": -42628,
+    "tText": "c. 45,000 years ago",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Sky Spirits",
+    "summary": "Delta Quadrant aliens visit a nomadic people of Earth, later the ancestors of Native Americans including Chakotay's tribe, and give them a genetic bond and lasting stories.",
+    "sources": [
+      "Tattoo (episode)"
+    ],
+    "ma": "Sky Spirit",
+    "weight": 2
+  },
+  {
+    "id": "verathan-zenith",
+    "title": "Verathan civilization at its height",
+    "t": -27631,
+    "tText": "c. 30,000 years ago",
+    "confidence": "explicit",
+    "category": "ancient",
+    "civ": "Verathan",
+    "summary": "The Verathans of the Gamma Quadrant hold two dozen star systems. A Verathan statue is among the Gamma Quadrant relics Vash auctions on Deep Space 9 in 2369.",
+    "sources": [
+      "Q-Less (episode)"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "bajoran-tablet-city",
+    "title": "Oldest known Bajoran city built",
+    "t": -27627,
+    "tText": "c. 30,000 years ago",
+    "confidence": "explicit",
+    "category": "ancient",
+    "civ": "Bajoran",
+    "summary": "A walled Bajoran city rises around a stone tablet that imprisons a Prophet and a Pah-wraith. It is later buried, and B'hala is built on top of it.",
+    "sources": [
+      "The Reckoning (episode)"
+    ],
+    "ma": "B'hala",
+    "conflict": "Picard says the Bajorans were 'architects and artists, builders and philosophers when Humans were not yet standing erect' ('Ensign Ro'), which implies a civilization far older than any Bajoran site dated on screen.",
+    "weight": 2
+  },
+  {
+    "id": "neanderthals-extinct",
+    "title": "Neanderthals disappear",
+    "t": -25849,
+    "tText": "c. 28,000 years ago",
+    "confidence": "explicit",
+    "category": "earth",
+    "civ": "Human",
+    "summary": "Phlox cites the extinction of Earth's Neanderthals as the kind of natural outcome he will not overrule, when he withholds a cure from the Valakians.",
+    "sources": [
+      "Dear Doctor (episode)"
+    ],
+    "weight": 1
+  },
+  {
+    "id": "bhala-lost",
+    "title": "B'hala lost to history",
+    "t": -17628,
+    "tText": "c. 20,000 years ago",
+    "confidence": "explicit",
+    "category": "ancient",
+    "civ": "Bajoran",
+    "summary": "The holy city of B'hala disappears, and Bajorans search for it for ten thousand years without success. Sisko finds it in 2373 by following a 20,000-year-old painting.",
+    "sources": [
+      "Rapture (episode)"
+    ],
+    "ma": "B'hala",
+    "weight": 2
+  },
+  {
+    "id": "kurlan-naiskos-made",
+    "title": "Master of Tarquin Hill crafts a naiskos",
+    "t": -9631,
+    "tText": "over 12,000 years before 2369 (c. 9600 BCE)",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Kurlan",
+    "summary": "A Kurlan artisan makes a ceramic naiskos, a figure that holds many smaller figures and expresses the Kurlan belief that each person is a community of selves. Galen gives it to Picard in 2369, just before the Progenitor hunt.",
+    "sources": [
+      "The Chase (episode)"
+    ],
+    "ma": "Kurlan naiskos",
+    "weight": 1
+  },
+  {
+    "id": "vaal-built",
+    "title": "Machine-god Vaal built",
+    "t": -7733,
+    "tText": "c. 10,000 years ago (c. 7700 BCE)",
+    "confidence": "explicit",
+    "category": "ancient",
+    "civ": "Gamma Trianguli VI",
+    "summary": "A computer is built on Gamma Trianguli VI to tend its people's paradise. The Feeders of Vaal serve it unchanged for ten thousand years.",
+    "sources": [
+      "The Apple (episode)"
+    ],
+    "ma": "Vaal",
+    "weight": 1
+  },
+  {
+    "id": "fabrini-launch-yonada",
+    "title": "Fabrini launch the Yonada ark",
+    "t": -7732,
+    "tText": "c. 10,000 years ago (c. 7700 BCE)",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Fabrini",
+    "summary": "As their sun goes nova, the Fabrini place survivors inside a hollowed, steerable asteroid. After ten millennia in flight, its descendants have forgotten it is a ship.",
+    "sources": [
+      "For the World is Hollow and I Have Touched the Sky (episode)"
+    ],
+    "ma": "Yonada",
+    "weight": 2
+  },
+  {
+    "id": "sigma-draconis-vi-ice-age",
+    "title": "Sigma Draconis VI enters an ice age",
+    "t": -7732,
+    "tText": "c. 10,000 years ago (c. 7700 BCE)",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Eymorg",
+    "summary": "A civilization more advanced than the 23rd-century Federation meets a returning glacial age and declines, splitting into cave-dwelling Eymorg and surface Morg.",
+    "sources": [
+      "Spock's Brain (episode)"
+    ],
+    "ma": "Sigma Draconis VI",
+    "weight": 1
+  },
+  {
+    "id": "first-orb-appears",
+    "title": "First Orb appears over Bajor",
+    "t": -7631,
+    "tText": "c. 10,000 years ago (c. 7600 BCE)",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Bajoran",
+    "summary": "The first Tear of the Prophets appears in Bajor's sky. Nine Orbs arrive over the next ten millennia, and the visions they grant shape Bajoran faith.",
+    "sources": [
+      "Emissary (episode)"
+    ],
+    "ma": "Orb",
+    "weight": 3
+  },
+  {
+    "id": "ferengi-alliance-rises",
+    "title": "Rise of the Ferengi Alliance",
+    "t": -7628,
+    "tText": "c. 10,000 years ago (c. 7600 BCE)",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Ferengi",
+    "summary": "Nog says it took ten thousand years to build the Ferengi Alliance. Gint, the first Grand Nagus, writes the Rules of Acquisition, but his era is not dated on screen.",
+    "sources": [
+      "Little Green Men (episode)",
+      "Body Parts (episode)"
+    ],
+    "ma": "Ferengi Alliance",
+    "weight": 2
+  },
+  {
+    "id": "gary-seven-ancestors-taken",
+    "title": "Humans taken to be raised by aliens",
+    "t": -4032,
+    "tText": "c. 6,000 years ago (c. 4000 BCE)",
+    "confidence": "explicit",
+    "category": "earth",
+    "civ": "Human",
+    "summary": "Unknown aliens take a group of Humans from Earth and breed them to become guardians who will steer humanity through its dangerous age. Gary Seven is one of their descendants.",
+    "sources": [
+      "Assignment: Earth (episode)"
+    ],
+    "ma": "Gary Seven",
+    "weight": 2
+  },
+  {
+    "id": "akharin-born",
+    "title": "Akharin (Flint) born in Mesopotamia",
+    "t": -3834,
+    "tText": "3834 BCE",
+    "confidence": "explicit",
+    "category": "earth",
+    "civ": "Human",
+    "summary": "A Mesopotamian soldier finds he cannot die. Under many names, including Solomon, Leonardo and Brahms, he lives through six thousand years of Human history as Flint.",
+    "sources": [
+      "Requiem for Methuselah (episode)"
+    ],
+    "ma": "Flint",
+    "weight": 2
+  },
+  {
+    "id": "landru-builds-computer",
+    "title": "Landru builds his guardian computer",
+    "t": -3733,
+    "tText": "c. 6,000 years ago (c. 3700 BCE)",
+    "confidence": "explicit",
+    "category": "ancient",
+    "civ": "Beta III",
+    "summary": "The philosopher Landru ends a savage era on Beta III and builds a computer to keep the peace after his death. It rules his people by force of will until Kirk talks it into self-destruction in 2267.",
+    "sources": [
+      "The Return of the Archons (episode)"
+    ],
+    "ma": "Landru",
+    "weight": 1
+  },
+  {
+    "id": "apollo-and-gods-on-earth",
+    "title": "Apollo's people visit ancient Greece",
+    "t": -2733,
+    "tText": "c. 5,000 years ago (c. 2700 BCE)",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Apollo's species",
+    "summary": "A band of powerful aliens settles around the Mediterranean and is worshipped as the Greek gods. As belief fades they scatter, and Apollo is the last one left in 2267.",
+    "sources": [
+      "Who Mourns for Adonais? (episode)"
+    ],
+    "ma": "Apollo",
+    "weight": 2
+  },
+  {
+    "id": "zarabeth-exiled-sarpeidon",
+    "title": "Sarpeidon's ice age receives exiles",
+    "t": -2731,
+    "tText": "c. 5,000 years ago",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Sarpeidon",
+    "summary": "Sarpeidon's rulers send dissidents through the atavachron into the planet's past. Zarabeth lives out her exile in this ice age, where Spock and McCoy are briefly stranded in 2269.",
+    "sources": [
+      "All Our Yesterdays (episode)"
+    ],
+    "ma": "Sarpeidon",
+    "weight": 1
+  },
+  {
+    "id": "xindi-avian-fortress",
+    "title": "Xindi-Avians build mountain fortress",
+    "t": -1800,
+    "tText": "c. 1800 BCE",
+    "confidence": "inferred",
+    "category": "ancient",
+    "civ": "Xindi",
+    "summary": "The Xindi-Avians build a concealed stronghold inside a mountain. After the Avians die out, it becomes the meeting chamber of the Xindi Council.",
+    "sources": [
+      "The Council (episode)"
+    ],
+    "ma": "Xindi-Avian",
+    "weight": 1
+  },
+  {
+    "id": "pjem-sanctuary-built",
+    "title": "Sanctuary of P'Jem built",
+    "t": -850,
+    "tText": "c. 850 BCE",
+    "confidence": "inferred",
+    "category": "ancient",
+    "civ": "Vulcan",
+    "summary": "Vulcans build the P'Jem monastery more than twelve centuries before the Time of Awakening, which shows interstellar reach long before Surak. The High Command later hides a listening post beneath it.",
+    "sources": [
+      "The Andorian Incident (episode)"
+    ],
+    "ma": "P'Jem",
+    "weight": 2
+  },
+  {
+    "id": "trakor-prophecies",
+    "title": "Trakor's prophecies of the Emissary",
+    "t": -628,
+    "tText": "c. 3,000 years ago (7th century BCE)",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Bajoran",
+    "summary": "After experiences with the Orb of Prophecy and Change, the Bajoran seer Trakor writes prophecies about the Emissary. Three thousand years later, Sisko sees them come true.",
+    "sources": [
+      "Destiny (episode)"
+    ],
+    "ma": "Trakor",
+    "weight": 2
+  },
+  {
+    "id": "lanthanites-among-humans",
+    "title": "Lanthanites hidden among Humans",
+    "t": -530,
+    "tText": "by the 6th century BCE",
+    "confidence": "inferred",
+    "category": "earth",
+    "civ": "Lanthanite",
+    "summary": "Long-lived Lanthanites such as Pelia, born about five thousand years before the 23rd century, live secretly on Earth. Pelia claims to have known Pythagoras, and the species stays hidden until the 22nd century.",
+    "sources": [
+      "Tomorrow and Tomorrow and Tomorrow (episode)",
+      "The Sehlat Who Ate Its Tail (episode)"
+    ],
+    "ma": "Lanthanite",
+    "weight": 1
+  },
+  {
+    "id": "kalandans-extinct",
+    "title": "Kalandans wiped out by their own plague",
+    "t": -500,
+    "tText": "a few thousand years before 2268 (est. 1st millennium BCE)",
+    "confidence": "estimated",
+    "category": "disaster",
+    "civ": "Kalandan",
+    "summary": "While building an artificial outpost world, the Kalandans accidentally create a lethal organism. Supply ships carry it home and the species apparently dies out, while the outpost's computer goes on guarding the planet.",
+    "sources": [
+      "That Which Survives (episode)"
+    ],
+    "ma": "Kalandan",
+    "weight": 2
+  },
+  {
+    "id": "platonians-on-earth",
+    "title": "Sahndaran refugees in classical Greece",
+    "t": -400,
+    "tText": "c. 5th–4th century BCE",
+    "confidence": "inferred",
+    "category": "earth",
+    "civ": "Platonian",
+    "summary": "Survivors of the Sahndara supernova live on Earth in the age of Socrates and Plato. After Greek civilization fades they leave to found their Republic on Platonius.",
+    "sources": [
+      "Plato's Stepchildren (episode)"
+    ],
+    "ma": "Platonian",
+    "weight": 1
+  },
+  {
+    "id": "baul-kelpien-reversal",
+    "title": "Ba'ul turn the tables on Kelpiens",
+    "t": 30,
+    "tText": "c. 30 CE",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Kelpien",
+    "summary": "On Kaminar, evolved Kelpiens nearly drive the Ba'ul extinct. The Ba'ul survive and impose a regime that culls Kelpiens before Vahar'ai, keeping them fearful prey for two thousand years.",
+    "sources": [
+      "The Sound of Thunder (episode)"
+    ],
+    "ma": "Kelpien",
+    "weight": 1
+  },
+  {
+    "id": "time-of-awakening",
+    "title": "Surak's Time of Awakening",
+    "t": 330,
+    "tText": "4th century",
+    "confidence": "inferred",
+    "category": "culture",
+    "civ": "Vulcan",
+    "summary": "With Vulcan tearing itself apart with atomic weapons and psionic horrors like the Stone of Gol, Surak leads his people to logic and emotional control. It is the founding moment of modern Vulcan culture.",
+    "sources": [
+      "The Savage Curtain (episode)",
+      "Awakening (episode)",
+      "The Forge (episode)"
+    ],
+    "ma": "Time of Awakening",
+    "weight": 3
+  },
+  {
+    "id": "surak-dies-kirshara-lost",
+    "title": "Surak dies; Kir'Shara hidden",
+    "t": 360,
+    "tText": "4th century",
+    "confidence": "inferred",
+    "category": "culture",
+    "civ": "Vulcan",
+    "summary": "Surak dies of radiation sickness after the last battle against 'those who marched beneath the raptor's wings'. His katra is kept in an ark and his original writings, the Kir'Shara, are lost until 2154.",
+    "sources": [
+      "Awakening (episode)",
+      "The Forge (episode)",
+      "Kir'Shara (episode)"
+    ],
+    "ma": "Kir'Shara",
+    "weight": 2
+  },
+  {
+    "id": "debrune-outpost-barradas",
+    "title": "Debrune outpost on Barradas III",
+    "t": 369,
+    "tText": "c. 2,000 years before 2369",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Debrune",
+    "summary": "The Debrune, an offshoot of the Romulan exodus, settle on Barradas III. Their ruins later draw Picard's archaeological eye and Baran's mercenaries.",
+    "sources": [
+      "Gambit, Part I (episode)"
+    ],
+    "ma": "Debrune",
+    "weight": 1
+  },
+  {
+    "id": "vidiian-phage-begins",
+    "title": "Phage strikes the Vidiians",
+    "t": 371,
+    "tText": "c. 2,000 years before 2371",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Vidiian",
+    "summary": "A disease that eats away tissue and DNA begins ravaging the Vidiian Sodality. A people of explorers and artists become organ harvesters to survive.",
+    "sources": [
+      "Phage (episode)"
+    ],
+    "ma": "Phage",
+    "weight": 2
+  },
+  {
+    "id": "dominion-founded",
+    "title": "Changelings found the Dominion",
+    "t": 372,
+    "tText": "c. 2,000 years before 2372",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Dominion",
+    "summary": "Persecuted shape-shifters build an interstellar order in the Gamma Quadrant, run through the Vorta and enforced by the Jem'Hadar.",
+    "sources": [
+      "To the Death (episode)",
+      "The Dogs of War (episode)"
+    ],
+    "ma": "Dominion",
+    "conflict": "Weyoun 4 says the Dominion has endured two thousand years ('To the Death', 2372), while Weyoun 8 speaks of its founding 'ten thousand years ago' ('The Dogs of War', 2375).",
+    "weight": 2
+  },
+  {
+    "id": "romulan-exodus",
+    "title": "Romulan exodus from Vulcan",
+    "t": 375,
+    "tText": "4th century",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Romulan",
+    "summary": "Vulcans who reject Surak's logic, having lost the war, leave their homeworld. They eventually settle the twin worlds of Romulus and Remus and become the Romulans.",
+    "sources": [
+      "Balance of Terror (episode)",
+      "The Enterprise Incident (episode)",
+      "Kir'Shara (episode)"
+    ],
+    "ma": "Vulcan-Romulan history",
+    "weight": 3
+  },
+  {
+    "id": "kahless-unites-klingons",
+    "title": "Kahless unites the Klingon people",
+    "t": 850,
+    "tText": "9th century (c. 1,500 years before 2369)",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Klingon",
+    "summary": "Kahless the Unforgettable kills the tyrant Molor, defeats the Fek'Ihri, forges the first bat'leth and founds the Klingon Empire on a code of honor. Before he dies he promises to return.",
+    "sources": [
+      "Rightful Heir (episode)",
+      "The Sword of Kahless (episode)",
+      "Firstborn (episode)"
+    ],
+    "ma": "Kahless the Unforgettable",
+    "conflict": "'Rightful Heir' has Boreth's clerics waiting fifteen centuries for his return (about 9th century), but 'Looking for par'Mach in All the Wrong Places' puts the stand at Qam-Chee, at the dawn of the Empire, 'a thousand years ago' (about 14th century).",
+    "weight": 3
+  },
+  {
+    "id": "solais-v-war-begins",
+    "title": "Fifteen-century war begins on Solais V",
+    "t": 865,
+    "tText": "c. 1,500 years before 2365",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Solais",
+    "summary": "A war breaks out between the peoples of Solais V and lasts until both sides are nearly wiped out. They call in the mediator Riva in 2365.",
+    "sources": [
+      "Loud As A Whisper (episode)"
+    ],
+    "ma": "Solais V",
+    "weight": 1
+  },
+  {
+    "id": "sphere-builders-spheres",
+    "title": "Sphere-Builders seed the Delphic Expanse",
+    "t": 1160,
+    "tText": "mid-12th century",
+    "confidence": "inferred",
+    "category": "ancient",
+    "civ": "Sphere-Builder",
+    "summary": "Beings from a transdimensional realm build a network of massive spheres whose gravimetric fields slowly reshape a region of space into the anomaly-choked Delphic Expanse. T'Pol dates one sphere to nearly a thousand years old.",
+    "sources": [
+      "Anomaly (ENT) (episode)",
+      "The Forgotten (episode)"
+    ],
+    "ma": "Sphere-Builder",
+    "weight": 2
+  },
+  {
+    "id": "vissian-warp-drive",
+    "title": "Vissians develop warp drive",
+    "t": 1160,
+    "tText": "c. 1,000 years before 2153",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Vissian",
+    "summary": "The Vissians reach warp nearly a millennium before Earth. By Archer's time their ships far outclass Earth's.",
+    "sources": [
+      "Cogenitor (episode)"
+    ],
+    "ma": "Vissian",
+    "weight": 1
+  },
+  {
+    "id": "trill-joining-on-record",
+    "title": "Trill joining tradition on record",
+    "t": 1189,
+    "tText": "by c. 1189 (two millennia before 3189)",
+    "confidence": "inferred",
+    "category": "culture",
+    "civ": "Trill",
+    "summary": "The Trill custom of joining humanoid hosts with long-lived symbionts is already established. Trill authorities in 3189 cite two thousand years in which no joining with a non-Trill has succeeded.",
+    "sources": [
+      "Forget Me Not (episode)"
+    ],
+    "ma": "Trill",
+    "weight": 1
+  },
+  {
+    "id": "zetar-life-extinguished",
+    "title": "Zetar destroyed",
+    "t": 1269,
+    "tText": "c. 1,000 years before 2269",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Zetar",
+    "summary": "All life on Zetar is wiped out. About a hundred minds survive as a storm of energy that searches for bodies to inhabit until it meets Mira Romaine.",
+    "sources": [
+      "The Lights of Zetar (episode)"
+    ],
+    "ma": "Zetar",
+    "weight": 1
+  },
+  {
+    "id": "promellian-menthar-war",
+    "title": "Promellians and Menthars destroy each other",
+    "t": 1366,
+    "tText": "c. 1,000 years before 2366",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Promellian",
+    "summary": "A war near Orelious IX ends with the planet destroyed and both species wiped out. The Promellian cruiser Cleponji is caught in an aceton-assimilator trap that still works in 2366.",
+    "sources": [
+      "Booby Trap (episode)"
+    ],
+    "ma": "Promellian",
+    "weight": 1
+  },
+  {
+    "id": "kataan-probe-launched",
+    "title": "Kataan launches its memory probe",
+    "t": 1368,
+    "tText": "c. 1,000 years before 2368",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Kataan",
+    "summary": "As their sun heads toward nova, the people of Kataan send out a probe that holds a lifetime of their world. Picard lives that lifetime as Kamin.",
+    "sources": [
+      "The Inner Light (episode)"
+    ],
+    "ma": "Kataan",
+    "weight": 2
+  },
+  {
+    "id": "caretaker-tends-ocampa",
+    "title": "Caretaker begins tending the Ocampa",
+    "t": 1371,
+    "tText": "c. 1,000 years before 2371",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Ocampa",
+    "summary": "Nacene explorers accidentally ruin Ocampa's atmosphere and turn it to desert. One stays behind as the Caretaker, feeding the Ocampa underground for a thousand years.",
+    "sources": [
+      "Caretaker (episode)"
+    ],
+    "ma": "Ocampa",
+    "weight": 2
+  },
+  {
+    "id": "hurq-sack-qonos",
+    "title": "Hur'q plunder Qo'noS",
+    "t": 1372,
+    "tText": "14th century (c. 1,000 years before 2372)",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Klingon",
+    "summary": "Outsiders from the Gamma Quadrant raid the Klingon homeworld and carry off treasures, including the Sword of Kahless, which stays missing for a thousand years.",
+    "sources": [
+      "The Sword of Kahless (episode)"
+    ],
+    "ma": "Hur'q",
+    "weight": 2
+  },
+  {
+    "id": "hirogen-become-hunters",
+    "title": "Hirogen take up the Hunt",
+    "t": 1374,
+    "tText": "c. 1,000 years before 2374",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Hirogen",
+    "summary": "The Hirogen way of life, nomadic hunters stalking prey across the Delta Quadrant, takes the fixed form it will keep for a millennium.",
+    "sources": [
+      "The Killing Game (episode)"
+    ],
+    "ma": "Hirogen",
+    "weight": 1
+  },
+  {
+    "id": "vaadwaur-bombarded",
+    "title": "Turei bombard the Vaadwaur homeworld",
+    "t": 1484,
+    "tText": "1484",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Vaadwaur",
+    "summary": "The Vaadwaur's enemies end their subspace-corridor empire by making their homeworld uninhabitable. Six hundred soldiers go into stasis underground and wake 892 years later.",
+    "sources": [
+      "Dragon's Teeth (episode)"
+    ],
+    "ma": "Vaadwaur",
+    "weight": 1
+  },
+  {
+    "id": "borg-few-systems",
+    "title": "Borg control only a few systems",
+    "t": 1484,
+    "tText": "c. 1484",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Borg",
+    "summary": "According to the Vaadwaur survivor Gedrin, the Borg of his era are a minor Delta Quadrant power holding a handful of star systems.",
+    "sources": [
+      "Dragon's Teeth (episode)"
+    ],
+    "ma": "Borg",
+    "weight": 2
+  },
+  {
+    "id": "t-rogorans-enslave-skrreea",
+    "title": "T-Rogorans conquer the Skrreea",
+    "t": 1570,
+    "tText": "16th century",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Skrreea",
+    "summary": "The T-Rogorans kill the Skrreean leaders and force the survivors into servitude. The Skrreea are freed only when the Dominion conquers their masters.",
+    "sources": [
+      "Sanctuary (episode)"
+    ],
+    "ma": "Skrreea",
+    "weight": 1
+  },
+  {
+    "id": "bajoran-lightships-reach-cardassia",
+    "title": "Bajoran lightships reach Cardassia",
+    "t": 1571,
+    "tText": "c. 800 years before 2371",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Bajoran",
+    "summary": "Bajorans sail solar-sail lightships beyond their system, and scholars claim one reached Cardassia. Sisko proves it possible in 2371, and the Cardassians grudgingly produce an ancient wreck.",
+    "sources": [
+      "Explorers (episode)"
+    ],
+    "ma": "Bajoran lightship",
+    "weight": 2
+  },
+  {
+    "id": "quinn-nudges-newton",
+    "title": "Q jostles Newton's apple tree",
+    "t": 1666,
+    "tText": "1666",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Q",
+    "summary": "The renegade Q later called Quinn shakes the tree beneath Isaac Newton, so the falling apple that inspires his laws of motion is a Q's doing.",
+    "sources": [
+      "Death Wish (episode)"
+    ],
+    "ma": "Quinn",
+    "weight": 1
+  },
+  {
+    "id": "megas-tu-leave-salem",
+    "title": "Megans driven from Salem",
+    "t": 1691,
+    "tText": "1691",
+    "confidence": "explicit",
+    "category": "earth",
+    "civ": "Megan",
+    "summary": "Visitors from Megas-Tu, a dimension where magic works, are persecuted in the Salem witch trials and leave Earth. Their leader Lucien is remembered by Humans as Lucifer.",
+    "sources": [
+      "The Magicks of Megas-Tu (episode)"
+    ],
+    "ma": "Megas-Tu",
+    "weight": 1
+  },
+  {
+    "id": "eminiar-vendikar-war",
+    "title": "Eminiar VII and Vendikar go to war",
+    "t": 1767,
+    "tText": "c. 500 years before 2267",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Eminiar",
+    "summary": "The two worlds begin a war that they eventually fight entirely by computer simulation. 'Casualties' report to disintegration chambers until Kirk ends the arrangement.",
+    "sources": [
+      "A Taste of Armageddon (episode)"
+    ],
+    "ma": "Eminiar VII",
+    "weight": 1
+  },
+  {
+    "id": "preservers-transplant-amerinds",
+    "title": "Preservers transplant Native Americans",
+    "t": 1780,
+    "tText": "some centuries before 2268 (est. late 18th century)",
+    "confidence": "estimated",
+    "category": "ancient",
+    "civ": "Preserver",
+    "summary": "The Preservers, a mysterious race that rescues threatened cultures, move Navajo, Mohican and Delaware peoples to a distant world and leave an obelisk that deflects asteroids. The date is never given.",
+    "sources": [
+      "The Paradise Syndrome (episode)"
+    ],
+    "ma": "Preservers",
+    "weight": 2
+  },
+  {
+    "id": "onaya-and-keats",
+    "title": "Onaya's muse claims John Keats",
+    "t": 1821,
+    "tText": "1821",
+    "confidence": "explicit",
+    "category": "earth",
+    "civ": "Onaya",
+    "summary": "An energy being that feeds on creative minds inspires the poet John Keats and hastens his early death. It later preys on Jake Sisko in 2373.",
+    "sources": [
+      "The Muse (episode)"
+    ],
+    "ma": "Onaya",
+    "weight": 1
+  },
+  {
+    "id": "suliban-homeworld-lost",
+    "title": "Suliban homeworld becomes uninhabitable",
+    "t": 1852,
+    "tText": "c. 300 years before 2152",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Suliban",
+    "summary": "The Suliban lose their world and become nomads. Two centuries later some of them join the Cabal's genetic bargain with a future faction.",
+    "sources": [
+      "Detained (episode)"
+    ],
+    "ma": "Suliban",
+    "weight": 2
+  },
+  {
+    "id": "denobulan-antaran-last-war",
+    "title": "Last Denobulan–Antaran war",
+    "t": 1853,
+    "tText": "c. 300 years before 2153",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Denobulan",
+    "summary": "Denobula fights the last of its wars with the Antarans, killing twenty million of them. Phlox's family still carries the bitterness in the 2150s.",
+    "sources": [
+      "The Breach (episode)"
+    ],
+    "ma": "Denobulan",
+    "weight": 1
+  },
+  {
+    "id": "vulcans-return-to-space",
+    "title": "Vulcans return to the stars",
+    "t": 1860,
+    "tText": "c. mid-19th century",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Vulcan",
+    "summary": "Soval says it took Vulcans nearly fifteen hundred years after Surak to rebuild their world and travel to the stars. That puts their return to interstellar flight around the mid-19th century.",
+    "sources": [
+      "The Forge (episode)"
+    ],
+    "ma": "Vulcan history",
+    "weight": 2
+  },
+  {
+    "id": "skagarans-abduct-humans",
+    "title": "Skagarans abduct Humans from the American West",
+    "t": 1865,
+    "tText": "1860s",
+    "confidence": "inferred",
+    "category": "earth",
+    "civ": "Skagaran",
+    "summary": "Alien slavers take Humans from 19th-century North America to a world in the Delphic Expanse. The captives revolt, and a frontier-town society survives there until Archer finds it in 2153.",
+    "sources": [
+      "North Star (episode)"
+    ],
+    "ma": "Skagaran",
+    "weight": 2
+  },
+  {
+    "id": "cardassian-union-formed",
+    "title": "Cardassian Union takes shape",
+    "t": 1870,
+    "tText": "more than 500 years before 2371",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Cardassian",
+    "summary": "Cardassia's system of government is formed, with Central Command, the Obsidian Order and a nominally supreme Detapa Council. Dukat says it has stood for more than five centuries.",
+    "sources": [
+      "Defiant (episode)"
+    ],
+    "ma": "Cardassian Union",
+    "weight": 2
+  },
+  {
+    "id": "redjac-jack-the-ripper",
+    "title": "Redjac kills as Jack the Ripper",
+    "t": 1888,
+    "tText": "1888",
+    "confidence": "explicit",
+    "category": "earth",
+    "civ": "Redjac",
+    "summary": "A fear-eating energy being begins its killings in London. It reappears again and again across the centuries until Kirk traps it on Argelius II.",
+    "sources": [
+      "Wolf in the Fold (episode)"
+    ],
+    "ma": "Redjac",
+    "weight": 1
+  },
+  {
+    "id": "times-arrow-1893",
+    "title": "Devidians and Data in 1893 San Francisco",
+    "t": 1893,
+    "tText": "1893",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Devidian",
+    "summary": "Time-travelling Devidians feed on cholera victims in San Francisco. Data, Picard's away team, Guinan and Samuel Clemens stop them, and Data's head is left buried beneath the city until 2368.",
+    "sources": [
+      "Time's Arrow (episode)",
+      "Time's Arrow, Part II (episode)"
+    ],
+    "ma": "Devidian",
+    "weight": 3
+  },
+  {
+    "id": "keeler-dies-1930",
+    "title": "Edith Keeler's death restores history",
+    "t": 1930,
+    "tText": "1930",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "McCoy leaps through the Guardian of Forever and saves the pacifist Edith Keeler, which delays America's entry into WWII and lets the Nazis win. Kirk lets her die and the timeline is restored.",
+    "sources": [
+      "The City on the Edge of Forever (episode)"
+    ],
+    "ma": "Edith Keeler",
+    "weight": 3
+  },
+  {
+    "id": "xindi-civil-war-begins",
+    "title": "Xindi Civil War begins",
+    "t": 1935,
+    "tText": "1930s",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Xindi",
+    "summary": "Xindus's six species go to war with each other. The fighting lasts about a century and ends with the planet destroyed.",
+    "sources": [
+      "The Shipment (episode)"
+    ],
+    "ma": "Xindi Civil War",
+    "weight": 2
+  },
+  {
+    "id": "briori-abduct-the-37s",
+    "title": "Briori abduct Amelia Earhart",
+    "t": 1937,
+    "tText": "1937",
+    "confidence": "explicit",
+    "category": "earth",
+    "civ": "Human",
+    "summary": "The Briori take about three hundred Humans, including Amelia Earhart, to the Delta Quadrant as slave labor. Their descendants have built free cities by the time Voyager arrives.",
+    "sources": [
+      "The 37's (episode)"
+    ],
+    "ma": "Briori",
+    "weight": 2
+  },
+  {
+    "id": "storm-front-1944",
+    "title": "Nazi-occupied America (altered 1944)",
+    "t": 1944,
+    "tText": "1944 (altered timeline)",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Na'kuhl",
+    "summary": "After a Temporal Cold War incursion by Vosk's Na'kuhl faction, Lenin is assassinated before his revolution, and by 1944 Nazi Germany holds much of the eastern United States. Archer's crew destroys Vosk's time conduit and history is put back.",
+    "sources": [
+      "Storm Front (episode)",
+      "Storm Front, Part II (episode)"
+    ],
+    "ma": "Temporal Cold War",
+    "weight": 2
+  },
+  {
+    "id": "roswell-incident",
+    "title": "Ferengi crash at Roswell",
+    "t": 1947.5,
+    "tText": "July 1947",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Ferengi",
+    "summary": "Quark, Rom, Nog and a stowaway Odo crash near Roswell after a warp malfunction throws their shuttle back from 2372. They escape, and the US Army calls it a weather balloon.",
+    "sources": [
+      "Little Green Men (episode)"
+    ],
+    "ma": "Roswell Incident",
+    "weight": 2
+  },
+  {
+    "id": "vulcan-andorian-contact-sours",
+    "title": "Vulcan–Andorian contact turns to feud",
+    "t": 1955,
+    "tText": "early 20th century; dispute from the 1950s",
+    "confidence": "inferred",
+    "category": "first-contact",
+    "civ": "Andorian",
+    "summary": "The first meeting of Vulcans and Andorians seems promising, then turns into a border dispute that lasts two centuries, with Vulcan held back only by fear of Andorian retaliation.",
+    "sources": [
+      "Proving Ground (episode)"
+    ],
+    "ma": "Andorian",
+    "weight": 2
+  },
+  {
+    "id": "carbon-creek-1957",
+    "title": "Vulcans stranded at Carbon Creek",
+    "t": 1957.8,
+    "tText": "1957",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Vulcan",
+    "summary": "A Vulcan survey ship sent to observe Sputnik crashes in Pennsylvania. Its crew, including T'Pol's ancestor T'Mir, lives quietly among Humans, and Mestral chooses to stay.",
+    "sources": [
+      "Carbon Creek (episode)"
+    ],
+    "ma": "Carbon Creek",
+    "conflict": "Quark boasts in 1947 that the Ferengi will have warp drive 'centuries before Humans or Klingons or even the Vulcans' ('Little Green Men'), yet Vulcans crew interstellar ships here in 1957 and had reached P'Jem by about 850 BCE.",
+    "weight": 2
+  },
+  {
+    "id": "miri-planet-plague",
+    "title": "Life-prolongation plague on Miri's world",
+    "t": 1966,
+    "tText": "c. 300 years before 2266",
+    "confidence": "inferred",
+    "category": "disaster",
+    "civ": "Human",
+    "summary": "On a duplicate Earth, a life-extension virus kills every adult. The children who are left age one month per century until McCoy finds a cure.",
+    "sources": [
+      "Miri (episode)"
+    ],
+    "ma": "Miri (planet)",
+    "weight": 1
+  },
+  {
+    "id": "aeon-crash-1967",
+    "title": "Starling finds the timeship Aeon",
+    "t": 1967,
+    "tText": "1967",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "Captain Braxton's 29th-century timeship crashes in the High Sierras. Henry Starling strips its technology and uses it to drive the late-20th-century computer revolution.",
+    "sources": [
+      "Future's End (episode)",
+      "Future's End, Part II (episode)"
+    ],
+    "ma": "Aeon",
+    "weight": 2
+  },
+  {
+    "id": "kelvan-ship-leaves-andromeda",
+    "title": "Kelvan expedition leaves Andromeda",
+    "t": 1968,
+    "tText": "c. 300 years before 2268",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Kelvan",
+    "summary": "Facing radiation that will make their galaxy uninhabitable within ten millennia, the Kelvans send a generation ship to scout the Milky Way. It arrives in 2268 and tries to take the Enterprise.",
+    "sources": [
+      "By Any Other Name (episode)"
+    ],
+    "ma": "Kelvan",
+    "weight": 1
+  },
+  {
+    "id": "gary-seven-1968",
+    "title": "Gary Seven sabotages an orbital warhead",
+    "t": 1968,
+    "tText": "1968",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "Supervisor 194 arrives to stop a nuclear-armed orbital platform, and the Enterprise, back from 2268 to study the era, nearly foils him. The misfire he engineers pushes the powers toward new arms agreements.",
+    "sources": [
+      "Assignment: Earth (episode)"
+    ],
+    "ma": "Gary Seven",
+    "weight": 2
+  },
+  {
+    "id": "tomorrow-is-yesterday-1969",
+    "title": "Enterprise sighted over 1960s Earth",
+    "t": 1969.53,
+    "tText": "mid-July 1969",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "Flung back by a black star, the Enterprise is spotted as a UFO and beams up USAF pilot John Christopher. Spock realizes Christopher's unborn son will lead an Earth–Saturn probe, so he must go home.",
+    "sources": [
+      "Tomorrow is Yesterday (episode)"
+    ],
+    "ma": "John Christopher",
+    "weight": 2
+  },
+  {
+    "id": "apollo-11-moon-landing",
+    "title": "Apollo 11 lands on the Moon",
+    "t": 1969.55,
+    "tText": "July 20, 1969",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "Humans first walk on another world. Kirk's crew hear the launch on 1969 radio, and Voyager's crew still honor the landing three centuries later.",
+    "sources": [
+      "Tomorrow is Yesterday (episode)",
+      "One Small Step (episode)"
+    ],
+    "ma": "Apollo 11",
+    "weight": 2
+  },
+  {
+    "id": "voyager-6-launched",
+    "title": "NASA launches Voyager 6",
+    "t": 1972,
+    "tText": "before c. 1973 (over 300 years before 2273)",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "A NASA deep-space probe falls into a black hole and reaches a machine world, which rebuilds it into V'Ger and sends it home in search of its Creator.",
+    "sources": [
+      "Star Trek: The Motion Picture"
+    ],
+    "ma": "Voyager 6",
+    "weight": 2
+  },
+  {
+    "id": "varro-generation-ship",
+    "title": "Varro launch their generation ship",
+    "t": 1975,
+    "tText": "c. 400 years before 2375",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Varro",
+    "summary": "The Varro build an enormous vessel to explore space. Over four centuries it becomes a closed, xenophobic world of its own.",
+    "sources": [
+      "The Disease (episode)"
+    ],
+    "ma": "Varro",
+    "weight": 1
+  },
+  {
+    "id": "voyage-home-1986",
+    "title": "Kirk's crew retrieves humpback whales",
+    "t": 1986.5,
+    "tText": "1986",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "To answer a probe that is devastating Earth in 2286, Kirk's crew goes back to San Francisco and takes two humpback whales, George and Gracie, along with cetologist Gillian Taylor. Scotty gives away the formula for transparent aluminum along the way.",
+    "sources": [
+      "Star Trek IV: The Voyage Home"
+    ],
+    "ma": "Humpback whale",
+    "weight": 3
+  },
+  {
+    "id": "eugenics-wars",
+    "title": "Eugenics Wars",
+    "t": 1992,
+    "tText": "1992–1996",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Human",
+    "summary": "Genetically engineered 'supermen' seize power. Khan Noonien Singh rules a quarter of the planet from Asia to the Middle East, and the wars kill tens of millions and lead to centuries of bans on genetic enhancement.",
+    "sources": [
+      "Space Seed (episode)",
+      "Doctor Bashir, I Presume (episode)",
+      "Tomorrow and Tomorrow and Tomorrow (episode)"
+    ],
+    "ma": "Eugenics Wars",
+    "conflict": "TOS dates the wars to 1992–1996 ('Space Seed'). DS9 twice puts them 'two hundred years ago' from 2373, in the 2170s ('Doctor Bashir, I Presume'). SNW shows Khan still a child in 2022 and places the wars between the Second Civil War and WWIII ('Tomorrow and Tomorrow and Tomorrow', 'Strange New Worlds'), blaming temporal interference on screen.",
+    "weight": 3
+  },
+  {
+    "id": "botany-bay-launched",
+    "title": "Khan flees Earth aboard the Botany Bay",
+    "t": 1996,
+    "tText": "c. 1996",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "As the Eugenics Wars end, Khan and his followers escape in the DY-100 sleeper ship SS Botany Bay. The Enterprise finds it drifting in 2267.",
+    "sources": [
+      "Space Seed (episode)",
+      "Star Trek II: The Wrath of Khan"
+    ],
+    "ma": "SS Botany Bay",
+    "conflict": "The 1990s launch follows TOS. In SNW's revised history Khan is still a boy in 2022, so a 1990s launch is impossible there and no replacement date is given on screen.",
+    "weight": 3
+  },
+  {
+    "id": "futures-end-1996",
+    "title": "Voyager in 1996 Los Angeles",
+    "t": 1996.5,
+    "tText": "1996",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "Thrown back from 2373, Voyager stops Henry Starling from taking the Aeon into the future, which would have destroyed Earth's 29th century.",
+    "sources": [
+      "Future's End (episode)",
+      "Future's End, Part II (episode)"
+    ],
+    "ma": "Henry Starling",
+    "weight": 2
+  },
+  {
+    "id": "nomad-launched",
+    "title": "Nomad probe launched",
+    "t": 2002,
+    "tText": "2002",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "Jackson Roykirk's Nomad becomes Earth's first interstellar probe. It is damaged by a meteoroid, merges with an alien probe and returns in 2267 as a sterilizing machine.",
+    "sources": [
+      "The Changeling (episode)"
+    ],
+    "ma": "Nomad",
+    "weight": 2
+  },
+  {
+    "id": "carpenter-street-2004",
+    "title": "Xindi bioweapon averted in Detroit",
+    "t": 2004.7,
+    "tText": "autumn 2004",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Xindi",
+    "summary": "Xindi-Reptilians from 2153 hide in Detroit to brew a bioweapon from Human blood. Archer and T'Pol, sent by the temporal agent Daniels, stop them.",
+    "sources": [
+      "Carpenter Street (episode)"
+    ],
+    "ma": "Temporal Cold War",
+    "weight": 2
+  },
+  {
+    "id": "millennium-gate-completed",
+    "title": "Millennium Gate completed",
+    "t": 2012,
+    "tText": "2012",
+    "confidence": "explicit",
+    "category": "earth",
+    "civ": "Human",
+    "summary": "The kilometer-high, self-sustaining Millennium Gate in Indiana, started on January 1, 2001, is finished. It later serves as the model for the first Mars colony.",
+    "sources": [
+      "11:59 (episode)"
+    ],
+    "ma": "Millennium Gate",
+    "weight": 1
+  },
+  {
+    "id": "earth-saturn-probe",
+    "title": "First crewed mission to Saturn",
+    "t": 2015,
+    "tText": "early 21st century",
+    "confidence": "estimated",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "Colonel Shaun Geoffrey Christopher commands the first successful Earth–Saturn mission, which is why the Enterprise had to return his father to 1969.",
+    "sources": [
+      "Tomorrow is Yesterday (episode)",
+      "First Flight (episode)"
+    ],
+    "ma": "Shaun Geoffrey Christopher",
+    "weight": 1
+  },
+  {
+    "id": "sleeper-ships-obsolete",
+    "title": "Sleeper ships made obsolete",
+    "t": 2018,
+    "tText": "2018",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Human",
+    "summary": "Advances in sublight propulsion end the era of cryogenic sleeper ships like the Botany Bay.",
+    "sources": [
+      "Space Seed (episode)"
+    ],
+    "ma": "Sleeper ship",
+    "weight": 1
+  },
+  {
+    "id": "sanctuary-districts",
+    "title": "Sanctuary Districts established",
+    "t": 2021,
+    "tText": "by the early 2020s",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "Every major American city walls off districts for the homeless and unemployed. The districts decay into internment camps.",
+    "sources": [
+      "Past Tense, Part I (episode)",
+      "Assimilation (episode)"
+    ],
+    "ma": "Sanctuary District",
+    "conflict": "DS9's districts are walled, guarded camps. The one Picard's crew walks through in 2024 Los Angeles has no walls or checkpoints and appears only on a regulations poster ('Assimilation').",
+    "weight": 2
+  },
+  {
+    "id": "toronto-2022-khan-saved",
+    "title": "La'an saves young Khan in Toronto",
+    "t": 2022.5,
+    "tText": "2022",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "Stranded in 2022, La'an Noonien-Singh and an alternate James Kirk stop the Romulan agent Sera from assassinating Khan as a child, which preserves the path to the Federation.",
+    "sources": [
+      "Tomorrow and Tomorrow and Tomorrow (episode)"
+    ],
+    "ma": "Temporal incursion",
+    "weight": 2
+  },
+  {
+    "id": "ireland-reunified",
+    "title": "Ireland reunified",
+    "t": 2024,
+    "tText": "2024",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "Data cites Ireland's reunification after a century of violence as a case where terrorism achieved its goal.",
+    "sources": [
+      "The High Ground (episode)"
+    ],
+    "ma": "Irish Unification of 2024",
+    "weight": 1
+  },
+  {
+    "id": "picard-crew-2024",
+    "title": "Picard's crew in 2024 Los Angeles",
+    "t": 2024.28,
+    "tText": "April 12–15, 2024",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "Sent back by Q to repair a timeline that became the Confederation of Earth, Picard's crew clashes with a Borg Queen joined with Agnes Jurati and with geneticist Adam Soong. Rios stays behind.",
+    "sources": [
+      "Assimilation (episode)",
+      "Watcher (episode)",
+      "Farewell (episode)"
+    ],
+    "ma": "Confederation of Earth",
+    "weight": 2
+  },
+  {
+    "id": "europa-mission-launch",
+    "title": "Europa Mission launches",
+    "t": 2024.29,
+    "tText": "April 15, 2024",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "Renée Picard's Shango crew launches for Jupiter's moon Europa after the time-travelling Supervisor Tallinn gives her life to protect her. The mission finds a lifeform that later helps restore Earth's environment.",
+    "sources": [
+      "Watcher (episode)",
+      "Farewell (episode)"
+    ],
+    "ma": "Europa Mission",
+    "weight": 2
+  },
+  {
+    "id": "gabriel-bell-dies",
+    "title": "Gabriel Bell dies; Sisko takes his name",
+    "t": 2024.66,
+    "tText": "August 31, 2024",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "Newly arrived from 2371, Sisko and Bashir see the real Gabriel Bell stabbed to death protecting them. Sisko takes on Bell's identity so that history goes the way it was recorded, and the record later shows Bell dying in the September 3 raid, with Sisko's face.",
+    "sources": [
+      "Past Tense, Part I (episode)",
+      "Past Tense, Part II (episode)"
+    ],
+    "ma": "Gabriel Bell",
+    "weight": 2
+  },
+  {
+    "id": "bell-riots",
+    "title": "Bell Riots",
+    "t": 2024.67,
+    "tText": "September 1–3, 2024",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "Residents of San Francisco's Sanctuary District A take hostages and tell the world their stories before the National Guard storms the district. The outrage pushes America to face its social crisis, a step on the road to the Federation.",
+    "sources": [
+      "Past Tense, Part I (episode)",
+      "Past Tense, Part II (episode)"
+    ],
+    "ma": "Bell Riots",
+    "weight": 3
+  },
+  {
+    "id": "world-war-iii-begins",
+    "title": "World War III begins",
+    "t": 2026,
+    "tText": "c. 2026",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Human",
+    "summary": "Civil unrest in the United States grows into a Second Civil War and then into global war. Colonel Phillip Green's faction alone kills some 37 million people.",
+    "sources": [
+      "Strange New Worlds (episode)",
+      "The Savage Curtain (episode)",
+      "In A Mirror, Darkly, Part II (episode)"
+    ],
+    "ma": "World War III",
+    "conflict": "SNW describes one escalation from the Second Civil War through the Eugenics Wars into WWIII, while TOS put the Eugenics Wars three decades earlier. The c. 2026 start comes from a Starfleet archive display, not dialogue.",
+    "weight": 3
+  },
+  {
+    "id": "ares-iv-lost",
+    "title": "Ares IV mission and John Kelly's loss",
+    "t": 2032,
+    "tText": "2032",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "An early crewed mission to Mars lands its surface team, but the command module and Lieutenant John Kelly are swallowed by a graviton ellipse. Voyager recovers the module in 2374.",
+    "sources": [
+      "One Small Step (episode)"
+    ],
+    "ma": "Ares IV",
+    "weight": 2
+  },
+  {
+    "id": "xindus-destroyed",
+    "title": "Xindus destroyed; Xindi diaspora",
+    "t": 2033,
+    "tText": "c. 2033 (120 years before 2153)",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Xindi",
+    "summary": "Reptilians and Insectoids set off charges in the homeworld's great seismic fissures and end the century-long civil war. The Avians die out, and the survivors scatter under the guidance of the Sphere-Builders, whom they call 'the Guardians'.",
+    "sources": [
+      "The Xindi (episode)",
+      "The Shipment (episode)",
+      "Azati Prime (episode)"
+    ],
+    "ma": "Xindus",
+    "weight": 2
+  },
+  {
+    "id": "new-un-ruling-2036",
+    "title": "New United Nations rules against inherited guilt",
+    "t": 2036,
+    "tText": "2036",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "The New United Nations declares that no citizen of Earth may be made to answer for the crimes of their race or ancestors. Picard cites the ruling at Q's trial.",
+    "sources": [
+      "Encounter at Farpoint (episode)"
+    ],
+    "ma": "New United Nations",
+    "weight": 2
+  },
+  {
+    "id": "e2-enterprise-arrives-2037",
+    "title": "Alternate Enterprise stranded in 2037",
+    "t": 2037,
+    "tText": "2037",
+    "confidence": "inferred",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "A subspace corridor throws an Enterprise 117 years into the past, into the Delphic Expanse. Its crew's descendants, led by Lorian, spend generations preparing to change the Xindi war.",
+    "sources": [
+      "E² (episode)"
+    ],
+    "ma": "Lorian",
+    "weight": 2
+  },
+  {
+    "id": "charybdis-launched",
+    "title": "Charybdis launched beyond the Sol system",
+    "t": 2037.56,
+    "tText": "July 23, 2037",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "Colonel Stephen Richey commands Earth's third crewed attempt to leave the solar system. Aliens who accidentally destroy the ship build him a casino modeled on a pulp novel, where he lives until 2082.",
+    "sources": [
+      "The Royale (episode)"
+    ],
+    "ma": "Charybdis",
+    "weight": 2
+  },
+  {
+    "id": "baseball-last-world-series",
+    "title": "Baseball's last World Series",
+    "t": 2042,
+    "tText": "2042",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Human",
+    "summary": "Only three hundred spectators watch Buck Bokai's London Kings win what proves to be the last World Series, as the game fades from popularity.",
+    "sources": [
+      "If Wishes Were Horses (episode)",
+      "The Storyteller (episode)"
+    ],
+    "ma": "Buck Bokai",
+    "weight": 1
+  },
+  {
+    "id": "hermosa-quake",
+    "title": "Hermosa Quake sinks Los Angeles",
+    "t": 2047,
+    "tText": "2047",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Human",
+    "summary": "A great earthquake drowns parts of Los Angeles under two hundred meters of water.",
+    "sources": [
+      "Future's End (episode)"
+    ],
+    "ma": "Hermosa Quake",
+    "weight": 1
+  },
+  {
+    "id": "humpback-whales-extinct",
+    "title": "Humpback whales hunted to extinction",
+    "t": 2050,
+    "tText": "21st century",
+    "confidence": "estimated",
+    "category": "disaster",
+    "civ": "Human",
+    "summary": "Whaling kills off the humpback, so an alien probe that calls for them in 2286 gets no answer, until Kirk brings back George and Gracie.",
+    "sources": [
+      "Star Trek IV: The Voyage Home"
+    ],
+    "ma": "Humpback whale",
+    "weight": 1
+  },
+  {
+    "id": "andorians-settle-weytahn",
+    "title": "Andorians settle Weytahn",
+    "t": 2052,
+    "tText": "c. 2052 (a century before 2152)",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Andorian",
+    "summary": "Andorian colonists begin terraforming the class D world they call Weytahn. The Vulcans, who call it Paan Mokar, soon dispute the claim.",
+    "sources": [
+      "Cease Fire (episode)"
+    ],
+    "ma": "Weytahn",
+    "weight": 1
+  },
+  {
+    "id": "world-war-iii-ends",
+    "title": "Nuclear finale of World War III",
+    "t": 2053,
+    "tText": "2053",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Human",
+    "summary": "Nuclear strikes devastate cities and most major governments collapse before a ceasefire ends the war. About six hundred million people are dead.",
+    "sources": [
+      "Star Trek: First Contact",
+      "Strange New Worlds (episode)",
+      "Demons (episode)"
+    ],
+    "ma": "World War III",
+    "weight": 3
+  },
+  {
+    "id": "terralysium-rescue",
+    "title": "Red Angel rescues a church congregation",
+    "t": 2053,
+    "tText": "2053",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "As bombs fall near Richmond, Indiana, the time-travelling Gabrielle Burnham takes a church congregation to the distant world Terralysium, where they found New Eden.",
+    "sources": [
+      "New Eden (episode)"
+    ],
+    "ma": "Terralysium",
+    "weight": 1
+  },
+  {
+    "id": "borg-incursion-2063",
+    "title": "Borg try to stop First Contact",
+    "t": 2063.254,
+    "tText": "April 4, 2063",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Borg",
+    "summary": "A Borg sphere from 2373 attacks Cochrane's Montana base to prevent first contact and assimilate Earth. The Enterprise-E destroys it and fights off drones on board, and debris from the sphere lies in the Arctic until 2153.",
+    "sources": [
+      "Star Trek: First Contact",
+      "Regeneration (episode)"
+    ],
+    "ma": "Borg sphere",
+    "weight": 3
+  },
+  {
+    "id": "first-contact-2063",
+    "title": "First Contact with Vulcans",
+    "t": 2063.26,
+    "tText": "April 5, 2063",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Vulcan",
+    "summary": "Zefram Cochrane's Phoenix makes Earth's first warp flight from Bozeman, Montana. A passing Vulcan ship, the T'Plana-Hath, detects the warp signature and lands that evening, beginning Earth's place among the stars.",
+    "sources": [
+      "Star Trek: First Contact",
+      "Broken Bow (episode)"
+    ],
+    "ma": "First Contact Day",
+    "weight": 3
+  },
+  {
+    "id": "vulcans-mentor-earth",
+    "title": "Vulcans take up residence on Earth",
+    "t": 2064,
+    "tText": "after 2063",
+    "confidence": "estimated",
+    "category": "politics",
+    "civ": "Vulcan",
+    "summary": "In the decades after first contact, Vulcans keep a diplomatic presence on Earth, later a compound in Sausalito, and advise humanity's recovery. Many Humans come to resent how firmly they hold back Earth's reach into space.",
+    "sources": [
+      "Broken Bow (episode)",
+      "Fusion (episode)"
+    ],
+    "ma": "Vulcan Compound",
+    "weight": 2
+  },
+  {
+    "id": "ss-valiant-lost",
+    "title": "SS Valiant lost at the galactic barrier",
+    "t": 2065,
+    "tText": "c. 2065",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "An early Earth starship is swept to the edge of the galaxy by a magnetic storm. After crew members develop dangerous psychic powers, its captain destroys the ship.",
+    "sources": [
+      "Where No Man Has Gone Before (episode)"
+    ],
+    "ma": "SS Valiant",
+    "weight": 1
+  },
+  {
+    "id": "bakku-leave-homeworld",
+    "title": "Ba'ku renounce technology and leave",
+    "t": 2066,
+    "tText": "c. 2066 (309 years before 2375)",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Ba'ku",
+    "summary": "About five hundred pacifist Brek'a leave a world on the brink of self-destruction and settle a planet whose rings slow aging. They give up advanced technology.",
+    "sources": [
+      "Star Trek: Insurrection"
+    ],
+    "ma": "Ba'ku",
+    "weight": 1
+  },
+  {
+    "id": "friendship-1-launched",
+    "title": "Friendship 1 launched",
+    "t": 2067,
+    "tText": "2067",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "The United Earth Space Probe Agency, the earliest 'United Earth' body in the timeline, sends a probe with greetings and technical data for any species it meets. Starfleet loses contact with it in 2248.",
+    "sources": [
+      "Friendship One (episode)"
+    ],
+    "ma": "Friendship 1",
+    "weight": 2
+  },
+  {
+    "id": "argelius-great-awakening",
+    "title": "Great Awakening on Argelius II",
+    "t": 2067,
+    "tText": "c. 2067 (200 years before 2267)",
+    "confidence": "inferred",
+    "category": "culture",
+    "civ": "Argelian",
+    "summary": "Argelians abandon violence for a society of pleasure. They become so peaceful that they have to hire off-worlders to run their government.",
+    "sources": [
+      "Wolf in the Fold (episode)"
+    ],
+    "ma": "Argelius II",
+    "weight": 1
+  },
+  {
+    "id": "terra-10-colony",
+    "title": "Terra 10 colonists leave Earth",
+    "t": 2068,
+    "tText": "before c. 2069",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "Colonists bound for Terra 10 in the Cepheus system depart while Earth ships still use the old intersat code. Radiation shrinks their descendants, the Terratins, to miniature size and the colony is forgotten until 2269.",
+    "sources": [
+      "The Terratin Incident (episode)"
+    ],
+    "ma": "Terra 10",
+    "weight": 1
+  },
+  {
+    "id": "klingon-emperors-end",
+    "title": "Last Klingon emperor dies",
+    "t": 2069,
+    "tText": "c. 2069 (300 years before 2369)",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Klingon",
+    "summary": "The Klingon throne falls vacant with no one to claim it, and the High Council takes real power. The office is revived in 2369 for the clone of Kahless.",
+    "sources": [
+      "Rightful Heir (episode)"
+    ],
+    "ma": "Klingon High Council",
+    "weight": 2
+  },
+  {
+    "id": "kzinti-wars-end",
+    "title": "Kzinti Wars end in Human victory",
+    "t": 2069,
+    "tText": "c. 2069 (200 years before 2269)",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Kzinti",
+    "summary": "Humans win the last of four wars with the feline Kzinti, who are left with nothing but police vessels.",
+    "sources": [
+      "The Slaver Weapon (episode)"
+    ],
+    "ma": "Kzinti",
+    "conflict": "Sulu dates the last war to about 2069, only six years after Cochrane's first warp flight. First Contact shows Humans alone in 2063, and Friendship One is launched in 2067 with humanity having 'no idea' what threats lie beyond.",
+    "weight": 2
+  },
+  {
+    "id": "tarakis-massacre",
+    "title": "Nakan massacre on Tarakis",
+    "t": 2076,
+    "tText": "c. 2076 (300 years before 2376)",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Nakan",
+    "summary": "Soldiers under Commander Saavdra kill 82 Nakan civilians on Tarakis. A memorial later implants the massacre in the memories of visitors, including Voyager's crew.",
+    "sources": [
+      "Memorial (episode)"
+    ],
+    "ma": "Tarakis",
+    "weight": 1
+  },
+  {
+    "id": "terra-nova-founded",
+    "title": "Terra Nova colony founded",
+    "t": 2078.48,
+    "tText": "June 23, 2078",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "The SS Conestoga, launched in 2069 and flying just above warp 1, reaches Terra Nova and becomes Earth's first extrasolar colony.",
+    "sources": [
+      "Terra Nova (episode)"
+    ],
+    "ma": "Terra Nova",
+    "weight": 2
+  },
+  {
+    "id": "post-atomic-horror",
+    "title": "Post-atomic horror",
+    "t": 2079,
+    "tText": "2079",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "In the war's aftermath, drug-controlled soldiers and kangaroo courts rule, and the idea of a 'United Earth' is swept aside. Q later judges humanity in a replica of one of these courts.",
+    "sources": [
+      "Encounter at Farpoint (episode)"
+    ],
+    "ma": "Post-atomic horror",
+    "weight": 2
+  },
+  {
+    "id": "terra-nova-cut-off",
+    "title": "Terra Nova silenced by asteroid strike",
+    "t": 2083,
+    "tText": "2083",
+    "confidence": "inferred",
+    "category": "disaster",
+    "civ": "Human",
+    "summary": "A radioactive asteroid impact drives Terra Nova's survivors underground and cuts them off from Earth. Their descendants come to blame Earth for the disaster, until Enterprise finds them in 2151.",
+    "sources": [
+      "Terra Nova (episode)"
+    ],
+    "ma": "Terra Nova",
+    "weight": 1
+  },
+  {
+    "id": "treaty-of-2097",
+    "title": "Treaty of 2097 gives Weytahn to Vulcan",
+    "t": 2097,
+    "tText": "2097",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Vulcan",
+    "summary": "When Andorian settlers refuse inspection, the Vulcans annex Weytahn as Paan Mokar under the Treaty of 2097. The dispute flares repeatedly until Archer brokers a ceasefire in 2152.",
+    "sources": [
+      "Cease Fire (episode)"
+    ],
+    "ma": "Weytahn",
+    "weight": 1
+  },
+  {
+    "id": "ecs-horizon-commissioned",
+    "title": "Boomer freighter Horizon commissioned",
+    "t": 2102,
+    "tText": "2102",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "The J-class freighter Horizon joins the Earth Cargo Service. Families of 'boomers' spend their lives on these slow ships, and Travis Mayweather is born aboard in 2126.",
+    "sources": [
+      "Horizon (episode)",
+      "Fortunate Son (episode)"
+    ],
+    "ma": "Earth Cargo Service",
+    "weight": 1
+  },
+  {
+    "id": "mars-colonies-established",
+    "title": "First Mars colony established",
+    "t": 2103,
+    "tText": "2103",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "Humanity's first colony on Mars is founded, modeled on the Millennium Gate. Picard's ancestors are among the pioneers.",
+    "sources": [
+      "The 37's (episode)",
+      "Lifesigns (episode)"
+    ],
+    "ma": "Martian colonies",
+    "conflict": "Voyager dates the first Martian colony to 2103, but 'Terra Nova' has Utopia Planitia on Mars and New Berlin on the Moon already settled by 2069.",
+    "weight": 2
+  },
+  {
+    "id": "aenar-contacted",
+    "title": "Andorians find the Aenar",
+    "t": 2105,
+    "tText": "c. 2105 (fifty years before 2155)",
+    "confidence": "inferred",
+    "category": "first-contact",
+    "civ": "Andorian",
+    "summary": "The blind, telepathic, pacifist Aenar of Andoria's northern wastes, long thought a myth, are found by the Andorians.",
+    "sources": [
+      "The Aenar (episode)"
+    ],
+    "ma": "Aenar",
+    "weight": 1
+  },
+  {
+    "id": "redjac-on-mars",
+    "title": "Redjac strikes the Martian colonies",
+    "t": 2105,
+    "tText": "2105",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Redjac",
+    "summary": "The Jack the Ripper entity kills eight women in the young Martian colonies on its long run from world to world.",
+    "sources": [
+      "Wolf in the Fold (episode)"
+    ],
+    "ma": "Redjac",
+    "weight": 1
+  },
+  {
+    "id": "european-hegemony",
+    "title": "European Hegemony forms",
+    "t": 2110,
+    "tText": "early 22nd century",
+    "confidence": "estimated",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "A loose European alliance forms, one of the first steps toward a single world government. By 2123 it has its own starship distress beacon, which colony ships like the Mariposa carry.",
+    "sources": [
+      "Up The Long Ladder (episode)"
+    ],
+    "ma": "European Hegemony",
+    "weight": 2
+  },
+  {
+    "id": "jonathan-archer-born",
+    "title": "Jonathan Archer born",
+    "t": 2112,
+    "tText": "2112",
+    "confidence": "explicit",
+    "category": "earth",
+    "civ": "Human",
+    "summary": "The future captain of Enterprise NX-01, and later Federation President, is born in upstate New York, son of the warp engineer Henry Archer.",
+    "sources": [
+      "Broken Bow (episode)"
+    ],
+    "ma": "Jonathan Archer",
+    "weight": 1
+  },
+  {
+    "id": "earth-ends-war-and-want",
+    "title": "War, poverty and disease ended on Earth",
+    "t": 2113,
+    "tText": "by c. 2113",
+    "confidence": "inferred",
+    "category": "earth",
+    "civ": "Human",
+    "summary": "As the time travelers of 2063 predict, within about fifty years of first contact humanity ends war, poverty and disease on Earth.",
+    "sources": [
+      "Star Trek: First Contact"
+    ],
+    "ma": "Human history",
+    "weight": 2
+  },
+  {
+    "id": "cochrane-disappears",
+    "title": "Zefram Cochrane vanishes",
+    "t": 2117,
+    "tText": "c. 2117",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "At 87, the father of warp drive leaves the Alpha Centauri colony on a final voyage and is never seen again. In 2267 Kirk finds him on a planetoid near Gamma Canaris, kept young by a companion being.",
+    "sources": [
+      "Metamorphosis (episode)",
+      "In A Mirror, Darkly, Part II (episode)"
+    ],
+    "ma": "Zefram Cochrane",
+    "conflict": "'Metamorphosis' (87 years old, missing 150 years by 2267) and an archive file put the disappearance in 2117, yet 'Broken Bow' shows Cochrane dedicating the Warp Five Complex in 2119.",
+    "weight": 2
+  },
+  {
+    "id": "warp-five-complex-opened",
+    "title": "Warp Five Complex opened",
+    "t": 2119,
+    "tText": "2119",
+    "confidence": "inferred",
+    "category": "science",
+    "civ": "Human",
+    "summary": "Cochrane dedicates the Warp Five Complex in Bozeman, where Henry Archer leads the effort to build an engine fast enough for true exploration. Cochrane's speech introduces the words 'where no man has gone before'.",
+    "sources": [
+      "Broken Bow (episode)"
+    ],
+    "ma": "Warp Five Complex",
+    "weight": 2
+  },
+  {
+    "id": "ss-mariposa-launched",
+    "title": "SS Mariposa colony ship launched",
+    "t": 2123.91,
+    "tText": "November 27, 2123",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "A DY-500 ship leaves Baikonur for the Ficus sector. Its colonists split into the cloning Mariposans and the Neo-Transcendentalist Bringloidi.",
+    "sources": [
+      "Up The Long Ladder (episode)"
+    ],
+    "ma": "SS Mariposa",
+    "weight": 1
+  },
+  {
+    "id": "henry-archer-dies",
+    "title": "Henry Archer dies",
+    "t": 2124,
+    "tText": "2124",
+    "confidence": "inferred",
+    "category": "science",
+    "civ": "Human",
+    "summary": "The designer of the warp five engine dies of Clarke's disease, years before his engine flies. His son Jonathan will command the ship built around it.",
+    "sources": [
+      "The Augments (episode)",
+      "Daedalus (episode)"
+    ],
+    "ma": "Henry Archer",
+    "weight": 1
+  },
+  {
+    "id": "transporter-invented",
+    "title": "Emory Erickson invents the transporter",
+    "t": 2127,
+    "tText": "by 2128",
+    "confidence": "inferred",
+    "category": "science",
+    "civ": "Human",
+    "summary": "Emory Erickson builds Earth's molecular transporter and is the first person to use it. By 2128 children read about the 'Father of the Transporter'.",
+    "sources": [
+      "Daedalus (episode)"
+    ],
+    "ma": "Emory Erickson",
+    "weight": 2
+  },
+  {
+    "id": "klingon-ship-exits-expanse",
+    "title": "Klingon ship returns from the Expanse",
+    "t": 2133,
+    "tText": "c. 2133",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Klingon",
+    "summary": "A Klingon vessel emerges from the Delphic Expanse with its crew anatomically turned inside out yet alive, which feeds the region's deadly reputation.",
+    "sources": [
+      "The Expanse (episode)"
+    ],
+    "ma": "Delphic Expanse",
+    "weight": 1
+  },
+  {
+    "id": "soong-steals-augment-embryos",
+    "title": "Arik Soong steals Augment embryos",
+    "t": 2134,
+    "tText": "2134",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Human",
+    "summary": "Geneticist Arik Soong takes Eugenics-era embryos from Cold Station 12 and raises them in hiding on Trialas IV until he is captured in 2144. The Augments return to haunt Earth in 2154.",
+    "sources": [
+      "Borderland (episode)",
+      "Cold Station 12 (episode)"
+    ],
+    "ma": "Arik Soong",
+    "weight": 2
+  },
+  {
+    "id": "syrran-carries-surak",
+    "title": "Syrran receives Surak's katra",
+    "t": 2137,
+    "tText": "2137",
+    "confidence": "inferred",
+    "category": "culture",
+    "civ": "Vulcan",
+    "summary": "The Vulcan Syrran finds a katric ark holding Surak's living mind and takes it into himself. With it he founds the Syrrannites, who seek Surak's true teachings.",
+    "sources": [
+      "The Forge (episode)"
+    ],
+    "ma": "Syrran",
+    "weight": 2
+  },
+  {
+    "id": "erickson-teleport-accident",
+    "title": "Erickson's teleporter traps his son",
+    "t": 2139,
+    "tText": "2139",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Human",
+    "summary": "Erickson's experimental sub-quantum teleporter fails and leaves volunteers, including his son Quinn, lost in subspace. He tries to bring Quinn back for years.",
+    "sources": [
+      "Daedalus (episode)"
+    ],
+    "ma": "Emory Erickson",
+    "weight": 1
+  },
+  {
+    "id": "warp-2-barrier-broken",
+    "title": "NX-Alpha breaks the warp 2 barrier",
+    "t": 2143,
+    "tText": "2143",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Human",
+    "summary": "A.G. Robinson flies NX-Alpha past warp 2 before it breaks apart. Days later Archer and Robinson take NX-Beta past warp 2 in an unauthorized flight that saves the NX program.",
+    "sources": [
+      "First Flight (episode)"
+    ],
+    "ma": "NX-Alpha",
+    "weight": 2
+  },
+  {
+    "id": "vtosh-katur-leave-vulcan",
+    "title": "V'tosh ka'tur leave Vulcan",
+    "t": 2143,
+    "tText": "c. 2143",
+    "confidence": "inferred",
+    "category": "culture",
+    "civ": "Vulcan",
+    "summary": "Vulcans who want to explore emotion instead of suppressing it leave their homeworld aboard the Vahklas, a small counterculture in the logic-bound society.",
+    "sources": [
+      "Fusion (episode)"
+    ],
+    "ma": "V'tosh ka'tur",
+    "weight": 1
+  },
+  {
+    "id": "suliban-internment",
+    "title": "Tandarans intern the Suliban",
+    "t": 2144,
+    "tText": "2144",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Suliban",
+    "summary": "After Cabal attacks, the Tandarans round up all Suliban, innocent or not, into detention complexes.",
+    "sources": [
+      "Detained (episode)"
+    ],
+    "ma": "Tandaran",
+    "weight": 1
+  },
+  {
+    "id": "warp-3-nx-delta",
+    "title": "Warp 3 reached by NX-Delta",
+    "t": 2145,
+    "tText": "2145",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Human",
+    "summary": "Duvall becomes the first Human to break warp 3, flying the NX-Delta testbed. Earth is now closing in on a warp five starship.",
+    "sources": [
+      "First Flight (episode)"
+    ],
+    "ma": "NX Project",
+    "weight": 2
+  },
+  {
+    "id": "borg-learn-of-omega",
+    "title": "Borg learn of the Omega molecule",
+    "t": 2145,
+    "tText": "2145",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Borg",
+    "summary": "By assimilating Species 262, the Borg hear legends of Omega, a molecule of perfect power. They begin a centuries-long hunt for it.",
+    "sources": [
+      "The Omega Directive (episode)"
+    ],
+    "ma": "Omega molecule",
+    "weight": 1
+  },
+  {
+    "id": "earth-fully-unified",
+    "title": "Earth fully unified",
+    "t": 2150,
+    "tText": "2150",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "The last holdout nations join the World Government, completing a unification begun by the European Hegemony. United Earth now speaks for all of humanity.",
+    "sources": [
+      "Attached (episode)",
+      "Up The Long Ladder (episode)"
+    ],
+    "ma": "United Earth",
+    "weight": 3
+  },
+  {
+    "id": "nx-01-keel-laid",
+    "title": "Keel of Enterprise NX-01 laid",
+    "t": 2150.75,
+    "tText": "2150 (Archer chosen in October)",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "Construction begins on Earth's first warp five starship, and Admiral Forrest picks Jonathan Archer over A.G. Robinson to command it. The ship launches in April 2151.",
+    "sources": [
+      "First Flight (episode)"
+    ],
+    "ma": "Enterprise (NX-01)",
+    "weight": 2
+  }
+]

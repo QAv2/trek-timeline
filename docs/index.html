@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Chronometric Archive</title>
+<meta name="description" content="A navigable, zoomable timeline of the whole Star Trek canon: every episode and film at its in-universe date, time-travel incursions, alternate timelines and personnel worldlines. An unofficial fan reference built as a Temporal Integrity Commission console.">
+<meta name="theme-color" content="#000000">
+<meta property="og:title" content="Chronometric Archive">
+<meta property="og:description" content="The whole Star Trek canon on one navigable timeline: episodes, history, time travel, alternate timelines and worldlines.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/antonio-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/archive.css">
+<script>if (location.search.indexOf("dbg") >= 0) { window.__dbg = 1; addEventListener("error", function (e) { console.log("ERR", e.message, e.filename, e.lineno); }); }</script>
+<script src="vendor/d3.min.js"></script>
+<script type="module" src="app/main.js"></script>
+</head>
+<body class="boot gating">
+<div id="gate" class="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title" aria-describedby="gate-status">
+  <div class="gate-stage" id="gate-hit">
+    <div class="holo" aria-hidden="true">
+      <div class="beam"></div>
+      <div class="scan"></div>
+      <div class="emblem">
+        <svg viewBox="-60 -70 120 150" class="delta">
+          <defs>
+            <linearGradient id="dg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f4fbff"/><stop offset="1" stop-color="#7fd4ff"/></linearGradient>
+          </defs>
+          <ellipse cx="0" cy="12" rx="54" ry="30" class="ring"/>
+          <path d="M0 -64 C -14 -24, -28 22, -38 66 L 0 44 L 38 66 C 28 22, 14 -24, 0 -64 Z" class="shape"/>
+          <path d="M0 -40 L 5 -14 L 22 -12 L 8 0 L 12 22 L 0 10 L -12 22 L -8 0 L -22 -12 L -5 -14 Z" class="star"/>
+        </svg>
+      </div>
+    </div>
+    <div class="medallion" aria-hidden="true"><div class="emitter"></div></div>
+  </div>
+  <h1 id="gate-title" class="gate-title">Chronometric Archive</h1>
+  <p class="gate-sub">Temporal Integrity Commission</p>
+  <div class="gate-bar" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+  <p class="gate-status" id="gate-status" aria-live="polite">Establishing temporal link</p>
+  <button class="gate-go" id="gate-go" disabled>Engage</button>
+  <p class="gate-fine">Unofficial fan reference. Star Trek belongs to CBS Studios and Paramount.</p>
+</div>
+<div class="console">
+  <header class="frame upper">
+    <div class="rail" aria-hidden="true">
+      <div class="block b1" id="era-block">—</div>
+      <div class="elbow">TIC</div>
+    </div>
+    <div class="main">
+      <div class="content">
+        <div class="topline">
+          <div class="brand"><h1>Chronometric Archive</h1><span class="agency">Temporal Integrity Commission</span></div>
+          <div class="search" role="search">
+            <label class="sr-only" for="q">Search the archive</label>
+            <input id="q" type="search" autocomplete="off" spellcheck="false" role="combobox" aria-expanded="false" aria-controls="results"
+              placeholder="Search episodes, people, events, years">
+            <div id="results" class="results" role="listbox" aria-label="Search results"></div>
+          </div>
+          <button id="audio" class="pill" aria-pressed="false">Audio off</button>
+        </div>
+        <div class="ribbon"><canvas id="ribbon" role="img" aria-label="Era ribbon showing all of time. Click to travel; drag the gold window to pan; double-click an era to fit it."></canvas></div>
+      </div>
+      <div class="bar" aria-hidden="true"><span style="width:180px"></span><span class="grow"></span><span style="width:64px;background:var(--f2)"></span><span style="width:120px;background:var(--f3)"></span><span class="cap" style="background:var(--f2)"></span></div>
+    </div>
+  </header>
+  <div aria-hidden="true"></div>
+  <div class="frame lower">
+    <nav class="rail" aria-label="Archive sections">
+      <div class="elbow" id="data-stamp">DATA</div>
+      <button class="navbtn c1" data-mode="continuum" aria-current="true"><span class="num"></span>Continuum</button>
+      <button class="navbtn c2" data-mode="incursions"><span class="num"></span>Incursions</button>
+      <button class="navbtn" data-mode="divergences"><span class="num"></span>Divergences</button>
+      <button class="navbtn c3" data-mode="personnel"><span class="num"></span>Personnel</button>
+      <button class="navbtn c2" data-mode="threads"><span class="num"></span>Threads</button>
+      <button class="navbtn" data-mode="records"><span class="num"></span>Records</button>
+      <button class="navbtn c1" data-mode="stardate"><span class="num"></span>Stardate</button>
+      <button class="navbtn c3" data-mode="archive"><span class="num"></span>Archive</button>
+      <div class="fill" aria-hidden="true"></div>
+      <div class="foot" aria-hidden="true">FAN BUILD</div>
+    </nav>
+    <div class="main">
+      <div class="bar" aria-hidden="true"><span style="width:120px"></span><span style="width:46px;background:var(--f2)"></span><span class="grow"></span><span style="width:90px;background:var(--f3)"></span><span class="cap" style="background:var(--f1)"></span></div>
+      <div class="navwrap" id="navwrap"></div>
+      <div class="body">
+        <section class="fieldwrap" aria-label="The continuum">
+          <div class="stage" id="stage">
+            <canvas id="field" class="grab" role="img" aria-label="Zoomable timeline of the Star Trek canon. Use the readout panel or search for an accessible list."></canvas>
+            <div class="lanelabels" id="lanelabels"></div>
+            <div class="tip" id="tip" aria-hidden="true"></div>
+          </div>
+          <div class="status">
+            <div class="cell"><span class="k">Coordinate</span><span class="v gold" id="s-coord">—</span></div>
+            <div class="cell opt"><span class="k">Stardate</span><span class="v" id="s-sd">—</span></div>
+            <div class="cell opt"><span class="k">Era</span><span class="v" id="s-era">—</span></div>
+            <div class="cell grow"><span class="k">In view</span><span class="v" id="s-view">—</span></div>
+            <div class="zoom"><button id="z-out" aria-label="Zoom out">−</button><button id="z-in" aria-label="Zoom in">+</button><button id="z-reset">Reset</button></div>
+          </div>
+        </section>
+        <aside class="readout" aria-label="Readout">
+          <div class="rhead"><span class="rk" id="rk">Synchronizing</span><span id="rtools"></span></div>
+          <div class="rbody" id="rbody" aria-live="polite"><p class="note">Loading the archive…</p></div>
+        </aside>
+      </div>
+    </div>
+  </div>
+</div>
+<noscript><p style="padding:20px;font-family:sans-serif">The Chronometric Archive needs JavaScript to draw the timeline.</p></noscript>
+</body>
+</html>

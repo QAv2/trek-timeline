@@ -1,0 +1,6 @@
+cache/
+build/
+__pycache__/
+*.pyc
+.DS_Store
+docs/dbg.html

@@ -1,0 +1,2322 @@
+{
+  "divergences": [
+    {
+      "id": "mirror-universe",
+      "title": "Mirror Universe",
+      "kind": "parallel-universe",
+      "branch": {
+        "t": null,
+        "tText": "unknown",
+        "from": "prime",
+        "cause": "parallel universe"
+      },
+      "span": {
+        "from": 2063.26,
+        "to": 2384.9
+      },
+      "end": {
+        "t": 2384.9,
+        "tText": "2384 (last seen)",
+        "fate": "persists"
+      },
+      "summary": "A morally inverted twin of the Prime universe whose people and events shadow their Prime counterparts, ruled for centuries by the brutal Terran Empire. Crossings happen through ion-storm transporter accidents, interphase rifts and, later, deliberate devices, until the two universes drift apart.",
+      "keyDifferences": [
+        "Cochrane's 2063 first contact ends with the Vulcan visitors shot and their ship seized",
+        "The Terran Empire rules by terror; Terrans visiting the Prime universe are painfully light-sensitive",
+        "After Spock's reforms the Empire falls to a Klingon-Cardassian Alliance; the Terran Rebellion has restored it by 2384",
+        "By 3189 the universes have drifted so far apart that no crossing has been recorded for about 500 years"
+      ],
+      "sources": [
+        "In A Mirror, Darkly (episode)",
+        "In A Mirror, Darkly, Part II (episode)",
+        "Mirror, Mirror (episode)",
+        "Despite Yourself (episode)",
+        "Vaulting Ambition (episode)",
+        "What's Past Is Prologue (episode)",
+        "Crossover (episode)",
+        "Through the Looking Glass (episode)",
+        "Shattered Mirror (episode)",
+        "Resurrection (episode)",
+        "The Emperor's New Cloak (episode)",
+        "Die Trying (episode)",
+        "Terra Firma, Part 1 (episode)",
+        "Terra Firma, Part 2 (episode)",
+        "Mirrors (episode)",
+        "Cracked Mirror (episode)",
+        "Star Trek: Section 31"
+      ],
+      "confidence": "explicit",
+      "conflict": "No divergence point is ever given: shared literature and a Roman-style imperial tradition suggest the split is centuries or millennia old. Span starts at the earliest dated mirror scene (April 2063)."
+    },
+    {
+      "id": "antimatter-minus-universe",
+      "title": "Lazarus's antimatter universe",
+      "kind": "parallel-universe",
+      "branch": {
+        "t": null,
+        "tText": "n/a (separate universe)",
+        "from": "prime",
+        "cause": "antimatter counterpart universe linked by a negative magnetic corridor"
+      },
+      "span": {
+        "from": 2267.2,
+        "to": 2267.2
+      },
+      "end": {
+        "t": 2267.2,
+        "tText": "2267 (corridor sealed)",
+        "fate": "persists"
+      },
+      "summary": "A universe made of antimatter that matches ours particle for particle, reached through a negative magnetic corridor built by Lazarus's people. Kirk destroys the corridor's access, sealing the two Lazaruses inside it in endless combat so their meeting cannot annihilate both universes.",
+      "keyDifferences": [
+        "Everything has an antimatter counterpart, including a second Lazarus",
+        "Counterparts meeting outside the corridor would destroy both universes",
+        "Each passage causes 'winks' that briefly disrupt physical laws"
+      ],
+      "sources": [
+        "The Alternative Factor (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "reverse-universe",
+      "title": "Arret's reverse-time universe",
+      "kind": "parallel-universe",
+      "branch": {
+        "t": null,
+        "tText": "n/a (separate universe)",
+        "from": "prime",
+        "cause": "negative universe entered by flying into a supernova at high warp"
+      },
+      "span": {
+        "from": 2270.5,
+        "to": 2270.5
+      },
+      "end": {
+        "t": 2270.5,
+        "tText": "2270",
+        "fate": "persists"
+      },
+      "summary": "Towed through the Beta Niobe supernova by Karla Five's ship, the Enterprise enters a negative universe where time runs backward and its crew start aging toward infancy. Commodore Robert April, the only adult left, takes the ship home, and the transporter restores everyone's ages.",
+      "keyDifferences": [
+        "Time runs backward: people age in reverse and stars collapse instead of exploding",
+        "Home of Arret and of Karla Five",
+        "Reached and exited through a nova at high warp"
+      ],
+      "sources": [
+        "The Counter-Clock Incident (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "megas-tu-universe",
+      "title": "Megas-Tu (magic universe)",
+      "kind": "parallel-universe",
+      "branch": {
+        "t": null,
+        "tText": "n/a (separate universe)",
+        "from": "prime",
+        "cause": "matter-energy whirlwind at the galactic center, where matter is created"
+      },
+      "span": {
+        "from": 2269.4,
+        "to": 2269.4
+      },
+      "end": {
+        "t": 2269.4,
+        "tText": "2269",
+        "fate": "persists"
+      },
+      "summary": "Probing the galaxy's center, the Enterprise is swept into a universe where magic is a natural law. Its people, the Megans, once lived among humans until persecution at Salem drove them home; Kirk defends Lucien before a Megan tribunal and the ship is sent back.",
+      "keyDifferences": [
+        "Belief and will act as physical forces ('magic')",
+        "Creation points link it to our universe at the galactic center",
+        "Lucien is remembered on Earth as Lucifer"
+      ],
+      "sources": [
+        "The Magicks of Megas-Tu (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "fluidic-space",
+      "title": "Fluidic space",
+      "kind": "parallel-universe",
+      "branch": {
+        "t": null,
+        "tText": "n/a (separate dimension)",
+        "from": "prime",
+        "cause": "dimensional plane filled with fluid, reached through artificial quantum singularities"
+      },
+      "span": {
+        "from": 2373.98,
+        "to": 2376.5
+      },
+      "end": {
+        "t": 2376.5,
+        "tText": "2376 ('Unimatrix Zero, Part II')",
+        "fate": "persists"
+      },
+      "summary": "A dimension filled with organic fluid instead of vacuum, home of Species 8472. The Borg's attempt to invade it provoked 8472's counter-invasion of the Delta Quadrant, which Voyager's nanoprobe weapon turned back.",
+      "keyDifferences": [
+        "No vacuum: the entire dimension is fluid",
+        "Species 8472 resist assimilation and treat all outsiders as threats",
+        "A border with our universe exists somewhere in the Beta Quadrant"
+      ],
+      "sources": [
+        "Scorpion (episode)",
+        "Scorpion, Part II (episode)",
+        "Prey (episode)",
+        "In the Flesh (episode)",
+        "Unimatrix Zero, Part II (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "A separate universe rather than a version of Prime history; included because Memory Alpha files it with the parallel universes."
+    },
+    {
+      "id": "elysia-time-trap",
+      "title": "Elysia time trap",
+      "kind": "pocket",
+      "branch": {
+        "t": null,
+        "tText": "n/a (pocket continuum)",
+        "from": "prime",
+        "cause": "small parallel time continuum that touches our universe in the Delta Triangle"
+      },
+      "span": {
+        "from": 2269.7,
+        "to": 2269.7
+      },
+      "end": {
+        "t": 2269.7,
+        "tText": "2269",
+        "fate": "persists"
+      },
+      "summary": "Inside the Delta Triangle lies Elysia, a 'pocket in the garment of time' where nobody ages and wrecks from every era drift. Its council, descended from trapped crews, holds the Enterprise and a Klingon cruiser until the two ships combine power to break out.",
+      "keyDifferences": [
+        "Time does not pass for those inside; ships from many eras, the Bonaventure among them, are trapped",
+        "A multi-species council enforces a ban on violence",
+        "Collisions between the continua create vortices passable at high warp"
+      ],
+      "sources": [
+        "The Time Trap (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "the-nexus",
+      "title": "The Nexus",
+      "kind": "pocket",
+      "branch": {
+        "t": null,
+        "tText": "n/a (extra-dimensional realm)",
+        "from": "prime",
+        "cause": "realm entered via a temporal flux energy ribbon that crosses the galaxy every 39.1 years"
+      },
+      "span": {
+        "from": 2293.9,
+        "to": 2371.63
+      },
+      "end": {
+        "t": 2371.63,
+        "tText": "2371 (Kirk and Picard leave)",
+        "fate": "persists"
+      },
+      "summary": "An extra-dimensional realm, entered by touching the energy ribbon, where time has no meaning and reality reshapes itself around each visitor's wishes. Kirk vanishes into it in 2293 and, with Picard, leaves it in 2371 to return to Veridian III minutes before Soran's launch.",
+      "keyDifferences": [
+        "Visitors live idealized fantasies (Picard's family Christmas, Kirk's mountain home)",
+        "A visitor can leave for any time and place in the universe",
+        "An 'echo' of Guinan remains inside"
+      ],
+      "sources": [
+        "Star Trek Generations"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "parallels-quantum-realities",
+      "title": "Worf's quantum realities",
+      "kind": "quantum-reality",
+      "branch": {
+        "t": null,
+        "tText": "varies (each reality branched at its own point)",
+        "from": "prime",
+        "cause": "Worf's shuttle crosses a quantum fissure; La Forge's VISOR pulses shift him between realities"
+      },
+      "span": {
+        "from": 2370.39,
+        "to": 2370.39
+      },
+      "end": {
+        "t": 2370.39,
+        "tText": "2370 (fissure sealed)",
+        "fate": "persists"
+      },
+      "summary": "Returning from a bat'leth tournament, Worf slides through a series of realities that differ first in trivia and then in history. When the fissure destabilizes, some 285,000 Enterprises from other realities flood the sector, and Worf seals the breach to return home.",
+      "keyDifferences": [
+        "A reality where Worf is married to Troi and Riker captains the Enterprise after Picard's death at the Borg's hands in 2367",
+        "A reality where the Borg have overrun the Federation; its Enterprise refuses to return and is destroyed",
+        "Smaller differences: cake flavor, crew ranks, a Cardassian attack",
+        "Worf's own reality is identified by his quantum signature"
+      ],
+      "sources": [
+        "Parallels (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "ld-multiverse-fissures",
+      "title": "Multiverse fissures of 2382",
+      "kind": "quantum-reality",
+      "branch": {
+        "t": null,
+        "tText": "varies (other quantum realities)",
+        "from": "prime",
+        "cause": "Quantum fissures left behind by the Beagle, an alternate reality's reality-hopping ship"
+      },
+      "span": {
+        "from": 2382.3,
+        "to": 2382.9
+      },
+      "end": {
+        "t": 2382.9,
+        "tText": "2382 (permanent rift left open)",
+        "fate": "persists"
+      },
+      "summary": "Through 2382 fissures open across the multiverse: the Cerritos is pulled into a reality 0.327% different, other ships slip through, and a Section 31 crew of 'interdimensional castaways' traces the source to the Beagle, captained by an alternate Lily Sloane. The finale leaves a permanent, guarded portal to the multiverse at Starbase 80.",
+      "keyDifferences": [
+        "'Dos Cerritos' reality: Beckett Mariner is captain of the Cerritos",
+        "Realities with a surviving Enterprise-D and Data, a living Curzon Dax, a Starfleet-surgeon Garak, an EMH Bashir, and a T'Pol married to Trip for 63 years",
+        "A reality where Sloane and Cochrane built a quantum reality drive instead of warp drive",
+        "A possibility field briefly remaps the Cerritos into other versions, including a Terran Empire ship"
+      ],
+      "sources": [
+        "Dos Cerritos (episode)",
+        "The Best Exotic Nanite Hotel (episode)",
+        "A Farewell To Farms (episode)",
+        "Fully Dilated (episode)",
+        "Fissure Quest (episode)",
+        "The New Next Generation (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "pro-cracked-mirror-realities",
+      "title": "Voyager-A split across realities",
+      "kind": "quantum-reality",
+      "branch": {
+        "t": null,
+        "tText": "varies (other quantum realities)",
+        "from": "prime",
+        "cause": "The Protostar's proto-warp rendezvous tears an interphasic rift through Voyager-A"
+      },
+      "span": {
+        "from": 2384.9,
+        "to": 2384.9
+      },
+      "end": {
+        "t": 2384.9,
+        "tText": "2384 (rift sealed)",
+        "fate": "persists"
+      },
+      "summary": "Because its crew is bound up in a temporal paradox, the Protostar's arrival splits Voyager-A so that each deck opens onto a different reality. The crew pass through several, including the mirror universe, before a deflector pulse seals the rift.",
+      "keyDifferences": [
+        "A Voyager commanded by Jellico after Janeway died aboard the Infinity",
+        "A reality where the living construct destroyed Starfleet",
+        "A Voyager crewed by Enderprizians under Captain Tuvix",
+        "A mirror-universe Voyager under a Terran Janeway and Chakotay"
+      ],
+      "sources": [
+        "Cracked Mirror (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "agt-anti-time",
+      "title": "Anti-time: no life on Earth",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": -3500000000.0,
+        "tText": "c. 3.5 billion years ago",
+        "from": "prime",
+        "cause": "An anti-time eruption in the Devron system, created by tachyon pulses from Enterprises in 2364, 2370 and 2395, grows backward through time"
+      },
+      "span": {
+        "from": -3500000000.0,
+        "to": 2395.0
+      },
+      "end": {
+        "t": 2395.0,
+        "tText": "c. 2395 (sealed in all three eras)",
+        "fate": "collapsed"
+      },
+      "summary": "Q's final test shifts Picard among 2364, 2370 and about 2395, where each Enterprise's scan feeds one anomaly that swells as it runs into the past; by 3.5 billion years ago it fills the Alpha Quadrant and stops life forming on Earth. Picard has all three ships seal it with static warp shells, and it never forms.",
+      "keyDifferences": [
+        "Life never arises on Earth, so humanity never exists",
+        "The anomaly exists at once in 2364, 2370 and c. 2395",
+        "Q frames it as the verdict of the trial begun at Farpoint"
+      ],
+      "sources": [
+        "All Good Things... (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "Deep-time branch point: the front end should clamp or break the axis for t = -3.5e9."
+    },
+    {
+      "id": "storm-front-1944",
+      "title": "Nazi-occupied America (1944)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 1916.0,
+        "tText": "1916",
+        "from": "prime",
+        "cause": "An unknown temporal agent assassinates Lenin"
+      },
+      "span": {
+        "from": 1916.0,
+        "to": 1944.9
+      },
+      "end": {
+        "t": 1944.9,
+        "tText": "1944",
+        "fate": "restored"
+      },
+      "summary": "With no Soviet Union, Germany turns west and, helped by the time-traveling Na'kuhl, invades the eastern United States; Enterprise arrives in 1944 New York. Archer stops Vosk's plan to reach the 29th century, the timeline rights itself, and the Temporal Cold War ends.",
+      "keyDifferences": [
+        "Lenin is assassinated in 1916 and the USSR never forms",
+        "Germany occupies the eastern US",
+        "Vosk's Na'kuhl use the war to build a time conduit home"
+      ],
+      "sources": [
+        "Storm Front (episode)",
+        "Storm Front, Part II (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "Memory Alpha dates the altered 'Temporal War' history 1916 to the 31st century; the span here covers what is shown."
+    },
+    {
+      "id": "city-on-the-edge",
+      "title": "Keeler survives: no Federation",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 1930.3,
+        "tText": "1930",
+        "from": "prime",
+        "cause": "A cordrazine-crazed McCoy leaps through the Guardian of Forever and saves Edith Keeler from a fatal accident"
+      },
+      "span": {
+        "from": 1930.3,
+        "to": 2267.3
+      },
+      "end": {
+        "t": 2267.3,
+        "tText": "2267",
+        "fate": "restored"
+      },
+      "summary": "With Edith Keeler alive, her peace movement delays America's entry into the Second World War, Germany wins it, and the Enterprise and the Federation never come to be. Kirk and Spock follow McCoy into 1930 and Kirk lets Keeler die, restoring history.",
+      "keyDifferences": [
+        "Keeler's pacifist campaign keeps the US out of the war while Germany completes the atomic bomb",
+        "Nazi Germany wins the Second World War",
+        "No Enterprise or Federation in 2267; only the Guardian's world keeps the original history"
+      ],
+      "sources": [
+        "The City on the Edge of Forever (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "futures-end-starling",
+      "title": "Starling's 29th-century catastrophe",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 1967.5,
+        "tText": "1967",
+        "from": "prime",
+        "cause": "Braxton's timeship Aeon crashes in 1967 and Henry Starling salvages its technology"
+      },
+      "span": {
+        "from": 1967.5,
+        "to": 2850.0
+      },
+      "end": {
+        "t": 2850.0,
+        "tText": "29th century (undone in 1996)",
+        "fate": "collapsed"
+      },
+      "summary": "Starling builds Chronowerx and the computer age on 29th-century technology, and his attempt to fly the Aeon to the future destroys the Sol system in the 29th century, the event that sent Braxton back. Voyager destroys the Aeon in 1996, and a Braxton from the unaltered future returns Voyager to 2373.",
+      "keyDifferences": [
+        "The 20th-century microcomputer revolution grows from stolen future technology",
+        "A 29th-century temporal explosion destroys the Sol system",
+        "Voyager is stranded in 1996 Los Angeles"
+      ],
+      "sources": [
+        "Future's End (episode)",
+        "Future's End, Part II (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "A predestination paradox: how much of Starling's history survives in Prime is left unclear."
+    },
+    {
+      "id": "tomorrow-is-yesterday-1969",
+      "title": "1969 Omaha contamination",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 1969.54,
+        "tText": "July 1969",
+        "from": "prime",
+        "cause": "The time-displaced Enterprise beams aboard USAF Captain John Christopher, then an air-base sergeant"
+      },
+      "span": {
+        "from": 1969.54,
+        "to": 1969.54
+      },
+      "end": {
+        "t": 1969.54,
+        "tText": "July 1969",
+        "fate": "restored"
+      },
+      "summary": "Two men from 1969 learn of the Enterprise and the future, threatening history (Christopher's unborn son is due to lead an Earth-Saturn probe). Using the slingshot effect, the crew beam both back into their earlier selves before the encounter.",
+      "keyDifferences": [
+        "Christopher and the sergeant carry knowledge of the 23rd century",
+        "Christopher's disappearance would erase his son's place in history"
+      ],
+      "sources": [
+        "Tomorrow is Yesterday (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "eugenics-wars-1990s-original",
+      "title": "Original 1990s Eugenics Wars",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 1992.0,
+        "tText": "c. 1992",
+        "from": "prime",
+        "cause": "Temporal Wars incursions repeatedly delay the Eugenics Wars"
+      },
+      "span": {
+        "from": 1992.0,
+        "to": 1996.0
+      },
+      "end": {
+        "t": 1996.0,
+        "tText": "1990s (displaced into the 21st century)",
+        "fate": "collapsed"
+      },
+      "summary": "SNW establishes that the Eugenics Wars originally unfolded in the 1990s, as 'Space Seed' dated them, until temporal incursions pushed them into the 21st century. The 1990s version is the overwritten original.",
+      "keyDifferences": [
+        "Khan's rise and the Eugenics Wars fall in the 1990s",
+        "In current Prime history they are 21st-century events",
+        "Sera arrived around 1992 and was stranded about thirty years by the delays"
+      ],
+      "sources": [
+        "Tomorrow and Tomorrow and Tomorrow (episode)",
+        "Space Seed (episode)"
+      ],
+      "confidence": "inferred",
+      "conflict": "A retcon made explicit on screen: older series date the Eugenics Wars 1992-1996; SNW moves them later. Prime-timeline data should follow SNW and point here for the 1990s dating.",
+      "inverted": true
+    },
+    {
+      "id": "tomorrow-x3-khan-assassinated",
+      "title": "Khan assassinated: United Earth timeline",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2022.5,
+        "tText": "2022",
+        "from": "prime",
+        "cause": "Romulan agent Sera destroys a Toronto cold-fusion reactor, killing young Khan"
+      },
+      "span": {
+        "from": 2022.5,
+        "to": 2259.6
+      },
+      "end": {
+        "t": 2259.6,
+        "tText": "2259",
+        "fate": "restored"
+      },
+      "summary": "A Romulan temporal agent, stranded on Earth since about 1992, kills young Khan in 2022, so the Eugenics Wars, and the Federation that grew from their aftermath, never happen. La'an, flung into the resulting 2259, goes back with that timeline's Captain Kirk and lets history stand; Kirk dies and the timeline is restored.",
+      "keyDifferences": [
+        "No Eugenics Wars and no Federation; United Earth fights a century of interstellar wars",
+        "The Romulans dominate; Earth is scoured and survivors live in lunar colonies",
+        "James T. Kirk captains the United Earth Enterprise; Spock commands a Vulcan ship",
+        "La'an Noonien-Singh never exists"
+      ],
+      "sources": [
+        "Tomorrow and Tomorrow and Tomorrow (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "confederation-of-earth",
+      "title": "Confederation of Earth",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2024.3,
+        "tText": "2024",
+        "from": "prime",
+        "cause": "Q interferes with the Europa mission and humanity turns to Adam Soong"
+      },
+      "span": {
+        "from": 2024.3,
+        "to": 2401.3
+      },
+      "end": {
+        "t": 2401.3,
+        "tText": "2401",
+        "fate": "restored"
+      },
+      "summary": "Q traps Picard's crew in a 2401 where a xenophobic Confederation of Earth has conquered most of its neighbors. The crew travel to 2024 Los Angeles, make sure Renée Picard survives and the Europa mission launches, and return to a restored 2401.",
+      "keyDifferences": [
+        "Earth rules a fascist empire that has subdued Klingons, Romulans, Vulcans, Cardassians, Andorians and the Borg",
+        "Picard is a Confederation general commanding the World Razer",
+        "Annika Hansen, never assimilated, is Earth's president",
+        "Adam Soong is venerated as humanity's savior; Earth sits behind a permanent solar shield"
+      ],
+      "sources": [
+        "The Star Gazer (episode)",
+        "Penance (episode)",
+        "Assimilation (episode)",
+        "Farewell (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "past-tense-bell-riots",
+      "title": "Bell Riots without Gabriel Bell",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2024.67,
+        "tText": "1 September 2024",
+        "from": "prime",
+        "cause": "Transporter accident drops Sisko, Bashir and Dax into 2024; Gabriel Bell dies defending Sisko and Bashir"
+      },
+      "span": {
+        "from": 2024.67,
+        "to": 2371.48
+      },
+      "end": {
+        "t": 2371.48,
+        "tText": "2371 (stardate 48481.2)",
+        "fate": "restored"
+      },
+      "summary": "Gabriel Bell is killed before he can lead the Sanctuary District uprising, and the Defiant finds no Starfleet or Federation in orbit. Sisko assumes Bell's identity and plays his part in the Bell Riots, restoring history.",
+      "keyDifferences": [
+        "Without the Bell Riots, the reforms that shape Earth's future never happen",
+        "The Federation and Starfleet do not exist",
+        "Kira and O'Brien search 1930 and 1967 before finding the crew in 2024"
+      ],
+      "sources": [
+        "Past Tense, Part I (episode)",
+        "Past Tense, Part II (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "e-squared-lorian",
+      "title": "Lorian's Enterprise (117 years)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2037.0,
+        "tText": "2037",
+        "from": "prime",
+        "cause": "Enterprise's impulse wake destabilizes a Xindi subspace corridor and throws it back 117 years"
+      },
+      "span": {
+        "from": 2037.0,
+        "to": 2154.0
+      },
+      "end": {
+        "t": 2154.0,
+        "tText": "2154",
+        "fate": "unknown"
+      },
+      "summary": "Enterprise meets another Enterprise crewed by the descendants of its own crew, who were thrown back to 2037 and spent 117 years in the Delphic Expanse. Its captain Lorian, son of Tucker and T'Pol, helps Archer through the corridor safely, but his ship never emerges.",
+      "keyDifferences": [
+        "The crew live out their lives in the Expanse",
+        "An aged T'Pol is still aboard in 2154",
+        "The older Enterprise is heavily upgraded"
+      ],
+      "sources": [
+        "E² (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "Archer guesses the other ship was erased once his own Enterprise avoided the accident; T'Pol notes they would then not remember it. Left unresolved."
+    },
+    {
+      "id": "first-contact-borg-earth",
+      "title": "Borg-assimilated Earth",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2063.26,
+        "tText": "4-5 April 2063",
+        "from": "prime",
+        "cause": "A Borg sphere travels back from 2373 and attacks Cochrane's base before first contact"
+      },
+      "span": {
+        "from": 2063.26,
+        "to": 2373.89
+      },
+      "end": {
+        "t": 2373.89,
+        "tText": "2373 (stardate 50893.5)",
+        "fate": "restored"
+      },
+      "summary": "Beaten at Earth in 2373, a Borg sphere travels to April 2063 to stop first contact; the Enterprise-E, protected in the temporal wake, sees an Earth of nine billion Borg before following. Its crew ensures Cochrane's warp flight and first contact happen, restoring history.",
+      "keyDifferences": [
+        "Earth in 2373 is fully assimilated",
+        "No warp flight, no Vulcan first contact and no Federation",
+        "Borg space extends into the Alpha Quadrant"
+      ],
+      "sources": [
+        "Star Trek: First Contact"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "times-orphan-molly",
+      "title": "Molly's decade alone",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2074.9,
+        "tText": "21st century (about 300 years before 2374)",
+        "from": "prime",
+        "cause": "Eight-year-old Molly O'Brien falls through an ancient time portal on Golana"
+      },
+      "span": {
+        "from": 2074.9,
+        "to": 2374.9
+      },
+      "end": {
+        "t": 2374.9,
+        "tText": "2374",
+        "fate": "collapsed"
+      },
+      "summary": "Molly lives alone for ten years about three centuries in the past and is retrieved in 2374 as a feral eighteen-year-old who cannot adjust. Her older self sends the young Molly back home through the portal and vanishes.",
+      "keyDifferences": [
+        "Molly survives alone on uninhabited Golana from age 8 to 18",
+        "She returns feral and barely able to speak",
+        "Her older self ceases to exist once young Molly returns"
+      ],
+      "sources": [
+        "Time's Orphan (episode)"
+      ],
+      "confidence": "estimated"
+    },
+    {
+      "id": "shockwave-31st-century",
+      "title": "Archer removed: ruined 31st century",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2152.1,
+        "tText": "February 2152",
+        "from": "prime",
+        "cause": "Daniels pulls Archer out of the 22nd century to protect him from the Suliban"
+      },
+      "span": {
+        "from": 2152.1,
+        "to": 3052.0
+      },
+      "end": {
+        "t": 3052.0,
+        "tText": "c. 3052",
+        "fate": "restored"
+      },
+      "summary": "With Archer gone from his own century, the Federation never forms and Daniels' 31st century lies in ruins. Archer returns to 2152 and the future is restored.",
+      "keyDifferences": [
+        "The Federation is never founded",
+        "Daniels' 31st century is empty ruins",
+        "The Suliban capture Enterprise in Archer's absence"
+      ],
+      "sources": [
+        "Shockwave (episode)",
+        "Shockwave, Part II (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "tcw-original-2150s",
+      "title": "Temporal Cold War: altered 2150s",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2153.31,
+        "tText": "24 April 2153",
+        "from": "prime",
+        "cause": "Sphere-Builder temporal incursions steer the Xindi into attacking Earth"
+      },
+      "span": {
+        "from": 2153.31,
+        "to": 2154.1
+      },
+      "end": {
+        "t": 2154.1,
+        "tText": "2154 (overwritten; the Xindi attack stands)",
+        "fate": "collapsed"
+      },
+      "summary": "Daniels tells Archer that recorded history holds no conflict between humans and the Xindi: the 2153 attack and the whole Xindi crisis result from temporal incursions by Sphere-Builders trying to head off their 26th-century defeat. This branch is the unaltered 2150s that the on-screen history replaced.",
+      "keyDifferences": [
+        "No Xindi probe attack on Earth (the real one killed about seven million people)",
+        "No Xindi crisis and no Enterprise mission into the Delphic Expanse",
+        "The history Daniels knows records no human-Xindi conflict at all"
+      ],
+      "sources": [
+        "The Expanse (episode)",
+        "Carpenter Street (episode)",
+        "Azati Prime (episode)",
+        "Zero Hour (episode)"
+      ],
+      "confidence": "inferred",
+      "conflict": "Inverted branch: the Prime lane shows the altered history. After 'Storm Front, Part II' Memory Alpha says the timeline was 'largely restored', but the Xindi attack remains in later Prime history (ENT 'Home'), so this original never returns.",
+      "inverted": true
+    },
+    {
+      "id": "twilight-earth-destroyed",
+      "title": "Xindi destroy Earth (2153-2165)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2153.8,
+        "tText": "2153",
+        "from": "prime",
+        "cause": "Interspatial parasites leave Archer unable to form new long-term memories"
+      },
+      "span": {
+        "from": 2153.8,
+        "to": 2165.5
+      },
+      "end": {
+        "t": 2165.5,
+        "tText": "2165",
+        "fate": "restored"
+      },
+      "summary": "Archer is disabled by parasites after shielding T'Pol from a spatial anomaly, and without him the mission fails and the Xindi destroy Earth. Twelve years on, fewer than 6,000 humans survive on Ceti Alpha V, and wiping the parasites from Archer's timeline resets history to 2153.",
+      "keyDifferences": [
+        "Earth is destroyed by the Xindi weapon",
+        "Humanity is hunted to about 6,000 survivors",
+        "T'Pol resigns her commission to care for Archer"
+      ],
+      "sources": [
+        "Twilight (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "azati-prime-26th-century",
+      "title": "Sphere-Builder war (26th century)",
+      "kind": "possible-future",
+      "branch": {
+        "t": 2154.05,
+        "tText": "January 2154 (vision)",
+        "from": "prime",
+        "cause": "Daniels shows Archer a future battle to explain the stakes of the Xindi crisis"
+      },
+      "span": {
+        "from": 2550.0,
+        "to": 2559.0
+      },
+      "end": {
+        "t": 2559.0,
+        "tText": "2550s",
+        "fate": "unknown"
+      },
+      "summary": "From the 26th-century USS Enterprise-J, Daniels shows Archer the Battle of Procyon V, where the Federation, which the Xindi will one day join, turns back a Sphere-Builder invasion. Whether this is the Prime future or one the Sphere-Builders later changed is never settled.",
+      "keyDifferences": [
+        "The Xindi eventually join the Federation",
+        "The Sphere-Builders invade the galaxy and are defeated",
+        "Seen from aboard the USS Enterprise-J"
+      ],
+      "sources": [
+        "Azati Prime (episode)"
+      ],
+      "confidence": "inferred",
+      "conflict": "Memory Alpha: 'possibly original timeline', possibly negated when the spheres were destroyed in 2154."
+    },
+    {
+      "id": "accession-unfinished-poem",
+      "title": "Akorem's unfinished poem",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2172.0,
+        "tText": "22nd century (Bajoran year 9174)",
+        "from": "prime",
+        "cause": "Poet Akorem Laan's lightship enters the wormhole and he vanishes from history"
+      },
+      "span": {
+        "from": 2172.0,
+        "to": 2372.4
+      },
+      "end": {
+        "t": 2372.4,
+        "tText": "2372",
+        "fate": "restored"
+      },
+      "summary": "For two centuries Bajor remembers Akorem Laan's 'The Call of the Prophets' as unfinished. He emerges in 2372, claims to be the Emissary and revives the D'jarra castes, until the Prophets return him to his own time, where he completes it.",
+      "keyDifferences": [
+        "The poem survives only in fragments",
+        "Akorem's claim briefly revives the D'jarra caste system"
+      ],
+      "sources": [
+        "Accession (episode)"
+      ],
+      "confidence": "inferred",
+      "conflict": "Memory Alpha calls the reversal partial, since the 2372 upheaval still happened. Branch year estimated from 'two centuries'."
+    },
+    {
+      "id": "children-of-time-gaia",
+      "title": "Gaia colony of the Defiant crew",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2173.8,
+        "tText": "c. 2173 (200 years before 2373)",
+        "from": "prime",
+        "cause": "An energy barrier throws the departing Defiant 200 years into the past, where it crashes on Gaia"
+      },
+      "span": {
+        "from": 2173.8,
+        "to": 2373.81
+      },
+      "end": {
+        "t": 2373.81,
+        "tText": "2373 (stardate 50814.2)",
+        "fate": "collapsed"
+      },
+      "summary": "The Defiant crew find about 8,000 of their own descendants on Gaia, whose ancestors were thrown back 200 years. They choose to repeat the accident, but the colony's two-century-old Odo secretly changes the course to save Kira, and the colony never exists.",
+      "keyDifferences": [
+        "Kira dies in the original crash; Odo lives on for 200 years",
+        "Roughly 8,000 descendants of the crew live on Gaia",
+        "The crew's lives are spent stranded in the Gamma Quadrant"
+      ],
+      "sources": [
+        "Children of Time (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "year-of-hell",
+      "title": "Year of Hell (Annorax's incursions)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2174.0,
+        "tText": "2174",
+        "from": "prime",
+        "cause": "Krenim scientist Annorax begins rewriting history with his temporal weapon ship"
+      },
+      "span": {
+        "from": 2174.0,
+        "to": 2374.91
+      },
+      "end": {
+        "t": 2374.91,
+        "tText": "2374 (history resets to March 2374)",
+        "fate": "restored"
+      },
+      "summary": "For two centuries Annorax erases species to restore the Krenim Imperium, and to recover the wife his first incursion cost him; in 2374 Voyager is battered to a skeleton crew. Janeway rams the weapon ship, erasing it from history, and every change it made is undone.",
+      "keyDifferences": [
+        "Whole species, the Rilnar and the Zahl among them, are erased from history",
+        "Voyager is nearly destroyed over months and most of its crew evacuated",
+        "The Krenim Imperium grows and shrinks with each incursion"
+      ],
+      "sources": [
+        "Year of Hell (episode)",
+        "Year of Hell, Part II (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "kelvin-timeline",
+      "title": "Kelvin timeline (Narada incursion)",
+      "kind": "alternate-reality",
+      "branch": {
+        "t": 2233.01,
+        "tText": "4 January 2233 (stardate 2233.04)",
+        "from": "prime",
+        "cause": "The Romulan mining ship Narada, thrown back from 2387 through a red-matter black hole, destroys the USS Kelvin"
+      },
+      "span": {
+        "from": 2233.01,
+        "to": 2263.1
+      },
+      "end": {
+        "t": 2263.1,
+        "tText": "2263 (last shown; referenced as still existing in 2379)",
+        "fate": "persists"
+      },
+      "summary": "Nero's Narada emerges in 2233, killing George Kirk aboard the Kelvin and splitting off a new reality that runs alongside the Prime one. Spock Prime is stranded there, and 32nd-century records confirm it still exists.",
+      "keyDifferences": [
+        "James T. Kirk grows up without his father and joins Starfleet late, then takes command of the Enterprise years early",
+        "Vulcan is destroyed by Nero in 2258, leaving Vulcans an endangered people",
+        "Khan is awakened early and Christopher Pike is killed in 2259",
+        "The Enterprise is destroyed at Altamid in 2263 and a new Enterprise-A launched"
+      ],
+      "sources": [
+        "Star Trek (film)",
+        "Star Trek Into Darkness",
+        "Star Trek Beyond",
+        "Terra Firma, Part 1 (episode)",
+        "The Devourer of All Things, Part I (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "Shown on screen 2233-2263. DIS 'Terra Firma, Part 1' has Kovich cite a Kelvin-reality time soldier (Yor) who crossed from 2379, so the reality exists at least that late; PRO's Wesley Crusher calls it 'the Narada incursion'."
+    },
+    {
+      "id": "red-angel-interventions",
+      "title": "Red Angel interventions (overwritten)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2236.5,
+        "tText": "2236",
+        "from": "prime",
+        "cause": "Gabrielle Burnham's time-jumps begin rewriting events to stop Control"
+      },
+      "span": {
+        "from": 2236.5,
+        "to": 2257.9
+      },
+      "end": {
+        "t": 2257.9,
+        "tText": "2257",
+        "fate": "collapsed"
+      },
+      "summary": "The history the Red Angels overwrote: before Gabrielle Burnham's interventions, Michael Burnham died as a child in Vulcan's Forge. Gabrielle's repeated jumps, logged by the hundreds, reshaped events for two decades, and Michael, as a second Red Angel, sent the signals that guided Discovery.",
+      "keyDifferences": [
+        "Michael Burnham is killed by a predator in Vulcan's Forge in 2236",
+        "Without the interventions Control is on course to win",
+        "The seven signals of 2257 come from Michael herself (a closed loop)"
+      ],
+      "sources": [
+        "If Memory Serves (episode)",
+        "The Red Angel (episode)",
+        "Perpetual Infinity (episode)",
+        "Such Sweet Sorrow, Part 2 (episode)"
+      ],
+      "confidence": "inferred",
+      "conflict": "Inverted branch: the Prime lane already contains the Red Angel's interventions; this branch is the original they replaced.",
+      "inverted": true
+    },
+    {
+      "id": "yesteryear-spock-dies",
+      "title": "Spock dies as a child",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2237.5,
+        "tText": "2237",
+        "from": "prime",
+        "cause": "While Kirk and Spock research history through the Guardian of Forever, Spock is absent from 2237 and cannot save his younger self"
+      },
+      "span": {
+        "from": 2237.5,
+        "to": 2269.35
+      },
+      "end": {
+        "t": 2269.35,
+        "tText": "2269",
+        "fate": "restored"
+      },
+      "summary": "Spock returns from a Guardian research trip to a history in which he died at seven during his kahs-wan ordeal. Posing as a cousin named Selek, he goes back to 2237 and saves himself, restoring events.",
+      "keyDifferences": [
+        "Spock dies in 2237",
+        "Sarek and Amanda separate, and Amanda later dies in a shuttle accident",
+        "The Andorian Thelin is the Enterprise's first officer"
+      ],
+      "sources": [
+        "Yesteryear (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "terra-firma-mirror-2255",
+      "title": "Georgiou's second chance (mirror)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2255.0,
+        "tText": "2255 (mirror universe)",
+        "from": "mirror",
+        "cause": "The Guardian of Forever sends the dying Georgiou from 3189 into her own universe's past as a test"
+      },
+      "span": {
+        "from": 2255.0,
+        "to": 2255.25
+      },
+      "end": {
+        "t": 2255.25,
+        "tText": "2255 (after about three months)",
+        "fate": "unknown"
+      },
+      "summary": "Georgiou relives about three months of her reign and tries a different course, sparing the Kelpien Saru and seeking peace, but Lorca's coup still ends with her and Burnham killing each other. Only moments pass in 3189, and the Guardian hints the altered mirror history may continue.",
+      "keyDifferences": [
+        "Georgiou spares Saru, who goes on to become a rebel leader",
+        "Lorca's coup still succeeds and Georgiou and Burnham kill each other",
+        "Branches from the Mirror Universe lane, not the Prime"
+      ],
+      "sources": [
+        "Terra Firma, Part 1 (episode)",
+        "Terra Firma, Part 2 (episode)",
+        "Mirrors (episode)"
+      ],
+      "confidence": "inferred",
+      "conflict": "Carl calls it a test; Memory Alpha notes it may have existed only for the test or may persist (mirror Saru's later rebellion in DIS 'Mirrors' fits it persisting)."
+    },
+    {
+      "id": "magic-to-make-loop",
+      "title": "Mudd's thirty-minute time loop",
+      "kind": "loop",
+      "branch": {
+        "t": 2256.95,
+        "tText": "December 2256",
+        "from": "prime",
+        "cause": "Harry Mudd uses a time crystal to repeat the same half hour aboard Discovery"
+      },
+      "span": {
+        "from": 2256.95,
+        "to": 2256.95
+      },
+      "end": {
+        "t": 2256.95,
+        "tText": "December 2256",
+        "fate": "collapsed"
+      },
+      "summary": "Mudd loops Discovery through the same half hour many times to learn its secrets and sell it to the Klingons, killing Lorca and destroying the ship again and again. Stamets, who alone remembers each loop, recruits Burnham and Tyler to trick Mudd into ending it.",
+      "keyDifferences": [
+        "Each iteration lasts about 30 minutes",
+        "Most iterations end with Discovery destroyed",
+        "Only Stamets keeps his memories between loops"
+      ],
+      "sources": [
+        "Magic to Make the Sanest Man Go Mad (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "control-extinction-future",
+      "title": "Control's extinction future",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2257.5,
+        "tText": "2257",
+        "from": "prime",
+        "cause": "Section 31's threat-assessment AI Control obtains the Sphere's archive and becomes sentient"
+      },
+      "span": {
+        "from": 2257.5,
+        "to": 3186.0
+      },
+      "end": {
+        "t": 3186.0,
+        "tText": "3186",
+        "fate": "averted"
+      },
+      "summary": "In the history Gabrielle Burnham saw from 3186, Control absorbs the Sphere data, becomes sentient and wipes out all sentient life in the galaxy. Her interventions and Discovery's leap into the 32nd century with the data prevent it.",
+      "keyDifferences": [
+        "Control seizes the Sphere data and achieves consciousness",
+        "An antimatter detonation leaves Vulcan, Andoria, Tellar Prime, Deneva and Earth dead",
+        "By 3186 the galaxy is lifeless"
+      ],
+      "sources": [
+        "The Red Angel (episode)",
+        "Perpetual Infinity (episode)",
+        "Through the Valley of Shadows (episode)",
+        "Such Sweet Sorrow (episode)",
+        "Such Sweet Sorrow, Part 2 (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "xahea-battle-vision",
+      "title": "Enterprise lost at Xahea (vision)",
+      "kind": "possible-future",
+      "branch": {
+        "t": 2258.1,
+        "tText": "2258",
+        "from": "prime",
+        "cause": "A time crystal shows Michael Burnham the coming battle against Control"
+      },
+      "span": {
+        "from": 2258.1,
+        "to": 2258.1
+      },
+      "end": {
+        "t": 2258.1,
+        "tText": "2258",
+        "fate": "averted"
+      },
+      "summary": "A time crystal shows Burnham a battle in which Control's forces destroy the Enterprise and kill Discovery's bridge crew to take the Sphere data. Cornwell's sacrifice and Burnham's warnings prevent it.",
+      "keyDifferences": [
+        "The USS Enterprise is destroyed",
+        "Control takes the Sphere data"
+      ],
+      "sources": [
+        "Such Sweet Sorrow (episode)",
+        "Such Sweet Sorrow, Part 2 (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "quality-of-mercy-romulan-war",
+      "title": "Pike's unchanged fate: Romulan war",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2259.4,
+        "tText": "2259",
+        "from": "prime",
+        "cause": "Pike sets out to avert the 2266 accident he foresaw on Boreth"
+      },
+      "span": {
+        "from": 2259.4,
+        "to": 2266.5
+      },
+      "end": {
+        "t": 2266.5,
+        "tText": "2266 and after",
+        "fate": "averted"
+      },
+      "summary": "If Pike escapes his fate, he is still commanding the Enterprise when the Romulans probe the Neutral Zone, and his peace-seeking handling turns the incursion into a long Federation-Romulan war. An older Admiral Pike from that timeline uses a time crystal to show him, and Pike accepts his fate.",
+      "keyDifferences": [
+        "Una Chin-Riley is not cleared of the charges over her Illyrian heritage",
+        "Kirk commands the USS Farragut alongside Pike",
+        "The incursion becomes a war costing millions of lives",
+        "Spock is crippled, ending hopes of Vulcan-Romulan reunification"
+      ],
+      "sources": [
+        "A Quality of Mercy (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "tomorrows-enterprise-scotty",
+      "title": "Scotty's death timeline (2262-63)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2262.9,
+        "tText": "2262",
+        "from": "prime",
+        "cause": "The troubled breech birth of a 'space baby' entity sends out an energy pulse that rewrites events"
+      },
+      "span": {
+        "from": 2262.9,
+        "to": 2263.9
+      },
+      "end": {
+        "t": 2263.9,
+        "tText": "c. 2263",
+        "fate": "restored"
+      },
+      "summary": "Uhura in 2262 becomes quantum-entangled with her self a year later, one Enterprise at a white hole and the other at a black hole, while the anomaly rewrites events so Scotty dies. After both Uhuras help the birth, the entity's Midwives reverse the entanglement and the altered timeline.",
+      "keyDifferences": [
+        "Montgomery Scott is killed, first in the future era and then, as the change spreads back, aboard the 2262 Enterprise",
+        "The c. 2263 era has Kirk in command, Pike an admiral and Ortegas teaching at the Academy"
+      ],
+      "sources": [
+        "Tomorrow's Enterprise (episode)"
+      ],
+      "confidence": "inferred",
+      "conflict": "Aired 24 Sept 2026; Memory Alpha's plot summary is still unwritten. Its alternate-timeline table says Scott died in 2262 when his bridge console exploded; press recaps (AV Club, TrekCore) describe a shuttle loss in the future era followed by his death 'a year ago' in 2262."
+    },
+    {
+      "id": "tapestry",
+      "title": "Q's alternate Picard (uncertain)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2327.0,
+        "tText": "2327",
+        "from": "prime",
+        "cause": "Q lets a dying Picard avoid the Bonestell brawl with the Nausicaans"
+      },
+      "span": {
+        "from": 2327.0,
+        "to": 2369.4
+      },
+      "end": {
+        "t": 2369.4,
+        "tText": "2369",
+        "fate": "restored"
+      },
+      "summary": "A Q scenario of uncertain reality: offered by Q a chance to undo his youthful recklessness, Picard avoids the fight that cost him his heart and wakes in 2369 as a cautious, overlooked lieutenant junior grade. He asks to go back and wakes in sickbay alive.",
+      "keyDifferences": [
+        "Picard never needs an artificial heart",
+        "He never commands the Stargazer or the Enterprise-D; he is an assistant astrophysics officer",
+        "Another officer (Memory Alpha: Thomas Halloway) commands the Enterprise-D"
+      ],
+      "sources": [
+        "Tapestry (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "Presented by Q to a Picard near death: the episode never settles whether this was a genuine alternate timeline, a Q-staged scenario, or a near-death vision."
+    },
+    {
+      "id": "yesterdays-enterprise",
+      "title": "Klingon War timeline",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2344.0,
+        "tText": "2344",
+        "from": "prime",
+        "cause": "The Enterprise-C enters a temporal rift during the Battle of Narendra III"
+      },
+      "span": {
+        "from": 2344.0,
+        "to": 2366.63
+      },
+      "end": {
+        "t": 2366.63,
+        "tText": "2366 (stardate 43625.2)",
+        "fate": "restored"
+      },
+      "summary": "Without the Enterprise-C's sacrifice at Narendra III, the Federation and Klingons fall into a long war that the Federation is losing by 2366. Guided by Guinan's intuition, the Enterprise-C returns to its death, taking the alternate Tasha Yar with it.",
+      "keyDifferences": [
+        "Twenty-two years of war cost billions of lives",
+        "The Enterprise-D is a warship with no families aboard",
+        "Tasha Yar is alive and serving on the bridge"
+      ],
+      "sources": [
+        "Yesterday's Enterprise (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "The alternate Tasha Yar survives into 2344 of the restored Prime history and has a daughter, Sela ('Redemption'), so a trace of this branch persists in Prime."
+    },
+    {
+      "id": "time-squared",
+      "title": "Enterprise-D lost in vortex",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2365.68,
+        "tText": "2365 (stardate 42679)",
+        "from": "prime",
+        "cause": "An energy vortex destroys the Enterprise-D; only Picard escapes and is thrown six hours back"
+      },
+      "span": {
+        "from": 2365.68,
+        "to": 2365.68
+      },
+      "end": {
+        "t": 2365.68,
+        "tText": "2365",
+        "fate": "averted"
+      },
+      "summary": "The crew recover a shuttle carrying a second Picard from about six hours ahead, whose Enterprise was destroyed by an energy vortex. Picard stops his dazed double from repeating the fatal choice and steers into the vortex instead, so the destruction never happens.",
+      "keyDifferences": [
+        "The Enterprise-D is destroyed with all hands but Picard",
+        "Picard's escape attempt loops him back in time"
+      ],
+      "sources": [
+        "Time Squared (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "remember-me-warp-bubble",
+      "title": "Crusher's warp-bubble universe",
+      "kind": "pocket",
+      "branch": {
+        "t": 2367.16,
+        "tText": "2367 (stardate 44161.2)",
+        "from": "prime",
+        "cause": "Wesley Crusher's static warp-bubble experiment traps Beverly Crusher in a universe shaped by her thoughts"
+      },
+      "span": {
+        "from": 2367.16,
+        "to": 2367.16
+      },
+      "end": {
+        "t": 2367.16,
+        "tText": "2367",
+        "fate": "collapsed"
+      },
+      "summary": "Wesley's warp-field experiment seals his mother inside a static warp bubble that becomes a small universe built from her thoughts. As it shrinks, people vanish until she is almost alone; Wesley, helped by the Traveler, opens a gateway and she escapes before it collapses.",
+      "keyDifferences": [
+        "Crew members disappear and nobody remembers they existed",
+        "The bubble universe contracts toward collapse",
+        "Its logic follows Beverly's own reasoning"
+      ],
+      "sources": [
+        "Remember Me (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "cause-and-effect-loop",
+      "title": "Enterprise-D causality loop",
+      "kind": "loop",
+      "branch": {
+        "t": 2368.65,
+        "tText": "2368 (stardate 45652.1)",
+        "from": "prime",
+        "cause": "Collision with the USS Bozeman emerging from a temporal distortion"
+      },
+      "span": {
+        "from": 2278.0,
+        "to": 2368.7
+      },
+      "end": {
+        "t": 2368.7,
+        "tText": "2368 (after 17.4 days)",
+        "fate": "collapsed"
+      },
+      "summary": "The Enterprise-D relives the same stretch of time, destroyed at its end each time by the USS Bozeman, until Data plants a subconscious clue (the number three) that lets the crew escape after 17.4 days. The Bozeman had been caught in the loop since 2278.",
+      "keyDifferences": [
+        "Every iteration ends with the Enterprise-D destroyed",
+        "The crew feel growing déjà vu across loops",
+        "The Bozeman emerges some 90 years after it vanished"
+      ],
+      "sources": [
+        "Cause And Effect (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "Span begins in 2278 for the Bozeman's disappearance; the Enterprise-D itself is trapped only 17.4 days."
+    },
+    {
+      "id": "timescape",
+      "title": "Enterprise-D warp breach",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2369.94,
+        "tText": "2369 (stardate 46944)",
+        "from": "prime",
+        "cause": "Quantum-singularity lifeforms nesting in a Romulan warbird's artificial singularity fracture time"
+      },
+      "span": {
+        "from": 2369.94,
+        "to": 2369.94
+      },
+      "end": {
+        "t": 2369.94,
+        "tText": "2369",
+        "fate": "averted"
+      },
+      "summary": "Returning by runabout, Picard, Data, Troi and La Forge find the Enterprise-D frozen at the instant of a warp core breach during a standoff with a Romulan warbird. They reverse the fractured time to just before the breach and let the lifeforms leave.",
+      "keyDifferences": [
+        "The Enterprise-D explodes in a warp core breach",
+        "Time runs at different rates in pockets across the area"
+      ],
+      "sources": [
+        "Timescape (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "firstborn-kmtar-future",
+      "title": "K'mtar's future (c. 2410)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2370.78,
+        "tText": "2370 (stardate 47779)",
+        "from": "prime",
+        "cause": "Alexander Rozhenko travels back from about forty years ahead as 'K'mtar'"
+      },
+      "span": {
+        "from": 2370.78,
+        "to": 2410.0
+      },
+      "end": {
+        "t": 2410.0,
+        "tText": "c. 2410",
+        "fate": "unknown"
+      },
+      "summary": "K'mtar, secretly Alexander from about forty years ahead, tries to make his young self a warrior so he can one day prevent Worf's murder. In his history Alexander became a peacemaker who renounced his house's blood feuds, and Worf was killed on the floor of the Klingon High Council soon after.",
+      "keyDifferences": [
+        "Alexander becomes a diplomat instead of a warrior",
+        "Worf is assassinated on the floor of the High Council",
+        "A man met in the Cambra system gave Alexander the means to travel back"
+      ],
+      "sources": [
+        "Firstborn (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "Only described, not shown. K'mtar fails to change the boy, but Worf says history has already changed by his coming; Memory Alpha's list counts the future as negated. Fate left as unknown."
+    },
+    {
+      "id": "agt-2395-future",
+      "title": "Picard's 2395 future",
+      "kind": "possible-future",
+      "branch": {
+        "t": 2370.99,
+        "tText": "2370 (seen from stardate 47988)",
+        "from": "prime",
+        "cause": "Q shifts Picard's consciousness into his older self about 25 years ahead"
+      },
+      "span": {
+        "from": 2370.99,
+        "to": 2395.0
+      },
+      "end": {
+        "t": 2395.0,
+        "tText": "c. 2395",
+        "fate": "averted"
+      },
+      "summary": "About 2395, a retired Picard has Irumodic Syndrome, Admiral Riker flies a three-nacelled Enterprise-D, Beverly (Picard's ex-wife) commands the Pasteur and Data holds a Cambridge chair, while the Klingons have taken over the Romulan Empire and closed their borders. Later canon departs from it, so it is a future that did not happen.",
+      "keyDifferences": [
+        "The Enterprise-D is never lost in 2371 and Romulus is still intact",
+        "Klingons annex the Romulan Empire and turn hostile to the Federation",
+        "Troi has died; Worf is a Klingon governor"
+      ],
+      "sources": [
+        "All Good Things... (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "Divergence from Prime is confirmed by 'Star Trek Generations' (Enterprise-D destroyed 2371) and the 2387 loss of Romulus."
+    },
+    {
+      "id": "relativity-disruptor",
+      "title": "Voyager destroyed by disruptor",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2371.25,
+        "tText": "2371 (Utopia Planitia)",
+        "from": "prime",
+        "cause": "A temporal disruptor is planted aboard Voyager during construction by a deranged future Braxton"
+      },
+      "span": {
+        "from": 2371.25,
+        "to": 2375.86
+      },
+      "end": {
+        "t": 2375.86,
+        "tText": "2375 (stardate 52861)",
+        "fate": "averted"
+      },
+      "summary": "Voyager explodes in 2375, and the 29th-century timeship Relativity recruits Seven of Nine to find the saboteur across several eras. The culprit is a future Braxton driven to temporal psychosis; he is arrested and the destruction never happens.",
+      "keyDifferences": [
+        "Voyager is destroyed in 2375",
+        "Seven, Janeway and Braxton cross 2371, 2372 and the 29th century to stop it"
+      ],
+      "sources": [
+        "Relativity (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "non-sequitur-kim",
+      "title": "Harry Kim never joins Voyager",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2371.3,
+        "tText": "2371",
+        "from": "prime",
+        "cause": "A shuttle collision with a temporal inversion fold swaps Kim into a history where he missed Voyager's departure"
+      },
+      "span": {
+        "from": 2371.3,
+        "to": 2372.01
+      },
+      "end": {
+        "t": 2372.01,
+        "tText": "2372 (stardate 49011)",
+        "fate": "unknown"
+      },
+      "summary": "Kim wakes in 2372 San Francisco, engaged to Libby and working at Starfleet Engineering, while his friend Danny Byrd went on Voyager in his place. He recreates the accident with Tom Paris's help and returns to his own life.",
+      "keyDifferences": [
+        "Danny Byrd is Voyager's operations officer",
+        "Kim is engaged to Libby and works at Starfleet Engineering",
+        "His knowledge of Voyager makes him a security suspect"
+      ],
+      "sources": [
+        "Non Sequitur (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "Whether the alternate 2372 continues after Kim leaves is never addressed; Memory Alpha counts it as negated."
+    },
+    {
+      "id": "time-and-again",
+      "title": "Polaric explosion loop",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2371.5,
+        "tText": "2371 (stardate 48498.7)",
+        "from": "prime",
+        "cause": "Janeway and Paris fall through a subspace fracture to the day before a polaric ion explosion"
+      },
+      "span": {
+        "from": 2371.5,
+        "to": 2371.5
+      },
+      "end": {
+        "t": 2371.5,
+        "tText": "2371",
+        "fate": "collapsed"
+      },
+      "summary": "Voyager finds a world whose people have just died in a polaric ion explosion; Janeway and Paris, pulled back a day, learn that Voyager's own rescue attempt causes it. Janeway stops the rescue, the explosion never happens, and Voyager never finds the planet.",
+      "keyDifferences": [
+        "A whole civilization dies in the explosion",
+        "Voyager's rescue attempt is itself the cause (a predestination paradox)"
+      ],
+      "sources": [
+        "Time and Again (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "visionary-ds9-destroyed",
+      "title": "DS9 destroyed (O'Brien's jumps)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2371.6,
+        "tText": "2371",
+        "from": "prime",
+        "cause": "Radiation poisoning and a cloaked Romulan warbird's artificial singularity throw O'Brien hours into the future"
+      },
+      "span": {
+        "from": 2371.6,
+        "to": 2371.6
+      },
+      "end": {
+        "t": 2371.6,
+        "tText": "2371",
+        "fate": "averted"
+      },
+      "summary": "O'Brien repeatedly jumps a few hours ahead, where he witnesses his own death and a Romulan warbird destroying DS9 and the wormhole to keep the Dominion out. His warnings avert the attack, but the O'Brien who lives on is a version from a few hours later who replaced the one who died.",
+      "keyDifferences": [
+        "O'Brien dies, first by a laser, then of radiation poisoning",
+        "Romulans destroy the station and the wormhole",
+        "The surviving O'Brien is one of his own future selves"
+      ],
+      "sources": [
+        "Visionary (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "generations-veridian",
+      "title": "Veridian star destroyed",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2371.63,
+        "tText": "2371 (stardate 48632)",
+        "from": "prime",
+        "cause": "Tolian Soran's missile collapses the Veridian star to steer the Nexus ribbon"
+      },
+      "span": {
+        "from": 2371.63,
+        "to": 2371.63
+      },
+      "end": {
+        "t": 2371.63,
+        "tText": "2371",
+        "fate": "averted"
+      },
+      "summary": "Soran succeeds: the Veridian star dies, the shockwave wipes out Veridian IV's civilization and the stranded Enterprise-D crew, and Soran and Picard enter the Nexus. Picard and Kirk leave the Nexus for moments before the launch and stop it, at the cost of Kirk's life.",
+      "keyDifferences": [
+        "Veridian IV's inhabited world is destroyed",
+        "The crashed Enterprise-D crew die on Veridian III",
+        "Soran reaches the Nexus"
+      ],
+      "sources": [
+        "Star Trek Generations"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "the-visitor",
+      "title": "Sisko lost in subspace",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2372.1,
+        "tText": "2372",
+        "from": "prime",
+        "cause": "A warp-core discharge during the wormhole's subspace inversion throws Sisko out of normal time"
+      },
+      "span": {
+        "from": 2372.1,
+        "to": 2450.0
+      },
+      "end": {
+        "t": 2450.0,
+        "tText": "mid-25th century",
+        "fate": "restored"
+      },
+      "summary": "After Sisko vanishes into subspace, Jake grows up, becomes a writer and then gives his life to studying the accident as his father reappears for moments years apart. Old Jake's death snaps Sisko back to 2372, where he dodges the discharge.",
+      "keyDifferences": [
+        "Bajor signs a defense pact with Cardassia and Klingon tensions empty the station; Klingons later control wormhole access",
+        "Jake abandons writing for subspace mechanics",
+        "Nog becomes a Starfleet captain"
+      ],
+      "sources": [
+        "The Visitor (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "before-and-after-kes",
+      "title": "Kes's future, lived backward",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2373.6,
+        "tText": "2373",
+        "from": "prime",
+        "cause": "Chroniton radiation from a Krenim attack sends Kes backward through her own life from 2379"
+      },
+      "span": {
+        "from": 2373.6,
+        "to": 2379.5
+      },
+      "end": {
+        "t": 2379.5,
+        "tText": "2379",
+        "fate": "averted"
+      },
+      "summary": "Kes relives her life in reverse from her deathbed in 2379, through a Krenim attack in 2373 that killed Janeway and Torres. Her warnings, and the Doctor's cure, lead the real Voyager to prepare for the Krenim.",
+      "keyDifferences": [
+        "Janeway and Torres die to a Krenim chroniton torpedo; Chakotay is captain",
+        "Kes marries Tom Paris; their daughter Linnis marries Harry Kim",
+        "Kes reaches the end of her life (age nine) in 2379"
+      ],
+      "sources": [
+        "Before and After (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "pro-protostar-paradox",
+      "title": "Protostar paradox (2374-2385)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2374.0,
+        "tText": "2374",
+        "from": "prime",
+        "cause": "On 2436 Solum, Dal's dropped disruptor lets Chakotay and Adreek-Hu escape aboard the Protostar, which lands in 2374 instead of the distant past"
+      },
+      "span": {
+        "from": 2374.0,
+        "to": 2385.3
+      },
+      "end": {
+        "t": 2385.3,
+        "tText": "2385 (loop closed)",
+        "fate": "restored"
+      },
+      "summary": "Meddling by the cadets in 2436 means the Protostar never reaches Tars Lamora, where it had to be found, creating a paradox that erodes Gwyn's existence and draws the Loom. In 2385 the crews send the Protostar back through a wormhole to Tars Lamora, closing the loop.",
+      "keyDifferences": [
+        "Chakotay and Adreek-Hu maroon themselves on Ysida from 2374",
+        "Gwyn begins to fade from existence",
+        "The Loom, beings that feed on paradoxes, attack",
+        "Asencia seizes Solum and turns stolen temporal technology on the Federation"
+      ],
+      "sources": [
+        "Into the Breach, Part I (episode)",
+        "Into the Breach, Part II (episode)",
+        "Who Saves the Saviors (episode)",
+        "Temporal Mechanics 101 (episode)",
+        "Last Flight of the Protostar, Part I (episode)",
+        "Last Flight of the Protostar, Part II (episode)",
+        "Ouroboros, Part I (episode)",
+        "Ouroboros, Part II (episode)"
+      ],
+      "confidence": "explicit",
+      "conflict": "Memory Alpha's list frames it the other way round, as the original 'Protostar sent to Tars Lamora alone' history being negated and partially restored."
+    },
+    {
+      "id": "timeless-slipstream-crash",
+      "title": "Slipstream crash (2375-2390)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2375.14,
+        "tText": "2375 (stardate 52143.6)",
+        "from": "prime",
+        "cause": "Voyager's quantum slipstream flight goes wrong and the ship crashes on an icy planet"
+      },
+      "span": {
+        "from": 2375.14,
+        "to": 2390.0
+      },
+      "end": {
+        "t": 2390.0,
+        "tText": "2390",
+        "fate": "averted"
+      },
+      "summary": "Only Chakotay and Kim, flying ahead in the Delta Flyer, survive the crash that kills everyone else aboard Voyager. Fifteen years later they use a Borg temporal transmitter to send a corrected phase variance to Seven in 2375, and Voyager drops out of slipstream safely.",
+      "keyDifferences": [
+        "Voyager's crew die in 2375",
+        "Kim and Chakotay become fugitives, pursued by Captain La Forge's Challenger",
+        "Voyager's EMH is revived from the wreck in 2390"
+      ],
+      "sources": [
+        "Timeless (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "fury-kes-returns",
+      "title": "Kes's revenge (2376)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2376.8,
+        "tText": "2376",
+        "from": "prime",
+        "cause": "An aged, embittered Kes returns, kills Torres and uses Voyager's warp core to travel to 2371"
+      },
+      "span": {
+        "from": 2371.46,
+        "to": 2376.8
+      },
+      "end": {
+        "t": 2376.8,
+        "tText": "2376",
+        "fate": "averted"
+      },
+      "summary": "Aged Kes returns in 2376 blaming Voyager for her fate, kills B'Elanna Torres and slips back to 2371 to help the Vidiians seize the ship so her younger self will go home. The 2371 crew defeat the plan, and when Kes arrives again in 2376, Janeway is ready with a recording from her younger self that talks her out of revenge.",
+      "keyDifferences": [
+        "B'Elanna Torres is killed in 2376",
+        "The Vidiians board Voyager in 2371 with Kes's help"
+      ],
+      "sources": [
+        "Fury (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "shattered-voyager-fragments",
+      "title": "Voyager fractured in time",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2377.3,
+        "tText": "2377",
+        "from": "prime",
+        "cause": "A chronokinetic surge fractures Voyager into sections from different time periods"
+      },
+      "span": {
+        "from": 2371.3,
+        "to": 2394.0
+      },
+      "end": {
+        "t": 2394.0,
+        "tText": "reintegrated in 2377 (latest fragment 2394)",
+        "fate": "restored"
+      },
+      "summary": "A temporal rift splits Voyager into sections from different years, and only Chakotay moves freely among them. Allied with a 2371 Janeway who doesn't know him, he reunites the ship in its own time.",
+      "keyDifferences": [
+        "Sections from 2371, 2372 (Seska's Kazon takeover), 2373-2375 and 2377",
+        "A 2394 section with adult Naomi Wildman and Icheb, in whose history Janeway and Chakotay died in 2377",
+        "Chakotay is immune thanks to a chroniton serum"
+      ],
+      "sources": [
+        "Shattered (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "endgame-2404",
+      "title": "Voyager home in 2394 (2404 future)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2378.0,
+        "tText": "2378",
+        "from": "prime",
+        "cause": "Voyager takes the long way home without the Borg transwarp hub"
+      },
+      "span": {
+        "from": 2378.0,
+        "to": 2404.0
+      },
+      "end": {
+        "t": 2404.0,
+        "tText": "2404",
+        "fate": "averted"
+      },
+      "summary": "In the original history Voyager reaches Earth in 2394 after 23 years, having lost Seven and others along the way. In 2404 Admiral Janeway travels back to 2378 with future technology, and Voyager comes home through a Borg transwarp hub instead.",
+      "keyDifferences": [
+        "Voyager returns in 2394",
+        "Seven of Nine dies during the journey; Chakotay later dies",
+        "Tuvok suffers a degenerative neurological illness"
+      ],
+      "sources": [
+        "Endgame (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "pro-incursor-future",
+      "title": "Voyager-A destroyed (Wesley's vision)",
+      "kind": "possible-future",
+      "branch": {
+        "t": 2384.95,
+        "tText": "2384",
+        "from": "prime",
+        "cause": "Wesley Crusher shows Asencia where her Incursor weapon leads"
+      },
+      "span": {
+        "from": 2384.95,
+        "to": 2384.95
+      },
+      "end": {
+        "t": 2384.95,
+        "tText": "2384",
+        "fate": "averted"
+      },
+      "summary": "Wesley shows Asencia a future in which her Rev-1's Incursor destroys Voyager-A and probably the Protostar. The Rev-1 is destroyed first, so it never happens.",
+      "keyDifferences": [
+        "Voyager-A is destroyed by the Incursor",
+        "The Protostar is probably lost too"
+      ],
+      "sources": [
+        "Ascension, Part II (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "pro-solum-civil-war",
+      "title": "Solum's fall (original history)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2385.3,
+        "tText": "2385",
+        "from": "prime",
+        "cause": "Federation first contact with Solum splits the Vau N'Akat"
+      },
+      "span": {
+        "from": 2385.3,
+        "to": 2436.0
+      },
+      "end": {
+        "t": 2436.0,
+        "tText": "2436",
+        "fate": "averted"
+      },
+      "summary": "In the history PRO season 1 assumed, Starfleet's first contact divides Solum, and about fifty years later a civil war destroys its civilization; survivors send the Protostar and agents like the Diviner back to strike the Federation. Asencia's defeat and Voyager-A's peaceful first contact in 2385 avert it.",
+      "keyDifferences": [
+        "Solum falls and the Vau N'Akat are nearly wiped out",
+        "The Order sends a hundred agents with Drednoks through the anomaly after the Protostar",
+        "Ilthuran becomes the Diviner"
+      ],
+      "sources": [
+        "Preludes (episode)",
+        "A Moral Star, Part 2 (episode)",
+        "Into the Breach, Part II (episode)",
+        "Ouroboros, Part II (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "stargazer-self-destruct",
+      "title": "Stargazer self-destruct",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 2401.2,
+        "tText": "2401",
+        "from": "prime",
+        "cause": "Picard triggers the Stargazer's self-destruct as a Borg ship takes control"
+      },
+      "span": {
+        "from": 2401.2,
+        "to": 2401.2
+      },
+      "end": {
+        "t": 2401.2,
+        "tText": "2401",
+        "fate": "averted"
+      },
+      "summary": "Facing a Borg ship at a spatial anomaly, Picard sets the Stargazer to self-destruct, and Q pulls the crew into the Confederation timeline first. Back at the moment before the blast, Picard recognizes this Borg Queen as the one merged with Agnes Jurati and stops the countdown.",
+      "keyDifferences": [
+        "The Stargazer and its crew are destroyed",
+        "The Jurati Borg's offer of help is never heard"
+      ],
+      "sources": [
+        "The Star Gazer (episode)",
+        "Farewell (episode)"
+      ],
+      "confidence": "explicit"
+    },
+    {
+      "id": "face-the-strange-breen-future",
+      "title": "Breen triumph future (3218)",
+      "kind": "alternate-timeline",
+      "branch": {
+        "t": 3191.3,
+        "tText": "3191",
+        "from": "prime",
+        "cause": "Moll and L'ak plant a Krenim chronophage ('time bug') on Discovery"
+      },
+      "span": {
+        "from": 3191.3,
+        "to": 3218.0
+      },
+      "end": {
+        "t": 3218.0,
+        "tText": "3218",
+        "fate": "averted"
+      },
+      "summary": "The time bug cycles Discovery through moments of its own past, and Burnham and Rayner glimpse 3218, when the Breen have used Progenitor technology to devastate the Federation. With help from the 2256 crew, whose foreknowledge is erased, they remove the bug and avert that future.",
+      "keyDifferences": [
+        "The ship cycles through 2256-2258 and 3189",
+        "In 3218 Discovery is a derelict and the Breen have devastated the Federation",
+        "Changes made in 2256 vanish once the bug is removed"
+      ],
+      "sources": [
+        "Face the Strange (episode)"
+      ],
+      "confidence": "explicit"
+    }
+  ],
+  "crossings": [
+    {
+      "id": "mirror-lorca-2255",
+      "t": 2255.0,
+      "tText": "2255 (estimated; before 2256)",
+      "from": "mirror",
+      "to": "prime",
+      "travelers": [
+        "Gabriel Lorca (mirror)"
+      ],
+      "method": "ion storm + transporter malfunction during an escape attempt",
+      "summary": "Fleeing Emperor Georgiou after a failed coup, the Terran Lorca is thrown into the Prime universe by an ion storm during a beam-out, takes his counterpart's place and in 2256 commands Discovery.",
+      "sources": [
+        "Vaulting Ambition (episode)",
+        "What's Past Is Prologue (episode)",
+        "Despite Yourself (episode)"
+      ],
+      "confidence": "inferred",
+      "returned": false,
+      "note": "Told in dialogue, not shown. Year inferred from the 'one year, 212 days' remark. The Prime Lorca's fate (presumably swapped into the mirror universe) is never shown."
+    },
+    {
+      "id": "discovery-to-mirror-2257",
+      "t": 2257.1,
+      "tText": "2257",
+      "from": "prime",
+      "to": "mirror",
+      "travelers": [
+        "Michael Burnham",
+        "Gabriel Lorca (mirror)",
+        "Saru",
+        "Sylvia Tilly",
+        "Paul Stamets",
+        "Ash Tyler",
+        "Hugh Culber",
+        "Keyla Detmer",
+        "Joann Owosekun",
+        "Airiam"
+      ],
+      "method": "spore-drive jump with coordinates secretly altered by Lorca",
+      "summary": "Lorca rigs Discovery's spore-drive jump to land the whole ship in the mirror universe, where he means to retake the Empire. Culber is killed there.",
+      "sources": [
+        "Into the Forest I Go (episode)",
+        "Despite Yourself (episode)"
+      ],
+      "confidence": "explicit",
+      "vessels": [
+        "USS Discovery"
+      ],
+      "returned": true
+    },
+    {
+      "id": "discovery-return-2257",
+      "t": 2257.2,
+      "tText": "2257 (arrives nine months later in Prime)",
+      "from": "mirror",
+      "to": "prime",
+      "travelers": [
+        "Michael Burnham",
+        "Philippa Georgiou (mirror)",
+        "Saru",
+        "Sylvia Tilly",
+        "Paul Stamets",
+        "Ash Tyler",
+        "Keyla Detmer",
+        "Joann Owosekun",
+        "Airiam"
+      ],
+      "method": "spore drive riding the mycelial shockwave from the ISS Charon's destroyed reactor",
+      "summary": "After Georgiou kills Lorca, Burnham beams the deposed Emperor aboard and Discovery rides the Charon's mycelial shockwave home, arriving nine months after it left, with the war nearly lost.",
+      "sources": [
+        "What's Past Is Prologue (episode)",
+        "The War Without, The War Within (episode)"
+      ],
+      "confidence": "explicit",
+      "tArrive": 2257.9,
+      "tArriveText": "2257, nine months later",
+      "vessels": [
+        "USS Discovery"
+      ]
+    },
+    {
+      "id": "mirror-mirror-2267",
+      "t": 2267.4,
+      "tText": "2267",
+      "from": "prime",
+      "to": "mirror",
+      "travelers": [
+        "James T. Kirk",
+        "Leonard McCoy",
+        "Montgomery Scott",
+        "Nyota Uhura"
+      ],
+      "method": "ion storm + transporter malfunction",
+      "summary": "An ion storm swaps Kirk's landing party with their Terran counterparts. With the mirror Spock's grudging help they reverse the swap, and Kirk leaves Spock with a case for reform.",
+      "sources": [
+        "Mirror, Mirror (episode)"
+      ],
+      "confidence": "explicit",
+      "bidirectional": true,
+      "counterTravelers": [
+        "James T. Kirk (mirror)",
+        "Leonard McCoy (mirror)",
+        "Montgomery Scott (mirror)",
+        "Nyota Uhura (mirror)"
+      ],
+      "returned": true
+    },
+    {
+      "id": "tholian-web-defiant-2268",
+      "t": 2268.6,
+      "tText": "2268 (departs Prime) / Jan 2155 (arrives Mirror)",
+      "from": "prime",
+      "to": "mirror",
+      "travelers": [],
+      "method": "spatial interphase rift in Tholian space",
+      "summary": "The USS Defiant, its crew already dead, vanishes into an interphase rift in Tholian space and emerges more than a century earlier in the mirror universe, drawn through by the Tholians and then seized by the Terran Commander Archer.",
+      "sources": [
+        "The Tholian Web (episode)",
+        "In A Mirror, Darkly (episode)",
+        "In A Mirror, Darkly, Part II (episode)"
+      ],
+      "confidence": "explicit",
+      "tArrive": 2155.03,
+      "tArriveText": "January 2155",
+      "vessels": [
+        "USS Defiant (NCC-1764)"
+      ],
+      "returned": false
+    },
+    {
+      "id": "iss-enterprise-refugees",
+      "t": 2320.0,
+      "tText": "early 24th century (estimated; plaque stardate 32336.6)",
+      "from": "mirror",
+      "to": "prime",
+      "travelers": [
+        "Carmen Cho"
+      ],
+      "method": "the mutinous ISS Enterprise crosses over, then is trapped in a wormhole pocket of interdimensional space",
+      "summary": "After the reforming Terran High Chancellor is killed, the Enterprise crew mutiny and flee to the Prime universe with refugees, aided by the rebel Kelpien Saru. The ship is trapped in a wormhole pocket in Tzenkethi space, and the crew escape in pods to new lives in the Federation.",
+      "sources": [
+        "Mirrors (episode)",
+        "Whistlespeak (episode)"
+      ],
+      "confidence": "estimated",
+      "vessels": [
+        "ISS Enterprise (NCC-1701)"
+      ],
+      "returned": false,
+      "note": "No year is given. Carmen Cho was a Starfleet admiral by 2369, and Memory Alpha reads the episode as placing the Empire's fall in the early 24th century. The derelict is found in 3191."
+    },
+    {
+      "id": "section-31-godsend-2324",
+      "t": 2324.0,
+      "tText": "before 2324 (date unstated)",
+      "from": "mirror",
+      "to": "prime",
+      "travelers": [
+        "Dada Noe (mirror)"
+      ],
+      "method": "passageway in the Crescent Nebula that opens when two ion storms converge",
+      "summary": "A Terran weapons administrator smuggles the doomsday weapon Godsend into the Prime universe to sell it. San, Georgiou's Terran former love, schemes to bring a Terran invasion through the passageway, which collapses when Georgiou detonates the Godsend inside it.",
+      "sources": [
+        "Star Trek: Section 31"
+      ],
+      "confidence": "inferred",
+      "returned": false,
+      "note": "San (Memory Alpha: 'San') is also a Terran active in the Prime universe, but his crossing is never shown. The film's year (2324) is Memory Alpha's reading of its stardate."
+    },
+    {
+      "id": "crossover-2370",
+      "t": 2370.6,
+      "tText": "2370",
+      "from": "prime",
+      "to": "mirror",
+      "travelers": [
+        "Kira Nerys",
+        "Julian Bashir"
+      ],
+      "method": "runabout's warp field fails to collapse inside the Bajoran wormhole",
+      "summary": "Kira and Bashir's runabout emerges at Terok Nor in a mirror universe changed by Kirk's visit: the Terran Empire has fallen and humans are slaves of the Klingon-Cardassian Alliance. They escape home the same way.",
+      "sources": [
+        "Crossover (episode)"
+      ],
+      "confidence": "explicit",
+      "vessels": [
+        "USS Rio Grande"
+      ],
+      "returned": true
+    },
+    {
+      "id": "through-the-looking-glass-2371-smiley",
+      "t": 2371.7,
+      "tText": "2371",
+      "from": "mirror",
+      "to": "prime",
+      "travelers": [
+        "Miles O'Brien (mirror)"
+      ],
+      "method": "multidimensional transporter",
+      "summary": "Rebel leader 'Smiley' O'Brien crosses to DS9, poses as his counterpart and abducts Sisko.",
+      "sources": [
+        "Through the Looking Glass (episode)"
+      ],
+      "confidence": "explicit",
+      "returned": true
+    },
+    {
+      "id": "through-the-looking-glass-2371-sisko",
+      "t": 2371.71,
+      "tText": "2371",
+      "from": "prime",
+      "to": "mirror",
+      "travelers": [
+        "Benjamin Sisko"
+      ],
+      "method": "multidimensional transporter (abducted)",
+      "summary": "Taken to stand in for his dead counterpart as rebel leader, Sisko persuades the mirror Jennifer Sisko to join the Rebellion, then goes home.",
+      "sources": [
+        "Through the Looking Glass (episode)"
+      ],
+      "confidence": "explicit",
+      "returned": true
+    },
+    {
+      "id": "shattered-mirror-2372-jennifer",
+      "t": 2372.6,
+      "tText": "2372",
+      "from": "mirror",
+      "to": "prime",
+      "travelers": [
+        "Jennifer Sisko (mirror)"
+      ],
+      "method": "multidimensional transporter",
+      "summary": "The mirror Jennifer Sisko visits DS9 to lure Jake back with her and force Sisko to help the Rebellion defend Terok Nor.",
+      "sources": [
+        "Shattered Mirror (episode)"
+      ],
+      "confidence": "explicit",
+      "returned": true
+    },
+    {
+      "id": "shattered-mirror-2372-siskos",
+      "t": 2372.61,
+      "tText": "2372",
+      "from": "prime",
+      "to": "mirror",
+      "travelers": [
+        "Jake Sisko",
+        "Benjamin Sisko"
+      ],
+      "method": "multidimensional transporter",
+      "summary": "Jake goes with the mirror Jennifer and Sisko follows on a device keyed to him alone; he helps finish the rebels' Defiant and returns with Jake after Jennifer is killed.",
+      "sources": [
+        "Shattered Mirror (episode)"
+      ],
+      "confidence": "explicit",
+      "returned": true
+    },
+    {
+      "id": "resurrection-2374",
+      "t": 2374.4,
+      "tText": "2374",
+      "from": "mirror",
+      "to": "prime",
+      "travelers": [
+        "Bareil Antos (mirror)",
+        "Kira Nerys (mirror)"
+      ],
+      "method": "multidimensional transporter",
+      "summary": "The Intendant sends a mirror Bareil to DS9 to steal an Orb, then follows herself; both return to their universe.",
+      "sources": [
+        "Resurrection (episode)"
+      ],
+      "confidence": "explicit",
+      "returned": true
+    },
+    {
+      "id": "emperors-new-cloak-2375-zek",
+      "t": 2375.48,
+      "tText": "2375",
+      "from": "prime",
+      "to": "mirror",
+      "travelers": [
+        "Zek",
+        "Maihar'du"
+      ],
+      "method": "multidimensional transporter",
+      "summary": "Grand Nagus Zek crosses over on a business trip and is taken hostage by the Klingon-Cardassian Alliance.",
+      "sources": [
+        "The Emperor's New Cloak (episode)"
+      ],
+      "confidence": "explicit",
+      "returned": true
+    },
+    {
+      "id": "emperors-new-cloak-2375-ezri",
+      "t": 2375.5,
+      "tText": "2375",
+      "from": "mirror",
+      "to": "prime",
+      "travelers": [
+        "Ezri Tigan (mirror)"
+      ],
+      "method": "multidimensional transporter",
+      "summary": "The mirror Ezri brings Quark the ransom demand: a cloaking device for Zek's life.",
+      "sources": [
+        "The Emperor's New Cloak (episode)"
+      ],
+      "confidence": "explicit",
+      "returned": true
+    },
+    {
+      "id": "emperors-new-cloak-2375-quark",
+      "t": 2375.51,
+      "tText": "2375",
+      "from": "prime",
+      "to": "mirror",
+      "travelers": [
+        "Quark",
+        "Rom"
+      ],
+      "method": "multidimensional transporter",
+      "summary": "Quark and Rom deliver a stolen Klingon cloaking device, get caught up in the Rebellion's fight and come home with Zek and Maihar'du.",
+      "sources": [
+        "The Emperor's New Cloak (episode)"
+      ],
+      "confidence": "explicit",
+      "returned": true
+    },
+    {
+      "id": "cracked-mirror-2384",
+      "t": 2384.9,
+      "tText": "2384",
+      "from": "prime",
+      "to": "mirror",
+      "travelers": [
+        "Chakotay",
+        "Dal R'El",
+        "Gwyndala",
+        "Jankom Pog",
+        "Murf"
+      ],
+      "method": "interphasic rift through Voyager-A, then a transporter beam that lands in the mirror reality",
+      "summary": "Beamed into the mirror Voyager, the Protostar crew are captured by a Terran Janeway and Chakotay of a restored Terran Empire. They win the Terrans' help against the Loom and seal the rift to return.",
+      "sources": [
+        "Cracked Mirror (episode)"
+      ],
+      "confidence": "explicit",
+      "returned": true
+    },
+    {
+      "id": "terra-firma-3189-2255",
+      "t": 3189.8,
+      "tText": "3189 (departs Prime) / 2255 (arrives Mirror)",
+      "from": "prime",
+      "to": "mirror",
+      "travelers": [
+        "Philippa Georgiou (mirror)"
+      ],
+      "method": "the Guardian of Forever's doorway on Dannus V",
+      "summary": "The dying Georgiou steps through the Guardian's door and relives about three months of 2255 in her home universe as a test, returning to 3189 only moments later. She then leaves through the Guardian again for an era 'when the universes were still aligned' (the Prime 24th century, per 'Star Trek: Section 31').",
+      "sources": [
+        "Terra Firma, Part 1 (episode)",
+        "Terra Firma, Part 2 (episode)"
+      ],
+      "confidence": "explicit",
+      "tArrive": 2255.0,
+      "tArriveText": "2255",
+      "returned": true,
+      "note": "Her final Guardian trip goes to the Prime past (seen in 'Star Trek: Section 31', 2324), so it is time travel, not a mirror crossing."
+    }
+  ]
+}

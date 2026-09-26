@@ -1,0 +1,353 @@
+{
+  "id": "uhura-scott",
+  "title": "Uhura & Scott",
+  "people": [
+    "Nyota Uhura",
+    "Montgomery Scott"
+  ],
+  "kind": "romance",
+  "timeline": "prime",
+  "summary": "For most of Strange New Worlds, Uhura and Scotty are friendly shipmates with only a handful of scenes together. The Season 4 finale, “Tomorrow’s Enterprise” (2026), makes them a couple: in 2262 Uhura keeps dodging Scotty's invitations, while her self of a year later, serving under Kirk, has been seeing him in secret, calls it casual turning serious with no future in it, nearly loses him to a changed timeline, and then kisses him in front of the crew. Before that, canon offered scattered moments (Scotty killed trying to shield her from Nomad) and the open flirtation of Star Trek V in 2287, which the finale now gives a history; nothing later on screen mentions a relationship.",
+  "status": "Open: shown as a couple c. 2263, but 2262 Uhura has not said yes on screen; by her future self's account it starts as Pike leaves and Kirk takes command, the handover the six-episode final season (not expected before 2027) is set to show.",
+  "beats": [
+    {
+      "t": 2261.05,
+      "tText": "2261",
+      "confidence": "explicit",
+      "source": "Hegemony (episode)",
+      "title": "Scotty comes aboard",
+      "note": "Montgomery Scott, a junior engineer who escaped the Gorn attack on the Stardiver, is brought aboard the Enterprise. He and Uhura have no scene together yet.",
+      "weight": 1
+    },
+    {
+      "t": 2261.35,
+      "tText": "2261",
+      "confidence": "inferred",
+      "source": "A Space Adventure Hour (episode)",
+      "title": "A 'hypothetical' holodeck problem",
+      "note": "Covering for Pelia in engineering, Scotty quietly asks Uhura for help with a 'hypothetical' (La'An trapped on the prototype holodeck), and Uhura comes up with the fix: he enters the program as a character to reach her. It is their first real scene as a pair.",
+      "weight": 2
+    },
+    {
+      "t": 2261.55,
+      "tText": "2261",
+      "confidence": "inferred",
+      "source": "The Sehlat Who Ate Its Tail (episode)",
+      "title": "Kirk's makeshift Farragut crew",
+      "note": "Cut off from the Enterprise, Uhura, Scotty, Chapel and Spock crew the Farragut under acting captain Kirk; Uhura flies while Scotty turns the detached nacelles into a decoy. Colleagues under pressure, nothing personal.",
+      "weight": 1
+    },
+    {
+      "t": 2262.25,
+      "tText": "2262",
+      "confidence": "explicit",
+      "source": "Human Best Friend (episode)",
+      "title": "Tricorders and a forced apology",
+      "note": "Headed for a tech-free resort, Scotty frets about a week without tricorders and Uhura admits she is bringing one to keep working. Later, intoxicated by the planet's air, she makes Scotty and Ortegas apologize to each other before handing it over.",
+      "weight": 1
+    },
+    {
+      "t": 2262.55,
+      "tText": "2262",
+      "confidence": "explicit",
+      "source": "Off-Hour (episode)",
+      "title": "'He always picks up'",
+      "note": "With the ship crippled and comms down, Uhura reports that even Scotty isn't answering, 'and he always picks up.' A passing line; nothing more is made of it.",
+      "weight": 1
+    },
+    {
+      "t": 2262.9,
+      "tText": "2262",
+      "confidence": "explicit",
+      "source": "Tomorrow's Enterprise (episode)",
+      "title": "A drink, sometime?",
+      "note": "Uhura beams back from a refresher course and Scotty, at the transporter controls, asks whether she might get a drink with him sometime. She dodges it: she is due on the bridge.",
+      "weight": 2
+    },
+    {
+      "t": 2262.905,
+      "tText": "2262",
+      "confidence": "explicit",
+      "source": "Tomorrow's Enterprise (episode)",
+      "title": "His scream from the future",
+      "note": "A pulse from a white hole lets Uhura hear Scotty screaming her name in a moment that has not happened yet. La'An warns her not to meddle with time; she will not drop it, because it is Scotty.",
+      "weight": 1
+    },
+    {
+      "t": 2262.91,
+      "tText": "2262",
+      "confidence": "explicit",
+      "source": "Tomorrow's Enterprise (episode)",
+      "title": "Second ask, misheard no",
+      "note": "When Uhura asks Scotty for antimatter for a year-long experiment, he tries again: a drink, a meal, a snack? Her future self on the line says 'Say yes', Scotty hears her muttered 'No' as meant for him, and all she manages is 'Just be safe.'",
+      "weight": 2
+    },
+    {
+      "t": 2262.915,
+      "tText": "2262",
+      "confidence": "explicit",
+      "source": "Tomorrow's Enterprise (episode)",
+      "title": "Future Uhura hugs past Scotty",
+      "note": "After the two Uhuras trade places, the older one, now in Pike's era, meets a Scotty who thought she was avoiding him and hugs him (twice, by Pike's count). He gives her the clue that the anomaly is 'half a note'.",
+      "weight": 2
+    },
+    {
+      "t": 2262.95,
+      "tText": "2262",
+      "confidence": "explicit",
+      "source": "Tomorrow's Enterprise (episode)",
+      "title": "Choosing the present",
+      "note": "With the timeline restored and only the two Uhuras remembering, present-day Uhura's closing log commits to living in the moment 'with the ones I love', and she joins Pike's dinner. She has not said yes to Scotty on screen.",
+      "weight": 2
+    },
+    {
+      "t": 2262.98,
+      "tText": "c. 2262–63",
+      "confidence": "inferred",
+      "source": "Tomorrow's Enterprise (episode)",
+      "title": "Holding on to each other",
+      "note": "By her future self's account, the two got together off screen while the crew changed, with Pike leaving and Kirk taking command. They kept it quiet and called it casual.",
+      "weight": 2
+    },
+    {
+      "t": 2263.85,
+      "tText": "c. 2263",
+      "confidence": "inferred",
+      "source": "Tomorrow's Enterprise (episode)",
+      "title": "A secret on Kirk's ship",
+      "note": "A year on, under Captain Kirk, Scotty kisses Uhura's cheek in the turbolift and promises nothing will happen to her. She rules out kissing on the bridge or on missions; he asks whether they have to stay hidden.",
+      "weight": 2
+    },
+    {
+      "t": 2263.86,
+      "tText": "c. 2263",
+      "confidence": "inferred",
+      "source": "Tomorrow's Enterprise (episode)",
+      "title": "'No future in it'",
+      "note": "On a shuttle run into a black hole, guest pilot Ortegas clocks them as lovebirds. Uhura admits a year of 'casual' is turning serious but says neither of them expects it to last; Ortegas answers that there is a 'now' in it.",
+      "weight": 3
+    },
+    {
+      "t": 2263.87,
+      "tText": "c. 2263",
+      "confidence": "inferred",
+      "source": "Tomorrow's Enterprise (episode)",
+      "title": "Erased from her timeline",
+      "note": "The shuttle breaks up, Uhura is beamed out first, and she finds herself in a changed timeline where Scotty died a year earlier when his console exploded, with her singing to him. She works with her past self to undo it.",
+      "weight": 2
+    },
+    {
+      "t": 2263.88,
+      "tText": "c. 2263",
+      "confidence": "inferred",
+      "source": "Tomorrow's Enterprise (episode)",
+      "title": "The kiss that ends secrecy",
+      "note": "Once the space baby is born and its Midwives restore time, Scotty and Ortegas beam in right behind Uhura, and she kisses him in front of Kirk and Ortegas. The secret is out.",
+      "weight": 3
+    },
+    {
+      "t": 2267.35,
+      "tText": "2267",
+      "confidence": "inferred",
+      "source": "The Changeling (episode)",
+      "title": "Killed shielding her from Nomad",
+      "note": "When the probe Nomad, drawn by Uhura's singing, wipes her mind, Scotty tries to pull it off her and is killed. Nomad then 'repairs' him, and Uhura has to relearn language in sickbay.",
+      "weight": 2
+    },
+    {
+      "t": 2267.4,
+      "tText": "2267",
+      "confidence": "inferred",
+      "source": "Mirror, Mirror (episode)",
+      "title": "Stranded in the mirror universe",
+      "note": "A transporter accident swaps Kirk, McCoy, Scotty and Uhura into the Terran Empire, and the four work their way home as a team, Uhura distracting the mirror Sulu. Colleagues, no hint of romance.",
+      "weight": 1
+    },
+    {
+      "t": 2269.5,
+      "tText": "2269",
+      "confidence": "inferred",
+      "source": "The Lorelei Signal (episode)",
+      "title": "Uhura relieves an entranced Scotty",
+      "note": "With the men aboard enthralled by an alien signal, Uhura finds Scotty in the captain's chair singing a Welsh ballad and takes command from him.",
+      "weight": 1
+    },
+    {
+      "t": 2286.5,
+      "tText": "2286",
+      "confidence": "inferred",
+      "source": "Star Trek IV: The Voyage Home",
+      "title": "One at a time",
+      "note": "Short of power in 1986 San Francisco, Scotty can beam the team off the aircraft carrier only one at a time. Uhura gets out first; Chekov is caught.",
+      "weight": 1
+    },
+    {
+      "t": 2287.5,
+      "tText": "2287",
+      "confidence": "inferred",
+      "source": "Star Trek V: The Final Frontier",
+      "title": "Shore leave plans, dinner instead",
+      "note": "Uhura had expected to take shore leave with Scotty; when repairs keep him aboard the new Enterprise-A, she brings dinner to the bridge, and he calls her 'the most understanding woman I know.'",
+      "weight": 2
+    },
+    {
+      "t": 2287.52,
+      "tText": "2287",
+      "confidence": "inferred",
+      "source": "Star Trek V: The Final Frontier",
+      "title": "Confession under Sybok's spell",
+      "note": "Under Sybok's influence, Uhura sits with a concussed Scotty in sickbay and says there is so much she wants to tell him. He puts it off until he is stronger, 'or yours', meaning she is not herself.",
+      "weight": 3
+    },
+    {
+      "t": 2293.3,
+      "tText": "2293",
+      "confidence": "inferred",
+      "source": "Star Trek VI: The Undiscovered Country",
+      "title": "Friends near retirement",
+      "note": "Summoned to a briefing, Scotty has 'just bought a boat' and Uhura is due to chair an Academy seminar. Later he helps as she bluffs past a Klingon outpost in halting Klingon; friendly colleagues, no romance.",
+      "weight": 1
+    }
+  ],
+  "alternate": [
+    {
+      "t": 2258.42,
+      "tText": "2258",
+      "confidence": "explicit",
+      "source": "Star Trek (film)",
+      "title": "Kelvin: Uhura kisses Spock",
+      "note": "Uhura talks her former instructor Spock into posting her to the Enterprise; after Vulcan is destroyed she comforts him in a turbolift with a kiss, revealing they are a couple. This timeline's Scotty, who joins mid-film, never pairs with her.",
+      "weight": 3
+    },
+    {
+      "t": 2259.55,
+      "tText": "2259",
+      "confidence": "explicit",
+      "source": "Star Trek Into Darkness",
+      "title": "Kelvin: a fight over Qo'noS",
+      "note": "Flying into Klingon space, Uhura confronts Spock in front of Kirk over his apparent indifference to dying on Nibiru and what that says about his feelings for her.",
+      "weight": 2
+    },
+    {
+      "t": 2263.2,
+      "tText": "2263",
+      "confidence": "explicit",
+      "source": "Star Trek Beyond",
+      "title": "Kelvin: split, then renewal",
+      "note": "Uhura and Spock have broken up; the vokaya amulet he gave her lets the crew find their captured shipmates, and by the end they begin to renew the relationship. This is the same in-universe year the Prime Uhura is secretly seeing Scotty.",
+      "weight": 2
+    }
+  ],
+  "sources_web": [
+    {
+      "title": "Star Trek: Strange New Worlds Season 4 – Everything to Know (Paramount+)",
+      "url": "https://www.paramountplus.com/sneak-peak/star-trek-strange-new-worlds-season-4/",
+      "date": "2026-07-23"
+    },
+    {
+      "title": "Star Trek: Strange New Worlds season 4 (Wikipedia, accessed)",
+      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_4",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Star Trek: Strange New Worlds season 5 (Wikipedia, accessed)",
+      "url": "https://en.wikipedia.org/wiki/Star_Trek:_Strange_New_Worlds_season_5",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Tomorrow's Enterprise (episode) (Memory Alpha, accessed)",
+      "url": "https://memory-alpha.fandom.com/wiki/Tomorrow%27s_Enterprise_(episode)",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Star Trek: Strange New Worlds S04E10 Tomorrow's Enterprise – Transcript (Scraps from the Loft)",
+      "url": "https://scrapsfromtheloft.com/tv-series/star-trek-strange-new-worlds-s04e10-tomorrows-enterprise-transcript/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Recap/Review: Strange New Worlds Season 4 Finale Is Right On Time With “Tomorrow’s Enterprise” (TrekMovie, Anthony Pascale)",
+      "url": "https://trekmovie.com/2026/09/24/recap-review-star-trek-strange-new-worlds-season-4-finale-is-right-on-time-with-tomorrows-enterprise/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Star Trek: Strange New Worlds S4E10 Recap/Review: “Tomorrow’s Enterprise” (SDCC Unofficial Blog, Andy Wagner)",
+      "url": "https://sdccblog.com/2026/09/star-trek-strange-new-worlds-season-4-episode-10-recap-review-tomorrows-enterprise/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "‘Star Trek: Strange New Worlds’ Gets Lost in Time in Its Season 4 Finale (Gizmodo, Alyse Wax)",
+      "url": "https://gizmodo.com/star-trek-strange-new-worlds-season-4-episode-10-tomorrows-enterprise-recap-review-2000816503",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "STAR TREK: STRANGE NEW WORLDS Season Finale Review: “Tomorrow’s Enterprise” (TrekCore, Alex Perry)",
+      "url": "https://blog.trekcore.com/2026/09/star-trek-strange-new-worlds-season-finale-review-tomorrows-enterprise/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Strange New Worlds Season 4 Finale Ending Explained: The Best Of Both Enterprises (Screen Rant, John Orquiola)",
+      "url": "https://screenrant.com/star-trek-strange-new-worlds-season-4-finale-ending-explained/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Strange New Worlds Season 4 Finale Review — Tomorrow’s Enterprise (Den of Geek, Lacy Baugher)",
+      "url": "https://www.denofgeek.com/tv/star-trek-strange-new-worlds-season-4-finale-review-tomorrows-enterprise/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Star Trek: Strange New Worlds EPs Break Down Season 4 Finale (TVLine, Dave Nemetz)",
+      "url": "https://www.tvline.com/2265959/star-trek-strange-new-worlds-season-4-finale-interview/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Strange New Worlds Showrunners Break Down the Season 4 Finale and Tease the Final Season (TV Guide, Scott Huver)",
+      "url": "https://www.tvguide.com/news/star-trek-strange-new-worlds-season-4-finale/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Celia Rose Gooding on the Season 4 Finale, Uhura's Emotional Journey, and “Uhotty” Shippers (TV Guide, Scott Huver)",
+      "url": "https://www.tvguide.com/news/star-trek-strange-new-worlds-celia-rose-gooding-uhura/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Celia Rose Gooding Reveals Big Change To Strange New Worlds' Future Enterprise Timeline (Screen Rant, John Orquiola)",
+      "url": "https://screenrant.com/star-trek-strange-new-worlds-finale-uhura-enterprise-timeline-change/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Jess Bush Discusses Playing The Original Series' Nurse Chapel On Kirk's Enterprise (Screen Rant, John Orquiola)",
+      "url": "https://screenrant.com/star-trek-strange-new-worlds-jess-bush-original-series-chapel/",
+      "date": "2026-09-24"
+    },
+    {
+      "title": "Strange New Worlds Season 4 Finale Redeems The Franchise's Most Baffling Romance (SlashFilm, Witney Seibold)",
+      "url": "https://www.slashfilm.com/2267042/star-trek-strange-new-worlds-season-4-finale-redemption-romance-scotty-uhura/",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Star Trek V: The Final Frontier transcript (Chakoteya, accessed)",
+      "url": "http://www.chakoteya.net/movies/movie5.html",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "The Changeling transcript (Chakoteya, accessed)",
+      "url": "http://www.chakoteya.net/StarTrek/37.htm",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Star Trek VI: The Undiscovered Country transcript (Chakoteya, accessed)",
+      "url": "http://www.chakoteya.net/movies/movie6.html",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Relics transcript (Chakoteya, accessed)",
+      "url": "http://www.chakoteya.net/NextGen/230.htm",
+      "date": "2026-09-25"
+    },
+    {
+      "title": "Star Trek: The Official Fan Club Magazine issue 73, Nichelle Nichols interview (Memory Alpha summary, accessed)",
+      "url": "https://memory-alpha.fandom.com/wiki/Star_Trek:_The_Official_Fan_Club_Magazine_issue_73",
+      "date": "2026-09-25"
+    }
+  ]
+}

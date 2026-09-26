@@ -1,0 +1,5462 @@
+[
+  {
+    "id": "naked-time",
+    "title": "Cold-start jump back seventy-one hours",
+    "legs": [
+      {
+        "from": {
+          "t": 2266.5,
+          "tText": "2266",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2266.491901,
+          "tText": "2266 (71 hours earlier)",
+          "timeline": "prime"
+        },
+        "toLane": "TOS"
+      }
+    ],
+    "travelers": [
+      "USS Enterprise (NCC-1701)",
+      "James T. Kirk",
+      "Spock",
+      "Montgomery Scott"
+    ],
+    "method": "warp engine cold start (matter/antimatter implosion)",
+    "agency": "accidental",
+    "outcome": "persistent",
+    "summary": "An emergency cold restart of the engines to escape a collapsing planet's orbit throws the Enterprise back 71 hours. Spock notes the method could be used for deliberate time travel.",
+    "sources": [
+      "The Naked Time (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "tomorrow-is-yesterday",
+    "title": "Enterprise hurled back to 1969",
+    "legs": [
+      {
+        "from": {
+          "t": 2267.5,
+          "tText": "2267",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1969.54,
+          "tText": "1969 (July, days before Apollo 11)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 1969.54,
+          "tText": "1969",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 1969.539,
+          "tText": "earlier in 1969",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "slingshot back to the moment before the jet encounter, to return Captain Christopher and the air police sergeant"
+      },
+      {
+        "from": {
+          "t": 1969.539,
+          "tText": "1969",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2267.5,
+          "tText": "2267",
+          "timeline": "prime"
+        },
+        "toLane": "TOS"
+      }
+    ],
+    "travelers": [
+      "USS Enterprise (NCC-1701)",
+      "James T. Kirk",
+      "Spock",
+      "John Christopher"
+    ],
+    "method": "black star gravity well; return by slingshot effect",
+    "agency": "accidental",
+    "outcome": "restored",
+    "summary": "A black star's pull flings the Enterprise into 1969 Earth orbit, where it is spotted by the US Air Force. Spock times a slingshot around the Sun to drop the captured airmen back before their encounter and carry the ship home.",
+    "sources": [
+      "Tomorrow is Yesterday (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "city-on-the-edge",
+    "title": "McCoy through the Guardian",
+    "legs": [
+      {
+        "from": {
+          "t": 2267.5,
+          "tText": "2267",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1930.5,
+          "tText": "1930",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "a delirious McCoy saves Edith Keeler, erasing the Federation"
+      },
+      {
+        "from": {
+          "t": 2267.5,
+          "tText": "2267",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 1930.4,
+          "tText": "1930 (days before McCoy)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Kirk and Spock follow to undo the change"
+      },
+      {
+        "from": {
+          "t": 1930.5,
+          "tText": "1930",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2267.5,
+          "tText": "2267",
+          "timeline": "prime"
+        },
+        "toLane": "TOS"
+      }
+    ],
+    "travelers": [
+      "Leonard McCoy",
+      "James T. Kirk",
+      "Spock"
+    ],
+    "method": "Guardian of Forever",
+    "agency": "accidental",
+    "outcome": "divergence",
+    "divergenceHint": "city-on-the-edge",
+    "summary": "An accidental cordrazine overdose sends McCoy leaping through the Guardian into Depression-era New York, where saving a pacifist's life lets Germany win the Second World War. Kirk and Spock follow and must let her die to restore history.",
+    "sources": [
+      "The City on the Edge of Forever (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "assignment-earth",
+    "title": "Historical research voyage to 1968",
+    "legs": [
+      {
+        "from": {
+          "t": 2268.5,
+          "tText": "2268",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1968.5,
+          "tText": "1968",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 1968.5,
+          "tText": "1968",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2268.5,
+          "tText": "2268",
+          "timeline": "prime"
+        },
+        "toLane": "TOS"
+      }
+    ],
+    "travelers": [
+      "USS Enterprise (NCC-1701)",
+      "James T. Kirk",
+      "Spock"
+    ],
+    "method": "slingshot effect (light-speed breakaway factor)",
+    "agency": "deliberate",
+    "outcome": "predestination",
+    "summary": "The Enterprise travels to 1968 on an authorized historical survey and collides with Gary Seven's covert mission to sabotage an orbital weapons launch. The records they check afterward show events went exactly as they witnessed.",
+    "sources": [
+      "Assignment: Earth (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "all-our-yesterdays",
+    "title": "Landing party lost in Sarpeidon's past",
+    "legs": [
+      {
+        "from": {
+          "t": 2269.5,
+          "tText": "2269",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1700.0,
+          "tText": "Sarpeidon's past: an era like Earth's 17th century (year unstated)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "placeholder t; the episode gives no year"
+      },
+      {
+        "from": {
+          "t": 2269.5,
+          "tText": "2269",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": -2731.0,
+          "tText": "c. 5,000 years before 2269 (Sarpeidon ice age)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 1700.0,
+          "tText": "Sarpeidon's past",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2269.5,
+          "tText": "2269",
+          "timeline": "prime"
+        },
+        "toLane": "TOS"
+      },
+      {
+        "from": {
+          "t": -2731.0,
+          "tText": "Sarpeidon ice age",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2269.5,
+          "tText": "2269",
+          "timeline": "prime"
+        },
+        "toLane": "TOS"
+      }
+    ],
+    "travelers": [
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy"
+    ],
+    "method": "atavachron",
+    "agency": "accidental",
+    "outcome": "restored",
+    "summary": "Hours before Beta Niobe goes nova, Kirk stumbles through the library's time portal into a witch-hunting past while Spock and McCoy land in an ice age 5,000 years back. All three return through the portal moments before the star explodes.",
+    "sources": [
+      "All Our Yesterdays (episode)"
+    ],
+    "confidence": "estimated",
+    "conflict": "Kirk's destination year is never given; t=1700 is a placeholder."
+  },
+  {
+    "id": "sarpeidon-exodus",
+    "title": "Sarpeidon's population flees into history",
+    "legs": [
+      {
+        "from": {
+          "t": 2269.5,
+          "tText": "2269",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1000.0,
+          "tText": "Sarpeidon's past (many eras; dates unstated)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "placeholder t for the whole population's dispersal into chosen eras"
+      },
+      {
+        "from": {
+          "t": 2269.5,
+          "tText": "2269",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1000.0,
+          "tText": "Sarpeidon's past (unstated)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Mr. Atoz follows his family last, just before the nova"
+      }
+    ],
+    "travelers": [
+      "Atoz"
+    ],
+    "method": "atavachron",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "Warned of their sun's imminent nova, Sarpeidon's entire population prepared their bodies with the atavachron and escaped into eras of their own past. The librarian Atoz is the last to go; Zarabeth was exiled to the ice age earlier by the same device.",
+    "sources": [
+      "All Our Yesterdays (episode)"
+    ],
+    "confidence": "estimated",
+    "conflict": "No dates are given for any of the exodus eras; t is a placeholder."
+  },
+  {
+    "id": "yesteryear",
+    "title": "Spock saves his own childhood",
+    "legs": [
+      {
+        "from": {
+          "t": 2269.5,
+          "tText": "2269",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": -5000.0,
+          "tText": "dawn of Orion civilization (date unstated)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "historical survey; placeholder t"
+      },
+      {
+        "from": {
+          "t": -5000.0,
+          "tText": "dawn of Orion civilization",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2269.5,
+          "tText": "2269",
+          "timeline": "alternate"
+        },
+        "toLane": "TAS",
+        "note": "they return to a timeline in which Spock died as a child"
+      },
+      {
+        "from": {
+          "t": 2269.5,
+          "tText": "2269",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2237.5,
+          "tText": "2237 (Vulcan, ShiKahr)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Spock poses as his cousin Selek to guide his younger self through the kahs-wan"
+      },
+      {
+        "from": {
+          "t": 2237.5,
+          "tText": "2237",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2269.5,
+          "tText": "2269",
+          "timeline": "prime"
+        },
+        "toLane": "TAS"
+      }
+    ],
+    "travelers": [
+      "James T. Kirk",
+      "Spock",
+      "Erickson"
+    ],
+    "method": "Guardian of Forever",
+    "agency": "deliberate",
+    "outcome": "divergence",
+    "divergenceHint": "yesteryear",
+    "summary": "Returning from a survey of Orion history, Spock finds a timeline in which he died at age seven. He goes back to Vulcan as 'cousin Selek' to ensure his younger self survives, at the cost of his pet sehlat I-Chaya.",
+    "sources": [
+      "Yesteryear (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "The Orion-history destination is undated; t=-5000 is a placeholder."
+  },
+  {
+    "id": "voyage-home",
+    "title": "Bounty sails back for humpbacks",
+    "legs": [
+      {
+        "from": {
+          "t": 2286.5,
+          "tText": "2286",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1986.5,
+          "tText": "1986 (San Francisco)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 1986.5,
+          "tText": "1986",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2286.5,
+          "tText": "2286",
+          "timeline": "prime"
+        },
+        "toLane": "FILM"
+      }
+    ],
+    "travelers": [
+      "HMS Bounty",
+      "James T. Kirk",
+      "Spock",
+      "Leonard McCoy",
+      "Montgomery Scott",
+      "Nyota Uhura",
+      "Hikaru Sulu",
+      "Pavel Chekov",
+      "Gillian Taylor",
+      "George and Gracie"
+    ],
+    "method": "slingshot effect",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "To answer a whale-song probe devastating Earth, Kirk's fugitive crew slingshots a captured Klingon Bird-of-Prey to 1986 and brings back two humpback whales plus the cetologist Gillian Taylor, who stays in the 23rd century.",
+    "sources": [
+      "Star Trek IV: The Voyage Home"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "defiant-to-mirror-2155",
+    "title": "Tholian Web Defiant lands a century early",
+    "legs": [
+      {
+        "from": {
+          "t": 2268.9,
+          "tText": "2268 (interphase, Tholian space)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2155.0,
+          "tText": "c. 2155 (mirror universe)",
+          "timeline": "mirror"
+        },
+        "toLane": "MIRROR",
+        "note": "the ship crossed both universes and about a century"
+      }
+    ],
+    "travelers": [
+      "USS Defiant (NCC-1764)"
+    ],
+    "method": "interphase rift (spatial interphase)",
+    "agency": "accidental",
+    "outcome": "persistent",
+    "summary": "The USS Defiant, lost to interphase in Tholian space in 2268, was drawn through a rift into the mirror universe about a century earlier. Terran Empire officers seized it from the mirror Tholians in 2155.",
+    "sources": [
+      "In A Mirror, Darkly (episode)",
+      "In A Mirror, Darkly, Part II (episode)",
+      "The Tholian Web (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "Arrival date inferred from its discovery in January 2155; the exact emergence time is unstated."
+  },
+  {
+    "id": "manheim-time-skips",
+    "title": "Manheim experiment repeats a moment",
+    "legs": [
+      {
+        "from": {
+          "t": 2364.3,
+          "tText": "2364",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2364.3,
+          "tText": "2364",
+          "timeline": "prime"
+        },
+        "toLane": "TNG",
+        "note": "loop: a few seconds replay for the Enterprise-D, the USS Lalo and the Coltar IV colony"
+      }
+    ],
+    "travelers": [
+      "USS Enterprise (NCC-1701-D)",
+      "Jean-Luc Picard",
+      "Data",
+      "Paul Manheim"
+    ],
+    "method": "time-gravity experiment (temporal distortion)",
+    "agency": "loop",
+    "outcome": "loop",
+    "summary": "Dr. Paul Manheim's dimensional experiment on Vandor IV causes brief time skips in which a moment replays. Data seals the rift with antimatter to end the effect.",
+    "sources": [
+      "We'll Always Have Paris (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "time-squared",
+    "title": "Picard's six-hours-future double",
+    "legs": [
+      {
+        "from": {
+          "t": 2365.500684,
+          "tText": "2365 (six hours ahead)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2365.5,
+          "tText": "2365",
+          "timeline": "prime"
+        },
+        "toLane": "TNG"
+      }
+    ],
+    "travelers": [
+      "Jean-Luc Picard",
+      "El-Baz"
+    ],
+    "method": "energy vortex",
+    "agency": "natural",
+    "outcome": "restored",
+    "summary": "The Enterprise-D recovers a shuttlepod carrying a dazed Picard from six hours in the future, after an energy vortex destroyed the ship in his timeline. The present Picard breaks the cycle by taking the ship into the vortex's center.",
+    "sources": [
+      "Time Squared (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "yesterdays-enterprise",
+    "title": "Enterprise-C through the Narendra rift",
+    "legs": [
+      {
+        "from": {
+          "t": 2344.5,
+          "tText": "2344 (Narendra III)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2366.3,
+          "tText": "2366",
+          "timeline": "alternate"
+        },
+        "toLane": "TNG",
+        "note": "its absence from the battle rewrites history into a Klingon war"
+      },
+      {
+        "from": {
+          "t": 2366.3,
+          "tText": "2366",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2344.5,
+          "tText": "2344",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "returns to die at Narendra III, carrying the alternate Tasha Yar"
+      }
+    ],
+    "travelers": [
+      "USS Enterprise (NCC-1701-C)",
+      "Rachel Garrett",
+      "Richard Castillo",
+      "Natasha Yar"
+    ],
+    "method": "temporal rift",
+    "agency": "accidental",
+    "outcome": "divergence",
+    "divergenceHint": "yesterdays-enterprise",
+    "summary": "The Enterprise-C falls through a temporal rift 22 years forward, creating a timeline of Federation-Klingon war. Its crew goes back to certain death to restore history, taking along an alternate Tasha Yar whose capture in 2344 later produces Sela.",
+    "sources": [
+      "Yesterday's Enterprise (episode)",
+      "Redemption II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "vorgon-uthat-hunt",
+    "title": "Vorgons pursue the Tox Uthat",
+    "legs": [
+      {
+        "from": {
+          "t": 2650.0,
+          "tText": "27th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2366.4,
+          "tText": "2366 (Risa)",
+          "timeline": "prime"
+        },
+        "toLane": "TNG"
+      },
+      {
+        "from": {
+          "t": 2366.4,
+          "tText": "2366",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2650.0,
+          "tText": "27th century",
+          "timeline": "prime"
+        },
+        "toLane": "FUTURE",
+        "note": "they leave empty-handed"
+      }
+    ],
+    "travelers": [
+      "Ajur",
+      "Boratus"
+    ],
+    "method": "Vorgon time travel technology",
+    "agency": "hostile",
+    "outcome": "restored",
+    "summary": "Two 27th-century Vorgon criminals travel to Risa to seize the Tox Uthat, a weapon able to halt a star's fusion. Picard destroys it and they return to their own time empty-handed.",
+    "sources": [
+      "Captain's Holiday (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "kal-dano-hides-uthat",
+    "title": "Kal Dano hides his invention",
+    "legs": [
+      {
+        "from": {
+          "t": 2650.0,
+          "tText": "27th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2150.0,
+          "tText": "22nd century (Risa)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      }
+    ],
+    "travelers": [
+      "Kal Dano",
+      "Tox Uthat"
+    ],
+    "method": "unspecified 27th-century time travel",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "The Tox Uthat's inventor fled his own century and hid the device on 22nd-century Risa to keep it from criminals. It stayed hidden until 2366.",
+    "sources": [
+      "Captain's Holiday (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "Described, not shown; exact years unstated."
+  },
+  {
+    "id": "a-matter-of-time",
+    "title": "Rasmussen's stolen time-pod",
+    "legs": [
+      {
+        "from": {
+          "t": 2550.0,
+          "tText": "26th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2150.0,
+          "tText": "22nd century (New Jersey)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "the pod's unnamed 26th-century owner visits the 22nd century"
+      },
+      {
+        "from": {
+          "t": 2150.0,
+          "tText": "22nd century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2368.3,
+          "tText": "2368",
+          "timeline": "prime"
+        },
+        "toLane": "TNG",
+        "note": "Rasmussen steals the pod and poses as a 26th-century historian"
+      },
+      {
+        "from": {
+          "t": 2368.3,
+          "tText": "2368",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2150.0,
+          "tText": "22nd century",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "the pod returns empty on its preset program"
+      }
+    ],
+    "travelers": [
+      "Berlinghoff Rasmussen"
+    ],
+    "method": "time-pod (26th-century timeship)",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "A 22nd-century inventor steals a visiting 26th-century traveler's time-pod and arrives aboard the Enterprise-D posing as a future historian, collecting gadgets to 'invent' back home. The pod returns without him, and Rasmussen is stranded in 2368.",
+    "sources": [
+      "A Matter Of Time (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "Rasmussen's exact home year in the 22nd century is not stated."
+  },
+  {
+    "id": "cause-and-effect",
+    "title": "Enterprise-D caught in causality loop",
+    "legs": [
+      {
+        "from": {
+          "t": 2368.4,
+          "tText": "2368 (Typhon Expanse)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2368.4,
+          "tText": "2368",
+          "timeline": "prime"
+        },
+        "toLane": "TNG",
+        "note": "loop: the ship relives the same ~17 days until Data plants a clue"
+      },
+      {
+        "from": {
+          "t": 2278.5,
+          "tText": "2278",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2368.4,
+          "tText": "2368",
+          "timeline": "prime"
+        },
+        "toLane": "TNG",
+        "note": "the USS Bozeman emerges 90 years after it entered the distortion"
+      }
+    ],
+    "travelers": [
+      "USS Enterprise (NCC-1701-D)",
+      "USS Bozeman",
+      "Morgan Bateson"
+    ],
+    "method": "temporal causality loop (temporal distortion)",
+    "agency": "loop",
+    "outcome": "loop",
+    "summary": "A collision with the emerging USS Bozeman destroys the Enterprise-D over and over as a temporal distortion resets time. Data's buried subconscious message breaks the loop, and the Bozeman learns it has been lost for 90 years.",
+    "sources": [
+      "Cause And Effect (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "devidian-harvest",
+    "title": "Devidians feed on 1893 San Francisco",
+    "legs": [
+      {
+        "from": {
+          "t": 2368.9,
+          "tText": "2368 (Devidia II)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1893.6,
+          "tText": "1893 (San Francisco)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "repeated trips; the Devidians harvest neural energy from the dying"
+      },
+      {
+        "from": {
+          "t": 1893.6,
+          "tText": "1893",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2369.0,
+          "tText": "2369",
+          "timeline": "prime"
+        },
+        "toLane": "TNG"
+      }
+    ],
+    "travelers": [
+      "Devidian"
+    ],
+    "method": "temporal vortex (Devidian time portal)",
+    "agency": "hostile",
+    "outcome": "restored",
+    "summary": "Phase-shifted aliens from Devidia II use a time portal to prey on cholera victims in 1893 San Francisco. The Enterprise-D destroys the portal to end the harvest.",
+    "sources": [
+      "Time's Arrow (episode)",
+      "Time's Arrow, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "times-arrow",
+    "title": "Data's head in a Frisco cavern",
+    "legs": [
+      {
+        "from": {
+          "t": 2368.9,
+          "tText": "2368",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1893.6,
+          "tText": "1893",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Data follows the Devidians"
+      },
+      {
+        "from": {
+          "t": 2368.9,
+          "tText": "2368",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1893.6,
+          "tText": "1893",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Picard, Riker, Troi, Crusher and La Forge follow to retrieve him"
+      },
+      {
+        "from": {
+          "t": 1893.6,
+          "tText": "1893",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2369.0,
+          "tText": "2369",
+          "timeline": "prime"
+        },
+        "toLane": "TNG",
+        "note": "away team and a stowaway Samuel Clemens return; Picard stays behind"
+      },
+      {
+        "from": {
+          "t": 2369.0,
+          "tText": "2369",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1893.6,
+          "tText": "1893",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Clemens goes home"
+      },
+      {
+        "from": {
+          "t": 1893.6,
+          "tText": "1893",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2369.0,
+          "tText": "2369",
+          "timeline": "prime"
+        },
+        "toLane": "TNG",
+        "note": "Picard returns last"
+      }
+    ],
+    "travelers": [
+      "Data",
+      "Jean-Luc Picard",
+      "William T. Riker",
+      "Deanna Troi",
+      "Beverly Crusher",
+      "Geordi La Forge",
+      "Samuel Clemens"
+    ],
+    "method": "temporal vortex (Devidian time portal)",
+    "agency": "accidental",
+    "outcome": "predestination",
+    "summary": "Data's 500-year-old head is dug up in San Francisco, and he duly travels back to 1893, where he is decapitated and his head is buried. His crewmates follow, meet the young Guinan, and bring back a curious Samuel Clemens, who returns home soon after.",
+    "sources": [
+      "Time's Arrow (episode)",
+      "Time's Arrow, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "tapestry",
+    "title": "Q replays Picard's reckless youth",
+    "legs": [
+      {
+        "from": {
+          "t": 2369.5,
+          "tText": "2369",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2327.5,
+          "tText": "2327 (Starbase Earhart)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Picard's consciousness in his younger body, days before the Nausicaan fight"
+      },
+      {
+        "from": {
+          "t": 2327.5,
+          "tText": "2327",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2369.5,
+          "tText": "2369",
+          "timeline": "alternate"
+        },
+        "toLane": "TNG",
+        "note": "without the stabbing, he returns as an unremarkable junior lieutenant"
+      },
+      {
+        "from": {
+          "t": 2369.5,
+          "tText": "2369",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2327.5,
+          "tText": "2327",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "he asks to go back and provokes the fight after all"
+      },
+      {
+        "from": {
+          "t": 2327.5,
+          "tText": "2327",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2369.5,
+          "tText": "2369",
+          "timeline": "prime"
+        },
+        "toLane": "TNG"
+      }
+    ],
+    "travelers": [
+      "Jean-Luc Picard",
+      "Q"
+    ],
+    "method": "Q powers",
+    "agency": "Q",
+    "outcome": "divergence",
+    "divergenceHint": "tapestry",
+    "summary": "As Picard lies near death, Q lets him relive the day he was stabbed through the heart. Avoiding the fight produces a timid career as a lieutenant, so Picard chooses to take the blade again.",
+    "sources": [
+      "Tapestry (episode)"
+    ],
+    "confidence": "explicit",
+    "conflict": "Q leaves it open whether any of this was real or a near-death experience."
+  },
+  {
+    "id": "timescape",
+    "title": "Time runs backward at a warp breach",
+    "legs": [
+      {
+        "from": {
+          "t": 2369.6,
+          "tText": "2369",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2369.599943,
+          "tText": "2369 (moments before the core breach)",
+          "timeline": "prime"
+        },
+        "toLane": "TNG",
+        "note": "local time reversal around the Enterprise and a Romulan warbird"
+      }
+    ],
+    "travelers": [
+      "USS Enterprise (NCC-1701-D)",
+      "Jean-Luc Picard",
+      "Data",
+      "Deanna Troi",
+      "Geordi La Forge"
+    ],
+    "method": "temporal fragments around a Romulan artificial quantum singularity",
+    "agency": "natural",
+    "outcome": "restored",
+    "summary": "Returning by runabout, Picard's team finds the Enterprise frozen mid-way through a warp core breach, part of a zone of broken time created by alien life nesting in a Romulan singularity. Time runs backward to before the breach, and Picard severs the power beam behind it.",
+    "sources": [
+      "Timescape (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "firstborn",
+    "title": "K'mtar comes back as Alexander",
+    "legs": [
+      {
+        "from": {
+          "t": 2410.5,
+          "tText": "c. 2410 (40 years ahead)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2370.4,
+          "tText": "2370",
+          "timeline": "prime"
+        },
+        "toLane": "TNG"
+      },
+      {
+        "from": {
+          "t": 2370.4,
+          "tText": "2370",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2410.5,
+          "tText": "c. 2410",
+          "timeline": "prime"
+        },
+        "toLane": "FUTURE",
+        "note": "presumed return"
+      }
+    ],
+    "travelers": [
+      "Alexander Rozhenko"
+    ],
+    "method": "unspecified",
+    "agency": "deliberate",
+    "outcome": "unresolved",
+    "summary": "An adult Alexander, whose father was murdered in his timeline, comes back under the name K'mtar to push his younger self toward the warrior path. Worf accepts his son as he is, leaving the future open.",
+    "sources": [
+      "Firstborn (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "all-good-things",
+    "title": "Picard shifts across three eras",
+    "legs": [
+      {
+        "from": {
+          "t": 2370.5,
+          "tText": "2370",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2364.2,
+          "tText": "2364 (Farpoint era)",
+          "timeline": "prime"
+        },
+        "toLane": "TNG"
+      },
+      {
+        "from": {
+          "t": 2364.2,
+          "tText": "2364",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2395.5,
+          "tText": "c. 2395 (25 years ahead)",
+          "timeline": "alternate"
+        },
+        "toLane": "TNG",
+        "note": "repeated shifts among the three eras"
+      },
+      {
+        "from": {
+          "t": 2395.5,
+          "tText": "c. 2395",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2370.5,
+          "tText": "2370",
+          "timeline": "prime"
+        },
+        "toLane": "TNG"
+      },
+      {
+        "from": {
+          "t": 2370.5,
+          "tText": "2370",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": -3500000000.0,
+          "tText": "c. 3.5 billion years ago (primordial Earth)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Q shows Picard the moment life fails to form"
+      },
+      {
+        "from": {
+          "t": -3500000000.0,
+          "tText": "primordial Earth",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2370.5,
+          "tText": "2370",
+          "timeline": "prime"
+        },
+        "toLane": "TNG"
+      }
+    ],
+    "travelers": [
+      "Jean-Luc Picard",
+      "Q"
+    ],
+    "method": "Q powers",
+    "agency": "Q",
+    "outcome": "divergence",
+    "divergenceHint": "all-good-things",
+    "summary": "Q's final test sends Picard's consciousness among 2364, 2370 and a possible 2395, where anti-time spreading from the Devron system threatens to stop life from ever beginning on Earth. Three Enterprises collapse the anomaly together.",
+    "sources": [
+      "All Good Things... (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "generations-nexus",
+    "title": "Two captains leave the Nexus",
+    "legs": [
+      {
+        "from": {
+          "t": 2293.5,
+          "tText": "2293 (Enterprise-B maiden voyage)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.5,
+          "tText": "2371 (Veridian III)",
+          "timeline": "prime"
+        },
+        "toLane": "FILM",
+        "note": "Kirk is swept into the Nexus in 2293 and chooses to leave it in 2371"
+      },
+      {
+        "from": {
+          "t": 2371.5,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.499989,
+          "tText": "2371 (minutes before Soran's launch)",
+          "timeline": "prime"
+        },
+        "toLane": "FILM",
+        "note": "Picard exits the Nexus just before the Veridian star is destroyed"
+      }
+    ],
+    "travelers": [
+      "James T. Kirk",
+      "Jean-Luc Picard"
+    ],
+    "method": "Nexus",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "Inside the timeless Nexus, Picard recruits a Kirk lost there since 2293, and both leave at a moment of their choosing, before Soran destroys the Veridian star. They stop the launch; Kirk dies on Veridian III.",
+    "sources": [
+      "Star Trek Generations"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "first-contact-borg",
+    "title": "Borg sphere strikes first contact",
+    "legs": [
+      {
+        "from": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2063.26,
+          "tText": "April 4, 2063",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Earth's history becomes an assimilated timeline in 2373"
+      }
+    ],
+    "travelers": [
+      "Borg Queen",
+      "Borg sphere"
+    ],
+    "method": "temporal vortex (chroniton emissions)",
+    "agency": "hostile",
+    "outcome": "divergence",
+    "divergenceHint": "first-contact",
+    "summary": "Beaten at Sector 001, a Borg sphere opens a temporal vortex to the day before Zefram Cochrane's warp flight, to assimilate a defenseless Earth. The present instantly becomes a Borg world.",
+    "sources": [
+      "Star Trek: First Contact"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "first-contact-enterprise",
+    "title": "Enterprise-E follows to 2063",
+    "legs": [
+      {
+        "from": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2063.26,
+          "tText": "April 4, 2063",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "shielded in the vortex's wake, the ship follows"
+      },
+      {
+        "from": {
+          "t": 2063.27,
+          "tText": "April 5, 2063",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "toLane": "FILM"
+      }
+    ],
+    "travelers": [
+      "USS Enterprise (NCC-1701-E)",
+      "Jean-Luc Picard",
+      "William T. Riker",
+      "Data",
+      "Beverly Crusher",
+      "Geordi La Forge",
+      "Deanna Troi",
+      "Worf"
+    ],
+    "method": "temporal vortex (recreated chroniton particle emissions)",
+    "agency": "deliberate",
+    "outcome": "predestination",
+    "divergenceHint": "first-contact",
+    "summary": "Protected by the vortex's wake, the Enterprise-E follows the Borg back, destroys the sphere, repels a Borg takeover of the ship, and ensures Cochrane's flight and the Vulcan landing happen on schedule.",
+    "sources": [
+      "Star Trek: First Contact"
+    ],
+    "confidence": "explicit",
+    "conflict": "Maj'el later cites the Cochrane flight as a predestination paradox involving Starfleet (PRO 'Who Saves the Saviors')."
+  },
+  {
+    "id": "past-tense-bell-riots",
+    "title": "Sisko becomes Gabriel Bell",
+    "legs": [
+      {
+        "from": {
+          "t": 2371.3,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2024.66,
+          "tText": "August 30, 2024 (San Francisco)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Bell's death erases Starfleet above them in 2371"
+      },
+      {
+        "from": {
+          "t": 2024.67,
+          "tText": "September 2024",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.3,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      }
+    ],
+    "travelers": [
+      "Benjamin Sisko",
+      "Julian Bashir",
+      "Jadzia Dax"
+    ],
+    "method": "transporter malfunction (chroniton particles in the Defiant's cloak)",
+    "agency": "accidental",
+    "outcome": "predestination",
+    "divergenceHint": "past-tense",
+    "summary": "A chroniton-tainted transport strands three officers in 2024 San Francisco, where Gabriel Bell is killed before the riots that bear his name. Sisko takes Bell's place and his photograph ends up in the history files.",
+    "sources": [
+      "Past Tense, Part I (episode)",
+      "Past Tense, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "past-tense-search",
+    "title": "Kira and O'Brien sweep the decades",
+    "legs": [
+      {
+        "from": {
+          "t": 2371.3,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1930.5,
+          "tText": "1930",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 1930.5,
+          "tText": "1930",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.3,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.3,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1967.5,
+          "tText": "1967",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 1967.5,
+          "tText": "1967",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.3,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.3,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2048.5,
+          "tText": "2048",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 2048.5,
+          "tText": "2048",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.3,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.3,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2024.67,
+          "tText": "September 2024",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 2024.67,
+          "tText": "2024",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.3,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9",
+        "note": "returns with the stranded officers"
+      }
+    ],
+    "travelers": [
+      "Kira Nerys",
+      "Miles O'Brien",
+      "USS Defiant (2370)"
+    ],
+    "method": "simulated transporter malfunction (chroniton-tuned)",
+    "agency": "deliberate",
+    "outcome": "restored",
+    "summary": "With only enough chroniton particles for a handful of attempts, Kira and O'Brien beam down to 1930, 1967 and 2048 before finding their stranded crewmates in 2024.",
+    "sources": [
+      "Past Tense, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "visionary",
+    "title": "O'Brien glimpses DS9's destruction",
+    "legs": [
+      {
+        "from": {
+          "t": 2371.5,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.50057,
+          "tText": "2371 (five hours ahead)",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.50057,
+          "tText": "2371 (+5 h)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.5,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.501,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.50157,
+          "tText": "2371 (five hours ahead)",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.50157,
+          "tText": "2371 (+5 h)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.501,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.502,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.50257,
+          "tText": "2371 (five hours ahead)",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.50257,
+          "tText": "2371 (+5 h)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.502,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.503,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.50357,
+          "tText": "2371 (five hours ahead)",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.50357,
+          "tText": "2371 (+5 h)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.503,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.504,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.50457,
+          "tText": "2371 (five hours ahead)",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.50457,
+          "tText": "2371 (+5 h)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.504,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2371.506,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.506399,
+          "tText": "2371 (3.5 hours ahead)",
+          "timeline": "prime"
+        },
+        "toLane": "DS9",
+        "note": "sees the station destroyed by the Romulans"
+      },
+      {
+        "from": {
+          "t": 2371.506399,
+          "tText": "2371 (+3.5 h)",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2371.506,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9",
+        "note": "a future O'Brien replaces his dead present self"
+      }
+    ],
+    "travelers": [
+      "Miles O'Brien"
+    ],
+    "method": "temporal displacement (radiation exposure plus a cloaked warbird's singularity)",
+    "agency": "accidental",
+    "outcome": "divergence",
+    "divergenceHint": "visionary",
+    "summary": "Radiation exposure near a cloaked Romulan warbird's singularity makes O'Brien skip hours into the future, where he sees himself die and the station explode. The O'Brien who remains is the one from a few hours later, who uses what he saw to prevent the attack.",
+    "sources": [
+      "Visionary (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "the-visitor",
+    "title": "Sisko anchored to Jake's future",
+    "legs": [
+      {
+        "from": {
+          "t": 2372.2,
+          "tText": "2372 (Defiant warp core accident)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.5,
+          "tText": "2372 (months later)",
+          "timeline": "alternate"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2372.5,
+          "tText": "2372",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "alternate"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2389.5,
+          "tText": "2389",
+          "timeline": "alternate"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2389.5,
+          "tText": "2389",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2408.5,
+          "tText": "2408",
+          "timeline": "alternate"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2408.5,
+          "tText": "2408",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2422.5,
+          "tText": "2422",
+          "timeline": "alternate"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2422.5,
+          "tText": "2422",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2450.5,
+          "tText": "c. 2450",
+          "timeline": "alternate"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2450.5,
+          "tText": "c. 2450",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2372.2,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "toLane": "DS9",
+        "note": "Jake's death breaks the link and Sisko snaps back to the accident"
+      }
+    ],
+    "travelers": [
+      "Benjamin Sisko",
+      "Jake Sisko"
+    ],
+    "method": "temporal displacement (subspace inversion)",
+    "agency": "accidental",
+    "outcome": "divergence",
+    "divergenceHint": "the-visitor",
+    "summary": "Thrown out of time in an engineering accident, Sisko reappears at intervals of years, tethered to his son. An aged Jake ends his own life to cut the tether, returning his father to the moment of the accident.",
+    "sources": [
+      "The Visitor (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "little-green-men",
+    "title": "Ferengi crash at Roswell",
+    "legs": [
+      {
+        "from": {
+          "t": 2372.5,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1947.54,
+          "tText": "July 1947 (Roswell, New Mexico)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 1947.54,
+          "tText": "1947",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.5,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "toLane": "DS9",
+        "note": "kemocite reaction with an atomic test blast"
+      }
+    ],
+    "travelers": [
+      "Quark",
+      "Rom",
+      "Nog",
+      "Odo",
+      "Quark's Treasure"
+    ],
+    "method": "warp field time warp (sabotaged warp core, kemocite)",
+    "agency": "accidental",
+    "outcome": "predestination",
+    "summary": "Sabotage flings Quark's shuttle from its trip to Earth into 1947, making its passengers the aliens of the Roswell incident. They escape by pairing their kemocite with a nuclear test blast.",
+    "sources": [
+      "Little Green Men (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "accession",
+    "title": "Prophets send Akorem Laan forward",
+    "legs": [
+      {
+        "from": {
+          "t": 2172.5,
+          "tText": "22nd century (c. 200 years earlier)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.3,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      },
+      {
+        "from": {
+          "t": 2372.3,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2172.5,
+          "tText": "22nd century",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "returned to finish his poem"
+      }
+    ],
+    "travelers": [
+      "Akorem Laan"
+    ],
+    "method": "Prophets (via the Bajoran wormhole)",
+    "agency": "deliberate",
+    "outcome": "predestination",
+    "summary": "A legendary Bajoran poet lost two centuries earlier emerges from the wormhole claiming to be the Emissary. Sisko asks the Prophets to send him home, where he completes the poem that history already knew.",
+    "sources": [
+      "Accession (episode)"
+    ],
+    "confidence": "inferred"
+  },
+  {
+    "id": "trials-and-tribble-ations",
+    "title": "Defiant to Space Station K-7",
+    "legs": [
+      {
+        "from": {
+          "t": 2373.4,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2268.0,
+          "tText": "2268 (Deep Space Station K-7)",
+          "timeline": "prime"
+        },
+        "toLane": "TOS",
+        "note": "carried by the Orb of Time"
+      },
+      {
+        "from": {
+          "t": 2268.0,
+          "tText": "2268",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2373.4,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      }
+    ],
+    "travelers": [
+      "USS Defiant (2370)",
+      "Benjamin Sisko",
+      "Jadzia Dax",
+      "Julian Bashir",
+      "Miles O'Brien",
+      "Worf",
+      "Odo",
+      "Arne Darvin"
+    ],
+    "method": "Orb of Time",
+    "agency": "hostile",
+    "outcome": "restored",
+    "summary": "Disguised as a human trader, Arne Darvin hijacks the Orb of Time aboard the Defiant to reach 2268 and plant a tribble bomb meant for Kirk. Sisko's crew trails him through the original Enterprise's tribble crisis and removes the bomb.",
+    "sources": [
+      "Trials and Tribble-ations (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "children-of-time",
+    "title": "Defiant's descendants on Gaia",
+    "legs": [
+      {
+        "from": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2173.5,
+          "tText": "c. 2173 (200 years earlier)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "in the original loop the Defiant crashes and its crew founds Gaia"
+      }
+    ],
+    "travelers": [
+      "USS Defiant (2370)",
+      "Odo",
+      "Kira Nerys",
+      "Benjamin Sisko"
+    ],
+    "method": "temporal energy barrier",
+    "agency": "accidental",
+    "outcome": "divergence",
+    "divergenceHint": "children-of-time",
+    "summary": "A barrier planet's energy would throw the Defiant 200 years back, where its stranded crew would found a colony of 8,000 descendants. An elder Odo alters the escape course, the ship gets through safely, and Gaia never exists.",
+    "sources": [
+      "Children of Time (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "wrongs-darker",
+    "title": "Kira visits her mother's Terok Nor",
+    "legs": [
+      {
+        "from": {
+          "t": 2374.4,
+          "tText": "2374",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2346.5,
+          "tText": "2346 (Terok Nor)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 2346.5,
+          "tText": "2346",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2374.4,
+          "tText": "2374",
+          "timeline": "prime"
+        },
+        "toLane": "DS9"
+      }
+    ],
+    "travelers": [
+      "Kira Nerys"
+    ],
+    "method": "Orb of Time",
+    "agency": "deliberate",
+    "outcome": "predestination",
+    "summary": "Kira uses the Orb of Time to see whether Dukat's claims about her mother, Meru, are true. She finds them true, nearly assassinates both, and relents.",
+    "sources": [
+      "Wrongs Darker Than Death or Night (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "times-orphan",
+    "title": "Molly O'Brien lost three centuries",
+    "legs": [
+      {
+        "from": {
+          "t": 2374.5,
+          "tText": "2374 (Golana)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2074.5,
+          "tText": "c. 2074 (300 years earlier)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 2084.5,
+          "tText": "c. 2084 (ten years on)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2374.5,
+          "tText": "2374",
+          "timeline": "prime"
+        },
+        "toLane": "DS9",
+        "note": "a feral 18-year-old Molly is retrieved"
+      },
+      {
+        "from": {
+          "t": 2374.5,
+          "tText": "2374",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2074.5,
+          "tText": "c. 2074",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "her parents send her back, arriving just after her younger self"
+      },
+      {
+        "from": {
+          "t": 2074.5,
+          "tText": "c. 2074",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2374.5,
+          "tText": "2374",
+          "timeline": "prime"
+        },
+        "toLane": "DS9",
+        "note": "older Molly sends young Molly home and vanishes"
+      }
+    ],
+    "travelers": [
+      "Molly O'Brien"
+    ],
+    "method": "time portal (ancient Golana portal)",
+    "agency": "accidental",
+    "outcome": "divergence",
+    "divergenceHint": "times-orphan",
+    "summary": "Eight-year-old Molly falls through an ancient time portal and is recovered as a feral adult. Sent back through, the older Molly pushes her younger self home and erases her own life.",
+    "sources": [
+      "Time's Orphan (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "sound-of-her-voice",
+    "title": "Cusak's distress call three years displaced",
+    "legs": [
+      {
+        "from": {
+          "t": 2371.5,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2374.5,
+          "tText": "2374",
+          "timeline": "prime"
+        },
+        "toLane": "DS9",
+        "note": "time-displaced communication, not travel"
+      },
+      {
+        "from": {
+          "t": 2374.5,
+          "tText": "2374",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.5,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "DS9",
+        "note": "the Defiant's replies reach her own time"
+      }
+    ],
+    "travelers": [
+      "Lisa Cusak"
+    ],
+    "method": "metreon radiation (time-displaced subspace link)",
+    "agency": "natural",
+    "outcome": "predestination",
+    "summary": "The Defiant's crew talks for days with a stranded captain, not realizing that their signals are crossing three years. They arrive to find she died long ago.",
+    "sources": [
+      "The Sound of Her Voice (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "parallax",
+    "title": "Voyager caught in a singularity's echo",
+    "legs": [
+      {
+        "from": {
+          "t": 2371.15,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.149772,
+          "tText": "2371 (a short time earlier)",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "event-horizon time distortion produces a duplicate Voyager image"
+      }
+    ],
+    "travelers": [
+      "Kathryn Janeway",
+      "B'Elanna Torres",
+      "USS Voyager"
+    ],
+    "method": "event horizon of a quantum singularity",
+    "agency": "natural",
+    "outcome": "restored",
+    "summary": "Trapped behind a quantum singularity's event horizon, Voyager chases a mirror image of itself that is really a time-shifted reflection. Janeway and Torres find the real exit.",
+    "sources": [
+      "Parallax (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "Memory Alpha lists this as a short backward jump; on screen it plays as time and space distortion rather than clear travel."
+  },
+  {
+    "id": "time-and-again",
+    "title": "Janeway and Paris on doomsday's eve",
+    "legs": [
+      {
+        "from": {
+          "t": 2371.2,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.197262,
+          "tText": "2371 (the day before the explosion)",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "their rescue attempt caused the explosion; closing the fracture erases the whole episode"
+      }
+    ],
+    "travelers": [
+      "Kathryn Janeway",
+      "Tom Paris"
+    ],
+    "method": "subspace fractures",
+    "agency": "natural",
+    "outcome": "divergence",
+    "divergenceHint": "time-and-again",
+    "summary": "Subspace fractures carry Janeway and Paris to the day before a polaric explosion destroys a planet. It emerges that Voyager's own rescue caused the blast, and collapsing the fracture resets events so it never happens.",
+    "sources": [
+      "Time and Again (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "eye-of-the-needle",
+    "title": "Micro-wormhole to a 2351 Romulan",
+    "legs": [
+      {
+        "from": {
+          "t": 2371.2,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2351.5,
+          "tText": "2351",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "test cylinder"
+      },
+      {
+        "from": {
+          "t": 2351.5,
+          "tText": "2351",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.2,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "Telek R'Mor beamed aboard Voyager"
+      },
+      {
+        "from": {
+          "t": 2371.2,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2351.5,
+          "tText": "2351",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "R'Mor returned to his own time with the crew's messages"
+      }
+    ],
+    "travelers": [
+      "Telek R'Mor"
+    ],
+    "method": "micro-wormhole (time-displaced communication and transport)",
+    "agency": "natural",
+    "outcome": "predestination",
+    "summary": "A micro-wormhole to the Alpha Quadrant links Voyager with a Romulan scientist who turns out to live 20 years in the past. He agrees to deliver the crew's letters in 2371, but dies in 2367 before he can.",
+    "sources": [
+      "Eye of the Needle (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "death-wish",
+    "title": "Quinn hides Voyager at the Big Bang",
+    "legs": [
+      {
+        "from": {
+          "t": 2372.2,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": -13800000000.0,
+          "tText": "the Big Bang",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Quinn hides Voyager at the beginning of the universe"
+      },
+      {
+        "from": {
+          "t": 2372.2,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": -13800000000.0,
+          "tText": "the Big Bang",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "Q pursues"
+      },
+      {
+        "from": {
+          "t": -13800000000.0,
+          "tText": "the Big Bang",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.2,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      }
+    ],
+    "travelers": [
+      "USS Voyager",
+      "Quinn",
+      "Q"
+    ],
+    "method": "Q powers",
+    "agency": "Q",
+    "outcome": "restored",
+    "summary": "The Q prisoner Quinn, seeking asylum, hides Voyager at the Big Bang during a chase with Q. The pursuit ends with an asylum hearing aboard ship.",
+    "sources": [
+      "Death Wish (episode)"
+    ],
+    "confidence": "explicit",
+    "conflict": "The universe's age is never stated on screen; t=-1.38e10 uses the real-world estimate."
+  },
+  {
+    "id": "aeon-strike",
+    "title": "Braxton's Aeon attacks Voyager",
+    "legs": [
+      {
+        "from": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2373.1,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "Braxton tries to destroy Voyager, blaming it for a future explosion"
+      },
+      {
+        "from": {
+          "t": 2373.1,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1967.5,
+          "tText": "1967",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "the Aeon crashes on Earth; Henry Starling finds it and Braxton lives as a vagrant for 30 years"
+      }
+    ],
+    "travelers": [
+      "Aeon",
+      "Braxton"
+    ],
+    "method": "timeship temporal rift",
+    "agency": "deliberate",
+    "outcome": "restored",
+    "summary": "A 29th-century timeship attacks Voyager to prevent a disaster Braxton blames on it. Both ships fall into the rift, the Aeon crashes in 1967, and Henry Starling builds his computer empire from its technology.",
+    "sources": [
+      "Future's End (episode)",
+      "Future's End, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "futures-end-voyager",
+    "title": "Voyager stranded in 1996 Los Angeles",
+    "legs": [
+      {
+        "from": {
+          "t": 2373.1,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1996.5,
+          "tText": "1996",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1996.5,
+          "tText": "1996",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "a Braxton from the repaired timeline comes to collect Voyager"
+      },
+      {
+        "from": {
+          "t": 1996.5,
+          "tText": "1996",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2373.1,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "returned to the Delta Quadrant, not the Alpha"
+      },
+      {
+        "from": {
+          "t": 2373.1,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "toLane": "FUTURE"
+      }
+    ],
+    "travelers": [
+      "USS Voyager",
+      "Aeon",
+      "Braxton"
+    ],
+    "method": "temporal rift (timeship wake)",
+    "agency": "accidental",
+    "outcome": "restored",
+    "summary": "Voyager arrives in 1996 and must stop Starling from flying the stolen timeship to the future, where it would cause the explosion Braxton feared. Once history is fixed, an unaware Braxton returns them to 2373 in the Delta Quadrant.",
+    "sources": [
+      "Future's End (episode)",
+      "Future's End, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "before-and-after",
+    "title": "Kes lives her life backward",
+    "legs": [
+      {
+        "from": {
+          "t": 2379.6,
+          "tText": "2379 (Kes's deathbed)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2379.55,
+          "tText": "2379 (weeks earlier)",
+          "timeline": "alternate"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2379.55,
+          "tText": "2379",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2379.5,
+          "tText": "2379 (weeks earlier)",
+          "timeline": "alternate"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2379.5,
+          "tText": "2379",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2379.2,
+          "tText": "2379 (months earlier)",
+          "timeline": "alternate"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2379.2,
+          "tText": "2379",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2378.5,
+          "tText": "2378",
+          "timeline": "alternate"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2378.5,
+          "tText": "2378",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2375.5,
+          "tText": "years earlier (her daughter's birth)",
+          "timeline": "alternate"
+        },
+        "toLane": "VOY",
+        "note": "year unstated; estimated"
+      },
+      {
+        "from": {
+          "t": 2375.5,
+          "tText": "unstated",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2374.2,
+          "tText": "2374 (first Krenim attack)",
+          "timeline": "alternate"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2374.2,
+          "tText": "2374",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.5,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2371.5,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2369.5,
+          "tText": "2369",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "before she joined Voyager"
+      },
+      {
+        "from": {
+          "t": 2369.5,
+          "tText": "2369",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2369.2,
+          "tText": "months earlier (unstated)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 2369.2,
+          "tText": "unstated",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2368.9,
+          "tText": "months earlier, before her birth (unstated)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 2368.9,
+          "tText": "unstated",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "the Doctor's chroniton-free chamber pulls her back"
+      }
+    ],
+    "travelers": [
+      "Kes"
+    ],
+    "method": "chroniton radiation reactivated by a bio-temporal chamber",
+    "agency": "accidental",
+    "outcome": "divergence",
+    "divergenceHint": "before-and-after",
+    "summary": "In a future where she married Tom Paris, a dying Kes starts jumping backward through her own life, a delayed effect of Krenim chroniton radiation. Knowledge from the jumps lets the Doctor stabilize her, and she wakes in 2373 knowing what will happen.",
+    "sources": [
+      "Before and After (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "Several jumps are dated only relatively on screen; those legs use estimated t values (see leg notes)."
+  },
+  {
+    "id": "year-of-hell",
+    "title": "Krenim weapon ship erases itself",
+    "legs": [
+      {
+        "from": {
+          "t": 2374.91,
+          "tText": "November 29, 2374",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2174.5,
+          "tText": "the 2170s (before the weapon ship was built)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "the ship's destruction unmakes two centuries of its temporal incursions; Voyager resets to March 16, 2374"
+      }
+    ],
+    "travelers": [
+      "Annorax",
+      "Krenim weapon ship",
+      "USS Voyager"
+    ],
+    "method": "Krenim temporal weapon ship (temporal incursions)",
+    "agency": "hostile",
+    "outcome": "divergence",
+    "divergenceHint": "year-of-hell",
+    "summary": "For two centuries Annorax's weapon ship erased whole species from history to rebuild the Krenim Imperium and bring back his wife. When Voyager rams it, the ship erases itself: the incursions never happened, and Voyager's year of hell never begins.",
+    "sources": [
+      "Year of Hell (episode)",
+      "Year of Hell, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "timeless",
+    "title": "Kim rewrites Voyager's fatal crash",
+    "legs": [
+      {
+        "from": {
+          "t": 2390.5,
+          "tText": "2390",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2375.3,
+          "tText": "2375",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "corrected slipstream phase variance and a message sent via Borg temporal transmitter, not travel"
+      }
+    ],
+    "travelers": [
+      "Harry Kim",
+      "Chakotay",
+      "Seven of Nine"
+    ],
+    "method": "Borg temporal transmitter (time-displaced communication)",
+    "agency": "deliberate",
+    "outcome": "divergence",
+    "divergenceHint": "timeless",
+    "summary": "Fifteen years after a slipstream accident killed everyone aboard Voyager, Kim and Chakotay steal the Delta Flyer and send corrective data back to Seven of Nine. The ship survives, and their future is erased.",
+    "sources": [
+      "Timeless (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "relativity",
+    "title": "Seven hunts a saboteur through time",
+    "legs": [
+      {
+        "from": {
+          "t": 2375.6,
+          "tText": "2375",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2850.0,
+          "tText": "29th century (USS Relativity)",
+          "timeline": "prime"
+        },
+        "toLane": "FUTURE",
+        "note": "Seven is recruited at the moment Voyager explodes"
+      },
+      {
+        "from": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.3,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "Seven searches for the planted device"
+      },
+      {
+        "from": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.3,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "an older, deranged Braxton"
+      },
+      {
+        "from": {
+          "t": 2372.3,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.1,
+          "tText": "2371 (Utopia Planitia, before launch)",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2371.1,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2375.6,
+          "tText": "2375",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2375.6,
+          "tText": "2375",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "toLane": "FUTURE",
+        "note": "a different Seven and Janeway taken aboard the Relativity"
+      },
+      {
+        "from": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.3,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "Janeway pursues the saboteur"
+      },
+      {
+        "from": {
+          "t": 2372.3,
+          "tText": "2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "toLane": "FUTURE",
+        "note": "Janeway returns with the arrested Braxton"
+      },
+      {
+        "from": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2375.6,
+          "tText": "2375",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "Janeway and Seven sent home before the explosion"
+      }
+    ],
+    "travelers": [
+      "Seven of Nine",
+      "Braxton",
+      "Kathryn Janeway",
+      "Ducane",
+      "USS Relativity"
+    ],
+    "method": "temporal transporter (Wells-class timeship)",
+    "agency": "deliberate",
+    "outcome": "restored",
+    "summary": "The 29th-century timeship Relativity recruits Seven to find who planted a temporal disruptor aboard Voyager. The culprit is a future Braxton taking revenge on Janeway, and three versions of Braxton are involved before the device is removed.",
+    "sources": [
+      "Relativity (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "fury",
+    "title": "Aged Kes returns for her youth",
+    "legs": [
+      {
+        "from": {
+          "t": 2376.5,
+          "tText": "2376",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.1,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "an older, embittered Kes sabotages Voyager for the Vidiians"
+      },
+      {
+        "from": {
+          "t": 2371.1,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2376.5,
+          "tText": "2376",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "implied: she is next seen in 2376, being sent home to Ocampa"
+      }
+    ],
+    "travelers": [
+      "Kes"
+    ],
+    "method": "psychokinetic power boosted by Voyager's warp core",
+    "agency": "hostile",
+    "outcome": "restored",
+    "summary": "An older, embittered Kes uses Voyager's warp core to go back to 2371 and take her younger self home. A holo-message recorded by the young Kes warns Janeway in time and later reminds the older Kes who she was.",
+    "sources": [
+      "Fury (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "shattered",
+    "title": "Voyager splintered into temporal fragments",
+    "legs": [
+      {
+        "from": {
+          "t": 2377.5,
+          "tText": "2377",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.8,
+          "tText": "late 2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2372.8,
+          "tText": "late 2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.1,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2371.1,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.2,
+          "tText": "early 2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2372.2,
+          "tText": "early 2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.8,
+          "tText": "late 2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2372.8,
+          "tText": "late 2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.1,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2371.1,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2375.5,
+          "tText": "2375",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2375.5,
+          "tText": "2375",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2394.5,
+          "tText": "2394",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2394.5,
+          "tText": "2394",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2374.5,
+          "tText": "2374",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2374.5,
+          "tText": "2374",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.8,
+          "tText": "late 2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2372.8,
+          "tText": "late 2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2373.5,
+          "tText": "2373",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2375.5,
+          "tText": "2375",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2375.5,
+          "tText": "2375",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2371.1,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2371.1,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2377.5,
+          "tText": "2377",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2377.5,
+          "tText": "2377",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.2,
+          "tText": "early 2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      },
+      {
+        "from": {
+          "t": 2371.1,
+          "tText": "2371",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.2,
+          "tText": "early 2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "Kim, Torres and Ayala cross fragments"
+      },
+      {
+        "from": {
+          "t": 2374.5,
+          "tText": "2374",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.2,
+          "tText": "early 2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "Seven of Nine crosses fragments"
+      },
+      {
+        "from": {
+          "t": 2394.5,
+          "tText": "2394",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2372.2,
+          "tText": "early 2372",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "adult Icheb and Naomi Wildman from a 2394 fragment"
+      },
+      {
+        "from": {
+          "t": 2372.2,
+          "tText": "early 2372",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2377.5,
+          "tText": "2377",
+          "timeline": "prime"
+        },
+        "toLane": "VOY"
+      }
+    ],
+    "travelers": [
+      "Chakotay",
+      "Kathryn Janeway",
+      "Tom Paris",
+      "Harry Kim",
+      "B'Elanna Torres",
+      "Ayala",
+      "Seven of Nine",
+      "Icheb",
+      "Naomi Wildman"
+    ],
+    "method": "temporal rift (ship fractured into time zones)",
+    "agency": "natural",
+    "outcome": "restored",
+    "summary": "A temporal rift splits Voyager into fragments from different years. Chakotay, the only one inoculated against the shift, crosses them with a 2371 Janeway to set a chroniton torpedo, while Seska and the Kazon hold one section.",
+    "sources": [
+      "Shattered (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "endgame",
+    "title": "Admiral Janeway brings Voyager home early",
+    "legs": [
+      {
+        "from": {
+          "t": 2404.5,
+          "tText": "2404",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2378.3,
+          "tText": "2378",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "she dies in the Borg Queen's unicomplex"
+      }
+    ],
+    "travelers": [
+      "Kathryn Janeway",
+      "SC-4"
+    ],
+    "method": "chrono deflector (Klingon)",
+    "agency": "deliberate",
+    "outcome": "divergence",
+    "divergenceHint": "endgame",
+    "summary": "In a 2404 where Voyager took 23 years to get home, Admiral Janeway buys a chrono deflector and returns to 2378 with future armor and weapons. She gets Voyager home through a Borg transwarp hub and cripples the Collective.",
+    "sources": [
+      "Endgame (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "q2-loop",
+    "title": "Q junior traps Voyager in a loop",
+    "legs": [
+      {
+        "from": {
+          "t": 2378.3,
+          "tText": "2378",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2378.3,
+          "tText": "2378",
+          "timeline": "prime"
+        },
+        "toLane": "VOY",
+        "note": "loop: the same 30 seconds repeat"
+      }
+    ],
+    "travelers": [
+      "USS Voyager",
+      "Q (Junior)"
+    ],
+    "method": "Q powers (a 30-second repeating loop)",
+    "agency": "loop",
+    "outcome": "loop",
+    "summary": "Q's delinquent son amuses himself by trapping Voyager's crew in a 30-second causality loop, one of the pranks that lead his father to strip his powers for a probation.",
+    "sources": [
+      "Q2 (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "humanoid-figure",
+    "title": "Future Guy briefs the Cabal",
+    "legs": [
+      {
+        "from": {
+          "t": 2750.0,
+          "tText": "28th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2151.29,
+          "tText": "April 2151",
+          "timeline": "prime"
+        },
+        "toLane": "ENT"
+      },
+      {
+        "from": {
+          "t": 2750.0,
+          "tText": "28th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2152.1,
+          "tText": "February 2152",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "orders the Paraagan II frame-up"
+      },
+      {
+        "from": {
+          "t": 2750.0,
+          "tText": "28th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2153.31,
+          "tText": "April 2153",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "tells Archer the Xindi are behind the attack on Earth"
+      },
+      {
+        "from": {
+          "t": 2750.0,
+          "tText": "28th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2154.12,
+          "tText": "February 2154",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "orders Silik to stow away for 1944"
+      }
+    ],
+    "travelers": [
+      "Humanoid Figure",
+      "Silik"
+    ],
+    "method": "partial materialization through a Suliban temporal chamber (communication only)",
+    "agency": "hostile",
+    "outcome": "unresolved",
+    "summary": "The unseen benefactor of the Suliban Cabal speaks from the 28th century through a temporal chamber, sending orders and technology. He cannot travel physically, and his identity is never revealed.",
+    "sources": [
+      "Broken Bow (episode)",
+      "Cold Front (episode)",
+      "Shockwave (episode)",
+      "The Expanse (episode)",
+      "Storm Front, Part II (episode)"
+    ],
+    "confidence": "explicit",
+    "conflict": "The 28th-century origin rests on Archer's line in 'Storm Front, Part II'."
+  },
+  {
+    "id": "daniels-aboard-enterprise",
+    "title": "Daniels embedded aboard NX-01",
+    "legs": [
+      {
+        "from": {
+          "t": 3050.0,
+          "tText": "31st century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2151.29,
+          "tText": "April 2151",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "posing as a steward from launch"
+      }
+    ],
+    "travelers": [
+      "Daniels (Crewman)"
+    ],
+    "method": "31st-century time portal",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "A 31st-century temporal agent serves as a crewman aboard Earth's first warp-five ship to watch the Temporal Cold War. He reveals himself to Archer when the Suliban come for his temporal observatory.",
+    "sources": [
+      "Cold Front (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "giza-anthropologists",
+    "title": "Time tourists watch the pyramids rise",
+    "legs": [
+      {
+        "from": {
+          "t": 2769.5,
+          "tText": "2769",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": -2560.0,
+          "tText": "c. 2560 BCE (Giza)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "shown to Archer as an example of sanctioned observation"
+      }
+    ],
+    "travelers": [
+      "Daniels (Crewman)"
+    ],
+    "method": "31st-century time travel",
+    "agency": "observation",
+    "outcome": "unknown",
+    "summary": "Daniels tells Archer that time-traveling anthropologists from 2769 watched the Great Pyramids being built. He offers it as an example of sanctioned travel under the Temporal Accords.",
+    "sources": [
+      "Cold Front (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "The pyramid-building date (c. 2560 BCE) is real-world history, not stated in dialogue."
+  },
+  {
+    "id": "shockwave",
+    "title": "Daniels hides Archer in the 31st century",
+    "legs": [
+      {
+        "from": {
+          "t": 2152.1,
+          "tText": "February 2152",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2151.27,
+          "tText": "ten months earlier (April 2151)",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "a private briefing out of the Suliban's reach"
+      },
+      {
+        "from": {
+          "t": 2152.1,
+          "tText": "February 2152",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3052.0,
+          "tText": "31st century (900 years ahead)",
+          "timeline": "alternate"
+        },
+        "toLane": "FUTURE",
+        "note": "Archer's absence from history leaves the 31st century in ruins"
+      },
+      {
+        "from": {
+          "t": 3052.0,
+          "tText": "31st century",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2152.1,
+          "tText": "February 2152",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "retrieved through a Suliban temporal chamber"
+      }
+    ],
+    "travelers": [
+      "Jonathan Archer",
+      "Daniels (Crewman)"
+    ],
+    "method": "31st-century time portal; Suliban temporal chamber",
+    "agency": "deliberate",
+    "outcome": "divergence",
+    "divergenceHint": "shockwave",
+    "summary": "To shield him from the Cabal, Daniels pulls Archer into the 31st century, but Archer's absence from the 22nd century wipes Daniels' era out. Archer reaches his crew from the ruins, and a device planted in the Cabal's temporal chamber brings him home.",
+    "sources": [
+      "Shockwave (episode)",
+      "Shockwave, Part II (episode)"
+    ],
+    "confidence": "explicit",
+    "conflict": "Memory Alpha's time travel table places the ten-months-earlier stop in 2152; ten months before February 2152 is April 2151."
+  },
+  {
+    "id": "future-tense-pod",
+    "title": "31st-century pod adrift in 2152",
+    "legs": [
+      {
+        "from": {
+          "t": 3050.0,
+          "tText": "31st century (almost 900 years ahead)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2152.5,
+          "tText": "2152",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "wrecked with its human pilot dead"
+      },
+      {
+        "from": {
+          "t": 2152.5,
+          "tText": "2152",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2152.499989,
+          "tText": "2152 (minutes earlier)",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "its temporal radiation throws Tucker and Reed into repeating distortions"
+      },
+      {
+        "from": {
+          "t": 2152.5,
+          "tText": "2152",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3050.0,
+          "tText": "31st century",
+          "timeline": "prime"
+        },
+        "toLane": "FUTURE",
+        "note": "the reactivated beacon calls it home"
+      }
+    ],
+    "travelers": [
+      "Earth vessel (31st century)",
+      "Charles Tucker III",
+      "Malcolm Reed",
+      "Jonathan Archer"
+    ],
+    "method": "temporal displacement drive",
+    "agency": "accidental",
+    "outcome": "restored",
+    "summary": "Enterprise finds a derelict timeship, bigger inside than out, with a human pilot, and fights off both Suliban and Tholians who want it. When Tucker reactivates its temporal beacon, the pod vanishes back to its own era.",
+    "sources": [
+      "Future Tense (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "xindi-detroit-bioweapon",
+    "title": "Xindi-Reptilians brew a plague in 2004",
+    "legs": [
+      {
+        "from": {
+          "t": 2153.6,
+          "tText": "2153",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2004.8,
+          "tText": "2004 (Detroit)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 2004.8,
+          "tText": "2004",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2153.6,
+          "tText": "2153",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "Archer brings Commander Damron back as a prisoner"
+      }
+    ],
+    "travelers": [
+      "Damron"
+    ],
+    "method": "time portal (supplied by the Sphere-Builders)",
+    "agency": "hostile",
+    "outcome": "restored",
+    "summary": "Xindi-Reptilians go back to 2004 Detroit to cultivate a bio-weapon from kidnapped humans, meant to wipe out humanity before it reached space. Archer and T'Pol wreck the lab.",
+    "sources": [
+      "Carpenter Street (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "carpenter-street",
+    "title": "Archer and T'Pol to Detroit",
+    "legs": [
+      {
+        "from": {
+          "t": 2153.6,
+          "tText": "2153",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2004.8,
+          "tText": "2004 (Detroit)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY"
+      },
+      {
+        "from": {
+          "t": 2004.8,
+          "tText": "2004",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2153.6,
+          "tText": "2153",
+          "timeline": "prime"
+        },
+        "toLane": "ENT"
+      }
+    ],
+    "travelers": [
+      "Jonathan Archer",
+      "T'Pol",
+      "Daniels (Crewman)"
+    ],
+    "method": "31st-century time portal",
+    "agency": "deliberate",
+    "outcome": "restored",
+    "summary": "Unable to go himself, Daniels sends Archer and T'Pol to 2004 to stop the Reptilians' bio-weapon lab. They destroy it with help from a reluctant local accomplice.",
+    "sources": [
+      "Carpenter Street (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "azati-prime-enterprise-j",
+    "title": "Archer sees the Battle of Procyon V",
+    "legs": [
+      {
+        "from": {
+          "t": 2154.05,
+          "tText": "January 2154",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2550.0,
+          "tText": "26th century (a possible future)",
+          "timeline": "prime"
+        },
+        "toLane": "FUTURE",
+        "note": "aboard the USS Enterprise (NCC-1701-J)"
+      },
+      {
+        "from": {
+          "t": 2550.0,
+          "tText": "26th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2154.05,
+          "tText": "January 2154",
+          "timeline": "prime"
+        },
+        "toLane": "ENT"
+      }
+    ],
+    "travelers": [
+      "Jonathan Archer",
+      "Daniels (Crewman)"
+    ],
+    "method": "31st-century time portal",
+    "agency": "observation",
+    "outcome": "unresolved",
+    "summary": "Daniels takes Archer to the Enterprise-J to show a 26th-century Federation fighting the Sphere-Builders at Procyon V. The point is to persuade him not to die destroying the Xindi weapon.",
+    "sources": [
+      "Azati Prime (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "e-squared",
+    "title": "Lorian's Enterprise meets its past",
+    "legs": [
+      {
+        "from": {
+          "t": 2154.0,
+          "tText": "2154 (Kovaalan subspace corridor)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2037.5,
+          "tText": "2037",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "in Lorian's history the corridor throws Enterprise back 117 years"
+      },
+      {
+        "from": {
+          "t": 2154.0,
+          "tText": "2154",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2154.0,
+          "tText": "2154",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "loop closes: the ship lives 117 years forward to meet itself at the corridor"
+      }
+    ],
+    "travelers": [
+      "Enterprise (NX-01)",
+      "Lorian",
+      "T'Pol",
+      "Charles Tucker III"
+    ],
+    "method": "subspace corridor destabilized by the impulse wake",
+    "agency": "loop",
+    "outcome": "loop",
+    "divergenceHint": "e-squared",
+    "summary": "At the corridor, Archer meets a second Enterprise commanded by Lorian, Tucker and T'Pol's son, whose crew descends from an Enterprise this same transit threw back to 2037. Archer's ship gets through safely and Lorian's never emerges.",
+    "sources": [
+      "E² (episode)"
+    ],
+    "confidence": "explicit",
+    "conflict": "The ending leaves open whether Lorian's ship was erased; Archer and T'Pol disagree."
+  },
+  {
+    "id": "twilight",
+    "title": "Archer's lost dozen years undone",
+    "legs": [
+      {
+        "from": {
+          "t": 2153.4,
+          "tText": "2153 (parasite infection in the Expanse)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2153.4,
+          "tText": "2153",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "loop/collapse: parasites existing across Archer's timeline are destroyed in 2165, erasing the 2153-2165 future"
+      }
+    ],
+    "travelers": [
+      "Jonathan Archer",
+      "T'Pol",
+      "Phlox"
+    ],
+    "method": "interspatial parasites (Delphic Expanse anomaly)",
+    "agency": "loop",
+    "outcome": "divergence",
+    "divergenceHint": "twilight",
+    "summary": "Interspatial parasites leave Archer unable to form new memories, and without his command Earth falls to the Xindi by 2165. Because the parasites exist across his whole timeline, destroying them in 2165 erases that future back to the moment of infection.",
+    "sources": [
+      "Twilight (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "zero-hour-charter",
+    "title": "Archer glimpses the Federation's founding",
+    "legs": [
+      {
+        "from": {
+          "t": 2154.12,
+          "tText": "February 2154",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2161.5,
+          "tText": "2161 (Federation Charter signing)",
+          "timeline": "prime"
+        },
+        "toLane": "ENT"
+      },
+      {
+        "from": {
+          "t": 2161.5,
+          "tText": "2161",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2154.12,
+          "tText": "February 2154",
+          "timeline": "prime"
+        },
+        "toLane": "ENT"
+      }
+    ],
+    "travelers": [
+      "Jonathan Archer",
+      "Daniels (Crewman)"
+    ],
+    "method": "31st-century time portal",
+    "agency": "observation",
+    "outcome": "predestination",
+    "summary": "Daniels takes Archer to watch the Federation Charter being signed in 2161, to show him how central he is to history.",
+    "sources": [
+      "Zero Hour (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "vosk-escape-1944",
+    "title": "Na'kuhl flee into Nazi 1944",
+    "legs": [
+      {
+        "from": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1944.5,
+          "tText": "1944 (Nazi-occupied US East Coast)",
+          "timeline": "alternate"
+        },
+        "toLane": "HISTORY",
+        "note": "one-way stealth time travel"
+      }
+    ],
+    "travelers": [
+      "Vosk",
+      "Na'kuhl"
+    ],
+    "method": "stealth time travel (one-way); temporal conduit under construction",
+    "agency": "hostile",
+    "outcome": "divergence",
+    "divergenceHint": "storm-front",
+    "summary": "Nearly captured by the temporal agents, Vosk's Na'kuhl escape to a 1944 already bent by many factions' incursions. They ally with the Nazis to build a conduit home, from which they would start the Temporal War.",
+    "sources": [
+      "Storm Front (episode)",
+      "Storm Front, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "storm-front-enterprise",
+    "title": "Enterprise sent to stop Vosk",
+    "legs": [
+      {
+        "from": {
+          "t": 2154.12,
+          "tText": "February 2154",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1944.5,
+          "tText": "1944",
+          "timeline": "alternate"
+        },
+        "toLane": "HISTORY",
+        "note": "Daniels' last intervention"
+      },
+      {
+        "from": {
+          "t": 1944.5,
+          "tText": "1944",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2154.12,
+          "tText": "2154",
+          "timeline": "prime"
+        },
+        "toLane": "ENT",
+        "note": "the conduit's destruction resets the timeline"
+      }
+    ],
+    "travelers": [
+      "Enterprise (NX-01)",
+      "Jonathan Archer",
+      "Daniels (Crewman)",
+      "Silik"
+    ],
+    "method": "time portal (Daniels)",
+    "agency": "deliberate",
+    "outcome": "divergence",
+    "divergenceHint": "storm-front",
+    "summary": "Daniels, dying from the chaos of the Temporal War, sends Enterprise into the altered 1944. With the American resistance and a self-serving Silik, Archer destroys the Na'kuhl compound as Vosk enters the conduit, and history resets.",
+    "sources": [
+      "Zero Hour (episode)",
+      "Storm Front (episode)",
+      "Storm Front, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "nakuhl-suliban-plot",
+    "title": "Na'kuhl try to stop Suliban sentience",
+    "legs": [
+      {
+        "from": {
+          "t": 2850.0,
+          "tText": "29th century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": -200000.0,
+          "tText": "before the Suliban became sentient (date unstated)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "placeholder t; temporal agents intervened"
+      }
+    ],
+    "travelers": [
+      "Na'kuhl"
+    ],
+    "method": "Na'kuhl time travel",
+    "agency": "hostile",
+    "outcome": "restored",
+    "summary": "Vosk says that his people once went back to keep the Suliban from ever becoming sentient, and that opposing temporal agents stopped them.",
+    "sources": [
+      "Storm Front, Part II (episode)"
+    ],
+    "confidence": "estimated",
+    "conflict": "Described, not shown; the destination date is a placeholder."
+  },
+  {
+    "id": "narada-incursion",
+    "title": "Narada falls into 2233",
+    "legs": [
+      {
+        "from": {
+          "t": 2387.5,
+          "tText": "2387",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2233.04,
+          "tText": "2233 (stardate 2233.04)",
+          "timeline": "kelvin"
+        },
+        "toLane": "KELVIN",
+        "note": "Nero destroys the USS Kelvin and the Kelvin timeline begins"
+      },
+      {
+        "from": {
+          "t": 2387.5,
+          "tText": "2387",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2258.42,
+          "tText": "2258 (stardate 2258.42)",
+          "timeline": "kelvin"
+        },
+        "toLane": "KELVIN",
+        "note": "Spock's Jellyfish arrives 25 years later and is captured"
+      }
+    ],
+    "travelers": [
+      "Narada",
+      "Nero",
+      "Jellyfish",
+      "Spock"
+    ],
+    "method": "red matter black hole",
+    "agency": "accidental",
+    "outcome": "divergence",
+    "divergenceHint": "kelvin-timeline",
+    "summary": "Spock's red-matter black hole, meant to swallow the Hobus supernova, pulls in Nero's mining ship and deposits it in 2233, where its attack on the USS Kelvin splits off a new reality. Spock emerges 25 years later into Nero's hands.",
+    "sources": [
+      "Star Trek (film)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "yor-crossing",
+    "title": "Kelvin-timeline soldier crosses into prime",
+    "legs": [
+      {
+        "from": {
+          "t": 2379.5,
+          "tText": "2379",
+          "timeline": "kelvin"
+        },
+        "to": {
+          "t": 3100.0,
+          "tText": "after the Temporal Accord, before 3189 (unstated)",
+          "timeline": "prime"
+        },
+        "toLane": "FUTURE",
+        "note": "crossed both time and dimensions"
+      }
+    ],
+    "travelers": [
+      "Yor"
+    ],
+    "method": "unspecified (Temporal Wars era)",
+    "agency": "unknown",
+    "outcome": "persistent",
+    "summary": "Lieutenant Commander Yor, a Betelgeusian officer from the Kelvin reality, crossed both universes and centuries as a 'time soldier', and the strain was incurable. Kovich cites his case, which ended in euthanasia, when Georgiou falls ill.",
+    "sources": [
+      "Terra Firma, Part 1 (episode)"
+    ],
+    "confidence": "estimated",
+    "conflict": "Arrival year only bounded (post-Temporal Accord, pre-3189); t=3100 is an estimate."
+  },
+  {
+    "id": "magic-mudd-loop",
+    "title": "Mudd's thirty-minute time loop",
+    "legs": [
+      {
+        "from": {
+          "t": 2256.95,
+          "tText": "December 2256",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2256.95,
+          "tText": "December 2256",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "loop: ~30 minutes repeated dozens of times"
+      }
+    ],
+    "travelers": [
+      "Harcourt Fenton Mudd",
+      "USS Discovery",
+      "Michael Burnham",
+      "Paul Stamets",
+      "Gabriel Lorca"
+    ],
+    "method": "time crystal device",
+    "agency": "loop",
+    "outcome": "loop",
+    "summary": "Harry Mudd uses a time crystal device to loop half an hour again and again, trying to seize Discovery's spore drive for the Klingons. Stamets, who stays aware across the resets, helps the crew outwit him.",
+    "sources": [
+      "Magic to Make the Sanest Man Go Mad (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "discovery-mirror-return",
+    "title": "Discovery overshoots by nine months",
+    "legs": [
+      {
+        "from": {
+          "t": 2257.1,
+          "tText": "early 2257 (mirror universe)",
+          "timeline": "mirror"
+        },
+        "to": {
+          "t": 2257.85,
+          "tText": "late 2257 (nine months later)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS"
+      }
+    ],
+    "travelers": [
+      "USS Discovery"
+    ],
+    "method": "spore drive (mycelial network)",
+    "agency": "accidental",
+    "outcome": "persistent",
+    "summary": "Leaving the mirror universe, Discovery's spore jump returns it home nine months after it vanished, by which point the Klingons are winning the war.",
+    "sources": [
+      "What's Past Is Prologue (episode)",
+      "The War Without, The War Within (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "gabrielle-first-jump",
+    "title": "Gabrielle Burnham escapes 950 years forward",
+    "legs": [
+      {
+        "from": {
+          "t": 2236.5,
+          "tText": "2236 (Doctari Alpha)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3186.5,
+          "tText": "c. 3186 (950 years ahead)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "meant to jump one hour; tethered thereafter to the future"
+      }
+    ],
+    "travelers": [
+      "Gabrielle Burnham"
+    ],
+    "method": "Red Angel suit (time crystal micro-wormholes)",
+    "agency": "accidental",
+    "outcome": "persistent",
+    "summary": "During the Klingon raid on Doctari Alpha, Michael's mother activates the Daedalus suit to jump an hour but lands 950 years ahead, in a galaxy Control has emptied of life. The suit anchors her there, and every trip back pulls her forward again.",
+    "sources": [
+      "The Red Angel (episode)",
+      "Perpetual Infinity (episode)"
+    ],
+    "confidence": "explicit",
+    "conflict": "MA's time travel table says only '32nd century'; the 950-year figure gives c. 3186."
+  },
+  {
+    "id": "gabrielle-terralysium",
+    "title": "Red Angel rescues a 2053 congregation",
+    "legs": [
+      {
+        "from": {
+          "t": 3187.0,
+          "tText": "c. 3187",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2053.5,
+          "tText": "2053 (Earth, World War III)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "relocates a church and its people to Terralysium, 51,000 light years away"
+      }
+    ],
+    "travelers": [
+      "Gabrielle Burnham"
+    ],
+    "method": "Red Angel suit",
+    "agency": "deliberate",
+    "outcome": "predestination",
+    "summary": "To test whether time could be changed, the Red Angel moves a Richmond, Indiana, church congregation out of World War III to the distant planet Terralysium. Their descendants still worship the angel when Discovery arrives in 2257.",
+    "sources": [
+      "New Eden (episode)",
+      "Perpetual Infinity (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "gabrielle-young-spock",
+    "title": "Red Angel appears to young Spock",
+    "legs": [
+      {
+        "from": {
+          "t": 3187.0,
+          "tText": "c. 3187",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2239.5,
+          "tText": "late 2230s (Vulcan; year unstated)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "tells Spock where the runaway Michael is"
+      }
+    ],
+    "travelers": [
+      "Gabrielle Burnham",
+      "Spock"
+    ],
+    "method": "Red Angel suit",
+    "agency": "deliberate",
+    "outcome": "predestination",
+    "summary": "Gabrielle jumps to Vulcan when young Michael runs away, and shows the boy Spock where to find her. The visions stay with Spock into adulthood.",
+    "sources": [
+      "If Memory Serves (episode)",
+      "Perpetual Infinity (episode)"
+    ],
+    "confidence": "estimated",
+    "conflict": "The year of Michael's runaway is not given; t is an estimate."
+  },
+  {
+    "id": "gabrielle-2257",
+    "title": "Red Angel trapped on Essof IV",
+    "legs": [
+      {
+        "from": {
+          "t": 3187.0,
+          "tText": "c. 3187",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2257.6,
+          "tText": "2257 (Essof IV)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "one of 840 recorded jumps; many 2257 sightings"
+      },
+      {
+        "from": {
+          "t": 2257.6,
+          "tText": "2257",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3187.5,
+          "tText": "c. 3187-3188 (back to her anchor)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "yanked back through the wormhole when the containment field fails"
+      }
+    ],
+    "travelers": [
+      "Gabrielle Burnham"
+    ],
+    "method": "Red Angel suit",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "Discovery and Section 31 bait a trap with Michael's life and catch the Red Angel on Essof IV, revealing Michael's mother. When Control attacks the base, the suit's tether drags Gabrielle back to the future.",
+    "sources": [
+      "The Red Angel (episode)",
+      "Perpetual Infinity (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "light-and-shadows-probe",
+    "title": "Probe returns five centuries older",
+    "legs": [
+      {
+        "from": {
+          "t": 2257.3,
+          "tText": "2257 (Kaminar)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2757.0,
+          "tText": "c. 2757 (500 years ahead)",
+          "timeline": "prime"
+        },
+        "toLane": "FUTURE",
+        "note": "launched into a temporal rift left by the Red Angel"
+      },
+      {
+        "from": {
+          "t": 2757.0,
+          "tText": "c. 2757",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2257.3,
+          "tText": "2257",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "comes back modified, hunting for data"
+      }
+    ],
+    "travelers": [
+      "probe (USS Discovery, unnamed)",
+      "Control"
+    ],
+    "method": "temporal rift",
+    "agency": "hostile",
+    "outcome": "persistent",
+    "summary": "A Discovery probe that Pike launches into a temporal rift near Kaminar comes back with a core aged 500 years, rebuilt by someone in the future. It attacks Pike's shuttle and later infects Airiam on Control's behalf.",
+    "sources": [
+      "Light and Shadows (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "boreth-time-crystal",
+    "title": "Pike foresees his 2266 accident",
+    "legs": [
+      {
+        "from": {
+          "t": 2257.9,
+          "tText": "2257 (Boreth)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2266.5,
+          "tText": "c. 2266 (training-vessel accident)",
+          "timeline": "prime"
+        },
+        "toLane": "TOS",
+        "note": "a vision through the crystal, not physical travel"
+      }
+    ],
+    "travelers": [
+      "Christopher Pike"
+    ],
+    "method": "time crystal (Boreth)",
+    "agency": "observation",
+    "outcome": "predestination",
+    "summary": "To claim a Boreth time crystal, Pike touches it and sees the accident that will cripple him saving cadets. He takes the crystal anyway, accepting that future.",
+    "sources": [
+      "Through the Valley of Shadows (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "michael-seven-signals",
+    "title": "Michael plants the red bursts",
+    "legs": [
+      {
+        "from": {
+          "t": 2258.05,
+          "tText": "2258 (battle near Xahea)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2257.1,
+          "tText": "2257 (USS Hiawatha)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "first burst"
+      },
+      {
+        "from": {
+          "t": 2257.1,
+          "tText": "2257",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2257.15,
+          "tText": "2257 (Terralysium)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "second burst"
+      },
+      {
+        "from": {
+          "t": 2257.15,
+          "tText": "2257",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2257.3,
+          "tText": "2257 (Kaminar)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "third burst; stops a Ba'ul culling"
+      },
+      {
+        "from": {
+          "t": 2257.3,
+          "tText": "2257",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2257.85,
+          "tText": "2257 (Boreth)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "fourth burst"
+      },
+      {
+        "from": {
+          "t": 2257.85,
+          "tText": "2257",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2258.0,
+          "tText": "2258 (Xahea)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "fifth burst"
+      },
+      {
+        "from": {
+          "t": 2258.0,
+          "tText": "2258",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2258.05,
+          "tText": "2258 (the battle)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "returns to open the wormhole"
+      }
+    ],
+    "travelers": [
+      "Michael Burnham"
+    ],
+    "method": "Red Angel suit (second suit, Boreth crystal)",
+    "agency": "deliberate",
+    "outcome": "predestination",
+    "summary": "In mid-battle, Michael uses a new Red Angel suit to go back and set the red bursts that led Discovery to everything it needed, from the Hiawatha to Po on Xahea. The signals were her doing all along.",
+    "sources": [
+      "Such Sweet Sorrow, Part 2 (episode)",
+      "Brother (episode)",
+      "New Eden (episode)",
+      "The Sound of Thunder (episode)",
+      "Through the Valley of Shadows (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "Burst times are placed by their episodes' order; exact dates are unstated (MA: 'various points throughout 2257')."
+  },
+  {
+    "id": "discovery-to-3188",
+    "title": "Discovery follows Burnham to 3188",
+    "legs": [
+      {
+        "from": {
+          "t": 2258.05,
+          "tText": "2258",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3188.5,
+          "tText": "3188 (Hima)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "Michael in the suit"
+      },
+      {
+        "from": {
+          "t": 2258.05,
+          "tText": "2258",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3189.4,
+          "tText": "3189 (a year after Michael)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "Discovery and crew"
+      }
+    ],
+    "travelers": [
+      "Michael Burnham",
+      "USS Discovery",
+      "Saru",
+      "Sylvia Tilly",
+      "Paul Stamets",
+      "Philippa Georgiou (mirror)"
+    ],
+    "method": "Red Angel suit wormhole",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "To keep the Sphere data out of Control's reach, Michael opens a wormhole and leads Discovery 930 years into the future. She lands a year ahead of the ship, and both stay in the post-Burn 32nd century.",
+    "sources": [
+      "Such Sweet Sorrow, Part 2 (episode)",
+      "That Hope Is You, Part 1 (episode)",
+      "Far From Home (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "seventh-signal",
+    "title": "Suit sends the seventh signal home",
+    "legs": [
+      {
+        "from": {
+          "t": 3188.5,
+          "tText": "3188",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2258.06,
+          "tText": "2258 (after the battle)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "a signal sent back in time; the suit then self-destructs"
+      }
+    ],
+    "travelers": [
+      "Red angel suit"
+    ],
+    "method": "Red Angel suit",
+    "agency": "deliberate",
+    "outcome": "predestination",
+    "summary": "After arriving, Burnham has the suit send a final signal back to Spock, letting her friends know the jump worked, and then destroy itself.",
+    "sources": [
+      "That Hope Is You, Part 1 (episode)",
+      "Such Sweet Sorrow, Part 2 (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "terra-firma-georgiou",
+    "title": "Guardian sends Georgiou home and on",
+    "legs": [
+      {
+        "from": {
+          "t": 3189.8,
+          "tText": "3189 (Dannus V)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2255.5,
+          "tText": "2255 (Terran Empire)",
+          "timeline": "mirror"
+        },
+        "toLane": "MIRROR",
+        "note": "the Guardian's test: a second chance in her own universe"
+      },
+      {
+        "from": {
+          "t": 2255.5,
+          "tText": "2255",
+          "timeline": "mirror"
+        },
+        "to": {
+          "t": 3189.8,
+          "tText": "3189",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "only seconds pass on Dannus V"
+      },
+      {
+        "from": {
+          "t": 3189.8,
+          "tText": "3189",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2320.0,
+          "tText": "early 24th century (prime)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "sent to an era she can survive; she resurfaces running a station"
+      }
+    ],
+    "travelers": [
+      "Philippa Georgiou (mirror)",
+      "Guardian of Forever"
+    ],
+    "method": "Guardian of Forever",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "Dying from being displaced in both time and universe, Georgiou walks through the Guardian's door and relives months as Emperor in 2255. She passes its test and is sent to a period she can live in, which the Section 31 film puts in the early 24th century.",
+    "sources": [
+      "Terra Firma, Part 1 (episode)",
+      "Terra Firma, Part 2 (episode)",
+      "Star Trek: Section 31"
+    ],
+    "confidence": "inferred",
+    "conflict": "Destination year given only as 'early 24th century' (film); t=2320 is an estimate."
+  },
+  {
+    "id": "face-the-strange",
+    "title": "Time bug unmoors Discovery",
+    "legs": [
+      {
+        "from": {
+          "t": 3191.3,
+          "tText": "3191",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2258.05,
+          "tText": "2258 (before the jump to the future)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS"
+      },
+      {
+        "from": {
+          "t": 2258.05,
+          "tText": "2258",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2256.8,
+          "tText": "2256 (Klingon war era)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS"
+      },
+      {
+        "from": {
+          "t": 2256.8,
+          "tText": "2256",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2258.05,
+          "tText": "2258",
+          "timeline": "prime"
+        },
+        "toLane": "DIS"
+      },
+      {
+        "from": {
+          "t": 2258.05,
+          "tText": "2258",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3189.4,
+          "tText": "3189",
+          "timeline": "prime"
+        },
+        "toLane": "DIS"
+      },
+      {
+        "from": {
+          "t": 3189.4,
+          "tText": "3189",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3218.5,
+          "tText": "3218 (33rd century)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "Burnham and Rayner only; the future ship in ruins"
+      },
+      {
+        "from": {
+          "t": 3218.5,
+          "tText": "3218",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3189.4,
+          "tText": "3189",
+          "timeline": "prime"
+        },
+        "toLane": "DIS"
+      },
+      {
+        "from": {
+          "t": 3189.4,
+          "tText": "3189",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3189.6,
+          "tText": "3189 (a different date)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS"
+      },
+      {
+        "from": {
+          "t": 3189.6,
+          "tText": "3189",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2256.8,
+          "tText": "2256",
+          "timeline": "prime"
+        },
+        "toLane": "DIS"
+      },
+      {
+        "from": {
+          "t": 2256.8,
+          "tText": "2256",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3191.3,
+          "tText": "3191 (the chronophage destroyed)",
+          "timeline": "prime"
+        },
+        "toLane": "DIS"
+      }
+    ],
+    "travelers": [
+      "Michael Burnham",
+      "Rayner",
+      "Paul Stamets",
+      "USS Discovery"
+    ],
+    "method": "Krenim chronophage (time bug)",
+    "agency": "hostile",
+    "outcome": "restored",
+    "summary": "A Krenim chronophage planted by Moll and L'ak makes Discovery lurch among points in its own history, from the Klingon war to a ruined 33rd century. Burnham, Rayner and Stamets, the only ones aware of it, find and remove the bug.",
+    "sources": [
+      "Face the Strange (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "kovich-is-daniels",
+    "title": "Kovich unmasked as Agent Daniels",
+    "legs": [
+      {
+        "from": {
+          "t": 3050.0,
+          "tText": "31st century",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 3189.5,
+          "tText": "by 3189 (as 'Kovich')",
+          "timeline": "prime"
+        },
+        "toLane": "DIS",
+        "note": "not shown on screen; he says he has lived 'many years and many lives'"
+      }
+    ],
+    "travelers": [
+      "Daniels (Crewman)",
+      "Kovich"
+    ],
+    "method": "unstated",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "The Federation official known as Kovich tells Burnham that he is the temporal agent Daniels, 'of the Enterprise and other places', and keeps artifacts from several eras in his office.",
+    "sources": [
+      "Life, Itself (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "How a 31st-century agent came to 3189 (travel or simply longevity) is unstated."
+  },
+  {
+    "id": "quality-of-mercy",
+    "title": "Future Pike shows the alternate 2266",
+    "legs": [
+      {
+        "from": {
+          "t": 2267.0,
+          "tText": "after alternate 2266",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2259.3,
+          "tText": "2259",
+          "timeline": "prime"
+        },
+        "toLane": "SNW",
+        "note": "an older Pike from the future he tries to avoid"
+      },
+      {
+        "from": {
+          "t": 2259.3,
+          "tText": "2259",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2266.5,
+          "tText": "2266 (the Romulan crisis)",
+          "timeline": "alternate"
+        },
+        "toLane": "TOS",
+        "note": "Pike lives through the Balance of Terror crisis in command"
+      },
+      {
+        "from": {
+          "t": 2266.5,
+          "tText": "2266",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2259.3,
+          "tText": "2259",
+          "timeline": "prime"
+        },
+        "toLane": "SNW"
+      }
+    ],
+    "travelers": [
+      "Christopher Pike"
+    ],
+    "method": "time crystal",
+    "agency": "deliberate",
+    "outcome": "divergence",
+    "divergenceHint": "a-quality-of-mercy",
+    "summary": "An older Pike carrying a Boreth crystal shows his younger self what happens if he dodges his fated accident: war with the Romulans and Spock's death. Pike accepts the path the crystal showed him.",
+    "sources": [
+      "A Quality of Mercy (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "tomorrow-toronto",
+    "title": "La'An to 2022 Toronto",
+    "legs": [
+      {
+        "from": {
+          "t": 2380.0,
+          "tText": "the future (unstated)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2259.4,
+          "tText": "2259",
+          "timeline": "prime"
+        },
+        "toLane": "SNW",
+        "note": "a mortally wounded temporal agent appears aboard and hands La'An his device"
+      },
+      {
+        "from": {
+          "t": 2259.4,
+          "tText": "2259",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2259.4,
+          "tText": "2259",
+          "timeline": "alternate"
+        },
+        "toLane": "SNW",
+        "note": "La'An alone remembers the prime history in a timeline with no Federation"
+      },
+      {
+        "from": {
+          "t": 2259.4,
+          "tText": "2259",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2022.5,
+          "tText": "2022 (Toronto)",
+          "timeline": "alternate"
+        },
+        "toLane": "HISTORY",
+        "note": "with the alternate timeline's Captain Kirk"
+      },
+      {
+        "from": {
+          "t": 2022.5,
+          "tText": "2022",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2259.4,
+          "tText": "2259",
+          "timeline": "prime"
+        },
+        "toLane": "SNW",
+        "note": "returns after Khan is saved; Kirk has died"
+      },
+      {
+        "from": {
+          "t": 2380.0,
+          "tText": "the future (unstated)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2259.4,
+          "tText": "2259",
+          "timeline": "prime"
+        },
+        "toLane": "SNW",
+        "note": "Agent Ymalay of the DTI thanks her and swears her to secrecy"
+      }
+    ],
+    "travelers": [
+      "La'An Noonien-Singh",
+      "James T. Kirk",
+      "Ymalay"
+    ],
+    "method": "temporal agent's recall device",
+    "agency": "deliberate",
+    "outcome": "divergence",
+    "divergenceHint": "tomorrow-and-tomorrow",
+    "summary": "After a temporal agent dies in her arms, La'An lands in a timeline with no Federation and goes to 2022 with that timeline's Kirk to find what broke history. She has to keep a Romulan agent from killing the boy Khan, preserving her own notorious ancestor.",
+    "sources": [
+      "Tomorrow and Tomorrow and Tomorrow (episode)"
+    ],
+    "confidence": "explicit",
+    "conflict": "The agents' home era is never given; t=2380 is a placeholder for 'the future'."
+  },
+  {
+    "id": "sera-khan-plot",
+    "title": "Romulan agent stalks the young Khan",
+    "legs": [
+      {
+        "from": {
+          "t": 3000.0,
+          "tText": "the future (Temporal Wars era; unstated)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1992.5,
+          "tText": "1992",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "sent to kill Khan; stranded 30 years as his rise keeps being pushed back"
+      }
+    ],
+    "travelers": [
+      "Sera"
+    ],
+    "method": "future time travel (Romulan faction)",
+    "agency": "hostile",
+    "outcome": "divergence",
+    "divergenceHint": "tomorrow-and-tomorrow",
+    "summary": "Sera, a surgically disguised Romulan operative, was sent to stop Khan's rise and so the Federation's future. Rival incursions kept shifting Khan's timeline, and she waited 30 years for her chance in 2022.",
+    "sources": [
+      "Tomorrow and Tomorrow and Tomorrow (episode)"
+    ],
+    "confidence": "estimated",
+    "conflict": "Explains the shift of the Eugenics Wars from the 1990s (TOS) into the 21st century. Origin date is a placeholder."
+  },
+  {
+    "id": "khan-temporal-wars",
+    "title": "Temporal Wars fought over Khan",
+    "legs": [
+      {
+        "from": {
+          "t": 3000.0,
+          "tText": "the future (Temporal Wars)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 1995.0,
+          "tText": "1990s (Khan's rise)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "many factions' incursions; the Eugenics Wars slide into the 21st century"
+      }
+    ],
+    "travelers": [
+      "Khan Noonien Singh"
+    ],
+    "method": "multiple factions' time travel",
+    "agency": "hostile",
+    "outcome": "persistent",
+    "summary": "According to Sera, whole Temporal Wars were fought over whether Khan would exist. Their net effect was to push his rise and the Eugenics Wars from the 20th century into the 21st.",
+    "sources": [
+      "Tomorrow and Tomorrow and Tomorrow (episode)"
+    ],
+    "confidence": "estimated",
+    "conflict": "Reconciles TOS 'Space Seed' (Eugenics Wars in the 1990s) with SNW's later dating; dates are placeholders."
+  },
+  {
+    "id": "those-old-scientists",
+    "title": "Boimler and Mariner meet Pike's crew",
+    "legs": [
+      {
+        "from": {
+          "t": 2381.4,
+          "tText": "2381 (Krulmuth-B)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2259.6,
+          "tText": "2259",
+          "timeline": "prime"
+        },
+        "toLane": "SNW",
+        "note": "Boimler pulled through the portal"
+      },
+      {
+        "from": {
+          "t": 2381.4,
+          "tText": "2381",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2259.6,
+          "tText": "2259",
+          "timeline": "prime"
+        },
+        "toLane": "SNW",
+        "note": "Mariner leaps in after him"
+      },
+      {
+        "from": {
+          "t": 2259.6,
+          "tText": "2259",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2381.4,
+          "tText": "2381",
+          "timeline": "prime"
+        },
+        "toLane": "LD",
+        "note": "portal re-energized with horonium"
+      }
+    ],
+    "travelers": [
+      "Brad Boimler",
+      "Beckett Mariner"
+    ],
+    "method": "Krulmuth-B time portal",
+    "agency": "accidental",
+    "outcome": "restored",
+    "summary": "A dormant portal on Krulmuth-B, first surveyed by Pike's Enterprise, pulls Ensign Boimler back 120 years into his heroes' era, and Mariner jumps after him. Pike's crew recharges the portal to send them home.",
+    "sources": [
+      "Those Old Scientists (episode)"
+    ],
+    "confidence": "explicit",
+    "conflict": "The brief associated this with the Orb of Time, but MA shows only the Krulmuth-B portal; no Orb appears."
+  },
+  {
+    "id": "valles-marineris",
+    "title": "Enterprise stranded with the dinosaurs",
+    "legs": [
+      {
+        "from": {
+          "t": 2262.4,
+          "tText": "2262",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": -65000000.0,
+          "tText": "c. 65 million years ago (Sol system)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "a category 10 interstellar squall displaces the ship"
+      },
+      {
+        "from": {
+          "t": -65000000.0,
+          "tText": "c. 65 million years ago",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2262.4,
+          "tText": "2262",
+          "timeline": "prime"
+        },
+        "toLane": "SNW",
+        "note": "rides the blast wave of the Dol'drm homeworld's destruction"
+      }
+    ],
+    "travelers": [
+      "USS Enterprise (NCC-1701)",
+      "Christopher Pike",
+      "Una Chin-Riley",
+      "La'An Noonien-Singh",
+      "Erica Ortegas",
+      "Spock"
+    ],
+    "method": "category 10 interstellar squall",
+    "agency": "accidental",
+    "outcome": "predestination",
+    "summary": "A space storm throws the Enterprise back 65 million years, onto a Cretaceous Earth and into a war between Mars' inhabitants and the planet Dol'drm. The ship rides home on the blast that destroys Dol'drm, whose debris formed the asteroid belt and caused the Chicxulub impact.",
+    "sources": [
+      "Valles Marineris (episode)"
+    ],
+    "confidence": "explicit",
+    "conflict": "Memory Alpha's time travel table says 2261; the episode page gives stardate 2491.5 (2262)."
+  },
+  {
+    "id": "tomorrows-enterprise",
+    "title": "Two Uhuras swap across a year",
+    "legs": [
+      {
+        "from": {
+          "t": 2262.8,
+          "tText": "2262 (white hole)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2263.8,
+          "tText": "2263 (Kirk's Enterprise)",
+          "timeline": "alternate"
+        },
+        "toLane": "SNW",
+        "note": "entangled Uhuras switch timestreams"
+      },
+      {
+        "from": {
+          "t": 2263.8,
+          "tText": "2263",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2262.8,
+          "tText": "2262",
+          "timeline": "prime"
+        },
+        "toLane": "SNW"
+      },
+      {
+        "from": {
+          "t": 2263.8,
+          "tText": "2263",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2262.8,
+          "tText": "2262",
+          "timeline": "prime"
+        },
+        "toLane": "SNW",
+        "note": "time rewinds and each returns; only the two Uhuras remember"
+      },
+      {
+        "from": {
+          "t": 2262.8,
+          "tText": "2262",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2263.8,
+          "tText": "2263",
+          "timeline": "prime"
+        },
+        "toLane": "SNW"
+      }
+    ],
+    "travelers": [
+      "Nyota Uhura",
+      "Montgomery Scott"
+    ],
+    "method": "white hole / black hole pair (a space entity's birth pulses)",
+    "agency": "natural",
+    "outcome": "divergence",
+    "divergenceHint": "tomorrows-enterprise",
+    "summary": "Energy from a white hole entangles the Uhura of Pike's final year with herself a year later on Kirk's Enterprise, and the two briefly switch places. In the future Scotty has died, but when the pulses turn out to be a cosmic being's birth, time rewinds and he lives.",
+    "sources": [
+      "Tomorrow's Enterprise (episode)"
+    ],
+    "confidence": "explicit",
+    "conflict": "MA's page is a stub (dates from its sidebar); mechanics were checked against published recaps."
+  },
+  {
+    "id": "q-confederation",
+    "title": "Q rewrites 2401 as the Confederation",
+    "legs": [
+      {
+        "from": {
+          "t": 2401.15,
+          "tText": "2401",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2401.15,
+          "tText": "2401 (Confederation of Earth)",
+          "timeline": "alternate"
+        },
+        "toLane": "PIC",
+        "note": "a timeline shift, not travel: Q moves the crew into the history he changed"
+      }
+    ],
+    "travelers": [
+      "Q",
+      "Jean-Luc Picard",
+      "Seven of Nine",
+      "Raffaela Musiker",
+      "Cristóbal Rios",
+      "Agnes Jurati",
+      "Elnor"
+    ],
+    "method": "Q powers",
+    "agency": "Q",
+    "outcome": "divergence",
+    "divergenceHint": "confederation",
+    "summary": "In the middle of a Borg standoff, Q strands Picard's crew in a fascist 2401 ruled by the Confederation of Earth, the result of his own meddling in the past. Only they remember the real history.",
+    "sources": [
+      "The Star Gazer (episode)",
+      "Penance (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "q-meddles-2024",
+    "title": "Q tampers with 2024",
+    "legs": [
+      {
+        "from": {
+          "t": 2401.15,
+          "tText": "2401",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2024.28,
+          "tText": "2024 (Los Angeles)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "his deal with Adam Soong derails the Europa mission"
+      }
+    ],
+    "travelers": [
+      "Q",
+      "Adam Soong"
+    ],
+    "method": "Q powers",
+    "agency": "Q",
+    "outcome": "divergence",
+    "divergenceHint": "confederation",
+    "summary": "The dying Q goes to 2024 and gives Adam Soong a temporary cure for his daughter's condition in return for sabotaging Renée Picard's Europa mission. That creates the Confederation timeline as a test for Picard.",
+    "sources": [
+      "Two of One (episode)",
+      "Mercy (episode)",
+      "Farewell (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "Q's point of departure is not shown; 2401 is assumed."
+  },
+  {
+    "id": "la-sirena-2024",
+    "title": "La Sirena slingshots to 2024",
+    "legs": [
+      {
+        "from": {
+          "t": 2401.16,
+          "tText": "2401 (Confederation)",
+          "timeline": "alternate"
+        },
+        "to": {
+          "t": 2024.28,
+          "tText": "April 2024 (Los Angeles)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "with the Confederation's Borg Queen aboard"
+      },
+      {
+        "from": {
+          "t": 2024.3,
+          "tText": "2024",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2401.15,
+          "tText": "2401 (seconds before the Stargazer's auto-destruct)",
+          "timeline": "prime"
+        },
+        "toLane": "PIC",
+        "note": "Q sends Picard, Seven and Raffi home; Rios and the Jurati-Queen stay"
+      }
+    ],
+    "travelers": [
+      "SS La Sirena",
+      "Jean-Luc Picard",
+      "Seven of Nine",
+      "Raffaela Musiker",
+      "Cristóbal Rios",
+      "Agnes Jurati",
+      "Borg Queen"
+    ],
+    "method": "slingshot effect (Borg Queen-assisted); return by Q",
+    "agency": "deliberate",
+    "outcome": "divergence",
+    "divergenceHint": "confederation",
+    "summary": "The crew slingshot a captured La Sirena into 2024 to protect Renée Picard's mission. Rios stays in the past with a new family, Jurati merges with the Borg Queen, and Q returns the others to the moment they left.",
+    "sources": [
+      "Penance (episode)",
+      "Assimilation (episode)",
+      "Farewell (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "wesley-recruits-kore",
+    "title": "Traveler Wesley recruits Kore",
+    "legs": [
+      {
+        "from": {
+          "t": 2401.15,
+          "tText": "unstated (Traveler)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2024.3,
+          "tText": "2024 (Los Angeles)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "origin assumed; Travelers move through space and time"
+      }
+    ],
+    "travelers": [
+      "Wesley Crusher",
+      "Kore Soong"
+    ],
+    "method": "Traveler abilities",
+    "agency": "deliberate",
+    "outcome": "persistent",
+    "summary": "Wesley Crusher, now a Traveler, visits 2024 to offer Kore Soong a place among the beings who guard time and space, and she accepts.",
+    "sources": [
+      "Farewell (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "Wesley's departure time is unknown; the leg's origin is a placeholder."
+  },
+  {
+    "id": "bakersfield-loop",
+    "title": "USS Bakersfield caught in a loop",
+    "legs": [
+      {
+        "from": {
+          "t": 2381.2,
+          "tText": "2381",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2381.2,
+          "tText": "2381",
+          "timeline": "prime"
+        },
+        "toLane": "LD",
+        "note": "loop; its distress call keeps interrupting itself"
+      }
+    ],
+    "travelers": [
+      "USS Bakersfield"
+    ],
+    "method": "temporal causality loop",
+    "agency": "loop",
+    "outcome": "loop",
+    "summary": "The Cerritos answers a distress call from the USS Bakersfield, which is stuck in a causality loop.",
+    "sources": [
+      "I, Excretus (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "protostar-to-2436",
+    "title": "Protostar falls to 2436 Solum",
+    "legs": [
+      {
+        "from": {
+          "t": 2382.5,
+          "tText": "2382",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2436.5,
+          "tText": "2436 (Solum)",
+          "timeline": "prime"
+        },
+        "toLane": "PRO",
+        "note": "a wormhole carries Chakotay's ship into the Vau N'Akat future"
+      },
+      {
+        "from": {
+          "t": 2436.5,
+          "tText": "2436",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2365.0,
+          "tText": "before 2366 (Tars Lamora)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "original history: Chakotay sends the ship back empty on autopilot"
+      }
+    ],
+    "travelers": [
+      "USS Protostar",
+      "Chakotay",
+      "Adreek-Hu"
+    ],
+    "method": "wormhole (temporal anomaly)",
+    "agency": "accidental",
+    "outcome": "predestination",
+    "summary": "On its maiden mission the Protostar was drawn through a wormhole to 2436, where the Vau N'Akat, blaming the Federation for their civil war, put a living weapon aboard. Chakotay sent the ship back through time, where it lay buried on Tars Lamora until the kids found it.",
+    "sources": [
+      "A Moral Star, Part 2 (episode)",
+      "Asylum (episode)",
+      "Preludes (episode)",
+      "Mindwalk (episode)",
+      "Into the Breach, Part II (episode)"
+    ],
+    "confidence": "inferred",
+    "conflict": "Chakotay's original autopilot launch was later superseded by the altered and then repaired history (see protostar-rescue-paradox, ouroboros)."
+  },
+  {
+    "id": "the-order-pursuit",
+    "title": "Diviner and Vindicator chase the Protostar",
+    "legs": [
+      {
+        "from": {
+          "t": 2436.5,
+          "tText": "2436",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2363.5,
+          "tText": "c. 2363 (Delta Quadrant)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "the Diviner and his Drednok"
+      },
+      {
+        "from": {
+          "t": 2436.5,
+          "tText": "2436",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2381.5,
+          "tText": "2381 (Alpha Quadrant)",
+          "timeline": "prime"
+        },
+        "toLane": "PRO",
+        "note": "the Vindicator, a future Asencia, infiltrates Starfleet"
+      }
+    ],
+    "travelers": [
+      "Ilthuran",
+      "Asencia",
+      "Drednok"
+    ],
+    "method": "temporal anomaly (wormhole)",
+    "agency": "hostile",
+    "outcome": "persistent",
+    "summary": "A hundred Vau N'Akat agents follow the ship into the anomaly, and only two survive. The Diviner (a future Ilthuran) builds the Tars Lamora mining prison to search for it, and the Vindicator hides inside Starfleet.",
+    "sources": [
+      "Preludes (episode)",
+      "A Moral Star, Part 2 (episode)",
+      "Into the Breach, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "chakotay-distress-call",
+    "title": "Distress call from 52 years ahead",
+    "legs": [
+      {
+        "from": {
+          "t": 2436.5,
+          "tText": "2436",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2384.1,
+          "tText": "2384",
+          "timeline": "prime"
+        },
+        "toLane": "PRO",
+        "note": "a signal and black-box footage come through the wormhole, not a traveler"
+      }
+    ],
+    "travelers": [
+      "Chakotay"
+    ],
+    "method": "wormhole (time-displaced signal)",
+    "agency": "deliberate",
+    "outcome": "predestination",
+    "summary": "After the Protostar's destruction opens a wormhole, Starfleet receives Chakotay's distress call and black-box recordings from Solum 52 years in the future.",
+    "sources": [
+      "Into the Breach, Part I (episode)",
+      "Into the Breach, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "protostar-rescue-paradox",
+    "title": "Infinity rescue triggers a paradox",
+    "legs": [
+      {
+        "from": {
+          "t": 2384.2,
+          "tText": "2384",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2436.5,
+          "tText": "2436 (Solum)",
+          "timeline": "prime"
+        },
+        "toLane": "PRO",
+        "note": "the Infinity crash-lands"
+      },
+      {
+        "from": {
+          "t": 2436.5,
+          "tText": "2436",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2374.5,
+          "tText": "c. 2374 (ten years before 2384)",
+          "timeline": "alternate"
+        },
+        "toLane": "PRO",
+        "note": "Chakotay and Adreek-Hu escape aboard the ship instead of sending it back empty"
+      },
+      {
+        "from": {
+          "t": 2436.5,
+          "tText": "2436",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2384.2,
+          "tText": "2384",
+          "timeline": "prime"
+        },
+        "toLane": "PRO",
+        "note": "the Infinity, rigged as a timeship with an inverse warp field, goes back for Gwyn"
+      }
+    ],
+    "travelers": [
+      "Infinity (ship)",
+      "Dal R'El",
+      "Jankom Pog",
+      "Zero",
+      "Maj'el",
+      "USS Protostar",
+      "Chakotay",
+      "Adreek-Hu"
+    ],
+    "method": "wormhole; inverse warp field",
+    "agency": "deliberate",
+    "outcome": "divergence",
+    "divergenceHint": "protostar-paradox",
+    "summary": "Dal's crew takes the Infinity to 2436 to rescue Chakotay and helps him launch the Protostar. Because he and Adreek ride it into the wormhole rather than sending it empty, the ship never reaches Tars Lamora, and Gwyn starts to fade from existence.",
+    "sources": [
+      "Who Saves the Saviors (episode)",
+      "Temporal Mechanics 101 (episode)",
+      "Last Flight of the Protostar, Part I (episode)"
+    ],
+    "confidence": "explicit"
+  },
+  {
+    "id": "ouroboros",
+    "title": "Protostar sent back to close the loop",
+    "legs": [
+      {
+        "from": {
+          "t": 2385.1,
+          "tText": "2385 (Solum)",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2365.0,
+          "tText": "before 2366 (Tars Lamora)",
+          "timeline": "prime"
+        },
+        "toLane": "HISTORY",
+        "note": "USS Voyager-A escorts the ship through Asencia's wormhole and beams the crew off"
+      },
+      {
+        "from": {
+          "t": 2365.0,
+          "tText": "before 2366",
+          "timeline": "prime"
+        },
+        "to": {
+          "t": 2385.1,
+          "tText": "2385",
+          "timeline": "prime"
+        },
+        "toLane": "PRO",
+        "note": "Voyager-A comes back out near Solum"
+      }
+    ],
+    "travelers": [
+      "USS Protostar",
+      "USS Voyager (NCC-74656-A)",
+      "Dal R'El",
+      "Jankom Pog",
+      "Murf",
+      "Chakotay",
+      "Kathryn Janeway"
+    ],
+    "method": "wormhole (Asencia's temporal technology)",
+    "agency": "deliberate",
+    "outcome": "divergence",
+    "divergenceHint": "protostar-paradox",
+    "summary": "With the Loom devouring the unraveling timeline, Dal's crew uses Asencia's wormhole generator to send the Protostar back to where they first found it. Dal leaves his combadge on the bridge floor, and the causality loop is closed.",
+    "sources": [
+      "Ouroboros, Part I (episode)",
+      "Ouroboros, Part II (episode)"
+    ],
+    "confidence": "explicit"
+  }
+]
