@@ -85,7 +85,11 @@ export class Readout {
     if (!items.length) html = `<p class="note">Nothing is recorded in this window. Zoom out, or drag the gold window on the era ribbon to move through time.</p>`;
     else if (items.length > shown.length) html += `<p class="note">Showing the first ${shown.length} of ${items.length}. Zoom in to narrow the window.</p>`;
     const recs = items.filter((x) => x.$ === 'r').length;
-    this.set(`In view: ${recs} records, ${items.length - recs} events`, html);
+    let seen = true;
+    try { seen = localStorage.getItem('tic-hint') === '1'; } catch (_) { /* storage blocked */ }
+    const hint = seen ? '' : `<div class="statusnote hint"><div class="k">Orientation</div>Drag the field to move through time; scroll or pinch to zoom. Click any mark for its record. Press / to search, or describe an episode in plain words. The gold window on the ribbon above is where you are in all of time.
+      <div class="btnrow" style="margin:8px 0 2px"><button class="btn gold" data-act="hint-ok">Understood</button></div></div>`;
+    this.set(`In view: ${recs} records, ${items.length - recs} events`, hint + html);
   }
 
   // ── record ────────────────────────────────────────────────────────
@@ -392,6 +396,7 @@ export class Readout {
     const a = e.target.closest('[data-act]');
     if (!a) return;
     const act = a.dataset.act, v = a.dataset.v;
+    if (act === 'hint-ok') { try { localStorage.setItem('tic-hint', '1'); } catch (_) { /* storage blocked */ } const h = a.closest('.hint'); if (h) h.remove(); return; }
     if (act === 'more') { const w = a.previousElementSibling; if (w) { w.hidden = false; a.remove(); } }
     else if (act === 'oc') { this.state.oc = v; this.list_incursions(); }
     else if (act === 'ps') { this.state.ps = v; this.state.pq = ''; this.list_personnel(); }

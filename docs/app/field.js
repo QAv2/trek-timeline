@@ -366,6 +366,7 @@ export class Field {
     layer('records', () => this.drawRecords(ua, ub));
     layer('events', () => this.drawEvents(ua, ub));
     layer('arcs', () => this.drawArcs(now));
+    this.jumpBoxes = [];
     layer('worlds', () => this.drawWorlds());
     layer('labels', () => this.drawLabels(ua, ub));
     layer('selection', () => this.drawSelection(now));
@@ -712,7 +713,11 @@ export class Field {
     ctx.font = F_SMALL; ctx.textBaseline = 'middle';
     const w = this.textW(label, F_SMALL);
     const x = to.x < from.x ? Math.max(this.px0 + 2, last.x) : Math.min(this.px1 - w - 2, last.x - w);
-    ctx.globalAlpha = 1; ctx.fillStyle = '#000'; ctx.fillRect(x - 2, last.y - 7, w + 4, 14);
+    const box = [x - 2, last.y - 7, w + 4, 14];
+    const placed = this.jumpBoxes || (this.jumpBoxes = []);
+    if (placed.some((b) => box[0] < b[0] + b[2] && box[0] + box[2] > b[0] && box[1] < b[1] + b[3] && box[1] + box[3] > b[1])) return;
+    placed.push(box);
+    ctx.globalAlpha = 1; ctx.fillStyle = '#000'; ctx.fillRect(...box);
     ctx.fillStyle = color; ctx.fillText(label, x, last.y);
   }
 
