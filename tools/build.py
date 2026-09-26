@@ -41,7 +41,7 @@ MIRROR_EPS = {  # MA page titles of episodes set (substantially) in the mirror u
 }
 # date overrides: primary placement fixes where MA lists several years
 OVR = {
-    'tng-4x01': dict(year=2367), 'voy-6x01': dict(t=2376.02), 'ent-3x21': dict(t=2154.06), 'ent-1x22': dict(t=2152.05),
+    'tng-4x01': dict(year=2367), 'voy-6x01': dict(t=2376.02), 'ent-3x21': dict(t=2154.06, text='2153–2154'), 'ent-1x22': dict(t=2152.05, text='2151–2152'),
     'dis-5x10': dict(year=3191), 'dis-3x03': dict(year=3189), 'pic-3x07': dict(year=2401), 'pic-2x09': dict(year=2024),
     'pic-3x04': dict(year=2401), 'pic-3x03': dict(year=2401), 'ld-4x10': dict(year=2381), 'snw-4x10': dict(t=2262.97),
     'sa-1x01': dict(year=3196, prec='est'), 'st-2x04': dict(t=2266.5, text='c. 2266–2285', prec='range'),
@@ -117,10 +117,57 @@ def place_records(raw):
                     r['_t'], r['_prec'] = 2323 + r['_sd'] / 1000.0, 'sd'
                 elif y:
                     r['_prim'], r['_prec'] = int(y), 'est'
-    # spread imprecise records within (lane, year)
+    # month-only dates: provisional mid-month, refined against neighbours below
+    for r in out:
+        if r['_prec'] == 'date' and r['month'] and not r['day']:
+            r['_prec'] = 'month'
+    # imprecise records that share a year with dated ones: slot them between their dated
+    # neighbours in broadcast order (Picard S2's 2401 episodes land before S3's April 24)
+    by_lane = collections.defaultdict(list)
+    for r in out:
+        by_lane[r['lane'] if r['series'] != 'FLM' else r['id']].append(r)
+    # records sharing an exact date: nudge apart in broadcast order
+    for lane, rs in by_lane.items():
+        seen = collections.Counter()
+        for r in sorted(rs, key=lambda r: (r['airdate'] or '', r['episode'] or 0)):
+            if r['_t'] is None or r['_prec'] not in ('date', 'sd'):
+                continue
+            key = round(r['_t'], 4)
+            if seen[key]:
+                r['_t'] += 0.0016 * seen[key]
+            seen[key] += 1
+    for lane, rs in by_lane.items():
+        rs.sort(key=lambda r: (r['airdate'] or '', r['episode'] or 0))
+        precise = lambda r: r['_t'] is not None and r['_prec'] in ('date', 'sd')
+        i = 0
+        while i < len(rs):
+            r = rs[i]
+            y = r['_prim'] if r['_prim'] is not None else (int(r['_t']) if r['_t'] is not None else None)
+            if y is None or precise(r) or r['_prec'] not in ('year', 'est', 'month'):
+                i += 1
+                continue
+            j = i
+            while j < len(rs) and not precise(rs[j]) and rs[j]['_prec'] in ('year', 'est', 'month') and (rs[j]['_prim'] == y or (rs[j]['_t'] is not None and int(rs[j]['_t']) == y)):
+                j += 1
+            prev = next((x for x in reversed(rs[:i]) if precise(x) and int(x['_t']) == y), None)
+            nxt = next((x for x in rs[j:] if precise(x) and int(x['_t']) == y), None)
+            if prev or nxt:
+                run = rs[i:j]
+                lo = prev['_t'] if prev else y + 0.02
+                hi = nxt['_t'] if nxt else y + 0.98
+                if run[0]['_prec'] == 'month' and run[0]['month']:
+                    m0 = y + (run[0]['month'] - 1) / 12.0
+                    lo, hi = max(lo, m0), min(hi, m0 + 1 / 12.0) if nxt is None or nxt['_t'] > m0 + 1 / 12.0 else hi
+                    if hi <= lo:
+                        hi = lo + 0.01
+                for k, x in enumerate(run):
+                    x['_t'] = lo + (hi - lo) * (k + 1) / (len(run) + 1)
+                    x['_fixed'] = True
+            i = j
+    # spread remaining imprecise records within (lane, year)
     groups = collections.defaultdict(list)
     for r in out:
-        if r['_t'] is None and r['_prim'] is not None:
+        if r['_t'] is None and r['_prim'] is not None and not r.get('_fixed'):
             groups[(r['lane'] if r['series'] != 'FLM' else r['id'], r['_prim'])].append(r)
     for (lane, y), rs in groups.items():
         tos_like = all(x['_sd'] and x['_sd'] < 10000 for x in rs) and rs[0]['series'] in ('TOS', 'TAS')

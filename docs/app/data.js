@@ -214,64 +214,67 @@ const CORE = {
   ENT: [[2150, 2162]], DIS: [[2254, 2259], [3187, 3192]], SNW: [[2258, 2264]], LD: [[2379, 2383]],
   PRO: [[2382, 2386]], PIC: [[2398, 2403]], SA: [[3190, 3200]],
 };
-const VESSEL = /^(USS|ISS|IKS|IRW|SS|NX|HMS|Enterprise|Discovery|Voyager|Defiant|Protostar|Cerritos|La Sirena|Titan|Stargazer)/;
 
-function homeTime(r) {
-  const core = CORE[r.l];
-  if (!core) return r.t;
-  const inCore = (t) => core.some(([a, b]) => t >= a && t <= b);
-  if (inCore(r.t)) return r.t;
+const inCoreOf = (lane) => { const core = CORE[lane]; return core ? (t) => core.some(([a, b]) => t >= a && t <= b) : null; };
+
+// the crew's own "now" for a record: its date if that's in the series' home era, otherwise
+// the home-era date of its nearest neighbour in broadcast order (so Picard's 2024 season
+// sits after 2399 in his proper time, not before it)
+function homeTime(S, r) {
+  const inCore = inCoreOf(r.l);
+  if (!inCore || inCore(r.t)) return r.t;
   const v = (r.v || []).find((x) => inCore(x.t));
-  return v ? v.t : r.t;
+  if (v) return v.t;
+  const arr = S.bySeries.get(r.s) || [];
+  const i = arr.indexOf(r);
+  for (let d = 1; d < arr.length; d++) {
+    for (const j of [i - d, i + d]) {
+      const x = arr[j];
+      if (x && x.l === r.l && inCore(x.t)) return x.t + (i - j) * 0.002;
+    }
+  }
+  return r.t;
 }
 
 function worldline(S, p) {
   if (p._wl) return p._wl;
-  const ents = p.recs.filter((r) => r.s !== 'VST').map((r) => ({ r, h: homeTime(r) })).sort((a, b) => a.h - b.h);
+  const ents = p.recs.filter((r) => r.s !== 'VST').map((r) => ({ r, h: homeTime(S, r) }))
+    .sort((a, b) => a.h - b.h || (a.r.ad || '').localeCompare(b.r.ad || ''));
   const pts = [];
   ents.forEach((e, i) => {
     const r = e.r;
-    const at = r.c.indexOf(p.i);
-    const principal = at > -1 && at < Math.min(r.cu == null ? r.c.length : r.cu, 12);
-    const incs = (S.recLinks.get(r.id) || []).filter((l) => l.kind === 'i').map((l) => l.item)
-      .filter((inc) => (inc.travelers || []).some((t) => t === p.k || (principal && VESSEL.test(t))));
-    if (incs.length) {
-      pts.push({ t: e.h, l: r.l, r });
-      for (const inc of incs.sort((a, b) => a.t - b.t)) {
-        for (const g of inc.legs) {
-          pts.push({ t: g.from.t, l: g.fromLane, r });
-          pts.push({ t: g.to.t, l: g.toLane, r, jump: true });
-        }
-      }
-      return;
-    }
-    if (Math.abs(r.t - e.h) > 2) {
-      pts.push({ t: e.h, l: r.l, r, ghost: true });
-      pts.push({ t: r.t, l: r.l, r, jump: true });
-      pts.push({ t: e.h, l: r.l, r, jump: true, ghost: true });
-      return;
-    }
+    let t = r.t;
     const cands = [r.t, ...(r.v || []).map((v) => v.t)];
-    if (cands.length > 1) {
+    if (cands.length > 1 && Math.abs(r.t - e.h) <= 2) {
+      // a record set in two eras (Generations: 2293 and 2371): take the one nearest this person's neighbours
       const nb = [ents[i - 1], ents[i + 1]].filter(Boolean).map((x) => x.h);
-      let best = r.t, bd = Infinity;
+      let bd = Infinity;
       for (const c of cands) {
         const d = nb.length ? Math.min(...nb.map((n) => Math.abs(n - c))) : 0;
-        if (d < bd - 1e-9) { bd = d; best = c; }
+        if (d < bd - 1e-9) { bd = d; t = c; }
       }
-      pts.push({ t: best, l: r.l, r });
-      return;
     }
-    pts.push({ t: r.t, l: r.l, r });
+    pts.push({ t, l: r.l, r, exc: Math.abs(t - e.h) > 2 });
   });
-  // personal displacements from the dossier
+  for (let i = 1; i < pts.length; i++) {
+    const a = pts[i - 1], b = pts[i];
+    if ((a.exc || b.exc) && Math.abs(a.t - b.t) > 2) b.jump = true;
+  }
+  // displacements from the dossier: mark the matching step as a jump, or add the jump
   for (const d of (p.dossier && p.dossier.displacements) || []) {
-    if (typeof d.from !== 'number' || typeof d.to !== 'number') continue;
-    let k = -1;
-    for (let j = 0; j < pts.length; j++) if (pts[j].t <= d.from + 0.05) k = j;
-    const lane = k >= 0 ? pts[k].l : 'HISTORY';
-    const after = pts[k + 1];
-    pts.splice(k + 1, 0, { t: d.from, l: lane, r: null }, { t: d.to, l: after ? after.l : lane, r: null, jump: true, via: d.via });
+    if (typeof d.from !== 'number' || typeof d.to !== 'number' || Math.abs(d.to - d.from) < 0.5) continue;
+    let hit = false;
+    for (let i = 1; i < pts.length; i++) {
+      if (Math.abs(pts[i - 1].t - d.from) <= 2.5 && Math.abs(pts[i].t - d.to) <= 2.5) { pts[i].jump = true; pts[i].via = d.via; hit = true; break; }
+    }
+    if (hit) continue;
+    let k = -1, bd = Infinity;
+    pts.forEach((q, j) => { const dd = Math.abs(q.t - d.from); if (dd < bd) { bd = dd; k = j; } });
+    if (k < 0 || bd > 30) continue;
+    const lane = d.to < 1900 || d.to > 2500 && !(d.to > 3100 && d.to < 3250) ? 'HISTORY' : pts[k].l;
+    pts.splice(k + 1, 0, { t: d.to, l: lane, r: null, jump: true, via: d.via });
+    const nx = pts[k + 2];
+    if (nx && Math.abs(nx.t - d.to) > 2) nx.jump = true;
   }
   for (const pt of pts) pt.u = tToU(pt.t);
   p._wl = pts;

@@ -502,7 +502,7 @@ export class Field {
     const selInc = this.sel && this.sel.kind === 'i' ? this.sel.item : null;
     const hovInc = this.hover && this.hover.kind === 'i' ? this.hover.item : null;
     const selRec = this.sel && (this.sel.kind === 'r') ? this.sel.item : null;
-    let base = this.mode === 'incursions' ? 0.62 : this.mode === 'divergences' ? 0.1 : 0.15;
+    let base = this.mode === 'incursions' ? 0.62 : this.mode === 'divergences' ? 0.04 : 0.15;
     if (this.worlds.length) base = 0.1;
     if (selInc || selRec) base *= 0.55;
     for (const g of this.legs) {
