@@ -176,6 +176,30 @@ export async function loadArchive() {
     th.beats.forEach((b) => link(b.rec, 'th', th));
   }
 
+  // joined symbionts: one person whose worldline runs through every host
+  S.symbionts = [];
+  for (const sym of A.symbionts || []) {
+    const p = person(sym.ma);
+    p.name = `${sym.name} (symbiont)`;
+    p.symbiont = sym;
+    p.dossier = Object.assign({ summary: sym.summary, species: sym.species, born: sym.born, short: sym.short }, p.dossier || {});
+    const ids = new Set();
+    p.recs = [];
+    let ordinal = 0;
+    const official = sym.hosts.filter((h) => !h.temporary).length;
+    sym.hosts.forEach((h) => {
+      const hp = S.personByKey.get(h.ma);
+      h.person = hp || null;
+      if (!h.temporary) ordinal += 1;
+      if (hp) {
+        hp.hostOf = { sym: p, n: h.temporary ? null : ordinal, of: official, temporary: !!h.temporary, host: h };
+        for (const r of hp.recs) if (!ids.has(r.id)) { ids.add(r.id); p.recs.push(r); }
+      }
+    });
+    p.recs.sort((a, b) => a.t - b.t);
+    S.symbionts.push(p);
+  }
+
   // one chronology to step through with the arrow keys
   S.chron = [...S.records, ...S.events].sort((a, b) => a.t - b.t);
   S.chron.forEach((x, i) => { x.ci = i; });
@@ -245,8 +269,49 @@ function homeTime(S, r) {
   return v ? v.t : r.t;
 }
 
+// a symbiont's line: each host's own records while joined; unrecorded tenures run as a dotted
+// span along the history lane; transfers are marked with the new host's name
+function symbiontWorldline(S, p) {
+  const sym = p.symbiont, pts = [];
+  if (sym.born && typeof sym.born.t === 'number') pts.push({ t: sym.born.t, l: 'HISTORY', r: null, mark: `${sym.name} born`, span: true });
+  const hosts = sym.hosts.filter((h) => !h.temporary);
+  hosts.forEach((h, i) => {
+    const hp = h.person;
+    const own = hp ? worldline(S, hp).filter((pt) => pt.r && !pt.exc) : [];
+    const to = typeof h.to === 'number' ? h.to : null;
+    // an unknown start is borrowed from the host's own records only if they fall within the tenure
+    const from = typeof h.from === 'number' ? h.from : own.length && (to == null || own[0].t <= to) ? own[0].t : null;
+    const inTenure = own.filter((pt) => (from == null || pt.t >= from - 0.6) && (to == null || pt.t <= to + 0.6));
+    const label = hp ? hp.name.replace(/ (Dax|Tal)$/, '') : h.ma;
+    if (inTenure.length) {
+      if (from != null && Math.abs(inTenure[0].t - from) > 0.6) pts.push({ t: from, l: inTenure[0].l, r: null, mark: label, span: true, host: h });
+      const prev = pts[pts.length - 1];
+      inTenure.forEach((pt, j) => pts.push({
+        ...pt, jump: j ? pt.jump : false, host: j === 0 ? h : undefined,
+        mark: j === 0 && !(from != null && Math.abs(inTenure[0].t - from) > 0.6) ? label : undefined,
+        // the step into a new host across unrecorded years is dotted, not a record-to-record line
+        span: j === 0 && prev && pt.t - prev.t > 1 ? true : pt.span,
+      }));
+      if (to != null && to - inTenure[inTenure.length - 1].t > 0.6) pts.push({ t: to, l: inTenure[inTenure.length - 1].l, r: null, span: true });
+    } else if (from != null || to != null) {
+      pts.push({ t: from != null ? from : to, l: 'HISTORY', r: null, mark: label, span: true, host: h });
+      if (from != null && to != null && to > from) pts.push({ t: to, l: 'HISTORY', r: null, span: true });
+    }
+  });
+  // temporary hosts: marks on the record where they held the symbiont
+  for (const h of sym.hosts.filter((x) => x.temporary)) {
+    const r = h.record && S.recByMa.get(h.record);
+    const pt = r && pts.find((q) => q.r && q.r.id === r.id);
+    if (pt) pt.mark = `${h.person ? h.person.name : h.ma} (${h.fromText})`;
+  }
+  pts.sort((a, b) => a.t - b.t);
+  for (const pt of pts) pt.u = tToU(pt.t);
+  return pts;
+}
+
 function worldline(S, p) {
   if (p._wl) return p._wl;
+  if (p.symbiont) return (p._wl = symbiontWorldline(S, p));
   const dis = ((p.dossier && p.dossier.displacements) || []).filter((d) => typeof d.from === 'number' && typeof d.to === 'number' && Math.abs(d.to - d.from) >= 0.5);
   const used = new Set();
   // a film set in two eras (Generations: 2293 and 2371): this person was in the era nearest their other records

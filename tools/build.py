@@ -210,6 +210,24 @@ def main():
                     lines.update(json.load(open(os.path.join(ldir, f))))
                 except ValueError:
                     print('skipping unreadable', f)
+    # one person per character: follow Memory Alpha redirects for named characters
+    # (numbered background placeholders redirect to group pages; leave those alone)
+    red_p = os.path.join(ROOT, 'data', 'person_redirects.json')
+    RED = json.load(open(red_p)) if os.path.exists(red_p) else {}
+    merged = 0
+    for r in recs:
+        seen_c = set()
+        cast = []
+        for c in r['cast']:
+            k = c['c']
+            if k in RED and not GENERIC_NAME.search(k) and not GENERIC_NAME.search(RED[k]):
+                c = dict(c, c=RED[k]); merged += 1
+            if c['c'] in seen_c:
+                continue
+            seen_c.add(c['c'])
+            cast.append(c)
+        r['cast'] = cast
+    print('redirect merges:', merged)
     # characters: count appearances (excluding credit-only)
     cnt = collections.Counter()
     for r in recs:
@@ -220,11 +238,15 @@ def main():
             if not c['credit_only']:
                 cnt[c['c']] += 1
     curated_people = load('personnel.json', [])
+    symbionts = load('symbionts.json', [])
     actors = {c['a'] for r in recs for c in r['cast'] if c.get('a')}
     keep = {k for k, v in cnt.items() if v >= 1 and not GENERIC_NAME.search(k) and k[:1].isupper()
             and not (k in actors and v < 5)} | {p.get('ma') for p in curated_people}
     for th in load_threads():
         keep |= set(th.get('people', []))
+    for sym in symbionts:
+        keep.add(sym['ma'])
+        keep |= {h['ma'] for h in sym.get('hosts', [])}
     people = sorted(keep - {None}, key=lambda k: (-cnt.get(k, 0), k))
     pidx = {k: i for i, k in enumerate(people)}
     out_recs = []
@@ -272,6 +294,7 @@ def main():
         'crossings': load('divergences.json', {}).get('crossings', []),
         'threads': load_threads(),
         'personnel': curated_people,
+        'symbionts': symbionts,
     }
     os.makedirs(os.path.join(ROOT, 'docs', 'data'), exist_ok=True)
     p = os.path.join(ROOT, 'docs', 'data', 'archive.json')

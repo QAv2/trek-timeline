@@ -219,7 +219,6 @@ export class Field {
   }
   /** Bring time t into view at a working zoom, moving only as far as needed. */
   bringIntoView(t, spanYears = 10) {
-    if (window.__dbg) console.log('BRING', t, spanYears, JSON.stringify(this.visibleU()), this.px0, this.px1, this.pw, this.zt.k, this.zt.x);
     const u = tToU(t);
     const ua = tToU(t - spanYears / 2), ub = tToU(t + spanYears / 2);
     const [va, vb] = this.visibleU();
@@ -649,6 +648,13 @@ export class Field {
           if ((a.x < this.px0 - 400 && b.x < this.px0 - 400) || (a.x > this.px1 + 400 && b.x > this.px1 + 400)) continue;
           ctx.beginPath();
           ctx.moveTo(a.x, a.y);
+          if (b.pt.span || (a.pt.span && !a.pt.r)) {
+            // an unrecorded stretch (a host's life off screen): dotted, no glow
+            if (pass[0] > 2) continue;
+            ctx.globalAlpha = 0.85; ctx.lineWidth = 1.6; ctx.setLineDash([2, 4]);
+            ctx.lineTo(b.x, b.y); ctx.stroke(); ctx.setLineDash([]); ctx.lineWidth = pass[0];
+            continue;
+          }
           if (b.pt.jump) {
             // a jump through time: a dashed arc over the lanes, no glow
             if (pass[0] > 2) continue;
@@ -663,6 +669,20 @@ export class Field {
           ctx.lineTo(b.x, b.y);
           ctx.stroke();
         }
+      }
+      // marks: host transfers, births
+      ctx.font = F_LABEL; ctx.textBaseline = 'bottom';
+      let lastMark = -1e9;
+      for (const q of pts) {
+        if (!q.pt.mark || q.x < this.px0 - 5 || q.x > this.px1 + 5) continue;
+        ctx.globalAlpha = 1; ctx.fillStyle = '#000'; ctx.strokeStyle = w.color; ctx.lineWidth = 2;
+        ctx.beginPath(); ctx.moveTo(q.x, q.y - 5); ctx.lineTo(q.x + 5, q.y); ctx.lineTo(q.x, q.y + 5); ctx.lineTo(q.x - 5, q.y); ctx.closePath(); ctx.fill(); ctx.stroke();
+        const label = q.pt.mark, tw = this.textW(label, F_LABEL);
+        if (q.x - lastMark < 12) continue;
+        const ly = q.y - 9;
+        ctx.fillStyle = '#000'; ctx.fillRect(q.x - 2, ly - 14, tw + 6, 15);
+        ctx.fillStyle = w.color; ctx.fillText(label, q.x + 1, ly);
+        lastMark = q.x + tw;
       }
       ctx.globalAlpha = 1; ctx.fillStyle = w.color;
       for (const q of pts) {

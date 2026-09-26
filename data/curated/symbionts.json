@@ -1,0 +1,40 @@
+[
+  {
+    "id": "dax",
+    "ma": "Dax (symbiont)",
+    "name": "Dax",
+    "short": "Dax",
+    "species": "Trill symbiont (joined)",
+    "born": {"t": 2018.5, "tText": "2018", "confidence": "explicit"},
+    "summary": "Born on Trill in 2018, the Dax symbiont has lived more than eleven centuries through at least ten hosts: a legislator, an engineer, an Olympic gymnast, the head of the Symbiosis Commission, a pilot, a murderer the Commission hid, a Federation ambassador, two officers on Deep Space 9 and, by 3195, a professor at Starfleet Academy.",
+    "sources": ["Dax (symbiont)"],
+    "hosts": [
+      {"ma": "Lela Dax", "from": 2168.0, "to": 2226.0, "fromText": "2168", "toText": "2226", "note": "Legislator; the first host", "confidence": "explicit"},
+      {"ma": "Tobin Dax", "from": 2226.0, "to": 2245.0, "fromText": "2226", "toText": "c. 2245", "note": "Engineer", "confidence": "estimated"},
+      {"ma": "Emony Dax", "from": 2245.0, "to": 2265.0, "fromText": "c. 2245", "toText": "c. 2265", "note": "Olympic gymnast; knew a young Leonard McCoy", "confidence": "estimated"},
+      {"ma": "Audrid Dax", "from": 2265.0, "to": 2284.0, "fromText": "c. 2265", "toText": "2284", "note": "Head of the Trill Symbiosis Commission", "confidence": "inferred"},
+      {"ma": "Torias Dax", "from": 2284.0, "to": 2285.0, "fromText": "2284", "toText": "2285", "note": "Test pilot, killed in a shuttle accident", "confidence": "inferred"},
+      {"ma": "Joran Dax", "from": 2285.0, "to": 2286.0, "fromText": "2285", "toText": "2286", "note": "Musician and murderer; the Commission suppressed his joining", "confidence": "inferred"},
+      {"ma": "Curzon Dax", "from": 2286.0, "to": 2367.0, "fromText": "2286", "toText": "2367", "note": "Federation ambassador and Benjamin Sisko's mentor", "confidence": "inferred"},
+      {"ma": "Jadzia Dax", "from": 2367.0, "to": 2374.9, "fromText": "2367", "toText": "2374", "note": "Science officer on Deep Space 9, killed by Dukat", "confidence": "explicit"},
+      {"ma": "Verad", "from": 2370.2, "to": 2370.2, "fromText": "2370", "toText": "2370", "note": "Stole the symbiont from Jadzia for a few hours", "temporary": true, "record": "Invasive Procedures (episode)", "confidence": "explicit"},
+      {"ma": "Ezri Dax", "from": 2374.9, "to": null, "fromText": "2374", "toText": "before 3195", "note": "Counselor on Deep Space 9, joined aboard the USS Destiny", "confidence": "explicit"},
+      {"ma": "Illa Dax", "from": null, "to": null, "fromText": "by 3195", "toText": "present", "note": "Professor at Starfleet Academy; hosts between Ezri and Illa are unrecorded", "confidence": "explicit"}
+    ]
+  },
+  {
+    "id": "tal",
+    "ma": "Tal (symbiont)",
+    "name": "Tal",
+    "short": "Tal",
+    "species": "Trill symbiont (joined)",
+    "born": null,
+    "summary": "A Trill symbiont of the 32nd century with seven hosts by 3189, four of them Starfleet officers. After the fifth, Admiral Senna, it passed within days from Gray to Adira, a Human, when an asteroid struck their generation ship.",
+    "sources": ["Tal (symbiont)"],
+    "hosts": [
+      {"ma": "Senna Tal", "from": null, "to": 3187.3, "fromText": "unknown", "toText": "3187", "note": "Fifth host; Starfleet admiral", "confidence": "explicit"},
+      {"ma": "Gray Tal", "from": 3187.3, "to": 3187.35, "fromText": "3187", "toText": "3187", "note": "Sixth host, joined aboard a generation ship outbound from Earth", "confidence": "explicit"},
+      {"ma": "Adira Tal", "from": 3187.35, "to": null, "fromText": "3187", "toText": "present", "note": "Seventh host, joined days later after an asteroid struck the ship", "confidence": "explicit"}
+    ]
+  }
+]

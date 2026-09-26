@@ -51,10 +51,24 @@ PINNED = {
 
 def pin():
     m = load_manifest()
-    d = ma._get({'action': 'query', 'prop': 'imageinfo', 'iiprop': 'url', 'iiurlwidth': str(THUMB_REQ),
-                 'titles': '|'.join('File:' + f for f in PINNED.values())})
-    info = {p['title'][5:]: (p.get('imageinfo') or [{}])[0] for p in d['query']['pages']}
-    for k, f in PINNED.items():
+    auto = os.path.join(ROOT, 'data', 'portrait_pins.json')
+    pins = dict(json.load(open(auto)) if os.path.exists(auto) else {}, **PINNED)
+    for k, f in pins.items():
+        if f is None and m.get(k):  # audit: no suitable image, use the placeholder
+            out = os.path.join(OUTDIR, pid(k) + '.webp')
+            if os.path.exists(out):
+                os.remove(out)
+            m[k] = None
+            print('placeholder', k)
+    files = [f for f in pins.values() if f]
+    info = {}
+    for i in range(0, len(files), 50):
+        d = ma._get({'action': 'query', 'prop': 'imageinfo', 'iiprop': 'url', 'iiurlwidth': str(THUMB_REQ),
+                     'titles': '|'.join('File:' + f for f in files[i:i + 50])})
+        info.update({p['title'][5:]: (p.get('imageinfo') or [{}])[0] for p in d['query']['pages']})
+    for k, f in pins.items():
+        if not f:
+            continue
         ii = info.get(f) or info.get(f.replace('_', ' '))
         if not ii or not ii.get('thumburl'):
             print('no such file', f)

@@ -209,18 +209,33 @@ export class Readout {
     const portrait = p.im
       ? `<figure class="portrait" style="--ring:${L.color}"><img src="img/p/${esc(p.im)}.webp" alt="${esc(p.name)}" width="76" height="76" decoding="async"></figure>`
       : `<figure class="portrait none" style="--ring:${L.color}" aria-hidden="true"><svg viewBox="-60 -70 120 150"><path d="M0 -64 C -14 -24, -28 22, -38 66 L 0 44 L 38 66 C 28 22, 14 -24, 0 -64 Z"/></svg><span>${esc(initials)}</span></figure>`;
+    const sym = p.symbiont;
+    const hostsHtml = sym ? sym.hosts.map((h) => {
+      const hp = h.person;
+      const n = hp ? hp.recs.length : 0;
+      return `<li class="w${h.temporary ? 1 : 2}">
+        <div class="bm">${esc(h.fromText)}${h.toText && h.toText !== h.fromText ? ' – ' + esc(h.toText) : ''}${h.confidence === 'estimated' ? ' · estimated' : ''}</div>
+        <div class="bt">${hp ? `<button data-go="#/p/${enc(hp.k)}">${esc(hp.name)}</button>` : esc(h.ma)}${h.temporary ? ' <span class="note">(temporary)</span>' : ''}</div>
+        <div>${esc(h.note || '')}</div>${n ? `<div class="note">${n} record${n === 1 ? '' : 's'}</div>` : ''}</li>`;
+    }).join('') : '';
+    const hostOf = p.hostOf ? `<div class="statusnote"><div class="k">Joined</div>${p.hostOf.temporary ? 'Held' : `Host ${p.hostOf.n} of ${p.hostOf.of} of`} the ${esc(p.hostOf.sym.symbiont.name)} symbiont. <button class="more" data-go="#/p/${enc(p.hostOf.sym.k)}">Follow the symbiont's through-line</button></div>` : '';
+    const wlAll = S.worldline(p);
+    const spanText = sym && wlAll.length ? `${fmtTime(wlAll[0].t)} – ${fmtTime(wlAll[wlAll.length - 1].t)}` : null;
     const html = `
       <div class="dossier-head">
         <div class="dh-text">
-          <div class="series-tag"><i style="background:var(--gold)"></i>Personnel file</div>
+          <div class="series-tag"><i style="background:var(--gold)"></i>${sym ? 'Joined symbiont' : 'Personnel file'}</div>
           <h2>${esc(p.name)}</h2>
         </div>
         ${portrait}
       </div>
+      ${hostOf}
       <div class="cells">
         ${cell('Species', d.species)}${cell('Born', d.born && d.born.tText)}${cell('Died', d.died && d.died.tText)}
-        ${cell('Records', recs.length)}${cell('First', first && first.tt, 'gold')}${cell('Last', last && last.tt)}
+        ${sym ? cell('Hosts', sym.hosts.filter((h) => !h.temporary).length) : ''}${sym ? cell('Span', spanText, 'gold') : ''}
+        ${cell('Records', recs.length)}${sym ? '' : cell('First', first && first.tt, 'gold')}${sym ? '' : cell('Last', last && last.tt)}
       </div>
+      ${sym ? `<h3>Hosts</h3><ol class="beats">${hostsHtml}</ol>` : ''}
       ${d.summary ? `<p class="lead">${esc(d.summary)}</p>` : ''}
       ${posts ? `<h3>Posts</h3><dl class="kv">${posts}</dl>` : ''}
       ${dis ? `<h3>Temporal displacements</h3>${dis}` : ''}
@@ -230,7 +245,7 @@ export class Readout {
       ${lists ? `<h3>Records</h3>${lists}` : '<p class="note">No appearances in the cast records.</p>'}
       ${(p.archive || []).length ? `<h3>Archive footage</h3><p class="note">Seen in these records through footage from earlier ones, so they're left off the worldline.</p><ul class="list">${p.archive.map((r) => this.recRow(r, r.tt)).join('')}</ul>` : ''}
       <div class="btnrow"><a class="btn f3" href="${MA(p.k)}" target="_blank" rel="noopener">Memory Alpha</a><button class="btn f1" data-act="fit-person">Fit worldline</button></div>
-      <p class="fine">The gold line on the continuum is this person's worldline through every record they appear in.</p>`;
+      <p class="fine">${sym ? "The gold line follows the symbiont from host to host: solid through each host's records, dotted where a host's life went unrecorded, a diamond at every joining." : "The gold line on the continuum is this person's worldline through every record they appear in."}</p>`;
     this.set('Personnel file', html, this.back('#/personnel', 'Roster'));
   }
 

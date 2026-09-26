@@ -271,10 +271,12 @@ def cast_of(text, title=""):
             if not tg:
                 continue
             fl = seg.lower() if len(segments) > 1 else flags_src
+            notes = " ".join(re.findall(r"\(([^()]*)\)", fl))  # the parenthetical notes only
             out.append({"c": tg[0], "a": actor,
-                        "credit_only": "credit only" in fl or "does not appear" in fl,
-                        "archive": sec_archive or "archive" in fl or "recording" in fl,
-                        "voice": "(voice" in fl, "unc": uncredited, "sec": section})
+                        "credit_only": "credit only" in notes or "does not appear" in notes,
+                        # seen only in footage, a recording or a picture: not present in that year
+                        "archive": sec_archive or bool(re.search(r"archive|recording|photograph|portrait|painting|statue|picture|pictured|image", notes)),
+                        "voice": "voice" in notes, "unc": uncredited, "sec": section})
     out = film_extra + out
     seen = {}
     for c in out:

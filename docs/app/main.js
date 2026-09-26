@@ -147,6 +147,11 @@ async function boot() {
   function fitCurrent() {
     const r = state.route;
     if (!r) return;
+    if (r.kind === 'p' && r.item.symbiont) {
+      const wl = S.worldline(r.item);
+      if (wl.length) fitRange(wl[0].t, wl[wl.length - 1].t);
+      return;
+    }
     if (r.kind === 'p' && r.item.recs.length) {
       const ts = r.item.recs.map((x) => x.t).sort((a, b) => a - b);
       const q = (f) => ts[Math.min(ts.length - 1, Math.max(0, Math.round(f * (ts.length - 1))))];
@@ -167,7 +172,6 @@ async function boot() {
 
   function apply() {
     const { kind, id } = parse();
-    if (window.__dbg) console.log('APPLY', kind, id, JSON.stringify(field.visibleU()));
     state.sel = null;
     state.route = null;
     field.setThread(null);
