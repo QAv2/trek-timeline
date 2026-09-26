@@ -151,7 +151,11 @@ async function boot() {
       const q = (f) => ts[Math.min(ts.length - 1, Math.max(0, Math.round(f * (ts.length - 1))))];
       fitRange(q(ts.length > 12 ? 0.03 : 0), q(ts.length > 12 ? 0.97 : 1));
     }
-    if (r.kind === 'th' && r.item.beats.length) fitRange(r.item.beats[0].t, r.item.beats[r.item.beats.length - 1].t);
+    if (r.kind === 'th' && r.item.beats.length) {
+      const ts = r.item.beats.map((b) => b.t).sort((a, b) => a - b);
+      const q = (f) => ts[Math.min(ts.length - 1, Math.max(0, Math.round(f * (ts.length - 1))))];
+      fitRange(q(ts.length > 10 ? 0.05 : 0), q(ts.length > 10 ? 0.95 : 1));
+    }
   }
 
   function parse() {

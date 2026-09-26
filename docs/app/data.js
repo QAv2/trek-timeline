@@ -202,6 +202,15 @@ export async function loadArchive() {
     if (isFinite(a) && a > 0) setStardateFit32({ a, b, n });
   }
   S.worldline = (p) => worldline(S, p);
+  // beats read in the order the pair lived them (worldline home time, else calendar)
+  for (const th of S.threads) {
+    const hOf = new Map();
+    for (const p of th.persons.filter(Boolean)) {
+      for (const pt of worldline(S, p)) if (pt.r && !hOf.has(pt.r.id)) hOf.set(pt.r.id, pt.h);
+    }
+    const rank = (b) => (b.rec && hOf.has(b.rec.id) ? hOf.get(b.rec.id) : b.t);
+    th.beats = th.beats.map((b, i) => ({ b, k: rank(b), i })).sort((x, y) => x.k - y.k || x.i - y.i).map((x) => x.b);
+  }
   return S;
 }
 
@@ -238,8 +247,16 @@ function homeTime(S, r) {
 
 function worldline(S, p) {
   if (p._wl) return p._wl;
-  const ents = p.recs.filter((r) => r.s !== 'VST').map((r) => ({ r, h: homeTime(S, r) }))
-    .sort((a, b) => a.h - b.h || (a.r.ad || '').localeCompare(b.r.ad || ''));
+  const dis = ((p.dossier && p.dossier.displacements) || []).filter((d) => typeof d.from === 'number' && typeof d.to === 'number' && Math.abs(d.to - d.from) >= 0.5);
+  const used = new Set();
+  const ents = p.recs.filter((r) => r.l !== 'ST').map((r) => {
+    let h = homeTime(S, r), via = null;
+    // a record reached by a displacement happens after the departure in this person's time
+    // (Spock Prime meets young Kirk in 2258, but only after leaving 2387)
+    const d = dis.find((x) => Math.abs(x.to - r.t) <= 2.5 && Math.abs(x.from - r.t) > 2.5 && x.from > r.t);
+    if (d) { h = Math.max(h, d.from + 0.01); via = d; used.add(d); }
+    return { r, h, via };
+  }).sort((a, b) => a.h - b.h || (a.r.ad || '').localeCompare(b.r.ad || ''));
   const pts = [];
   ents.forEach((e, i) => {
     const r = e.r;
@@ -254,15 +271,15 @@ function worldline(S, p) {
         if (d < bd - 1e-9) { bd = d; t = c; }
       }
     }
-    pts.push({ t, l: r.l, r, exc: Math.abs(t - e.h) > 2 });
+    pts.push({ t, h: e.h, l: r.l, r, exc: Math.abs(t - e.h) > 2 && !e.via, jump: !!e.via, via: e.via && e.via.via });
   });
   for (let i = 1; i < pts.length; i++) {
     const a = pts[i - 1], b = pts[i];
     if ((a.exc || b.exc) && Math.abs(a.t - b.t) > 2) b.jump = true;
   }
   // displacements from the dossier: mark the matching step as a jump, or add the jump
-  for (const d of (p.dossier && p.dossier.displacements) || []) {
-    if (typeof d.from !== 'number' || typeof d.to !== 'number' || Math.abs(d.to - d.from) < 0.5) continue;
+  for (const d of dis) {
+    if (used.has(d)) continue;
     let hit = false;
     for (let i = 1; i < pts.length; i++) {
       if (Math.abs(pts[i - 1].t - d.from) <= 2.5 && Math.abs(pts[i].t - d.to) <= 2.5) { pts[i].jump = true; pts[i].via = d.via; hit = true; break; }
