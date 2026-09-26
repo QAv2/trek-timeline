@@ -86,6 +86,7 @@
     "method": "black star gravity well; return by slingshot effect",
     "agency": "accidental",
     "outcome": "restored",
+    "divergenceHint": "tomorrow-is-yesterday-1969",
     "summary": "A black star's pull flings the Enterprise into 1969 Earth orbit, where it is spotted by the US Air Force. Spock times a slingshot around the Sun to drop the captured airmen back before their encounter and carry the ship home.",
     "sources": [
       "Tomorrow is Yesterday (episode)"
@@ -385,7 +386,7 @@
     "method": "Guardian of Forever",
     "agency": "deliberate",
     "outcome": "divergence",
-    "divergenceHint": "yesteryear",
+    "divergenceHint": "yesteryear-spock-dies",
     "summary": "Returning from a survey of Orion history, Spock finds a timeline in which he died at age seven. He goes back to Vulcan as 'cousin Selek' to ensure his younger self survives, at the cost of his pet sehlat I-Chaya.",
     "sources": [
       "Yesteryear (episode)"
@@ -538,6 +539,7 @@
     "method": "energy vortex",
     "agency": "natural",
     "outcome": "restored",
+    "divergenceHint": "time-squared",
     "summary": "The Enterprise-D recovers a shuttlepod carrying a dazed Picard from six hours in the future, after an energy vortex destroyed the ship in his timeline. The present Picard breaks the cycle by taking the ship into the vortex's center.",
     "sources": [
       "Time Squared (episode)"
@@ -772,6 +774,7 @@
     "method": "temporal causality loop (temporal distortion)",
     "agency": "loop",
     "outcome": "loop",
+    "divergenceHint": "cause-and-effect-loop",
     "summary": "A collision with the emerging USS Bozeman destroys the Enterprise-D over and over as a temporal distortion resets time. Data's buried subconscious message breaks the loop, and the Bozeman learns it has been lost for 90 years.",
     "sources": [
       "Cause And Effect (episode)"
@@ -1021,6 +1024,7 @@
     "method": "temporal fragments around a Romulan artificial quantum singularity",
     "agency": "natural",
     "outcome": "restored",
+    "divergenceHint": "timescape",
     "summary": "Returning by runabout, Picard's team finds the Enterprise frozen mid-way through a warp core breach, part of a zone of broken time created by alien life nesting in a Romulan singularity. Time runs backward to before the breach, and Picard severs the power beam behind it.",
     "sources": [
       "Timescape (episode)"
@@ -1065,6 +1069,7 @@
     "method": "unspecified",
     "agency": "deliberate",
     "outcome": "unresolved",
+    "divergenceHint": "firstborn-kmtar-future",
     "summary": "An adult Alexander, whose father was murdered in his timeline, comes back under the name K'mtar to push his younger self toward the warrior path. Worf accepts his son as he is, leaving the future open.",
     "sources": [
       "Firstborn (episode)"
@@ -1150,7 +1155,7 @@
     "method": "Q powers",
     "agency": "Q",
     "outcome": "divergence",
-    "divergenceHint": "all-good-things",
+    "divergenceHint": "agt-2395-future",
     "summary": "Q's final test sends Picard's consciousness among 2364, 2370 and a possible 2395, where anti-time spreading from the Devron system threatens to stop life from ever beginning on Earth. Three Enterprises collapse the anomaly together.",
     "sources": [
       "All Good Things... (episode)"
@@ -1197,6 +1202,7 @@
     "method": "Nexus",
     "agency": "deliberate",
     "outcome": "persistent",
+    "divergenceHint": "generations-veridian",
     "summary": "Inside the timeless Nexus, Picard recruits a Kirk lost there since 2293, and both leave at a moment of their choosing, before Soran destroys the Veridian star. They stop the launch; Kirk dies on Veridian III.",
     "sources": [
       "Star Trek Generations"
@@ -1229,7 +1235,7 @@
     "method": "temporal vortex (chroniton emissions)",
     "agency": "hostile",
     "outcome": "divergence",
-    "divergenceHint": "first-contact",
+    "divergenceHint": "first-contact-borg-earth",
     "summary": "Beaten at Sector 001, a Borg sphere opens a temporal vortex to the day before Zefram Cochrane's warp flight, to assimilate a defenseless Earth. The present instantly becomes a Borg world.",
     "sources": [
       "Star Trek: First Contact"
@@ -1281,7 +1287,7 @@
     "method": "temporal vortex (recreated chroniton particle emissions)",
     "agency": "deliberate",
     "outcome": "predestination",
-    "divergenceHint": "first-contact",
+    "divergenceHint": "first-contact-borg-earth",
     "summary": "Protected by the vortex's wake, the Enterprise-E follows the Borg back, destroys the sphere, repels a Borg takeover of the ship, and ensures Cochrane's flight and the Vulcan landing happen on schedule.",
     "sources": [
       "Star Trek: First Contact"
@@ -1329,7 +1335,7 @@
     "method": "transporter malfunction (chroniton particles in the Defiant's cloak)",
     "agency": "accidental",
     "outcome": "predestination",
-    "divergenceHint": "past-tense",
+    "divergenceHint": "past-tense-bell-riots",
     "summary": "A chroniton-tainted transport strands three officers in 2024 San Francisco, where Gabriel Bell is killed before the riots that bear his name. Sisko takes Bell's place and his photograph ends up in the history files.",
     "sources": [
       "Past Tense, Part I (episode)",
@@ -1630,7 +1636,7 @@
     "method": "temporal displacement (radiation exposure plus a cloaked warbird's singularity)",
     "agency": "accidental",
     "outcome": "divergence",
-    "divergenceHint": "visionary",
+    "divergenceHint": "visionary-ds9-destroyed",
     "summary": "Radiation exposure near a cloaked Romulan warbird's singularity makes O'Brien skip hours into the future, where he sees himself die and the station explode. The O'Brien who remains is the one from a few hours later, who uses what he saw to prevent the attack.",
     "sources": [
       "Visionary (episode)"
@@ -1834,6 +1840,7 @@
     "method": "Prophets (via the Bajoran wormhole)",
     "agency": "deliberate",
     "outcome": "predestination",
+    "divergenceHint": "accession-unfinished-poem",
     "summary": "A legendary Bajoran poet lost two centuries earlier emerges from the wormhole claiming to be the Emissary. Sisko asks the Prophets to send him home, where he completes the poem that history already knew.",
     "sources": [
       "Accession (episode)"
@@ -1919,7 +1926,7 @@
     "method": "temporal energy barrier",
     "agency": "accidental",
     "outcome": "divergence",
-    "divergenceHint": "children-of-time",
+    "divergenceHint": "children-of-time-gaia",
     "summary": "A barrier planet's energy would throw the Defiant 200 years back, where its stranded crew would found a colony of 8,000 descendants. An elder Odo alters the escape course, the ship gets through safely, and Gaia never exists.",
     "sources": [
       "Children of Time (episode)"
@@ -2035,7 +2042,7 @@
     "method": "time portal (ancient Golana portal)",
     "agency": "accidental",
     "outcome": "divergence",
-    "divergenceHint": "times-orphan",
+    "divergenceHint": "times-orphan-molly",
     "summary": "Eight-year-old Molly falls through an ancient time portal and is recovered as a feral adult. Sent back through, the older Molly pushes her younger self home and erases her own life.",
     "sources": [
       "Time's Orphan (episode)"
@@ -2314,6 +2321,7 @@
     "method": "timeship temporal rift",
     "agency": "deliberate",
     "outcome": "restored",
+    "divergenceHint": "futures-end-starling",
     "summary": "A 29th-century timeship attacks Voyager to prevent a disaster Braxton blames on it. Both ships fall into the rift, the Aeon crashes in 1967, and Henry Starling builds his computer empire from its technology.",
     "sources": [
       "Future's End (episode)",
@@ -2565,7 +2573,7 @@
     "method": "chroniton radiation reactivated by a bio-temporal chamber",
     "agency": "accidental",
     "outcome": "divergence",
-    "divergenceHint": "before-and-after",
+    "divergenceHint": "before-and-after-kes",
     "summary": "In a future where she married Tom Paris, a dying Kes starts jumping backward through her own life, a delayed effect of Krenim chroniton radiation. Knowledge from the jumps lets the Doctor stabilize her, and she wakes in 2373 knowing what will happen.",
     "sources": [
       "Before and After (episode)"
@@ -2635,7 +2643,7 @@
     "method": "Borg temporal transmitter (time-displaced communication)",
     "agency": "deliberate",
     "outcome": "divergence",
-    "divergenceHint": "timeless",
+    "divergenceHint": "timeless-slipstream-crash",
     "summary": "Fifteen years after a slipstream accident killed everyone aboard Voyager, Kim and Chakotay steal the Delta Flyer and send corrective data back to Seven of Nine. The ship survives, and their future is erased.",
     "sources": [
       "Timeless (episode)"
@@ -2781,6 +2789,7 @@
     "method": "temporal transporter (Wells-class timeship)",
     "agency": "deliberate",
     "outcome": "restored",
+    "divergenceHint": "relativity-disruptor",
     "summary": "The 29th-century timeship Relativity recruits Seven to find who planted a temporal disruptor aboard Voyager. The culprit is a future Braxton taking revenge on Janeway, and three versions of Braxton are involved before the device is removed.",
     "sources": [
       "Relativity (episode)"
@@ -2826,6 +2835,7 @@
     "method": "psychokinetic power boosted by Voyager's warp core",
     "agency": "hostile",
     "outcome": "restored",
+    "divergenceHint": "fury-kes-returns",
     "summary": "An older, embittered Kes uses Voyager's warp core to go back to 2371 and take her younger self home. A holo-message recorded by the young Kes warns Janeway in time and later reminds the older Kes who she was.",
     "sources": [
       "Fury (episode)"
@@ -3101,6 +3111,7 @@
     "method": "temporal rift (ship fractured into time zones)",
     "agency": "natural",
     "outcome": "restored",
+    "divergenceHint": "shattered-voyager-fragments",
     "summary": "A temporal rift splits Voyager into fragments from different years. Chakotay, the only one inoculated against the shift, crosses them with a 2371 Janeway to set a chroniton torpedo, while Seska and the Kazon hold one section.",
     "sources": [
       "Shattered (episode)"
@@ -3133,7 +3144,7 @@
     "method": "chrono deflector (Klingon)",
     "agency": "deliberate",
     "outcome": "divergence",
-    "divergenceHint": "endgame",
+    "divergenceHint": "endgame-2404",
     "summary": "In a 2404 where Voyager took 23 years to get home, Admiral Janeway buys a chrono deflector and returns to 2378 with future armor and weapons. She gets Voyager home through a Borg transwarp hub and cripples the Collective.",
     "sources": [
       "Endgame (episode)"
@@ -3367,7 +3378,7 @@
     "method": "31st-century time portal; Suliban temporal chamber",
     "agency": "deliberate",
     "outcome": "divergence",
-    "divergenceHint": "shockwave",
+    "divergenceHint": "shockwave-31st-century",
     "summary": "To shield him from the Cabal, Daniels pulls Archer into the 31st century, but Archer's absence from the 22nd century wipes Daniels' era out. Archer reaches his crew from the ruins, and a device planted in the Cabal's temporal chamber brings him home.",
     "sources": [
       "Shockwave (episode)",
@@ -3566,6 +3577,7 @@
     "method": "31st-century time portal",
     "agency": "observation",
     "outcome": "unresolved",
+    "divergenceHint": "azati-prime-26th-century",
     "summary": "Daniels takes Archer to the Enterprise-J to show a 26th-century Federation fighting the Sphere-Builders at Procyon V. The point is to persuade him not to die destroying the Xindi weapon.",
     "sources": [
       "Azati Prime (episode)"
@@ -3614,7 +3626,7 @@
     "method": "subspace corridor destabilized by the impulse wake",
     "agency": "loop",
     "outcome": "loop",
-    "divergenceHint": "e-squared",
+    "divergenceHint": "e-squared-lorian",
     "summary": "At the corridor, Archer meets a second Enterprise commanded by Lorian, Tucker and T'Pol's son, whose crew descends from an Enterprise this same transit threw back to 2037. Archer's ship gets through safely and Lorian's never emerges.",
     "sources": [
       "E² (episode)"
@@ -3649,7 +3661,7 @@
     "method": "interspatial parasites (Delphic Expanse anomaly)",
     "agency": "loop",
     "outcome": "divergence",
-    "divergenceHint": "twilight",
+    "divergenceHint": "twilight-earth-destroyed",
     "summary": "Interspatial parasites leave Archer unable to form new memories, and without his command Earth falls to the Xindi by 2165. Because the parasites exist across his whole timeline, destroying them in 2165 erases that future back to the moment of infection.",
     "sources": [
       "Twilight (episode)"
@@ -3726,7 +3738,7 @@
     "method": "stealth time travel (one-way); temporal conduit under construction",
     "agency": "hostile",
     "outcome": "divergence",
-    "divergenceHint": "storm-front",
+    "divergenceHint": "storm-front-1944",
     "summary": "Nearly captured by the temporal agents, Vosk's Na'kuhl escape to a 1944 already bent by many factions' incursions. They ally with the Nazis to build a conduit home, from which they would start the Temporal War.",
     "sources": [
       "Storm Front (episode)",
@@ -3776,7 +3788,7 @@
     "method": "time portal (Daniels)",
     "agency": "deliberate",
     "outcome": "divergence",
-    "divergenceHint": "storm-front",
+    "divergenceHint": "storm-front-1944",
     "summary": "Daniels, dying from the chaos of the Temporal War, sends Enterprise into the altered 1944. With the American resistance and a self-serving Silik, Archer destroys the Na'kuhl compound as Vosk enters the conduit, and history resets.",
     "sources": [
       "Zero Hour (episode)",
@@ -3927,6 +3939,7 @@
     "method": "time crystal device",
     "agency": "loop",
     "outcome": "loop",
+    "divergenceHint": "magic-to-make-loop",
     "summary": "Harry Mudd uses a time crystal device to loop half an hour again and again, trying to seize Discovery's spore drive for the Klingons. Stamets, who stays aware across the resets, helps the crew outwit him.",
     "sources": [
       "Magic to Make the Sanest Man Go Mad (episode)"
@@ -3989,6 +4002,7 @@
     "method": "Red Angel suit (time crystal micro-wormholes)",
     "agency": "accidental",
     "outcome": "persistent",
+    "divergenceHint": "control-extinction-future",
     "summary": "During the Klingon raid on Doctari Alpha, Michael's mother activates the Daedalus suit to jump an hour but lands 950 years ahead, in a galaxy Control has emptied of life. The suit anchors her there, and every trip back pulls her forward again.",
     "sources": [
       "The Red Angel (episode)",
@@ -4055,6 +4069,7 @@
     "method": "Red Angel suit",
     "agency": "deliberate",
     "outcome": "predestination",
+    "divergenceHint": "red-angel-interventions",
     "summary": "Gabrielle jumps to Vulcan when young Michael runs away, and shows the boy Spock where to find her. The visions stay with Spock into adulthood.",
     "sources": [
       "If Memory Serves (episode)",
@@ -4102,6 +4117,7 @@
     "method": "Red Angel suit",
     "agency": "deliberate",
     "outcome": "persistent",
+    "divergenceHint": "red-angel-interventions",
     "summary": "Discovery and Section 31 bait a trap with Michael's life and catch the Red Angel on Essof IV, revealing Michael's mother. When Control attacks the base, the suit's tether drags Gabrielle back to the future.",
     "sources": [
       "The Red Angel (episode)",
@@ -4430,6 +4446,7 @@
     "method": "Guardian of Forever",
     "agency": "deliberate",
     "outcome": "persistent",
+    "divergenceHint": "terra-firma-mirror-2255",
     "summary": "Dying from being displaced in both time and universe, Georgiou walks through the Guardian's door and relives months as Emperor in 2255. She passes its test and is sent to a period she can live in, which the Section 31 film puts in the early 24th century.",
     "sources": [
       "Terra Firma, Part 1 (episode)",
@@ -4571,6 +4588,7 @@
     "method": "Krenim chronophage (time bug)",
     "agency": "hostile",
     "outcome": "restored",
+    "divergenceHint": "face-the-strange-breen-future",
     "summary": "A Krenim chronophage planted by Moll and L'ak makes Discovery lurch among points in its own history, from the Klingon war to a ruined 33rd century. Burnham, Rayner and Stamets, the only ones aware of it, find and remove the bug.",
     "sources": [
       "Face the Strange (episode)"
@@ -4662,7 +4680,7 @@
     "method": "time crystal",
     "agency": "deliberate",
     "outcome": "divergence",
-    "divergenceHint": "a-quality-of-mercy",
+    "divergenceHint": "quality-of-mercy-romulan-war",
     "summary": "An older Pike carrying a Boreth crystal shows his younger self what happens if he dodges his fated accident: war with the Romulans and Spock's death. Pike accepts the path the crystal showed him.",
     "sources": [
       "A Quality of Mercy (episode)"
@@ -4752,7 +4770,7 @@
     "method": "temporal agent's recall device",
     "agency": "deliberate",
     "outcome": "divergence",
-    "divergenceHint": "tomorrow-and-tomorrow",
+    "divergenceHint": "tomorrow-x3-khan-assassinated",
     "summary": "After a temporal agent dies in her arms, La'An lands in a timeline with no Federation and goes to 2022 with that timeline's Kirk to find what broke history. She has to keep a Romulan agent from killing the boy Khan, preserving her own notorious ancestor.",
     "sources": [
       "Tomorrow and Tomorrow and Tomorrow (episode)"
@@ -4785,7 +4803,7 @@
     "method": "future time travel (Romulan faction)",
     "agency": "hostile",
     "outcome": "divergence",
-    "divergenceHint": "tomorrow-and-tomorrow",
+    "divergenceHint": "tomorrow-x3-khan-assassinated",
     "summary": "Sera, a surgically disguised Romulan operative, was sent to stop Khan's rise and so the Federation's future. Rival incursions kept shifting Khan's timeline, and she waited 30 years for her chance in 2022.",
     "sources": [
       "Tomorrow and Tomorrow and Tomorrow (episode)"
@@ -4818,6 +4836,7 @@
     "method": "multiple factions' time travel",
     "agency": "hostile",
     "outcome": "persistent",
+    "divergenceHint": "eugenics-wars-1990s-original",
     "summary": "According to Sera, whole Temporal Wars were fought over whether Khan would exist. Their net effect was to push his rise and the Eugenics Wars from the 20th century into the 21st.",
     "sources": [
       "Tomorrow and Tomorrow and Tomorrow (episode)"
@@ -5003,7 +5022,7 @@
     "method": "white hole / black hole pair (a space entity's birth pulses)",
     "agency": "natural",
     "outcome": "divergence",
-    "divergenceHint": "tomorrows-enterprise",
+    "divergenceHint": "tomorrows-enterprise-scotty",
     "summary": "Energy from a white hole entangles the Uhura of Pike's final year with herself a year later on Kirk's Enterprise, and the two briefly switch places. In the future Scotty has died, but when the pulses turn out to be a cosmic being's birth, time rewinds and he lives.",
     "sources": [
       "Tomorrow's Enterprise (episode)"
@@ -5042,7 +5061,7 @@
     "method": "Q powers",
     "agency": "Q",
     "outcome": "divergence",
-    "divergenceHint": "confederation",
+    "divergenceHint": "confederation-of-earth",
     "summary": "In the middle of a Borg standoff, Q strands Picard's crew in a fascist 2401 ruled by the Confederation of Earth, the result of his own meddling in the past. Only they remember the real history.",
     "sources": [
       "The Star Gazer (episode)",
@@ -5076,7 +5095,7 @@
     "method": "Q powers",
     "agency": "Q",
     "outcome": "divergence",
-    "divergenceHint": "confederation",
+    "divergenceHint": "confederation-of-earth",
     "summary": "The dying Q goes to 2024 and gives Adam Soong a temporary cure for his daughter's condition in return for sabotaging Renée Picard's Europa mission. That creates the Confederation timeline as a test for Picard.",
     "sources": [
       "Two of One (episode)",
@@ -5131,7 +5150,7 @@
     "method": "slingshot effect (Borg Queen-assisted); return by Q",
     "agency": "deliberate",
     "outcome": "divergence",
-    "divergenceHint": "confederation",
+    "divergenceHint": "confederation-of-earth",
     "summary": "The crew slingshot a captured La Sirena into 2024 to protect Renée Picard's mission. Rios stays in the past with a new family, Jurati merges with the Borg Queen, and Q returns the others to the moment they left.",
     "sources": [
       "Penance (episode)",
@@ -5297,6 +5316,7 @@
     "method": "temporal anomaly (wormhole)",
     "agency": "hostile",
     "outcome": "persistent",
+    "divergenceHint": "pro-solum-civil-war",
     "summary": "A hundred Vau N'Akat agents follow the ship into the anomaly, and only two survive. The Diviner (a future Ilthuran) builds the Tars Lamora mining prison to search for it, and the Vindicator hides inside Starfleet.",
     "sources": [
       "Preludes (episode)",
@@ -5397,7 +5417,7 @@
     "method": "wormhole; inverse warp field",
     "agency": "deliberate",
     "outcome": "divergence",
-    "divergenceHint": "protostar-paradox",
+    "divergenceHint": "pro-protostar-paradox",
     "summary": "Dal's crew takes the Infinity to 2436 to rescue Chakotay and helps him launch the Protostar. Because he and Adreek ride it into the wormhole rather than sending it empty, the ship never reaches Tars Lamora, and Gwyn starts to fade from existence.",
     "sources": [
       "Who Saves the Saviors (episode)",
@@ -5451,7 +5471,7 @@
     "method": "wormhole (Asencia's temporal technology)",
     "agency": "deliberate",
     "outcome": "divergence",
-    "divergenceHint": "protostar-paradox",
+    "divergenceHint": "pro-protostar-paradox",
     "summary": "With the Loom devouring the unraveling timeline, Dal's crew uses Asencia's wormhole generator to send the Protostar back to where they first found it. Dal leaves his combadge on the bridge floor, and the causality loop is closed.",
     "sources": [
       "Ouroboros, Part I (episode)",

@@ -233,7 +233,8 @@ def cast_of(text, title=""):
     if not seg:
         return []
     film_extra = []
-    for ln in seg.split("\n"):
+    is_film = title in FILM_IDS
+    for ln in (seg.split("\n") if is_film else []):
         fm = film_line(ln)
         if fm:
             film_extra.append({"c": fm[0], "a": fm[1], "credit_only": False,

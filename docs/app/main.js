@@ -46,9 +46,13 @@ const gate = {
     go.disabled = false;
     go.focus({ preventScroll: true });
     let done = false;
+    const onKey = (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); enter(); }
+    };
     const enter = () => {
       if (done) return;
       done = true;
+      document.removeEventListener('keydown', onKey);
       el.classList.add('leaving');
       document.body.classList.remove('gating');
       setTimeout(() => el.remove(), 700);
@@ -56,9 +60,7 @@ const gate = {
     };
     go.addEventListener('click', enter);
     document.getElementById('gate-hit').addEventListener('click', enter);
-    document.addEventListener('keydown', function k(e) {
-      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); document.removeEventListener('keydown', k); enter(); }
-    });
+    document.addEventListener('keydown', onKey);
   },
   fail(msg) {
     if (!this.el) return;

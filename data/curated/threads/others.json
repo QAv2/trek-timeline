@@ -66,15 +66,6 @@
     "weight": 3
    },
    {
-    "t": 2370.99,
-    "tText": "2370",
-    "confidence": "inferred",
-    "source": "All Good Things... (episode)",
-    "title": "Married and divorced, in one future",
-    "note": "In the alternate 2395 Beverly captains the USS Pasteur, having married and divorced Picard; she still keeps his name.",
-    "weight": 2
-   },
-   {
     "t": 2381.0,
     "tText": "c. 2381",
     "confidence": "estimated",
@@ -82,6 +73,15 @@
     "title": "Jack born in secret",
     "note": "After they end their on-off romance (for the fifth time), Beverly gives birth to Jack c. 2381 and raises him without telling Picard.",
     "weight": 3
+   },
+   {
+    "t": 2395.5,
+    "tText": "2395 (alternate future)",
+    "confidence": "inferred",
+    "source": "All Good Things... (episode)",
+    "title": "Married and divorced, in one future",
+    "note": "In the alternate 2395 Beverly captains the USS Pasteur, having married and divorced Picard; she still keeps his name.",
+    "weight": 2
    },
    {
     "t": 2401.25,
@@ -224,15 +224,6 @@
     "weight": 1
    },
    {
-    "t": 2370.99,
-    "tText": "2370",
-    "confidence": "inferred",
-    "source": "All Good Things... (episode)",
-    "title": "A future without Deanna",
-    "note": "In the alternate 2395 Troi has died, and Riker and Worf are estranged over her.",
-    "weight": 1
-   },
-   {
     "t": 2375.5,
     "tText": "2375",
     "confidence": "inferred",
@@ -267,6 +258,15 @@
     "title": "Thad is born",
     "note": "Picard and Riker toast the birth of Riker and Troi's first child, Thaddeus.",
     "weight": 2
+   },
+   {
+    "t": 2395.5,
+    "tText": "2395 (alternate future)",
+    "confidence": "inferred",
+    "source": "All Good Things... (episode)",
+    "title": "A future without Deanna",
+    "note": "In the alternate 2395 Troi has died, and Riker and Worf are estranged over her.",
+    "weight": 1
    },
    {
     "t": 2399.64,
@@ -581,6 +581,15 @@
   "status": "Kirk vanished into the Nexus in 2293 and died on Veridian III in 2371; Spock outlived him, was thrown into the alternate reality in 2387, and died there (reported in that reality's 2263).",
   "beats": [
    {
+    "t": 1930.5,
+    "tText": "1930 (from 2267)",
+    "confidence": "inferred",
+    "source": "The City on the Edge of Forever (episode)",
+    "title": "Together into 1930",
+    "note": "Kirk and Spock follow a delirious McCoy through the Guardian of Forever to 1930 New York. Spock works out that Edith Keeler must die, and stands with Kirk as he lets history take her.",
+    "weight": 2
+   },
+   {
     "t": 2258.42,
     "tText": "2258 (alternate reality)",
     "confidence": "explicit",
@@ -659,15 +668,6 @@
     "source": "The Menagerie, Part I (episode)",
     "title": "Mutiny for Pike",
     "note": "Spock hijacks the Enterprise to carry the crippled Pike to Talos IV, risking execution. Kirk must sit in judgment of him, and in the end backs his friend's loyalty to his old captain.",
-    "weight": 2
-   },
-   {
-    "t": 2267.53,
-    "tText": "2267 (in 1930)",
-    "confidence": "inferred",
-    "source": "The City on the Edge of Forever (episode)",
-    "title": "Together into 1930",
-    "note": "Kirk and Spock follow a delirious McCoy through the Guardian of Forever to 1930 New York. Spock works out that Edith Keeler must die, and stands with Kirk as he lets history take her.",
     "weight": 2
    },
    {
@@ -1091,12 +1091,12 @@
   "status": "They agree to start over in 2262; in the altered 2263 of 'Tomorrow's Enterprise' La'an is no longer aboard, and Captain Kirk will not say why.",
   "beats": [
    {
-    "t": 2259.66,
-    "tText": "2259 (in 2022, alternate timeline)",
+    "t": 2022.5,
+    "tText": "2022 (alternate timeline, from 2259)",
     "confidence": "inferred",
     "source": "Tomorrow and Tomorrow and Tomorrow (episode)",
     "title": "Falling for another Kirk",
-    "note": "Caught in an altered 2259 and thrown back to 2022 Toronto, La'an works beside that timeline's Captain Kirk, kisses him, and loses him to a Romulan agent before restoring history. This is the alternate-timeline Kirk (MA 'James T. Kirk (alternate timeline)'), not the prime one.",
+    "note": "Caught in an altered 2259 and thrown back to 2022 Toronto, La'an works beside that timeline's Captain Kirk, kisses him, and loses him to a Romulan agent before restoring history. This is the alternate-timeline Kirk (MA folds him into the 'James T. Kirk' article), not the prime one.",
     "weight": 3
    },
    {

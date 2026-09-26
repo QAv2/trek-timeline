@@ -1,0 +1,3742 @@
+[
+  {
+    "id": "earth-unified-2150",
+    "title": "Earth united under one government",
+    "t": 2150.0,
+    "tText": "2150",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "The last holdout nation-states join Earth's world government, finishing the unification that began with the European Hegemony; humanity now faces the stars as a single polity.",
+    "sources": [
+      "Attached (episode)",
+      "Up The Long Ladder (episode)"
+    ],
+    "ma": "United Earth",
+    "weight": 2
+  },
+  {
+    "id": "klingon-first-contact-broken-bow",
+    "title": "First contact with the Klingon Empire",
+    "t": 2151.282,
+    "tText": "April 2151",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Klingon",
+    "summary": "The Klingon courier Klaang crash-lands in a cornfield near Broken Bow, Oklahoma, pursued by Suliban; Earth's decision to fly him home to Qo'noS becomes humanity's first real dealing with the Klingon Empire.",
+    "sources": [
+      "Broken Bow (episode)"
+    ],
+    "ma": "Klaang",
+    "conflict": "TNG 'First Contact' recalls a 'disastrous contact' with the Klingons that led to decades of war; ENT's 2151 contact is tense but no war follows for generations.",
+    "weight": 3
+  },
+  {
+    "id": "nx01-launched",
+    "title": "Enterprise NX-01 launched",
+    "t": 2151.292,
+    "tText": "April 2151",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Human",
+    "summary": "Earth's first warp-five starship leaves spacedock under Captain Jonathan Archer, weeks ahead of schedule, to return Klaang home. Its launch anniversary is later celebrated as Frontier Day.",
+    "sources": [
+      "Broken Bow (episode)"
+    ],
+    "ma": "Enterprise (NX-01)",
+    "weight": 3
+  },
+  {
+    "id": "temporal-cold-war-revealed",
+    "title": "Temporal Cold War first detected",
+    "t": 2151.302,
+    "tText": "2151",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "galactic",
+    "summary": "Archer's crew learns the Suliban Cabal takes orders from a faceless patron in the future. By autumn, crewman Daniels reveals himself as a 31st-century agent fighting a cold war waged across time.",
+    "sources": [
+      "Broken Bow (episode)",
+      "Cold Front (episode)"
+    ],
+    "ma": "Temporal Cold War",
+    "weight": 3
+  },
+  {
+    "id": "andorian-first-contact",
+    "title": "First contact with the Andorians",
+    "t": 2151.458,
+    "tText": "June 2151",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Andorian",
+    "summary": "At the Vulcan monastery of P'Jem, Archer's crew meets Andorian commandos led by Shran and discovers that the Vulcans hide a listening post there, exposing a long feud between the two peoples.",
+    "sources": [
+      "The Andorian Incident (episode)"
+    ],
+    "ma": "Andorian",
+    "weight": 1
+  },
+  {
+    "id": "ferengi-unnamed-encounter",
+    "title": "Ferengi raiders board Enterprise",
+    "t": 2151.958,
+    "tText": "December 2151",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Ferengi",
+    "summary": "Ferengi looters sedate Enterprise's crew and ransack the ship before Archer and Trip Tucker outwit them. Neither side learns the other's species name.",
+    "sources": [
+      "Acquisition (episode)",
+      "The Last Outpost (episode)"
+    ],
+    "ma": "Ferengi",
+    "conflict": "Starfleet's official first contact with the Ferengi is dated 2364 (TNG 'The Last Outpost'), two centuries after this unnamed encounter.",
+    "weight": 2
+  },
+  {
+    "id": "shockwave-archer-future",
+    "title": "Archer pulled into a ruined future",
+    "t": 2152.15,
+    "tText": "early 2152",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "After the Cabal frames Enterprise for destroying the Paraagan II colony, Daniels pulls Archer into the 31st century, only to find it erased by the disruption to history. Returning Archer to 2152 restores the future.",
+    "sources": [
+      "Shockwave (episode)",
+      "Shockwave, Part II (episode)"
+    ],
+    "ma": "Temporal Cold War",
+    "weight": 1
+  },
+  {
+    "id": "romulan-first-contact-minefield",
+    "title": "First contact with the Romulans",
+    "t": 2152.292,
+    "tText": "April 2152",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Romulan",
+    "summary": "Enterprise strays into a cloaked minefield around a Romulan world and is ordered out by warships it can barely see. It is Earth's first contact with the Star Empire, made without a face-to-face meeting.",
+    "sources": [
+      "Minefield (episode)"
+    ],
+    "ma": "Romulan Star Empire",
+    "weight": 2
+  },
+  {
+    "id": "andorian-vulcan-ceasefire",
+    "title": "Archer brokers Andorian–Vulcan ceasefire",
+    "t": 2152.708,
+    "tText": "2152",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Andorian",
+    "summary": "Acting as a mediator trusted by both sides, Archer helps Ambassador Soval and Commander Shran agree to a ceasefire over the disputed planet Weytahn, the first sign of Earth as a bridge between rival powers.",
+    "sources": [
+      "Cease Fire (episode)"
+    ],
+    "ma": "Weytahn",
+    "weight": 1
+  },
+  {
+    "id": "tholian-first-contact",
+    "title": "First contact with the Tholians",
+    "t": 2152.875,
+    "tText": "late 2152",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Tholian",
+    "summary": "Enterprise recovers a derelict time pod from the future and finds both the Suliban and the previously unknown Tholians determined to seize it. This is Earth's first encounter with the crystalline species.",
+    "sources": [
+      "Future Tense (episode)"
+    ],
+    "ma": "Tholian",
+    "weight": 2
+  },
+  {
+    "id": "borg-drones-revived-arctic",
+    "title": "Borg drones revived in the Arctic",
+    "t": 2153.16,
+    "tText": "March 2153",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Borg",
+    "summary": "Researchers dig up drones from the Borg sphere destroyed in 2063; the drones assimilate them and escape. Enterprise destroys them, but not before they send a signal toward the Delta Quadrant that will take two centuries to arrive.",
+    "sources": [
+      "Regeneration (episode)",
+      "Star Trek: First Contact"
+    ],
+    "ma": "Borg",
+    "conflict": "The Federation's official first contact with the Borg is dated 2365 (TNG 'Q Who'); the 2153 attackers were never identified by name.",
+    "weight": 2
+  },
+  {
+    "id": "xindi-probe-attack",
+    "title": "Xindi probe attacks Earth",
+    "t": 2153.208,
+    "tText": "March 2153",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Xindi",
+    "summary": "A probe fired from the Delphic Expanse cuts a burning path from Florida to Venezuela, killing seven million people. It is a test run for a weapon meant to destroy Earth.",
+    "sources": [
+      "The Expanse (episode)"
+    ],
+    "ma": "Xindi incident",
+    "weight": 3
+  },
+  {
+    "id": "xindi-first-contact",
+    "title": "Enterprise enters the Delphic Expanse",
+    "t": 2153.45,
+    "tText": "2153",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Xindi",
+    "summary": "Recalled and refitted, Enterprise and a detachment of MACOs cross into the anomaly-ridden Delphic Expanse and make first contact with the Xindi, a people of five species united by a council.",
+    "sources": [
+      "The Expanse (episode)",
+      "The Xindi (episode)"
+    ],
+    "ma": "Delphic Expanse",
+    "weight": 2
+  },
+  {
+    "id": "xindi-weapon-destroyed",
+    "title": "Xindi superweapon destroyed at Earth",
+    "t": 2154.12,
+    "tText": "14 February 2154",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Human",
+    "summary": "Archer and his Xindi allies destroy the weapon as it reaches Earth, foiling the Sphere-Builders' plan to stop the Federation from ever forming. Enterprise then vanishes into an altered 1944.",
+    "sources": [
+      "Zero Hour (episode)"
+    ],
+    "ma": "Xindi incident",
+    "weight": 3
+  },
+  {
+    "id": "temporal-cold-war-ends",
+    "title": "Temporal Cold War declared over",
+    "t": 2154.208,
+    "tText": "2154",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "galactic",
+    "summary": "Enterprise helps destroy the Na'kuhl leader Vosk's temporal conduit in an alternate 1944, undoing his Nazi-aided incursion. Daniels declares that the Temporal Cold War is over.",
+    "sources": [
+      "Storm Front (episode)",
+      "Storm Front, Part II (episode)"
+    ],
+    "ma": "Temporal Cold War",
+    "weight": 2
+  },
+  {
+    "id": "augment-crisis",
+    "title": "Augments nearly start a Klingon war",
+    "t": 2154.35,
+    "tText": "2154",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Human",
+    "summary": "Genetically engineered Augments raised by Dr. Arik Soong from 20th-century embryos seize a Klingon ship and plot to provoke war with the Empire. Enterprise stops them, and Soong turns to cybernetics.",
+    "sources": [
+      "Borderland (episode)",
+      "Cold Station 12 (episode)",
+      "The Augments (episode)"
+    ],
+    "ma": "Augment",
+    "weight": 2
+  },
+  {
+    "id": "vulcan-reformation",
+    "title": "Syrrannites reform the Vulcan government",
+    "t": 2154.5,
+    "tText": "2154",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Vulcan",
+    "summary": "The Kir'Shara, holding Surak's original writings, is recovered, and Administrator V'Las is exposed as a Romulan collaborator. The Vulcan High Command is dissolved and Vulcan's stance toward Earth softens.",
+    "sources": [
+      "The Forge (episode)",
+      "Awakening (episode)",
+      "Kir'Shara (episode)"
+    ],
+    "ma": "Kir'Shara",
+    "weight": 2
+  },
+  {
+    "id": "babel-crisis",
+    "title": "Babel Crisis unites the founding powers",
+    "t": 2154.875,
+    "tText": "November 2154",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "galactic",
+    "summary": "A telepathically piloted Romulan drone ship attacks Andorians and Tellarites to wreck a peace conference on Babel. Earth, Vulcan, Andoria and Tellar pool their ships and stop it, cooperating as allies for the first time.",
+    "sources": [
+      "Babel One (episode)",
+      "United (episode)",
+      "The Aenar (episode)"
+    ],
+    "ma": "Babel Crisis",
+    "weight": 2
+  },
+  {
+    "id": "section-31-operating-2154",
+    "title": "Section 31 recruits within Starfleet",
+    "t": 2154.9,
+    "tText": "2154",
+    "confidence": "explicit",
+    "category": "institution",
+    "civ": "Human",
+    "summary": "Lieutenant Malcolm Reed's handler, Harris, reveals a covert branch working inside Starfleet. Two centuries later Section 31 claims its authority from the original Starfleet Charter.",
+    "sources": [
+      "Affliction (episode)",
+      "Divergence (episode)",
+      "Inquisition (episode)"
+    ],
+    "ma": "Section 31",
+    "weight": 1
+  },
+  {
+    "id": "columbia-nx02-launched",
+    "title": "Columbia NX-02 launched",
+    "t": 2154.92,
+    "tText": "2154",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Human",
+    "summary": "Earth's second warp-five ship leaves drydock under Captain Erika Hernandez, doubling Starfleet's deep-space fleet.",
+    "sources": [
+      "Affliction (episode)"
+    ],
+    "ma": "Columbia",
+    "weight": 1
+  },
+  {
+    "id": "klingon-augment-virus",
+    "title": "Klingon augment virus spreads",
+    "t": 2154.95,
+    "tText": "2154",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Klingon",
+    "summary": "A Klingon attempt to breed warriors from Augment DNA unleashes a deadly plague. Phlox's cure saves the Empire, but millions of Klingons and their descendants lose their cranial ridges for generations.",
+    "sources": [
+      "Affliction (episode)",
+      "Divergence (episode)"
+    ],
+    "ma": "Klingon augment virus",
+    "weight": 2
+  },
+  {
+    "id": "coalition-of-planets",
+    "title": "Coalition of Planets conference",
+    "t": 2155.05,
+    "tText": "January 2155",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "galactic",
+    "summary": "Humans, Vulcans, Andorians, Tellarites, Rigelians, Denobulans and Coridanites meet on Earth to form a Coalition of Planets. The talks survive the xenophobic Terra Prime movement's seizure of a Martian weapons array.",
+    "sources": [
+      "Demons (episode)",
+      "Terra Prime (episode)"
+    ],
+    "ma": "Coalition of Planets",
+    "weight": 3
+  },
+  {
+    "id": "mirror-terrans-seize-defiant",
+    "title": "Terrans seize the time-lost USS Defiant",
+    "t": 2155.05,
+    "tText": "January 2155 (mirror universe)",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Terran",
+    "summary": "In the mirror universe, the ISS Enterprise finds the USS Defiant — lost from the prime universe in 2268 — in Tholian space. The mirror Archer seizes it, and Hoshi Sato takes it to claim the title of Empress.",
+    "sources": [
+      "In A Mirror, Darkly (episode)",
+      "In A Mirror, Darkly, Part II (episode)"
+    ],
+    "ma": "USS Defiant (NCC-1764)",
+    "weight": 1
+  },
+  {
+    "id": "earth-romulan-war-begins",
+    "title": "Earth–Romulan War begins",
+    "t": 2156.0,
+    "tText": "2156",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Romulan",
+    "summary": "Years of Romulan sabotage erupt into open war with United Earth and its allies. The war is fought ship to ship with primitive atomic weapons, and neither side ever sees the other's face.",
+    "sources": [
+      "In A Mirror, Darkly, Part II (episode)",
+      "Balance of Terror (episode)"
+    ],
+    "ma": "Earth-Romulan War",
+    "weight": 3
+  },
+  {
+    "id": "battle-of-cheron",
+    "title": "Battle of Cheron ends the Romulan War",
+    "t": 2160.5,
+    "tText": "2160",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Romulan",
+    "summary": "An alliance of Earth, Vulcan, Andoria and Tellar deals the Romulans a crushing defeat at Cheron, effectively ending the four-year war.",
+    "sources": [
+      "The Defector (episode)",
+      "In A Mirror, Darkly, Part II (episode)"
+    ],
+    "ma": "Battle of Cheron",
+    "weight": 2
+  },
+  {
+    "id": "romulan-neutral-zone-established",
+    "title": "Romulan Neutral Zone established",
+    "t": 2160.55,
+    "tText": "2160",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Romulan",
+    "summary": "Peace is negotiated entirely over subspace radio, and the treaty creates a Neutral Zone that either side may enter only as an act of war. The Zone stands until Romulus is destroyed in 2387.",
+    "sources": [
+      "Balance of Terror (episode)"
+    ],
+    "ma": "Romulan Neutral Zone",
+    "weight": 2
+  },
+  {
+    "id": "nx01-retired",
+    "title": "Enterprise NX-01 retired",
+    "t": 2161.0,
+    "tText": "2161",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Human",
+    "summary": "After ten years of service, Earth's pioneering starship is decommissioned on the eve of the Federation's founding, with Archer on his way to the charter ceremony.",
+    "sources": [
+      "These Are The Voyages... (episode)"
+    ],
+    "ma": "Enterprise (NX-01)",
+    "weight": 2
+  },
+  {
+    "id": "federation-founded",
+    "title": "United Federation of Planets founded",
+    "t": 2161.0,
+    "tText": "2161",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Federation",
+    "summary": "Earth, Vulcan, Andoria and Tellar sign the Federation Charter in San Francisco, turning their wartime alliance into a permanent union. Starfleet becomes the new Federation's service.",
+    "sources": [
+      "These Are The Voyages... (episode)",
+      "The Outcast (episode)",
+      "Zero Hour (episode)"
+    ],
+    "ma": "United Federation of Planets",
+    "weight": 3
+  },
+  {
+    "id": "starfleet-academy-federation",
+    "title": "Starfleet Academy chartered for the Federation",
+    "t": 2161.05,
+    "tText": "2161",
+    "confidence": "inferred",
+    "category": "institution",
+    "civ": "Federation",
+    "summary": "Earth's existing Space Academy is incorporated into the new Federation Starfleet under the motto Ex Astris, Scientia. It will train Starfleet officers for the next nine centuries.",
+    "sources": [
+      "The Star Gazer (episode)",
+      "Storm Front, Part II (episode)"
+    ],
+    "ma": "Starfleet Academy",
+    "weight": 2
+  },
+  {
+    "id": "uss-franklin-lost",
+    "title": "USS Franklin vanishes",
+    "t": 2164.0,
+    "tText": "2164",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Federation",
+    "summary": "The first Earth ship capable of warp 4 disappears in the Gagarin Radiation Belt. It has been pulled to a distant nebula, where its stranded captain Balthazar Edison becomes the warlord Krall.",
+    "sources": [
+      "Star Trek Beyond"
+    ],
+    "ma": "USS Franklin",
+    "weight": 1
+  },
+  {
+    "id": "uss-essex-lost",
+    "title": "USS Essex lost at Mab-Bu VI",
+    "t": 2167.0,
+    "tText": "2167",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Federation",
+    "summary": "The Daedalus-class Essex is destroyed by an electromagnetic storm near a moon of Mab-Bu VI. Its wreck stays undiscovered until the Enterprise-D finds it in 2368.",
+    "sources": [
+      "Power Play (episode)"
+    ],
+    "ma": "USS Essex",
+    "weight": 1
+  },
+  {
+    "id": "uss-archon-lost",
+    "title": "USS Archon lost at Beta III",
+    "t": 2167.1,
+    "tText": "2167",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Federation",
+    "summary": "The starship Archon is destroyed at Beta III and its crew absorbed into a society controlled by the computer Landru, a fate uncovered only when Kirk's Enterprise visits a century later.",
+    "sources": [
+      "The Return of the Archons (episode)"
+    ],
+    "ma": "Archon (starship)",
+    "weight": 1
+  },
+  {
+    "id": "new-world-economy",
+    "title": "Money falls out of use on Earth",
+    "t": 2175.0,
+    "tText": "late 22nd century",
+    "confidence": "estimated",
+    "category": "culture",
+    "civ": "Human",
+    "summary": "Earth's New World Economy takes shape, and money 'goes the way of the dinosaur'; material want gives way to the pursuit of self-improvement.",
+    "sources": [
+      "Dark Frontier (episode)",
+      "Star Trek: First Contact"
+    ],
+    "ma": "New World Economy",
+    "weight": 2
+  },
+  {
+    "id": "archer-federation-president",
+    "title": "Archer becomes Federation President",
+    "t": 2184.0,
+    "tText": "2184–2192",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Federation",
+    "summary": "Jonathan Archer, former captain of the NX-01 and ambassador to Andoria, begins an eight-year term as President of the United Federation of Planets.",
+    "sources": [
+      "In A Mirror, Darkly, Part II (episode)"
+    ],
+    "ma": "Jonathan Archer",
+    "weight": 2
+  },
+  {
+    "id": "janus-vi-colony",
+    "title": "Mining colony founded on Janus VI",
+    "t": 2215.0,
+    "tText": "2210s",
+    "confidence": "estimated",
+    "category": "exploration",
+    "civ": "Federation",
+    "summary": "Settlers open a pergium mine on Janus VI that becomes a key supplier for a dozen worlds, unaware they are sharing the planet with the silicon-based Horta.",
+    "sources": [
+      "The Devil in the Dark (episode)"
+    ],
+    "ma": "Janus VI",
+    "weight": 1
+  },
+  {
+    "id": "klingon-cold-war-begins",
+    "title": "Federation–Klingon cold war begins",
+    "t": 2223.0,
+    "tText": "2223",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Klingon",
+    "summary": "Relations with the Klingon Empire sour into roughly seventy years of hostility — border disputes, brush wars and arms races that end only with the Khitomer Accords of 2293.",
+    "sources": [
+      "Star Trek VI: The Undiscovered Country",
+      "In A Mirror, Darkly, Part II (episode)"
+    ],
+    "ma": "Federation-Klingon history",
+    "weight": 2
+  },
+  {
+    "id": "kelvin-incursion",
+    "title": "Narada incursion splits off Kelvin reality",
+    "t": 2233.01,
+    "tText": "2233 (stardate 2233.04)",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Romulan",
+    "summary": "Nero's mining ship Narada, thrown back from 2387 through a red-matter singularity, destroys the USS Kelvin near the Klingon border. The incursion branches off an alternate reality in which history unfolds differently from here on.",
+    "sources": [
+      "Star Trek (film)"
+    ],
+    "ma": "USS Kelvin",
+    "weight": 3
+  },
+  {
+    "id": "red-angel-first-jump",
+    "title": "Red Angel time suit first used",
+    "t": 2236.5,
+    "tText": "2236",
+    "confidence": "inferred",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "Section 31's Project Daedalus, begun after learning of Klingon time-travel research, yields a working time suit. When Klingons attack Doctari Alpha, Dr. Gabrielle Burnham uses it and is flung 950 years ahead, becoming anchored to 3186.",
+    "sources": [
+      "The Red Angel (episode)",
+      "Perpetual Infinity (episode)"
+    ],
+    "ma": "Red angel suit",
+    "weight": 2
+  },
+  {
+    "id": "duotronics-invented",
+    "title": "Daystrom invents duotronic computing",
+    "t": 2243.0,
+    "tText": "2243",
+    "confidence": "inferred",
+    "category": "science",
+    "civ": "Human",
+    "summary": "At 24, Dr. Richard Daystrom makes the duotronic breakthrough that becomes the basis of Starfleet computers for some eighty years and wins him the Nobel and Zee-Magnees prizes.",
+    "sources": [
+      "The Ultimate Computer (episode)",
+      "Relics (episode)"
+    ],
+    "ma": "Duotronics",
+    "weight": 2
+  },
+  {
+    "id": "enterprise-1701-launched",
+    "title": "USS Enterprise (NCC-1701) launched",
+    "t": 2245.0,
+    "tText": "2245",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "The Constitution-class Enterprise enters service under Captain Robert April, later passing to Christopher Pike and then James T. Kirk. It serves as the Federation flagship until 2285.",
+    "sources": [
+      "The Counter-Clock Incident (episode)",
+      "Brother (episode)"
+    ],
+    "ma": "USS Enterprise (NCC-1701)",
+    "weight": 3
+  },
+  {
+    "id": "battle-of-donatu-v",
+    "title": "Battle of Donatu V",
+    "t": 2245.5,
+    "tText": "2245",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Klingon",
+    "summary": "Federation and Klingon forces fight an inconclusive battle over the disputed region around Donatu V and Sherman's Planet, one of the few open clashes of the cold war.",
+    "sources": [
+      "The Trouble with Tribbles (episode)"
+    ],
+    "ma": "Donatu V",
+    "conflict": "In 2256 Captain Georgiou says 'almost no one has seen a Klingon in a hundred years' (DIS 'The Vulcan Hello'), which is hard to square with a shooting war only eleven years earlier.",
+    "weight": 1
+  },
+  {
+    "id": "tarsus-iv-massacre",
+    "title": "Tarsus IV massacre",
+    "t": 2246.0,
+    "tText": "2246",
+    "confidence": "inferred",
+    "category": "disaster",
+    "civ": "Human",
+    "summary": "When a fungus destroys the colony's food stores, Governor Kodos orders the execution of 4,000 of Tarsus IV's 8,000 colonists. A teenage James Kirk is among the survivors who witness it.",
+    "sources": [
+      "The Conscience of the King (episode)"
+    ],
+    "ma": "Tarsus IV",
+    "weight": 2
+  },
+  {
+    "id": "omega-molecule-lantaru",
+    "title": "Omega molecule disaster at Lantaru",
+    "t": 2250.0,
+    "tText": "mid-23rd century",
+    "confidence": "estimated",
+    "category": "disaster",
+    "civ": "Federation",
+    "summary": "Physicist Ketteract synthesizes a single Omega molecule in a secret station in the Lantaru sector. It explodes, killing him and 126 other scientists and wrecking subspace for light-years; Starfleet covers it up and issues the Omega Directive.",
+    "sources": [
+      "The Omega Directive (episode)"
+    ],
+    "ma": "Omega molecule",
+    "weight": 1
+  },
+  {
+    "id": "talos-iv-general-order-7",
+    "title": "Talos IV placed under quarantine",
+    "t": 2254.5,
+    "tText": "after 2254",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Federation",
+    "summary": "After Captain Pike's Enterprise is held by the telepathic illusion-casting Talosians, Starfleet issues General Order 7, forbidding contact with Talos IV on pain of death.",
+    "sources": [
+      "The Cage (episode)",
+      "The Menagerie, Part I (episode)"
+    ],
+    "ma": "General Order 7",
+    "weight": 1
+  },
+  {
+    "id": "uss-discovery-commissioned",
+    "title": "USS Discovery enters service",
+    "t": 2256.3,
+    "tText": "c. 2256",
+    "confidence": "estimated",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "The Crossfield-class science vessel Discovery, fresh from the shipyards, is fitted with an experimental propulsion system and placed under Captain Gabriel Lorca for secret wartime research.",
+    "sources": [
+      "Context Is for Kings (episode)"
+    ],
+    "ma": "USS Discovery",
+    "weight": 2
+  },
+  {
+    "id": "battle-of-the-binary-stars",
+    "title": "Battle of the Binary Stars",
+    "t": 2256.355,
+    "tText": "11 May 2256",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Klingon",
+    "summary": "T'Kuvma lights the Klingon beacon at the Binary Stars and rallies the 24 Great Houses. The battle that follows, the first face-to-face clash with Klingons in a century, costs thousands of Starfleet lives and opens the Federation–Klingon War.",
+    "sources": [
+      "The Vulcan Hello (episode)",
+      "Battle at the Binary Stars (episode)"
+    ],
+    "ma": "Battle of the Binary Stars",
+    "weight": 3
+  },
+  {
+    "id": "spore-drive-operational",
+    "title": "Spore drive jumps into service",
+    "t": 2256.875,
+    "tText": "November 2256",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Federation",
+    "summary": "Discovery's displacement-activated spore hub drive uses the mycelial network to jump across vast distances instantly, giving Starfleet a strategic edge in the war.",
+    "sources": [
+      "Context Is for Kings (episode)",
+      "Choose Your Pain (episode)"
+    ],
+    "ma": "Displacement-activated spore hub drive",
+    "weight": 2
+  },
+  {
+    "id": "cardassian-contact-by-2257",
+    "title": "Earliest known Federation–Cardassian contact",
+    "t": 2256.95,
+    "tText": "by 2257",
+    "confidence": "inferred",
+    "category": "first-contact",
+    "civ": "Cardassian",
+    "summary": "Service records show Captain Christopher Pike, and later Una Chin-Riley, holding the Legate's Crest of Valor, a Cardassian decoration — evidence that the Federation had dealings with the Cardassian Union by the 2250s.",
+    "sources": [
+      "Brother (episode)",
+      "Ad Astra per Aspera (episode)"
+    ],
+    "ma": "Cardassian history",
+    "conflict": "No on-screen date for first contact with the Cardassians has ever been given; the two peoples had crossed paths as early as 2152.",
+    "weight": 1
+  },
+  {
+    "id": "terran-emperor-crosses-over",
+    "title": "Terran Emperor brought to the prime universe",
+    "t": 2257.05,
+    "tText": "2257",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Terran",
+    "summary": "Escaping the collapse of her empire, the mirror universe's Emperor Philippa Georgiou is beamed aboard Discovery and brought into the prime universe, where she is later recruited by Section 31.",
+    "sources": [
+      "What's Past Is Prologue (episode)",
+      "The War Without, The War Within (episode)"
+    ],
+    "ma": "Mirror universe",
+    "weight": 1
+  },
+  {
+    "id": "klingon-war-ends-2257",
+    "title": "Klingon War ends under Chancellor L'Rell",
+    "t": 2257.15,
+    "tText": "2257",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Klingon",
+    "summary": "With Qo'noS threatened by a hydrogen bomb, Burnham hands the detonator to L'Rell, who uses it to force the Great Houses to accept her as Chancellor and ends the war.",
+    "sources": [
+      "Will You Take My Hand? (episode)"
+    ],
+    "ma": "Federation-Klingon War (2256-57)",
+    "weight": 3
+  },
+  {
+    "id": "red-angel-signals",
+    "title": "Seven red signals appear across the galaxy",
+    "t": 2257.95,
+    "tText": "late 2257",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "galactic",
+    "summary": "Seven unexplained bursts appear across the galaxy, drawing Discovery and Pike's Enterprise into the Red Angel mystery; the signals are later found to come from Burnham herself in a time suit.",
+    "sources": [
+      "Brother (episode)",
+      "Such Sweet Sorrow, Part 2 (episode)"
+    ],
+    "ma": "Red Angel",
+    "weight": 2
+  },
+  {
+    "id": "kelpiens-freed-from-baul",
+    "title": "Kelpiens freed from the Ba'ul",
+    "t": 2257.97,
+    "tText": "2257",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Kelpien",
+    "summary": "Discovery learns the Ba'ul have culled the Kelpiens for millennia to stop their natural transformation. With the Red Angel's intervention, the Kelpiens are freed to mature and begin their rise to the stars.",
+    "sources": [
+      "The Sound of Thunder (episode)"
+    ],
+    "ma": "Kelpien",
+    "weight": 1
+  },
+  {
+    "id": "vulcan-destroyed-kelvin",
+    "title": "Vulcan destroyed (Kelvin reality)",
+    "t": 2258.12,
+    "tText": "2258 (Kelvin reality)",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Vulcan",
+    "summary": "In the alternate reality, Nero drills to Vulcan's core and ignites red matter, collapsing the planet into a black hole; about 10,000 Vulcans survive to found New Vulcan.",
+    "sources": [
+      "Star Trek (film)"
+    ],
+    "ma": "Destruction of Vulcan",
+    "weight": 2
+  },
+  {
+    "id": "discovery-leaps-to-future",
+    "title": "Discovery leaps 930 years into the future",
+    "t": 2258.5,
+    "tText": "2258",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "To keep the Sphere's archive away from the rogue AI Control, Burnham leads Discovery through a wormhole to the future. Starfleet classifies the ship and its spore drive and orders the survivors never to speak of them.",
+    "sources": [
+      "Such Sweet Sorrow (episode)",
+      "Such Sweet Sorrow, Part 2 (episode)"
+    ],
+    "ma": "USS Discovery",
+    "weight": 3
+  },
+  {
+    "id": "khan-attack-kelvin",
+    "title": "Khan's attack on Starfleet (Kelvin reality)",
+    "t": 2259.15,
+    "tText": "2259 (Kelvin reality)",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Human",
+    "summary": "In the alternate reality, a revived Khan bombs a London archive and Starfleet headquarters, and the dreadnought Vengeance crashes into San Francisco before he is returned to cryosleep.",
+    "sources": [
+      "Star Trek Into Darkness"
+    ],
+    "ma": "Khan Noonien Singh (alternate reality)",
+    "weight": 1
+  },
+  {
+    "id": "prime-directive-named",
+    "title": "General Order 1 becomes the Prime Directive",
+    "t": 2259.2,
+    "tText": "2259",
+    "confidence": "explicit",
+    "category": "institution",
+    "civ": "Federation",
+    "summary": "After Pike's crew intervenes on Kiley 279, the Federation Council tightens enforcement of General Order 1 and renames it the Prime Directive.",
+    "sources": [
+      "Strange New Worlds (episode)"
+    ],
+    "ma": "Prime Directive",
+    "weight": 2
+  },
+  {
+    "id": "temporal-agents-khan",
+    "title": "Time agents battle over Khan's history",
+    "t": 2259.3,
+    "tText": "c. 2259–2260",
+    "confidence": "inferred",
+    "category": "temporal",
+    "civ": "galactic",
+    "summary": "A dying agent of a future Department of Temporal Investigations sends La'An Noonien-Singh to 2022 to stop Romulan agents from killing the young Khan — one front of temporal wars that shifted the Eugenics Wars later in history.",
+    "sources": [
+      "Tomorrow and Tomorrow and Tomorrow (episode)"
+    ],
+    "ma": "Temporal Wars",
+    "weight": 1
+  },
+  {
+    "id": "illyrian-asylum-ruling",
+    "title": "Una Chin-Riley granted asylum",
+    "t": 2259.45,
+    "tText": "2259",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Illyrian",
+    "summary": "Charged with hiding her genetically modified Illyrian heritage to join Starfleet, Commander Una Chin-Riley is instead granted asylum, a first crack in the Federation's rigid ban on genetic modification.",
+    "sources": [
+      "Ad Astra per Aspera (episode)"
+    ],
+    "ma": "Illyrian",
+    "weight": 1
+  },
+  {
+    "id": "gorn-finibus-raid",
+    "title": "Gorn raid Finibus III",
+    "t": 2259.5,
+    "tText": "2259",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Gorn",
+    "summary": "The Gorn wipe out the Finibus III colony and ambush Pike's Enterprise, which escapes by using the system's black hole as cover. Officially, the Gorn remain a species never encountered.",
+    "sources": [
+      "Memento Mori (episode)",
+      "All Those Who Wander (episode)"
+    ],
+    "ma": "Gorn Hegemony",
+    "weight": 2
+  },
+  {
+    "id": "gorn-parnassus-beta",
+    "title": "Gorn seize Parnassus Beta",
+    "t": 2261.0,
+    "tText": "2261",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Gorn",
+    "summary": "A Gorn strike force destroys the USS Stardiver and USS Cayuga, abducts the Parnassus Beta colonists and declares a demarcation line through the system. Starfleet orders the Enterprise to withdraw rather than risk war.",
+    "sources": [
+      "Hegemony (episode)"
+    ],
+    "ma": "Gorn Hegemony",
+    "conflict": "Memory Alpha itself dates this attack to 2259, 2260 and 2261 on different pages; the next episode's Federation centennial party points to 2261.",
+    "weight": 2
+  },
+  {
+    "id": "gorn-armada-hibernation",
+    "title": "Gorn armada forced into hibernation",
+    "t": 2261.05,
+    "tText": "2261",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Gorn",
+    "summary": "Pike's crew rescues the Parnassus colonists and flies between binary stars to trigger an artificial coronal mass ejection. The storm drives a massing Gorn armada into a long hibernation cycle.",
+    "sources": [
+      "Hegemony, Part II (episode)"
+    ],
+    "ma": "Gorn Hegemony",
+    "weight": 2
+  },
+  {
+    "id": "federation-centennial",
+    "title": "Federation celebrates its centennial",
+    "t": 2261.2,
+    "tText": "2261",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Federation",
+    "summary": "The Federation marks one hundred years since its founding with a celebration attended by the Enterprise crew.",
+    "sources": [
+      "Wedding Bell Blues (episode)"
+    ],
+    "ma": "United Federation of Planets",
+    "weight": 2
+  },
+  {
+    "id": "holodeck-prototype",
+    "title": "Starfleet trials its first holodeck",
+    "t": 2261.5,
+    "tText": "2261",
+    "confidence": "inferred",
+    "category": "science",
+    "civ": "Federation",
+    "summary": "La'An Noonien-Singh stress-tests a new holographic recreation room aboard the Enterprise, an early form of the holodecks later common on starships.",
+    "sources": [
+      "A Space Adventure Hour (episode)"
+    ],
+    "ma": "Holodeck",
+    "weight": 1
+  },
+  {
+    "id": "enterprise-cretaceous",
+    "title": "Enterprise thrown back to the Cretaceous",
+    "t": 2262.2,
+    "tText": "2262",
+    "confidence": "inferred",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "A category 10 interstellar squall hurls Pike's Enterprise 66 million years into the past, to the end-Cretaceous extinction, where the crew finds a doomed civilization on Mars and becomes part of a predestination paradox.",
+    "sources": [
+      "Valles Marineris (episode)"
+    ],
+    "ma": "Interstellar squall",
+    "weight": 1
+  },
+  {
+    "id": "spock-prime-dies-kelvin",
+    "title": "Ambassador Spock dies (Kelvin reality)",
+    "t": 2263.0,
+    "tText": "January 2263 (Kelvin reality)",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Vulcan",
+    "summary": "The elder Spock of the prime reality, stranded since 2258 in the Kelvin reality, dies on New Vulcan after helping rebuild the Vulcan people.",
+    "sources": [
+      "Star Trek Beyond"
+    ],
+    "ma": "Spock",
+    "weight": 2
+  },
+  {
+    "id": "kirk-five-year-mission",
+    "title": "Kirk begins the five-year mission",
+    "t": 2265.0,
+    "tText": "2265",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Federation",
+    "summary": "Captain James T. Kirk takes the Enterprise on its historic five-year mission of exploration, a voyage later generations treat as the model of what Starfleet is for.",
+    "sources": [
+      "Where No Man Has Gone Before (episode)",
+      "Q2 (episode)"
+    ],
+    "ma": "Five-year mission",
+    "weight": 3
+  },
+  {
+    "id": "el-aurian-homeworld-destroyed",
+    "title": "Borg destroy the El-Aurian homeworld",
+    "t": 2265.1,
+    "tText": "c. 2265",
+    "confidence": "estimated",
+    "category": "disaster",
+    "civ": "El-Aurian",
+    "summary": "The Borg ravage the El-Aurian homeworld; the survivors scatter as refugees across the galaxy, some reaching Federation space aboard the Lakul in 2293.",
+    "sources": [
+      "Q Who (episode)",
+      "Star Trek Generations"
+    ],
+    "ma": "El-Aurian",
+    "weight": 2
+  },
+  {
+    "id": "romulans-first-visual-contact",
+    "title": "First visual contact with the Romulans",
+    "t": 2266.3,
+    "tText": "2266",
+    "confidence": "inferred",
+    "category": "first-contact",
+    "civ": "Romulan",
+    "summary": "A cloaked Romulan warship destroys Federation outposts along the Neutral Zone. Kirk's crew intercepts its bridge signal and becomes the first to see Romulans, who turn out to be of Vulcan descent.",
+    "sources": [
+      "Balance of Terror (episode)"
+    ],
+    "ma": "Romulan",
+    "weight": 3
+  },
+  {
+    "id": "khan-revived-exiled",
+    "title": "Khan Noonien Singh revived and exiled",
+    "t": 2267.1,
+    "tText": "2267",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Human",
+    "summary": "The Enterprise finds the sleeper ship SS Botany Bay adrift with Khan Noonien Singh and his Augments in stasis. Khan tries to seize the ship and is exiled with his followers to Ceti Alpha V.",
+    "sources": [
+      "Space Seed (episode)"
+    ],
+    "ma": "Khan Noonien Singh",
+    "weight": 2
+  },
+  {
+    "id": "slingshot-to-1969",
+    "title": "Enterprise slingshots back to 1969",
+    "t": 2267.15,
+    "tText": "2267",
+    "confidence": "inferred",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "Thrown back to Earth in 1969 by a black star, the Enterprise returns by whipping around the Sun, pioneering the slingshot effect as a means of time travel.",
+    "sources": [
+      "Tomorrow is Yesterday (episode)"
+    ],
+    "ma": "Slingshot effect",
+    "weight": 1
+  },
+  {
+    "id": "gorn-first-official-contact",
+    "title": "Official first contact with the Gorn",
+    "t": 2267.3,
+    "tText": "2267",
+    "confidence": "inferred",
+    "category": "first-contact",
+    "civ": "Gorn",
+    "summary": "The Gorn destroy the Federation outpost on Cestus III, which they consider their territory. The Metrons force Kirk and the Gorn captain into single combat, and Kirk's refusal to kill earns both ships a reprieve.",
+    "sources": [
+      "Arena (episode)"
+    ],
+    "ma": "Gorn Hegemony",
+    "conflict": "SNW shows Gorn attacks on Federation ships and colonies from the 2230s to 2261 that never made it into the official record, so Starfleet still counts 2267 as first contact.",
+    "weight": 2
+  },
+  {
+    "id": "guardian-of-forever-found",
+    "title": "Guardian of Forever discovered",
+    "t": 2267.4,
+    "tText": "2267",
+    "confidence": "inferred",
+    "category": "temporal",
+    "civ": "galactic",
+    "summary": "The Enterprise finds an ancient, sentient time portal on a desolate world. A delirious McCoy changes 1930s Earth history through it, and Kirk and Spock must follow him to set history right.",
+    "sources": [
+      "The City on the Edge of Forever (episode)"
+    ],
+    "ma": "Guardian of Forever",
+    "weight": 3
+  },
+  {
+    "id": "organian-peace-treaty",
+    "title": "Organians impose the Treaty of Organia",
+    "t": 2267.5,
+    "tText": "2267",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Klingon",
+    "summary": "As a Federation–Klingon war breaks out over Organia, the Organians, beings of pure energy, disable both fleets and impose a peace treaty on the two powers.",
+    "sources": [
+      "Errand of Mercy (episode)"
+    ],
+    "ma": "Treaty of Organia",
+    "weight": 3
+  },
+  {
+    "id": "mirror-mirror-crossing",
+    "title": "Kirk seeds reform in the mirror universe",
+    "t": 2267.6,
+    "tText": "2267",
+    "confidence": "inferred",
+    "category": "temporal",
+    "civ": "Terran",
+    "summary": "A transporter accident swaps Kirk's party with their Terran Empire counterparts. Kirk urges the mirror Spock to reform the Empire, reforms that later leave it open to conquest by a Klingon–Cardassian Alliance.",
+    "sources": [
+      "Mirror, Mirror (episode)",
+      "Crossover (episode)"
+    ],
+    "ma": "Mirror universe",
+    "conflict": "Records credit Kirk's crew as the first visitors to the mirror universe, but Discovery crossed over a decade earlier in 2257, a voyage Starfleet later classified.",
+    "weight": 1
+  },
+  {
+    "id": "defiant-lost-interphase",
+    "title": "USS Defiant lost in interphase",
+    "t": 2268.1,
+    "tText": "2268",
+    "confidence": "inferred",
+    "category": "disaster",
+    "civ": "Federation",
+    "summary": "The Constitution-class Defiant vanishes into interphase in Tholian space. It resurfaces a century in the past in the mirror universe, where the Terran Empire seizes it.",
+    "sources": [
+      "The Tholian Web (episode)",
+      "In A Mirror, Darkly (episode)"
+    ],
+    "ma": "USS Defiant (NCC-1764)",
+    "weight": 1
+  },
+  {
+    "id": "romulan-cloak-stolen",
+    "title": "Starfleet steals a Romulan cloaking device",
+    "t": 2268.3,
+    "tText": "2268",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Romulan",
+    "summary": "On a covert mission, Kirk and Spock steal a Romulan cloaking device and learn that the Romulans now field Klingon-designed warships.",
+    "sources": [
+      "The Enterprise Incident (episode)"
+    ],
+    "ma": "Cloaking device",
+    "weight": 2
+  },
+  {
+    "id": "five-year-mission-ends",
+    "title": "Kirk's five-year mission ends",
+    "t": 2270.05,
+    "tText": "early 2270",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Federation",
+    "summary": "The Enterprise returns home after five years of exploration and goes into a long refit; Kirk is promoted to admiral.",
+    "sources": [
+      "Q2 (episode)",
+      "Star Trek: The Motion Picture"
+    ],
+    "ma": "Five-year mission",
+    "weight": 1
+  },
+  {
+    "id": "vger-crisis",
+    "title": "V'Ger threatens Earth",
+    "t": 2273.0,
+    "tText": "2270s (c. 2273)",
+    "confidence": "estimated",
+    "category": "disaster",
+    "civ": "galactic",
+    "summary": "A vast machine entity destroys three Klingon cruisers and Epsilon IX on its way to Earth. The refitted Enterprise finds it is Voyager 6, grown sentient; it merges with Commander Decker to evolve.",
+    "sources": [
+      "Star Trek: The Motion Picture"
+    ],
+    "ma": "V'ger",
+    "conflict": "No year is stated on screen; dialogue about Kirk's time away from the Enterprise puts the film around 2272–2273.",
+    "weight": 2
+  },
+  {
+    "id": "bozeman-time-loop",
+    "title": "USS Bozeman caught in a time loop",
+    "t": 2278.0,
+    "tText": "2278",
+    "confidence": "inferred",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "The Soyuz-class Bozeman vanishes in the Typhon Expanse, trapped in a temporal causality loop. It emerges unchanged in 2368, ninety years later.",
+    "sources": [
+      "Cause And Effect (episode)"
+    ],
+    "ma": "USS Bozeman",
+    "weight": 1
+  },
+  {
+    "id": "genesis-device-detonated",
+    "title": "Genesis Device detonated in the Mutara Nebula",
+    "t": 2285.2,
+    "tText": "2285",
+    "confidence": "inferred",
+    "category": "science",
+    "civ": "Federation",
+    "summary": "Khan escapes Ceti Alpha V, hijacks the Reliant and seizes the Genesis Device. Its detonation forms a new planet from the nebula, and Spock dies saving the Enterprise.",
+    "sources": [
+      "Star Trek II: The Wrath of Khan"
+    ],
+    "ma": "Genesis Device",
+    "weight": 3
+  },
+  {
+    "id": "excelsior-commissioned",
+    "title": "USS Excelsior commissioned",
+    "t": 2285.3,
+    "tText": "2285",
+    "confidence": "inferred",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Starfleet's transwarp prototype enters service. The transwarp drive fails its trials, but the Excelsior design becomes a mainstay of the fleet, and the ship is later commanded by Hikaru Sulu.",
+    "sources": [
+      "Star Trek III: The Search for Spock",
+      "The Star Gazer (episode)"
+    ],
+    "ma": "USS Excelsior (NCC-2000)",
+    "weight": 1
+  },
+  {
+    "id": "enterprise-1701-destroyed",
+    "title": "Enterprise destroyed over Genesis",
+    "t": 2285.4,
+    "tText": "2285",
+    "confidence": "inferred",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Kirk scuttles the aging Enterprise to kill a Klingon boarding party over the unstable Genesis Planet, ending forty years of service. Spock's body, regenerated there, is later reunited with his katra.",
+    "sources": [
+      "Star Trek III: The Search for Spock"
+    ],
+    "ma": "USS Enterprise (NCC-1701)",
+    "weight": 2
+  },
+  {
+    "id": "whale-probe",
+    "title": "Whale Probe cripples Earth",
+    "t": 2286.1,
+    "tText": "2286",
+    "confidence": "inferred",
+    "category": "disaster",
+    "civ": "galactic",
+    "summary": "An alien probe calling for the extinct humpback whales disables ships and devastates Earth's weather. Kirk's crew travels back to 1986 and brings two whales forward to answer it.",
+    "sources": [
+      "Star Trek IV: The Voyage Home"
+    ],
+    "ma": "Whale Probe",
+    "weight": 2
+  },
+  {
+    "id": "enterprise-a-commissioned",
+    "title": "USS Enterprise-A commissioned",
+    "t": 2286.2,
+    "tText": "2286",
+    "confidence": "inferred",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Demoted to captain for his unauthorized rescue of Spock, Kirk is given a new Constitution-class ship bearing the name Enterprise, registry NCC-1701-A.",
+    "sources": [
+      "Star Trek IV: The Voyage Home"
+    ],
+    "ma": "USS Enterprise (NCC-1701-A)",
+    "weight": 2
+  },
+  {
+    "id": "nimbus-iii-hostage-crisis",
+    "title": "Nimbus III hostage crisis",
+    "t": 2287.0,
+    "tText": "2287",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "galactic",
+    "summary": "Sybok seizes the three consuls of the 'Planet of Galactic Peace' — a joint Federation, Klingon and Romulan colony — and uses the Enterprise to search for Sha Ka Ree.",
+    "sources": [
+      "Star Trek V: The Final Frontier"
+    ],
+    "ma": "Nimbus III",
+    "weight": 1
+  },
+  {
+    "id": "praxis-explodes",
+    "title": "Praxis explodes",
+    "t": 2293.0,
+    "tText": "2293",
+    "confidence": "inferred",
+    "category": "disaster",
+    "civ": "Klingon",
+    "summary": "Over-mining and poor safety set off an explosion that destroys Praxis, the Klingon Empire's key energy-production moon. The ozone of Qo'noS is poisoned, giving the Empire about fifty years to live.",
+    "sources": [
+      "Star Trek VI: The Undiscovered Country"
+    ],
+    "ma": "Praxis",
+    "weight": 3
+  },
+  {
+    "id": "gorkon-assassinated",
+    "title": "Chancellor Gorkon assassinated",
+    "t": 2293.05,
+    "tText": "2293",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Klingon",
+    "summary": "Gorkon, who sought peace after Praxis, is killed aboard Kronos One by a Federation–Klingon–Romulan conspiracy against détente. Kirk and McCoy are framed and sent to Rura Penthe.",
+    "sources": [
+      "Star Trek VI: The Undiscovered Country"
+    ],
+    "ma": "Gorkon",
+    "weight": 2
+  },
+  {
+    "id": "khitomer-accords",
+    "title": "Khitomer Accords signed",
+    "t": 2293.1,
+    "tText": "2293",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Klingon",
+    "summary": "At the Khitomer Conference, Chancellor Azetbur and the Federation President sign the accords that end some seventy years of hostility, the start of nearly a century of Federation–Klingon peace.",
+    "sources": [
+      "Star Trek VI: The Undiscovered Country"
+    ],
+    "ma": "Khitomer Accords",
+    "weight": 3
+  },
+  {
+    "id": "enterprise-b-launched",
+    "title": "USS Enterprise-B launched",
+    "t": 2293.8,
+    "tText": "2293 (stardate 9715.5)",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Months after the Enterprise-A is decommissioned, the Excelsior-class Enterprise-B leaves spacedock under Captain John Harriman, not yet fully equipped, with Kirk, Scott and Chekov as guests.",
+    "sources": [
+      "Star Trek Generations"
+    ],
+    "ma": "USS Enterprise (NCC-1701-B)",
+    "weight": 2
+  },
+  {
+    "id": "kirk-lost-nexus",
+    "title": "Kirk lost in the Nexus",
+    "t": 2293.81,
+    "tText": "2293",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Human",
+    "summary": "On its maiden voyage the Enterprise-B rescues El-Aurian refugees from the Lakul and the Robert-Kirk. While Kirk modifies the deflector to free the ship from the energy ribbon, the section he is in is torn open, and he is presumed killed.",
+    "sources": [
+      "Star Trek Generations"
+    ],
+    "ma": "Nexus",
+    "weight": 3
+  },
+  {
+    "id": "jenolan-dyson-sphere",
+    "title": "USS Jenolan crashes on a Dyson sphere",
+    "t": 2294.0,
+    "tText": "2294",
+    "confidence": "inferred",
+    "category": "exploration",
+    "civ": "Federation",
+    "summary": "The transport Jenolan crashes on the surface of a Dyson sphere. Montgomery Scott survives by suspending himself in the transporter buffer and is rescued 75 years later.",
+    "sources": [
+      "Relics (episode)"
+    ],
+    "ma": "USS Jenolan",
+    "weight": 1
+  },
+  {
+    "id": "tomed-incident",
+    "title": "Tomed Incident; Romulans go silent",
+    "t": 2311.0,
+    "tText": "2311",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Romulan",
+    "summary": "A Federation–Romulan clash known as the Tomed Incident costs thousands of lives. Afterward the Romulan Star Empire withdraws from interstellar affairs for 53 years.",
+    "sources": [
+      "The Neutral Zone (episode)",
+      "The Pegasus (episode)"
+    ],
+    "ma": "Tomed Incident",
+    "weight": 3
+  },
+  {
+    "id": "treaty-of-algeron",
+    "title": "Treaty of Algeron signed",
+    "t": 2311.05,
+    "tText": "2311",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Romulan",
+    "summary": "The peace that follows the Tomed Incident reaffirms and redraws the Romulan Neutral Zone and commits the Federation to neither develop nor use cloaking technology.",
+    "sources": [
+      "The Pegasus (episode)",
+      "The Defector (episode)"
+    ],
+    "ma": "Treaty of Algeron",
+    "weight": 2
+  },
+  {
+    "id": "occupation-of-bajor-begins",
+    "title": "Cardassian occupation of Bajor begins",
+    "t": 2319.0,
+    "tText": "2319 (annexed 2328)",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Cardassian",
+    "summary": "The Cardassian Union asserts control over Bajor, formally annexing it in 2328. Half a century of strip-mining, forced labor and atrocities follows, resisted by Bajoran cells.",
+    "sources": [
+      "Emissary (episode)",
+      "Ensign Ro (episode)",
+      "Waltz (episode)"
+    ],
+    "ma": "Occupation of Bajor",
+    "conflict": "Its length is given as forty years (TNG 'Ensign Ro'; Dukat in DS9 'Waltz'), fifty (the usual figure, giving 2319–2369) and sixty (DS9 'Emissary'); 'Things Past' would even imply 2316.",
+    "weight": 3
+  },
+  {
+    "id": "section-31-godsend",
+    "title": "Section 31 secures the Godsend weapon",
+    "t": 2320.0,
+    "tText": "early 24th century",
+    "confidence": "estimated",
+    "category": "war",
+    "civ": "Federation",
+    "summary": "A Section 31 team — including a young Lieutenant Rachel Garrett — recruits the exiled mirror-universe Emperor Philippa Georgiou to keep the Godsend, a Terran doomsday weapon, from being sold beyond the Federation's borders.",
+    "sources": [
+      "Star Trek: Section 31"
+    ],
+    "ma": "Godsend",
+    "weight": 1
+  },
+  {
+    "id": "battle-of-narendra-iii",
+    "title": "Enterprise-C lost at Narendra III",
+    "t": 2344.0,
+    "tText": "2344",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Klingon",
+    "summary": "Answering a distress call, Captain Rachel Garrett's Enterprise-C is destroyed defending the Klingon outpost on Narendra III from four Romulan warbirds. The sacrifice convinces the Klingons of Federation honor and cements their alliance.",
+    "sources": [
+      "Yesterday's Enterprise (episode)",
+      "Redemption II (episode)"
+    ],
+    "ma": "Battle of Narendra III",
+    "weight": 2
+  },
+  {
+    "id": "khitomer-massacre",
+    "title": "Khitomer Massacre",
+    "t": 2346.0,
+    "tText": "2346 (stardate 23859.7)",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Klingon",
+    "summary": "Using defense codes supplied by the Klingon traitor Ja'rod of the House of Duras, Romulan warships destroy the Khitomer colony. Among the few survivors is the young Worf, who is raised by Human foster parents.",
+    "sources": [
+      "Sins of The Father (episode)",
+      "Heart of Glory (episode)"
+    ],
+    "ma": "Khitomer Massacre",
+    "weight": 2
+  },
+  {
+    "id": "terok-nor-built",
+    "title": "Terok Nor built in orbit of Bajor",
+    "t": 2346.3,
+    "tText": "2346",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Cardassian",
+    "summary": "Bajoran slave labor completes Terok Nor, a Cardassian ore-processing station over Bajor. After the occupation it becomes Deep Space 9.",
+    "sources": [
+      "Wrongs Darker Than Death or Night (episode)",
+      "Babel (episode)"
+    ],
+    "ma": "Deep Space 9",
+    "conflict": "DS9 'Wrongs Darker Than Death or Night' shows the station nearly finished in 2346, while Odo's remark in 'Babel' implies it was built in 2351.",
+    "weight": 1
+  },
+  {
+    "id": "setlik-iii-massacre",
+    "title": "Federation–Cardassian War; Setlik III massacre",
+    "t": 2347.0,
+    "tText": "2347",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Cardassian",
+    "summary": "Border conflict with the Cardassian Union turns to war. Believing Setlik III is a staging base, Cardassian troops massacre most of the outpost's inhabitants; skirmishes continue into the 2360s.",
+    "sources": [
+      "The Wounded (episode)"
+    ],
+    "ma": "Federation-Cardassian War",
+    "weight": 2
+  },
+  {
+    "id": "battle-of-maxia",
+    "title": "Stargazer lost at the Battle of Maxia",
+    "t": 2355.0,
+    "tText": "2355",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Ferengi",
+    "summary": "An unidentified ship — later revealed as Ferengi — attacks Captain Picard's Stargazer at Maxia Zeta. Picard destroys it with the 'Picard maneuver' but must abandon his crippled ship.",
+    "sources": [
+      "The Battle (episode)"
+    ],
+    "ma": "Battle of Maxia",
+    "weight": 1
+  },
+  {
+    "id": "raven-assimilated",
+    "title": "USS Raven assimilated by the Borg",
+    "t": 2356.0,
+    "tText": "2356",
+    "confidence": "inferred",
+    "category": "first-contact",
+    "civ": "Borg",
+    "summary": "Exobiologists Magnus and Erin Hansen, who had pursued rumors of the Borg without a flight plan, are assimilated with their daughter Annika. Nine years before official first contact, Annika becomes Seven of Nine.",
+    "sources": [
+      "The Raven (episode)",
+      "Dark Frontier (episode)"
+    ],
+    "ma": "USS Raven",
+    "conflict": "Official first contact with the Borg is recorded in 2365; the Hansens' private research into them began a decade earlier.",
+    "weight": 1
+  },
+  {
+    "id": "tzenkethi-war",
+    "title": "Federation–Tzenkethi War",
+    "t": 2362.0,
+    "tText": "before 2367",
+    "confidence": "estimated",
+    "category": "war",
+    "civ": "Tzenkethi",
+    "summary": "The Federation fights a war against the Tzenkethi Coalition; Benjamin Sisko serves as first officer of the USS Okinawa under Captain Leyton during the conflict.",
+    "sources": [
+      "The Adversary (episode)",
+      "Paradise Lost (episode)"
+    ],
+    "ma": "Federation-Tzenkethi War",
+    "weight": 1
+  },
+  {
+    "id": "enterprise-d-launched",
+    "title": "USS Enterprise-D launched",
+    "t": 2363.76,
+    "tText": "2363 (stardate 40759.5)",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "The Galaxy-class Enterprise-D, built at Utopia Planitia, is launched from Mars and becomes the Federation flagship under Captain Jean-Luc Picard, carrying families as well as crew.",
+    "sources": [
+      "Encounter at Farpoint (episode)",
+      "Data's Day (episode)"
+    ],
+    "ma": "USS Enterprise (NCC-1701-D)",
+    "weight": 3
+  },
+  {
+    "id": "q-farpoint-trial",
+    "title": "Q puts humanity on trial",
+    "t": 2364.154,
+    "tText": "2364",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Q",
+    "summary": "At Farpoint Station the omnipotent entity Q halts the Enterprise-D and charges humanity with savagery; the crew's handling of the Farpoint mystery wins a reprieve, and the Continuum's long interest in humans begins.",
+    "sources": [
+      "Encounter at Farpoint (episode)"
+    ],
+    "ma": "Q Continuum",
+    "weight": 2
+  },
+  {
+    "id": "ferengi-official-first-contact",
+    "title": "Official first contact with the Ferengi",
+    "t": 2364.386,
+    "tText": "2364",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Ferengi",
+    "summary": "Near Delphi Ardu, the Enterprise-D meets the Ferengi face to face, putting a face to a species known until then only by rumor.",
+    "sources": [
+      "The Last Outpost (episode)"
+    ],
+    "ma": "Ferengi Alliance",
+    "conflict": "ENT 'Acquisition' shows Ferengi boarding the Enterprise NX-01 in 2151, but no names were exchanged, so the Federation dates first contact to 2364.",
+    "weight": 2
+  },
+  {
+    "id": "parasite-conspiracy",
+    "title": "Parasites infiltrate Starfleet Command",
+    "t": 2364.776,
+    "tText": "2364",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Federation",
+    "summary": "Neural parasites take over senior officers at Starfleet Command. Picard and Riker expose the plot and kill the mother creature, but a homing beacon has already been sent into deep space.",
+    "sources": [
+      "Coming of Age (episode)",
+      "Conspiracy (episode)"
+    ],
+    "ma": "Neural parasite",
+    "weight": 2
+  },
+  {
+    "id": "romulans-return-2364",
+    "title": "Romulans end their isolation",
+    "t": 2364.986,
+    "tText": "2364",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Romulan",
+    "summary": "Outposts on both sides of the Neutral Zone are wiped out — later blamed on the Borg — and a Romulan warbird confronts the Enterprise-D, ending the Empire's half-century of silence.",
+    "sources": [
+      "The Neutral Zone (episode)"
+    ],
+    "ma": "Romulan Star Empire",
+    "weight": 2
+  },
+  {
+    "id": "data-measure-of-a-man",
+    "title": "Data ruled free to choose",
+    "t": 2365.524,
+    "tText": "2365",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Federation",
+    "summary": "A JAG hearing at Starbase 173 rules that the android Data is not Starfleet property and may refuse to be disassembled for study, a landmark for the rights of artificial life.",
+    "sources": [
+      "The Measure Of A Man (episode)"
+    ],
+    "ma": "Data",
+    "weight": 2
+  },
+  {
+    "id": "borg-first-contact-q-who",
+    "title": "Official first contact with the Borg",
+    "t": 2365.761,
+    "tText": "2365",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Borg",
+    "summary": "To humble Picard, Q flings the Enterprise-D 7,000 light-years to System J-25, where a Borg cube kills 18 crew before Picard asks Q for help. The Borg now know the Federation exists.",
+    "sources": [
+      "Q Who (episode)"
+    ],
+    "ma": "Federation-Borg conflict",
+    "conflict": "Earlier encounters were never named: drones from the 2063 sphere in 2153 (ENT 'Regeneration') and the Hansens' research from the 2350s.",
+    "weight": 3
+  },
+  {
+    "id": "cardassian-war-ends",
+    "title": "Treaty ends the Cardassian War",
+    "t": 2366.4,
+    "tText": "2366",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Cardassian",
+    "summary": "A peace treaty halts the Federation–Cardassian War after two decades of fighting, though mutual suspicion and border disputes remain.",
+    "sources": [
+      "The Wounded (episode)"
+    ],
+    "ma": "Federation-Cardassian War",
+    "conflict": "TNG 'The Wounded' (2367) says the treaty was signed about a year earlier, but VOY 'Dreadnought' calls it 'the treaty of 2367'.",
+    "weight": 2
+  },
+  {
+    "id": "enterprise-c-temporal-rift",
+    "title": "Enterprise-C emerges from a temporal rift",
+    "t": 2366.625,
+    "tText": "2366",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "Fleeing Narendra III through a rift, the Enterprise-C briefly creates a timeline in which the Federation is losing a war with the Klingons. Its crew returns to 2344 to die with honor and restore history.",
+    "sources": [
+      "Yesterday's Enterprise (episode)"
+    ],
+    "ma": "USS Enterprise (NCC-1701-C)",
+    "weight": 2
+  },
+  {
+    "id": "borg-invasion-locutus",
+    "title": "Borg invade; Picard becomes Locutus",
+    "t": 2366.989,
+    "tText": "2366",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Borg",
+    "summary": "A Borg cube wipes out the New Providence colony on Jouret IV, captures Picard and assimilates him as Locutus of Borg, the Collective's voice to humanity.",
+    "sources": [
+      "The Best of Both Worlds (episode)"
+    ],
+    "ma": "Locutus of Borg",
+    "weight": 2
+  },
+  {
+    "id": "battle-of-wolf-359",
+    "title": "Battle of Wolf 359",
+    "t": 2367.001,
+    "tText": "2367",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Borg",
+    "summary": "Forty Starfleet ships meet the cube at Wolf 359; 39 are destroyed and 11,000 people die. The Enterprise-D crew stops the cube in Earth orbit by reaching Picard through the Collective.",
+    "sources": [
+      "The Best of Both Worlds, Part II (episode)",
+      "Emissary (episode)"
+    ],
+    "ma": "Battle of Wolf 359",
+    "weight": 3
+  },
+  {
+    "id": "gowron-chancellor",
+    "title": "Gowron becomes Klingon Chancellor",
+    "t": 2367.246,
+    "tText": "2367",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Klingon",
+    "summary": "Chancellor K'mpec dies of slow poisoning. With Picard as Arbiter of Succession, Gowron is left as sole candidate after Worf kills Duras.",
+    "sources": [
+      "Reunion (episode)"
+    ],
+    "ma": "Gowron",
+    "weight": 2
+  },
+  {
+    "id": "klingon-civil-war",
+    "title": "Klingon Civil War",
+    "t": 2367.99,
+    "tText": "2367–2368",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Klingon",
+    "summary": "The House of Duras, secretly supplied by the Romulans, challenges Gowron. A Federation tachyon-detection blockade exposes the Romulan supply line and Gowron's side wins.",
+    "sources": [
+      "Redemption (episode)",
+      "Redemption II (episode)"
+    ],
+    "ma": "Klingon Civil War",
+    "weight": 3
+  },
+  {
+    "id": "spock-unification-mission",
+    "title": "Spock goes underground on Romulus",
+    "t": 2368.233,
+    "tText": "2368",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Romulan",
+    "summary": "Ambassador Spock secretly joins a Romulan dissident movement seeking reunification with Vulcan. With Picard and Data he foils a Romulan plan to invade Vulcan under cover of the movement.",
+    "sources": [
+      "Unification I (episode)",
+      "Unification II (episode)"
+    ],
+    "ma": "Unification",
+    "weight": 2
+  },
+  {
+    "id": "cardassians-withdraw-bajor",
+    "title": "Cardassians withdraw from Bajor",
+    "t": 2369.36,
+    "tText": "2369",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Bajoran",
+    "summary": "Worn down by the Bajoran Resistance, the Cardassian Union ends the occupation. Bajor's provisional government asks Starfleet to run the stripped station Terok Nor, now renamed Deep Space 9, under Commander Benjamin Sisko.",
+    "sources": [
+      "Emissary (episode)"
+    ],
+    "ma": "Occupation of Bajor",
+    "weight": 3
+  },
+  {
+    "id": "bajoran-wormhole-discovered",
+    "title": "Bajoran wormhole discovered",
+    "t": 2369.379,
+    "tText": "2369 (stardate 46379.1)",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Bajoran",
+    "summary": "Sisko and Jadzia Dax find the first known stable wormhole, linking Bajor to the Gamma Quadrant. Its non-linear inhabitants — the Bajorans' Prophets — name Sisko their Emissary.",
+    "sources": [
+      "Emissary (episode)"
+    ],
+    "ma": "Bajoran wormhole",
+    "weight": 3
+  },
+  {
+    "id": "progenitor-message-found",
+    "title": "Progenitor message decoded",
+    "t": 2369.731,
+    "tText": "2369",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "galactic",
+    "summary": "Completing Professor Galen's research, Federation, Cardassian, Klingon and Romulan crews assemble a hidden message: an ancient humanoid species seeded life on many worlds, explaining why the quadrant's peoples look alike.",
+    "sources": [
+      "The Chase (episode)"
+    ],
+    "ma": "Progenitor",
+    "weight": 2
+  },
+  {
+    "id": "kahless-clone-emperor",
+    "title": "Clone of Kahless made Emperor",
+    "t": 2369.852,
+    "tText": "2369",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Klingon",
+    "summary": "Clerics of Boreth unveil a clone of the legendary Kahless. Gowron accepts him as a ceremonial Emperor, reviving a title vacant for three centuries.",
+    "sources": [
+      "Rightful Heir (episode)"
+    ],
+    "ma": "Kahless (clone)",
+    "weight": 1
+  },
+  {
+    "id": "warp-speed-limit",
+    "title": "Federation imposes a warp speed limit",
+    "t": 2370.31,
+    "tText": "2370",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Federation",
+    "summary": "Hekaran scientists prove that high warp speeds tear subspace. The Federation limits ships to warp 5 except in emergencies, spurring nacelle designs that avoid the damage.",
+    "sources": [
+      "Force of Nature (episode)"
+    ],
+    "ma": "Hekaras Corridor",
+    "conflict": "No repeal is ever mentioned, yet later ships routinely exceed warp 5 with no reference to the limit.",
+    "weight": 1
+  },
+  {
+    "id": "pegasus-phase-cloak",
+    "title": "Illegal phasing cloak exposed",
+    "t": 2370.457,
+    "tText": "2370",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Federation",
+    "summary": "Picard reveals to the Romulans that the lost USS Pegasus had tested a phasing cloak in violation of the Treaty of Algeron, a Starfleet cover-up dating back to 2358.",
+    "sources": [
+      "The Pegasus (episode)"
+    ],
+    "ma": "Phasing cloaking device",
+    "weight": 1
+  },
+  {
+    "id": "cardassian-treaty-dmz",
+    "title": "Treaty creates the Cardassian DMZ",
+    "t": 2370.55,
+    "tText": "2370",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Cardassian",
+    "summary": "A new Federation–Cardassian treaty redraws the border and creates a Demilitarized Zone, leaving Federation colonists on worlds ceded to Cardassia.",
+    "sources": [
+      "Journey's End (episode)",
+      "The Maquis, Part I (episode)"
+    ],
+    "ma": "Federation-Cardassian Treaty",
+    "weight": 3
+  },
+  {
+    "id": "maquis-formed",
+    "title": "Maquis resistance takes up arms",
+    "t": 2370.65,
+    "tText": "2370",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Federation",
+    "summary": "Colonists who refuse to leave their homes in the DMZ, joined by sympathetic Starfleet officers, form the Maquis and wage guerrilla war on the Cardassians.",
+    "sources": [
+      "The Maquis, Part I (episode)",
+      "The Maquis, Part II (episode)",
+      "Preemptive Strike (episode)"
+    ],
+    "ma": "Maquis",
+    "weight": 2
+  },
+  {
+    "id": "dominion-first-contact",
+    "title": "First contact with the Dominion",
+    "t": 2370.9,
+    "tText": "2370",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Dominion",
+    "summary": "Jem'Hadar soldiers declare the Gamma Quadrant closed to outsiders and destroy the Galaxy-class USS Odyssey, revealing the power of the Dominion beyond the wormhole.",
+    "sources": [
+      "The Jem'Hadar (episode)"
+    ],
+    "ma": "Dominion",
+    "weight": 3
+  },
+  {
+    "id": "anti-time-trial",
+    "title": "Q's anti-time trial of humanity",
+    "t": 2370.988,
+    "tText": "2370",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Q",
+    "summary": "Q ends his trial by sending Picard across three time periods, where an anti-time anomaly spreading backward from the Devron system threatens to prevent life on Earth. Picard's insight collapses it.",
+    "sources": [
+      "All Good Things... (episode)"
+    ],
+    "ma": "Anti-time",
+    "weight": 1
+  },
+  {
+    "id": "uss-defiant-deployed",
+    "title": "USS Defiant assigned to Deep Space 9",
+    "t": 2371.207,
+    "tText": "2371",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Starfleet sends the prototype Defiant — a warship designed to fight the Borg — to DS9, equipped with a Romulan cloak on loan in exchange for intelligence on the Dominion.",
+    "sources": [
+      "The Search, Part I (episode)"
+    ],
+    "ma": "USS Defiant (2370)",
+    "weight": 1
+  },
+  {
+    "id": "founders-revealed",
+    "title": "Founders revealed as Changelings",
+    "t": 2371.212,
+    "tText": "2371",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Dominion",
+    "summary": "Searching for the Dominion's rulers, the crew of the new USS Defiant finds that the Founders are shapeshifting Changelings — Odo's own people.",
+    "sources": [
+      "The Search, Part I (episode)",
+      "The Search, Part II (episode)"
+    ],
+    "ma": "Founder",
+    "weight": 2
+  },
+  {
+    "id": "temporal-prime-directive",
+    "title": "Temporal Prime Directive in force",
+    "t": 2371.3,
+    "tText": "by 2371",
+    "confidence": "inferred",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "In 2368 Picard could only guess that the future might have such a rule; by 2371 Starfleet officers are bound by a Temporal Prime Directive forbidding interference with the course of history.",
+    "sources": [
+      "A Matter Of Time (episode)",
+      "Shattered (episode)",
+      "Relativity (episode)"
+    ],
+    "ma": "Temporal Prime Directive",
+    "weight": 2
+  },
+  {
+    "id": "voyager-lost-delta-quadrant",
+    "title": "Voyager pulled into the Delta Quadrant",
+    "t": 2371.316,
+    "tText": "2371 (stardate 48315.6)",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Federation",
+    "summary": "Chasing a Maquis ship, the new Intrepid-class Voyager is pulled 70,000 light-years by the Caretaker. Janeway destroys the array to protect the Ocampa, stranding a combined Starfleet–Maquis crew some 75 years from home.",
+    "sources": [
+      "Caretaker (episode)"
+    ],
+    "ma": "USS Voyager",
+    "weight": 3
+  },
+  {
+    "id": "enterprise-d-destroyed",
+    "title": "Enterprise-D destroyed at Veridian III",
+    "t": 2371.632,
+    "tText": "2371",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "An attack by the Duras sisters triggers a warp-core breach. The saucer section crash-lands on Veridian III and the crew survives, but the ship is lost.",
+    "sources": [
+      "Star Trek Generations"
+    ],
+    "ma": "USS Enterprise (NCC-1701-D)",
+    "weight": 3
+  },
+  {
+    "id": "kirk-dies-veridian",
+    "title": "Kirk dies on Veridian III",
+    "t": 2371.637,
+    "tText": "2371",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Human",
+    "summary": "Drawn out of the Nexus by Picard, James T. Kirk helps stop Dr. Tolian Soran from destroying the Veridian star and dies in the attempt, 78 years after he was presumed lost.",
+    "sources": [
+      "Star Trek Generations"
+    ],
+    "ma": "James T. Kirk",
+    "weight": 3
+  },
+  {
+    "id": "omarion-nebula-ambush",
+    "title": "Tal Shiar–Obsidian Order fleet destroyed",
+    "t": 2371.75,
+    "tText": "2371",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Romulan",
+    "summary": "A joint Romulan–Cardassian fleet attacks the Founders' homeworld in the Omarion Nebula, only to fall into a Jem'Hadar trap. The Obsidian Order is destroyed and the Tal Shiar badly crippled.",
+    "sources": [
+      "Improbable Cause (episode)",
+      "The Die is Cast (episode)"
+    ],
+    "ma": "Battle of the Omarion Nebula",
+    "weight": 2
+  },
+  {
+    "id": "klingons-invade-cardassia",
+    "title": "Klingons invade Cardassia, quit Khitomer",
+    "t": 2372.011,
+    "tText": "2372",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Klingon",
+    "summary": "Suspecting Dominion influence in a Cardassian civilian uprising, Gowron invades the Cardassian Union. When the Federation condemns the attack, the Klingons withdraw from the Khitomer Accords.",
+    "sources": [
+      "The Way of the Warrior (episode)"
+    ],
+    "ma": "Klingon-Cardassian War",
+    "weight": 2
+  },
+  {
+    "id": "enterprise-e-launched",
+    "title": "USS Enterprise-E launched",
+    "t": 2372.03,
+    "tText": "2372",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "The Sovereign-class Enterprise-E launches from the San Francisco Fleet Yards under Captain Picard, about a year after the loss of the Enterprise-D.",
+    "sources": [
+      "Star Trek: First Contact"
+    ],
+    "ma": "USS Enterprise (NCC-1701-E)",
+    "weight": 2
+  },
+  {
+    "id": "antwerp-bombing-coup",
+    "title": "Antwerp bombing; coup attempt on Earth",
+    "t": 2372.17,
+    "tText": "2372",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Federation",
+    "summary": "A Changeling bombs a Federation–Romulan conference in Antwerp. Admiral Leyton exploits the fear to stage a coup against President Jaresh-Inyo, which Sisko exposes.",
+    "sources": [
+      "Homefront (episode)",
+      "Paradise Lost (episode)"
+    ],
+    "ma": "Antwerp Conference",
+    "weight": 2
+  },
+  {
+    "id": "federation-klingon-war-2372",
+    "title": "Federation–Klingon War of 2372–73",
+    "t": 2372.85,
+    "tText": "late 2372–mid-2373",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Klingon",
+    "summary": "With the alliance broken, the Federation and the Klingon Empire fight a brief but bitter war, provoked by a Changeling impersonating General Martok.",
+    "sources": [
+      "Broken Link (episode)",
+      "Apocalypse Rising (episode)",
+      "By Inferno's Light (episode)"
+    ],
+    "ma": "Federation-Klingon War (2372-73)",
+    "weight": 2
+  },
+  {
+    "id": "dti-tribble-investigation",
+    "title": "DTI investigates the Defiant's time jump",
+    "t": 2373.3,
+    "tText": "2373",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "Agents Dulmur and Lucsly of the Department of Temporal Investigations — an agency that did not yet exist in the 2260s — debrief Sisko after the Defiant is thrown back to Space Station K-7 in 2268. Kirk's file lists seventeen temporal violations.",
+    "sources": [
+      "Trials and Tribble-ations (episode)",
+      "Tomorrow and Tomorrow and Tomorrow (episode)"
+    ],
+    "ma": "Department of Temporal Investigations",
+    "weight": 2
+  },
+  {
+    "id": "bajor-federation-bid-deferred",
+    "title": "Bajor's Federation entry deferred",
+    "t": 2373.45,
+    "tText": "2373",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Bajoran",
+    "summary": "Acting on a vision as Emissary, Sisko persuades Bajor not to join the Federation on the eve of its admission. Months later Bajor signs a non-aggression pact with the Dominion, which spares it from the coming war.",
+    "sources": [
+      "Rapture (episode)",
+      "Call to Arms (episode)"
+    ],
+    "ma": "Bajor",
+    "weight": 1
+  },
+  {
+    "id": "cardassia-joins-dominion",
+    "title": "Cardassia joins the Dominion",
+    "t": 2373.564,
+    "tText": "2373",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Cardassian",
+    "summary": "Gul Dukat brings the Cardassian Union into the Dominion and Jem'Hadar fleets pour through the wormhole. Facing the threat, the Klingons rejoin the Khitomer Accords.",
+    "sources": [
+      "By Inferno's Light (episode)"
+    ],
+    "ma": "Cardassian Union",
+    "weight": 3
+  },
+  {
+    "id": "battle-of-sector-001",
+    "title": "Battle of Sector 001",
+    "t": 2373.894,
+    "tText": "2373 (stardate 50893.5)",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Borg",
+    "summary": "A second Borg cube reaches Earth and is destroyed with the Enterprise-E's help. A sphere escapes to 2063 to stop Zefram Cochrane's warp flight, and Picard's crew follows to protect first contact.",
+    "sources": [
+      "Star Trek: First Contact"
+    ],
+    "ma": "Battle of Sector 001",
+    "weight": 3
+  },
+  {
+    "id": "dominion-war-begins",
+    "title": "Dominion War begins",
+    "t": 2373.975,
+    "tText": "2373",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Dominion",
+    "summary": "Starfleet mines the wormhole's mouth to stop Dominion reinforcements. The Dominion and Cardassians seize Deep Space 9, and full-scale war breaks out with the Federation–Klingon alliance.",
+    "sources": [
+      "Call to Arms (episode)"
+    ],
+    "ma": "Dominion War",
+    "weight": 3
+  },
+  {
+    "id": "species-8472-first-contact",
+    "title": "First contact with Species 8472",
+    "t": 2373.984,
+    "tText": "2373–2374",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Species 8472",
+    "summary": "Voyager finds the Borg losing a war against Species 8472 from fluidic space. Janeway forges a temporary alliance with the Collective to build a weapon that drives the invaders back.",
+    "sources": [
+      "Scorpion (episode)",
+      "Scorpion, Part II (episode)"
+    ],
+    "ma": "Species 8472",
+    "weight": 2
+  },
+  {
+    "id": "operation-return",
+    "title": "Operation Return retakes Deep Space 9",
+    "t": 2374.25,
+    "tText": "2374",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Dominion",
+    "summary": "A Federation–Klingon fleet breaks the Dominion line, and the Prophets erase a Dominion reinforcement fleet inside the wormhole. The allies retake the station.",
+    "sources": [
+      "Favor the Bold (episode)",
+      "Sacrifice of Angels (episode)"
+    ],
+    "ma": "Operation Return",
+    "weight": 2
+  },
+  {
+    "id": "year-of-hell",
+    "title": "Krenim timeship's Year of Hell",
+    "t": 2374.3,
+    "tText": "2374 (erased timeline)",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Krenim",
+    "summary": "Annorax's Krenim weapon ship rewrites Delta Quadrant history in search of a perfect restoration of his people, battering Voyager for a year. When it is destroyed, the timeline resets and the year never happens.",
+    "sources": [
+      "Year of Hell (episode)",
+      "Year of Hell, Part II (episode)"
+    ],
+    "ma": "Year of Hell (episode)",
+    "weight": 1
+  },
+  {
+    "id": "voyager-contacts-starfleet",
+    "title": "Voyager contacts Starfleet",
+    "t": 2374.462,
+    "tText": "2374",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Federation",
+    "summary": "Sent through an alien relay network, Voyager's EMH reaches the USS Prometheus. Starfleet learns the ship survived, and letters from home follow.",
+    "sources": [
+      "Message in a Bottle (episode)",
+      "Hunters (episode)"
+    ],
+    "ma": "USS Voyager",
+    "weight": 2
+  },
+  {
+    "id": "section-31-exposed",
+    "title": "Section 31 exposed",
+    "t": 2374.6,
+    "tText": "2374",
+    "confidence": "explicit",
+    "category": "institution",
+    "civ": "Federation",
+    "summary": "Julian Bashir is tested by Section 31, a covert agency claiming authority from the original Starfleet Charter. It later infects the Founders with a lethal disease.",
+    "sources": [
+      "Inquisition (episode)",
+      "When It Rains... (episode)"
+    ],
+    "ma": "Section 31",
+    "weight": 2
+  },
+  {
+    "id": "romulans-join-dominion-war",
+    "title": "Romulans join the Dominion War",
+    "t": 2374.721,
+    "tText": "2374",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Romulan",
+    "summary": "The assassination of Senator Vreenak, made to look like a Dominion act by Garak with Sisko's reluctant approval, brings the Romulan Star Empire into the war on the allied side.",
+    "sources": [
+      "In the Pale Moonlight (episode)"
+    ],
+    "ma": "Dominion War",
+    "weight": 2
+  },
+  {
+    "id": "chintoka-wormhole-closed",
+    "title": "Battle of Chin'toka; wormhole closes",
+    "t": 2374.97,
+    "tText": "2374",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Cardassian",
+    "summary": "The allies win their first major foothold in Cardassian space, but a Pah-wraith kills Jadzia Dax and seals the Bajoran wormhole, cutting Bajor off from the Prophets for months.",
+    "sources": [
+      "Tears of the Prophets (episode)"
+    ],
+    "ma": "First Battle of Chin'toka",
+    "weight": 2
+  },
+  {
+    "id": "baku-relocation-halted",
+    "title": "Ba'ku relocation halted",
+    "t": 2375.3,
+    "tText": "2375",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Federation",
+    "summary": "Picard defies a Federation–Son'a plan to harvest the rejuvenating metaphasic radiation of the Ba'ku planet by secretly relocating its people.",
+    "sources": [
+      "Star Trek: Insurrection"
+    ],
+    "ma": "Ba'ku",
+    "weight": 1
+  },
+  {
+    "id": "breen-attack-earth",
+    "title": "Breen attack Starfleet Headquarters",
+    "t": 2375.7,
+    "tText": "2375",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Breen",
+    "summary": "The Breen Confederacy joins the Dominion and raids San Francisco, damaging Starfleet Headquarters. Their energy-dampening weapon then devastates an allied fleet at Chin'toka.",
+    "sources": [
+      "The Changing Face of Evil (episode)"
+    ],
+    "ma": "Breen attack on Earth",
+    "weight": 2
+  },
+  {
+    "id": "cardassian-rebellion",
+    "title": "Damar leads a Cardassian rebellion",
+    "t": 2375.72,
+    "tText": "2375",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Cardassian",
+    "summary": "Legate Damar turns against the Dominion and leads a Cardassian Liberation Front. When Cardassia rises, the Dominion begins exterminating its population.",
+    "sources": [
+      "The Changing Face of Evil (episode)",
+      "What You Leave Behind (episode)"
+    ],
+    "ma": "Cardassian Liberation Front",
+    "weight": 2
+  },
+  {
+    "id": "martok-chancellor",
+    "title": "Martok becomes Klingon Chancellor",
+    "t": 2375.8,
+    "tText": "2375",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Klingon",
+    "summary": "Worf kills Gowron in combat after the Chancellor's reckless strategy endangers the war effort and hands leadership of the Empire to General Martok.",
+    "sources": [
+      "Tacking Into the Wind (episode)"
+    ],
+    "ma": "Martok",
+    "weight": 2
+  },
+  {
+    "id": "rom-grand-nagus",
+    "title": "Rom becomes Grand Nagus",
+    "t": 2375.861,
+    "tText": "2375",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Ferengi",
+    "summary": "Zek retires and names Rom his successor, handing him a Ferengi Alliance newly reformed with rights for women and the first social programs.",
+    "sources": [
+      "The Dogs of War (episode)"
+    ],
+    "ma": "Rom",
+    "weight": 2
+  },
+  {
+    "id": "dominion-war-ends",
+    "title": "Dominion War ends",
+    "t": 2375.902,
+    "tText": "2375",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Dominion",
+    "summary": "The allies besiege Cardassia Prime; Odo links with the Female Changeling and cures her of the disease, and the Dominion surrenders. Some 800 million Cardassians have died.",
+    "sources": [
+      "What You Leave Behind (episode)"
+    ],
+    "ma": "Dominion War Declaration of Peace",
+    "weight": 3
+  },
+  {
+    "id": "sisko-joins-prophets",
+    "title": "Sisko joins the Prophets",
+    "t": 2375.907,
+    "tText": "2375",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Bajoran",
+    "summary": "Defeating Dukat and the Pah-wraiths in the Fire Caves, Benjamin Sisko passes into the wormhole to live among the Prophets.",
+    "sources": [
+      "What You Leave Behind (episode)"
+    ],
+    "ma": "Benjamin Sisko",
+    "weight": 2
+  },
+  {
+    "id": "pathfinder-project",
+    "title": "Pathfinder opens regular contact with Voyager",
+    "t": 2376.3,
+    "tText": "2376",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Federation",
+    "summary": "Reginald Barclay's Pathfinder Project uses a micro-wormhole to open a communication link with Voyager, later a regular monthly exchange.",
+    "sources": [
+      "Pathfinder (episode)",
+      "Life Line (episode)"
+    ],
+    "ma": "Pathfinder Project",
+    "weight": 1
+  },
+  {
+    "id": "doctor-holonovel-ruling",
+    "title": "Arbiter rules the Doctor an artist",
+    "t": 2378.05,
+    "tText": "2378",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Federation",
+    "summary": "A Federation arbiter rules that Voyager's EMH may control his holonovel as its artist, though not yet that he is a person — a first step for holographic rights.",
+    "sources": [
+      "Author, Author (episode)"
+    ],
+    "ma": "Photons Be Free",
+    "weight": 1
+  },
+  {
+    "id": "voyager-returns-home",
+    "title": "Voyager returns to Earth",
+    "t": 2378.1,
+    "tText": "2378",
+    "confidence": "explicit",
+    "category": "exploration",
+    "civ": "Federation",
+    "summary": "An Admiral Janeway from 2404 travels back to guide Voyager home through a Borg transwarp hub, crippling the network and infecting the Borg Queen with a neurolytic pathogen.",
+    "sources": [
+      "Endgame (episode)"
+    ],
+    "ma": "USS Voyager",
+    "weight": 3
+  },
+  {
+    "id": "shinzon-reman-coup",
+    "title": "Shinzon's Reman coup on Romulus",
+    "t": 2379.825,
+    "tText": "2379",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Romulan",
+    "summary": "Shinzon, a Reman-raised clone of Picard, wipes out the Romulan Senate with thalaron radiation and seizes power, then plots to destroy all life on Earth before dying at the Bassen Rift.",
+    "sources": [
+      "Star Trek Nemesis"
+    ],
+    "ma": "Shinzon",
+    "weight": 2
+  },
+  {
+    "id": "data-dies-scimitar",
+    "title": "Data dies aboard the Scimitar",
+    "t": 2379.845,
+    "tText": "2379",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Federation",
+    "summary": "Data sacrifices himself to destroy Shinzon's thalaron weapon and save Picard; his memories live on in the prototype android B-4.",
+    "sources": [
+      "Star Trek Nemesis"
+    ],
+    "ma": "Data",
+    "weight": 2
+  },
+  {
+    "id": "riker-commands-titan",
+    "title": "Riker takes command of USS Titan",
+    "t": 2379.855,
+    "tText": "2379",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Newly promoted, Captain William Riker leaves the Enterprise-E to command the Luna-class Titan and leads a task force to the Romulan Neutral Zone as the Federation opens talks with the post-Shinzon government.",
+    "sources": [
+      "Star Trek Nemesis"
+    ],
+    "ma": "USS Titan (NCC-80102)",
+    "weight": 2
+  },
+  {
+    "id": "romulan-evacuation-armada",
+    "title": "Starfleet begins the Romulan evacuation",
+    "t": 2381.2,
+    "tText": "2381",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Romulan",
+    "summary": "Warned that the Romulan star will go supernova, the Star Empire asks for help. Picard is promoted to admiral and leaves the Enterprise-E to lead a rescue armada meant to move 900 million Romulans.",
+    "sources": [
+      "Remembrance (episode)",
+      "The Stars At Night (episode)"
+    ],
+    "ma": "Romulus (star)",
+    "weight": 2
+  },
+  {
+    "id": "ferengi-begin-federation-accession",
+    "title": "Ferenginar begins joining the Federation",
+    "t": 2381.6,
+    "tText": "2381",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Ferengi",
+    "summary": "Under Grand Nagus Rom, and with its trade routes battered by raids from the rogue ship Nova One, Ferenginar begins the formal process of joining the Federation, overseen by Captain Carol Freeman.",
+    "sources": [
+      "Parth Ferengi's Heart Place (episode)"
+    ],
+    "ma": "Ferengi Alliance",
+    "weight": 2
+  },
+  {
+    "id": "voyager-to-fleet-museum",
+    "title": "Voyager retired to the Fleet Museum",
+    "t": 2381.7,
+    "tText": "2381",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "The Cerritos prepares the famous USS Voyager for its final trip to Earth, where it is placed on display in the Starfleet Fleet Museum.",
+    "sources": [
+      "I Have No Bones Yet I Must Flee (episode)"
+    ],
+    "ma": "Fleet Museum",
+    "weight": 1
+  },
+  {
+    "id": "quantum-fissure-outbreak",
+    "title": "Quantum fissures erupt across the multiverse",
+    "t": 2382.3,
+    "tText": "2382",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "galactic",
+    "summary": "Rifts into parallel universes open across Federation space, triggered by a ship exploring the multiverse. The Cerritos, tasked with sealing them, ends up confronting the crisis at its source.",
+    "sources": [
+      "Dos Cerritos (episode)",
+      "Fissure Quest (episode)",
+      "The New Next Generation (episode)"
+    ],
+    "ma": "Quantum fissure",
+    "weight": 1
+  },
+  {
+    "id": "protostar-launched",
+    "title": "USS Protostar launched with proto-warp",
+    "t": 2382.749,
+    "tText": "2382",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Starfleet's experimental Protostar, driven by a captured proto-star, departs San Francisco under Captain Chakotay; it is soon lost in the Delta Quadrant.",
+    "sources": [
+      "Preludes (episode)",
+      "Asylum (episode)"
+    ],
+    "ma": "USS Protostar",
+    "weight": 1
+  },
+  {
+    "id": "living-construct-attack",
+    "title": "Living Construct attacks the fleet",
+    "t": 2384.3,
+    "tText": "2384",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Federation",
+    "summary": "The Diviner's Living Construct, hidden aboard the Protostar, turns a gathering of Starfleet ships against each other. The Protostar is sacrificed to destroy it, and its young crew is admitted to Starfleet.",
+    "sources": [
+      "Supernova, Part 1 (episode)",
+      "Supernova, Part 2 (episode)"
+    ],
+    "ma": "Living construct",
+    "weight": 1
+  },
+  {
+    "id": "voyager-a-launched",
+    "title": "USS Voyager-A launched",
+    "t": 2384.5,
+    "tText": "2384",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Vice Admiral Kathryn Janeway takes the new Voyager-A on its maiden voyage in search of the missing Chakotay; Chakotay later takes command.",
+    "sources": [
+      "Into the Breach, Part I (episode)"
+    ],
+    "ma": "USS Voyager (NCC-74656-A)",
+    "weight": 2
+  },
+  {
+    "id": "vau-nakat-crisis",
+    "title": "Vau N'Akat time war averted",
+    "t": 2385.215,
+    "tText": "2385",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Vau N'Akat",
+    "summary": "Asencia, a Vau N'Akat agent from the future, tries to turn a temporal paradox into a weapon against the Federation. The Prodigy cadets return the Protostar to its proper place in time, and Voyager-A makes official first contact with the Vau N'Akat.",
+    "sources": [
+      "Ouroboros, Part I (episode)",
+      "Ouroboros, Part II (episode)"
+    ],
+    "ma": "Vau N'Akat",
+    "weight": 1
+  },
+  {
+    "id": "attack-on-mars",
+    "title": "Synth attack on Mars",
+    "t": 2385.262,
+    "tText": "5 April 2385",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Federation",
+    "summary": "On First Contact Day, synthetic workers — secretly subverted by the Zhat Vash — destroy the Utopia Planitia Fleet Yards and the Romulan rescue armada, setting Mars ablaze and killing over 92,000 people.",
+    "sources": [
+      "Children of Mars (episode)",
+      "Remembrance (episode)"
+    ],
+    "ma": "Attack on Mars",
+    "weight": 3
+  },
+  {
+    "id": "synth-ban",
+    "title": "Federation bans synthetic life",
+    "t": 2385.292,
+    "tText": "2385",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Federation",
+    "summary": "The Federation outlaws the research, development and creation of synthetic lifeforms. Starfleet scales back and abandons the Romulan evacuation.",
+    "sources": [
+      "Remembrance (episode)",
+      "Maps and Legends (episode)"
+    ],
+    "ma": "Ban on synthetics",
+    "weight": 3
+  },
+  {
+    "id": "picard-resigns",
+    "title": "Picard resigns from Starfleet",
+    "t": 2385.375,
+    "tText": "2385",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "Admiral Picard quits in protest when Starfleet abandons the Romulan rescue, retiring to his family vineyard in France for fourteen years.",
+    "sources": [
+      "Remembrance (episode)"
+    ],
+    "ma": "Jean-Luc Picard",
+    "weight": 2
+  },
+  {
+    "id": "romulan-supernova",
+    "title": "Romulan sun goes supernova",
+    "t": 2387.5,
+    "tText": "2387",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "Romulan",
+    "summary": "The Romulan star explodes, destroying Romulus and Remus before Spock can contain it with red matter. The Star Empire collapses, and the Neutral Zone it guarded ceases to exist.",
+    "sources": [
+      "Star Trek (film)",
+      "Remembrance (episode)"
+    ],
+    "ma": "Romulus (star)",
+    "conflict": "Star Trek (2009) says the supernova threatened the whole galaxy; PIC 'Remembrance' identifies the Romulan sun itself as the star. The name 'Hobus' for the exploding star is non-canon; the canonical Hobus system still exists in 3196.",
+    "weight": 3
+  },
+  {
+    "id": "spock-nero-cross-realities",
+    "title": "Spock and Nero fall into the past",
+    "t": 2387.51,
+    "tText": "2387",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Vulcan",
+    "summary": "The red-matter singularity swallows Spock's Jellyfish and Nero's Narada and throws them back in time into a new reality: Nero emerges in 2233 and Spock in 2258. Neither returns.",
+    "sources": [
+      "Star Trek (film)"
+    ],
+    "ma": "Narada incursion reality",
+    "weight": 3
+  },
+  {
+    "id": "romulan-free-state",
+    "title": "Romulan Free State rises",
+    "t": 2390.0,
+    "tText": "after 2387",
+    "confidence": "estimated",
+    "category": "politics",
+    "civ": "Romulan",
+    "summary": "From the wreckage of the Star Empire, the Tal Shiar-backed Romulan Free State emerges as the leading successor power, running the derelict Borg cube it calls the Artifact.",
+    "sources": [
+      "Maps and Legends (episode)",
+      "Absolute Candor (episode)"
+    ],
+    "ma": "Romulan Free State",
+    "weight": 2
+  },
+  {
+    "id": "titan-a-launched",
+    "title": "USS Titan-A launched",
+    "t": 2396.0,
+    "tText": "2396",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "The Neo-Constitution-class Titan-A enters service under Captain Liam Shaw; six years later it will be renamed Enterprise.",
+    "sources": [
+      "The Next Generation (episode)"
+    ],
+    "ma": "USS Enterprise (NCC-1701-G)",
+    "weight": 1
+  },
+  {
+    "id": "synth-ban-lifted-coppelius",
+    "title": "Coppelius standoff; synth ban lifted",
+    "t": 2399.9,
+    "tText": "2399",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Federation",
+    "summary": "A Romulan fleet sent by the Zhat Vash to exterminate the synths of Coppelius withdraws after Picard persuades the synths to abandon their summons of machine super-intelligences and Starfleet arrives. The Federation lifts the synth ban after fourteen years.",
+    "sources": [
+      "Et in Arcadia Ego, Part 1 (episode)",
+      "Et in Arcadia Ego, Part 2 (episode)"
+    ],
+    "ma": "Defense of Coppelius",
+    "weight": 2
+  },
+  {
+    "id": "picard-synthetic-body",
+    "title": "Picard's mind moved to a synthetic body",
+    "t": 2399.91,
+    "tText": "2399",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Human",
+    "summary": "Picard dies of his brain abnormality and his consciousness is transferred into a synthetic 'golem' body. Data's consciousness, preserved in a quantum simulation, is ended at his request.",
+    "sources": [
+      "Et in Arcadia Ego, Part 2 (episode)"
+    ],
+    "ma": "Golem",
+    "weight": 2
+  },
+  {
+    "id": "confederation-timeline-undone",
+    "title": "Q's Confederation timeline undone",
+    "t": 2401.1,
+    "tText": "2401",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "Q shifts Picard and his companions into an alternate 2401 ruled by the xenophobic Confederation of Earth. They travel to Los Angeles in 2024 to repair the divergence and restore history.",
+    "sources": [
+      "Penance (episode)",
+      "Assimilation (episode)",
+      "Farewell (episode)"
+    ],
+    "ma": "Confederation of Earth",
+    "weight": 2
+  },
+  {
+    "id": "jurati-collective-joins",
+    "title": "A new Borg collective joins the Federation",
+    "t": 2401.15,
+    "tText": "2401",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Borg",
+    "summary": "A cooperative Borg collective, born in 2024 of Agnes Jurati and an alternate Borg Queen, reappears through a transwarp conduit and is granted provisional Federation membership to seal a dangerous spatial anomaly.",
+    "sources": [
+      "The Star Gazer (episode)",
+      "Farewell (episode)"
+    ],
+    "ma": "Jurati's Collective",
+    "weight": 2
+  },
+  {
+    "id": "voyager-b-launched",
+    "title": "USS Voyager-B readied for launch",
+    "t": 2401.2,
+    "tText": "2401",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "A third Voyager, NCC-74656-B, is scheduled for launch as a contemporary of the Enterprise-F.",
+    "sources": [
+      "The Next Generation (episode)"
+    ],
+    "ma": "USS Voyager (NCC-74656-B)",
+    "weight": 1
+  },
+  {
+    "id": "changeling-infiltration-exposed",
+    "title": "Changeling infiltration of Starfleet exposed",
+    "t": 2401.272,
+    "tText": "April 2401",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Dominion",
+    "summary": "Picard's crew uncovers renegade Changelings who have infiltrated Starfleet with new, undetectable shapeshifting, working with Vadic and the Shrike as agents of a larger Borg plot.",
+    "sources": [
+      "Seventeen Seconds (episode)",
+      "Imposters (episode)",
+      "Dominion (episode)"
+    ],
+    "ma": "Changeling",
+    "weight": 2
+  },
+  {
+    "id": "enterprise-d-restored",
+    "title": "Enterprise-D restored for one last flight",
+    "t": 2401.287,
+    "tText": "2401",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Geordi La Forge has spent two decades restoring the salvaged Enterprise-D at the Fleet Museum. Untouched by the Borg link, it is the only ship able to fly against the Collective on Frontier Day.",
+    "sources": [
+      "The Bounty (episode)",
+      "Võx (episode)"
+    ],
+    "ma": "USS Enterprise (NCC-1701-D)",
+    "weight": 2
+  },
+  {
+    "id": "frontier-day-assimilation",
+    "title": "Frontier Day: Borg seize the fleet",
+    "t": 2401.292,
+    "tText": "April 2401",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Borg",
+    "summary": "On the 250th Frontier Day, a Borg signal hidden in Starfleet's unified Fleet Formation links the fleet's young officers to the Collective and turns the ships against Earth. The recommissioned Enterprise-D's crew destroys the Borg Queen's cube.",
+    "sources": [
+      "Võx (episode)",
+      "The Last Generation (episode)"
+    ],
+    "ma": "Frontier Day",
+    "weight": 3
+  },
+  {
+    "id": "enterprise-f-decommissioned",
+    "title": "Enterprise-F retired after Frontier Day",
+    "t": 2401.302,
+    "tText": "2401",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Admiral Elizabeth Shelby's Odyssey-class flagship, slated for early decommissioning, is turned against Earth on Frontier Day; Shelby is killed by her own assimilated crew.",
+    "sources": [
+      "The Next Generation (episode)",
+      "Võx (episode)"
+    ],
+    "ma": "USS Enterprise (NCC-1701-F)",
+    "weight": 1
+  },
+  {
+    "id": "borg-collective-destroyed",
+    "title": "Borg Collective destroyed",
+    "t": 2401.307,
+    "tText": "April 2401",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Borg",
+    "summary": "With the Queen and her cube destroyed over Jupiter, the Borg Collective is believed to be finished and the assimilated officers are freed.",
+    "sources": [
+      "The Last Generation (episode)"
+    ],
+    "ma": "Borg Collective",
+    "weight": 2
+  },
+  {
+    "id": "enterprise-g-rechristened",
+    "title": "Titan-A rechristened Enterprise-G",
+    "t": 2402.3,
+    "tText": "2402",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "A year after Frontier Day, the Neo-Constitution-class Titan-A is renamed USS Enterprise NCC-1701-G in honor of the Enterprise-D crew, with Captain Seven of Nine in command.",
+    "sources": [
+      "The Last Generation (episode)"
+    ],
+    "ma": "USS Enterprise (NCC-1701-G)",
+    "weight": 2
+  },
+  {
+    "id": "admiral-janeway-2404",
+    "title": "Admiral Janeway leaves 2404 to rewrite history",
+    "t": 2404.0,
+    "tText": "2404 (erased future)",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "In a future where Voyager took 23 years to return, an aging Admiral Janeway obtains a Klingon chronal deflector and travels back to 2378 to bring her crew home sooner, erasing her own timeline.",
+    "sources": [
+      "Endgame (episode)"
+    ],
+    "ma": "Kathryn Janeway",
+    "weight": 1
+  },
+  {
+    "id": "barzan-joins-federation",
+    "title": "Barzan II joins the Federation",
+    "t": 2450.0,
+    "tText": "25th century",
+    "confidence": "estimated",
+    "category": "politics",
+    "civ": "Barzan",
+    "summary": "Some time in the 25th century the Barzans, once too poor to join, become Federation members.",
+    "sources": [
+      "Die Trying (episode)"
+    ],
+    "ma": "Barzan II",
+    "weight": 1
+  },
+  {
+    "id": "time-pod-26th-century",
+    "title": "Time pod stolen from a 26th-century historian",
+    "t": 2550.0,
+    "tText": "26th century",
+    "confidence": "estimated",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "A 26th-century historian's time pod is stolen by the 22nd-century inventor Berlinghoff Rasmussen, who uses it to pose as a historian aboard the Enterprise-D in 2368 before Picard's crew sends him back.",
+    "sources": [
+      "A Matter Of Time (episode)"
+    ],
+    "ma": "Berlinghoff Rasmussen",
+    "weight": 1
+  },
+  {
+    "id": "battle-of-procyon-v",
+    "title": "Battle of Procyon V",
+    "t": 2554.0,
+    "tText": "c. 2554",
+    "confidence": "estimated",
+    "category": "war",
+    "civ": "Federation",
+    "summary": "In a future shown to Archer by Daniels, a Federation fleet that counts Klingons and Xindi among its citizens defeats the Sphere-Builders at Procyon V and drives them back into their own realm.",
+    "sources": [
+      "Azati Prime (episode)"
+    ],
+    "ma": "Battle of Procyon V",
+    "conflict": "Seen only in a vision from Daniels; the Sphere-Builders' spheres were destroyed in 2154 ('Zero Hour'), so whether this battle still happens is uncertain.",
+    "weight": 3
+  },
+  {
+    "id": "enterprise-j-in-service",
+    "title": "USS Enterprise-J in service",
+    "t": 2554.01,
+    "tText": "26th century",
+    "confidence": "estimated",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "The Universe-class USS Enterprise NCC-1701-J, a ship far larger than any 22nd-century vessel, takes part in the Battle of Procyon V.",
+    "sources": [
+      "Azati Prime (episode)"
+    ],
+    "ma": "USS Enterprise (NCC-1701-J)",
+    "weight": 2
+  },
+  {
+    "id": "q-last-contact",
+    "title": "Last known contact with the Q",
+    "t": 2590.0,
+    "tText": "c. 2590",
+    "confidence": "estimated",
+    "category": "first-contact",
+    "civ": "Q",
+    "summary": "The Federation's last known contact with the Q Continuum happens around 2590; by the 32nd century the Q are a distant memory.",
+    "sources": [
+      "The Examples (episode)"
+    ],
+    "ma": "Q Continuum",
+    "weight": 2
+  },
+  {
+    "id": "last-mirror-crossing",
+    "title": "Last crossing to the mirror universe",
+    "t": 2650.0,
+    "tText": "27th century",
+    "confidence": "estimated",
+    "category": "temporal",
+    "civ": "galactic",
+    "summary": "The final known crossing between the prime and mirror universes takes place; afterward the two realities drift apart and travel between them is thought impossible.",
+    "sources": [
+      "Die Trying (episode)"
+    ],
+    "ma": "Mirror universe",
+    "weight": 2
+  },
+  {
+    "id": "tox-uthat-created",
+    "title": "Kal Dano creates the Tox Uthat",
+    "t": 2666.0,
+    "tText": "c. 2666",
+    "confidence": "estimated",
+    "category": "science",
+    "civ": "galactic",
+    "summary": "The scientist Kal Dano builds the Tox Uthat, a quantum phase inhibitor able to stop a star's fusion, and hides it on 22nd-century Risa to keep it from thieves. Two Vorgon criminals from his era hunt it in 2366.",
+    "sources": [
+      "Captain's Holiday (episode)"
+    ],
+    "ma": "Tox Uthat",
+    "weight": 1
+  },
+  {
+    "id": "doctor-aging-program",
+    "title": "Voyager's EMH adopts an aging program",
+    "t": 2695.0,
+    "tText": "2695",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Federation",
+    "summary": "The Doctor from USS Voyager, still active three centuries after his ship came home, adds an aging subroutine to his matrix; he will still be teaching at Starfleet Academy in the 3190s.",
+    "sources": [
+      "Kids These Days (episode)"
+    ],
+    "ma": "The Doctor",
+    "weight": 1
+  },
+  {
+    "id": "future-guy-28th-century",
+    "title": "The Cabal's future patron",
+    "t": 2750.0,
+    "tText": "28th century",
+    "confidence": "estimated",
+    "category": "temporal",
+    "civ": "galactic",
+    "summary": "The faceless figure who directs the Suliban Cabal's operations in the Temporal Cold War is said to come from the 28th century.",
+    "sources": [
+      "Broken Bow (episode)",
+      "Shockwave (episode)"
+    ],
+    "ma": "Temporal Cold War",
+    "weight": 1
+  },
+  {
+    "id": "temporal-accord-in-force",
+    "title": "Temporal Accord governs time travel",
+    "t": 2769.0,
+    "tText": "by 2769",
+    "confidence": "inferred",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "An interstellar Temporal Accord permits time travel only for research and forbids changing history; Federation anthropologists from 2769 observe the building of the Great Pyramid under its rules.",
+    "sources": [
+      "Cold Front (episode)"
+    ],
+    "ma": "Temporal Accord",
+    "weight": 3
+  },
+  {
+    "id": "temporal-integrity-commission",
+    "title": "Temporal Integrity Commission polices history",
+    "t": 2850.0,
+    "tText": "29th century",
+    "confidence": "estimated",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "The 29th-century Federation's Temporal Integrity Commission sends timeships such as the Aeon and the USS Relativity under Captain Braxton to detect and repair temporal incursions anywhere in history.",
+    "sources": [
+      "Future's End (episode)",
+      "Future's End, Part II (episode)",
+      "Relativity (episode)"
+    ],
+    "ma": "Temporal Integrity Commission",
+    "weight": 3
+  },
+  {
+    "id": "sol-destroyed-erased-timeline",
+    "title": "Temporal explosion destroys Sol (erased)",
+    "t": 2873.0,
+    "tText": "c. 2873 (erased timeline)",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Human",
+    "summary": "In a timeline later erased, a 20th-century industrialist flies a stolen timeship to the 29th century and triggers an explosion that destroys the Sol system, prompting Braxton's mission to destroy Voyager in 2373.",
+    "sources": [
+      "Future's End (episode)"
+    ],
+    "ma": "Aeon",
+    "weight": 1
+  },
+  {
+    "id": "temporal-wars",
+    "title": "The Temporal Wars",
+    "t": 2950.0,
+    "tText": "30th century",
+    "confidence": "estimated",
+    "category": "temporal",
+    "civ": "galactic",
+    "summary": "For most of the 30th century the Federation fights a series of Temporal Wars to uphold the Temporal Accords against factions using time travel to remake history.",
+    "sources": [
+      "Die Trying (episode)",
+      "That Hope Is You, Part 1 (episode)"
+    ],
+    "ma": "Temporal Wars",
+    "conflict": "ENT's Daniels, a time-traveling agent from the 31st century, operates after the Temporal Wars are said to have ended in the 30th century.",
+    "weight": 3
+  },
+  {
+    "id": "dilithium-shortage",
+    "title": "Galactic dilithium begins to run out",
+    "t": 2958.0,
+    "tText": "2958",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "galactic",
+    "summary": "Known dilithium supplies begin drying up, and the Federation starts experimenting with alternative warp drive designs.",
+    "sources": [
+      "People of Earth (episode)"
+    ],
+    "ma": "Dilithium",
+    "weight": 2
+  },
+  {
+    "id": "daniels-31st-century",
+    "title": "31st-century temporal agents",
+    "t": 3050.0,
+    "tText": "31st century",
+    "confidence": "estimated",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "In Daniels's era time travel is so commonplace that quantum discriminators sit in school desks, and agents like him cross history to enforce the Temporal Accord against rival Cold War factions.",
+    "sources": [
+      "Cold Front (episode)",
+      "Shockwave, Part II (episode)"
+    ],
+    "ma": "Daniels (Crewman)",
+    "weight": 2
+  },
+  {
+    "id": "khi-eth-crash",
+    "title": "Khi'eth crashes in the Verubin Nebula",
+    "t": 3064.0,
+    "tText": "c. 3064",
+    "confidence": "estimated",
+    "category": "disaster",
+    "civ": "Kelpien",
+    "summary": "The Kelpien research ship Khi'eth crashes on a dilithium planet deep in the Verubin Nebula. A rescue ship vanishes, and the only long-term survivor is Su'Kal, born there to a dying crew.",
+    "sources": [
+      "Su'Kal (episode)",
+      "The Sanctuary (episode)"
+    ],
+    "ma": "KSF Khi'eth",
+    "weight": 2
+  },
+  {
+    "id": "starfleet-academy-closes",
+    "title": "Starfleet Academy closes",
+    "t": 3065.0,
+    "tText": "c. 3065",
+    "confidence": "estimated",
+    "category": "institution",
+    "civ": "Federation",
+    "summary": "Starfleet Academy shuts its doors; it will not reopen for more than a century.",
+    "sources": [
+      "Kobayashi Maru (episode)"
+    ],
+    "ma": "Starfleet Academy",
+    "weight": 2
+  },
+  {
+    "id": "the-burn",
+    "title": "The Burn",
+    "t": 3069.0,
+    "tText": "c. 3069",
+    "confidence": "inferred",
+    "category": "disaster",
+    "civ": "galactic",
+    "summary": "In an instant most dilithium in the galaxy goes inert and every active warp core explodes, killing millions. With warp travel crippled, the Federation begins to fragment and Qo'noS is devastated.",
+    "sources": [
+      "That Hope Is You, Part 1 (episode)",
+      "Die Trying (episode)",
+      "Vox In Excelso (episode)"
+    ],
+    "ma": "The Burn",
+    "conflict": "Booker (in 3188) and Vance (in 3189) both place it about 120 years earlier, putting it a year apart.",
+    "weight": 3
+  },
+  {
+    "id": "klingon-diaspora-burn",
+    "title": "Burn devastates Qo'noS; Klingons scatter",
+    "t": 3069.01,
+    "tText": "c. 3069",
+    "confidence": "inferred",
+    "category": "disaster",
+    "civ": "Klingon",
+    "summary": "The Burn sets off matter–antimatter reactors across the Klingon homeworld and other worlds, rendering much of the Empire uninhabitable. The surviving Klingons scatter and the Great Houses dwindle to eight.",
+    "sources": [
+      "Vox In Excelso (episode)"
+    ],
+    "ma": "Klingon diaspora",
+    "weight": 2
+  },
+  {
+    "id": "living-witness-kyrian-museum",
+    "title": "Doctor's backup revived in a Kyrian museum",
+    "t": 3074.0,
+    "tText": "c. 3074",
+    "confidence": "estimated",
+    "category": "culture",
+    "civ": "Kyrian",
+    "summary": "Seven centuries after Voyager's visit, a Kyrian curator reactivates a backup copy of its EMH. The Doctor corrects a warped history that cast Voyager as villains and helps bring peace between the Kyrians and Vaskans.",
+    "sources": [
+      "Living Witness (episode)"
+    ],
+    "ma": "Kyrian",
+    "weight": 2
+  },
+  {
+    "id": "emerald-chain-rises",
+    "title": "Emerald Chain rises after the Burn",
+    "t": 3085.0,
+    "tText": "late 31st century",
+    "confidence": "estimated",
+    "category": "politics",
+    "civ": "Orion",
+    "summary": "An Orion–Andorian mercantile syndicate grows in the chaos after the Burn into a de facto state, controlling dilithium and trade across much of the former Federation's space.",
+    "sources": [
+      "Scavengers (episode)",
+      "The Sanctuary (episode)",
+      "There Is A Tide... (episode)"
+    ],
+    "ma": "Emerald Chain",
+    "weight": 2
+  },
+  {
+    "id": "earth-leaves-federation",
+    "title": "Earth leaves the Federation",
+    "t": 3089.0,
+    "tText": "c. 3089",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "After the Burn, United Earth isolates itself and leaves the Federation. Federation headquarters and Starfleet move off Earth, and Titan breaks away.",
+    "sources": [
+      "People of Earth (episode)"
+    ],
+    "ma": "United Earth",
+    "weight": 3
+  },
+  {
+    "id": "ni-var-leaves-federation",
+    "title": "Ni'Var leaves the Federation",
+    "t": 3089.1,
+    "tText": "c. 3089",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Vulcan",
+    "summary": "Ni'Var — Vulcan renamed after its people reunified with the Romulans — quits the Federation amid suspicion that its SB-19 research caused the Burn. No Federation ship visits it again for a century.",
+    "sources": [
+      "Unification III (episode)"
+    ],
+    "ma": "Ni'Var",
+    "weight": 2
+  },
+  {
+    "id": "betazed-psionic-wall",
+    "title": "Betazed walls itself off",
+    "t": 3095.0,
+    "tText": "3090s",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Betazoid",
+    "summary": "Abandoned by the post-Burn Federation and ravaged by Venari Ral raids, the Betazoids raise a psionic wall around their star system; some thirty other worlds later shelter behind it, cut off from the galaxy for a century.",
+    "sources": [
+      "Beta Test (episode)"
+    ],
+    "ma": "Venari Ral",
+    "weight": 2
+  },
+  {
+    "id": "time-travel-outlawed",
+    "title": "Temporal Accords ban all time travel",
+    "t": 3100.0,
+    "tText": "by the 32nd century",
+    "confidence": "estimated",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "Because of the Temporal Wars, the Temporal Accords are extended to outlaw time travel completely and time-travel technology is destroyed; by 3189 even the Federation has no way to send anyone through time.",
+    "sources": [
+      "Die Trying (episode)",
+      "That Hope Is You, Part 1 (episode)"
+    ],
+    "ma": "Temporal Accord",
+    "weight": 3
+  },
+  {
+    "id": "sahil-relay-vigil",
+    "title": "Sahil begins a lonely Federation vigil",
+    "t": 3148.0,
+    "tText": "3148",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Federation",
+    "summary": "Aditya Sahil becomes the lone keeper of a damaged Federation relay station and holds his post for some forty years, keeping his family's Federation flag — which, as a civilian, he may not raise — until Burnham commissions him in 3188.",
+    "sources": [
+      "That Hope Is You, Part 1 (episode)"
+    ],
+    "ma": "Aditya Sahil",
+    "weight": 1
+  },
+  {
+    "id": "senna-tal-call",
+    "title": "Admiral Senna Tal calls believers to Earth",
+    "t": 3177.0,
+    "tText": "c. 3177",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Federation",
+    "summary": "On an obsolete Starfleet channel, Admiral Senna Tal broadcasts a call for anyone who still believes in the Federation to join him on Earth; the message later guides Burnham.",
+    "sources": [
+      "People of Earth (episode)"
+    ],
+    "ma": "Senna Tal",
+    "weight": 1
+  },
+  {
+    "id": "burnham-arrives-3188",
+    "title": "Burnham arrives in the 32nd century",
+    "t": 3188.0,
+    "tText": "3188",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "Michael Burnham emerges from the wormhole on Hima, sends the Red Angel suit back to fire the final signal, and spends a year as a courier with Cleveland Booker while waiting for Discovery.",
+    "sources": [
+      "That Hope Is You, Part 1 (episode)"
+    ],
+    "ma": "Michael Burnham",
+    "weight": 2
+  },
+  {
+    "id": "discovery-arrives-3189",
+    "title": "Discovery reaches the 32nd century",
+    "t": 3189.05,
+    "tText": "3189",
+    "confidence": "explicit",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Discovery arrives a year after Burnham and finds a Federation shrunk from 350 member worlds to 38, run from a hidden headquarters. Admiral Vance welcomes it back into Starfleet with the registry NCC-1031-A.",
+    "sources": [
+      "Far From Home (episode)",
+      "Die Trying (episode)"
+    ],
+    "ma": "USS Discovery",
+    "weight": 3
+  },
+  {
+    "id": "guardian-reappears-3189",
+    "title": "Guardian of Forever found in hiding",
+    "t": 3189.6,
+    "tText": "3189",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "galactic",
+    "summary": "The Guardian of Forever, which fled the Temporal Wars, is found on Dannus V in the guise of 'Carl'. It sends the ailing Georgiou back to her own time.",
+    "sources": [
+      "Terra Firma, Part 1 (episode)",
+      "Terra Firma, Part 2 (episode)"
+    ],
+    "ma": "Guardian of Forever",
+    "weight": 1
+  },
+  {
+    "id": "burn-cause-discovered",
+    "title": "Cause of the Burn discovered",
+    "t": 3189.8,
+    "tText": "3189",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "Kelpien",
+    "summary": "Discovery traces the Burn to Su'Kal, whose anguished cry resonated through the galaxy's dilithium; the nebula's dilithium world gives the Federation a way to rebuild warp travel.",
+    "sources": [
+      "Su'Kal (episode)",
+      "That Hope Is You, Part 2 (episode)"
+    ],
+    "ma": "The Burn",
+    "weight": 3
+  },
+  {
+    "id": "emerald-chain-defeated",
+    "title": "Emerald Chain defeated at Federation HQ",
+    "t": 3189.85,
+    "tText": "3189",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Orion",
+    "summary": "Osyraa's attempt to seize Discovery and Federation Headquarters fails. She is killed, and the Emerald Chain's grip on the region collapses.",
+    "sources": [
+      "There Is A Tide... (episode)",
+      "That Hope Is You, Part 2 (episode)"
+    ],
+    "ma": "Emerald Chain",
+    "weight": 2
+  },
+  {
+    "id": "trill-rejoins-federation",
+    "title": "Trill rejoins the Federation",
+    "t": 3189.9,
+    "tText": "3189",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Trill",
+    "summary": "Trill becomes one of the first worlds to rejoin the Federation after the Burn's cause is solved.",
+    "sources": [
+      "That Hope Is You, Part 2 (episode)"
+    ],
+    "ma": "Trillius Prime",
+    "weight": 1
+  },
+  {
+    "id": "federation-rebuilds-3190",
+    "title": "Federation grows to 58 worlds",
+    "t": 3190.0,
+    "tText": "3190",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Federation",
+    "summary": "With dilithium flowing again, 21 more worlds rejoin, Laira Rillak is elected President, and Starfleet Academy reopens after more than a century.",
+    "sources": [
+      "Kobayashi Maru (episode)"
+    ],
+    "ma": "United Federation of Planets",
+    "weight": 2
+  },
+  {
+    "id": "dark-matter-anomaly",
+    "title": "Dark Matter Anomaly destroys Kwejian",
+    "t": 3190.05,
+    "tText": "3190",
+    "confidence": "explicit",
+    "category": "disaster",
+    "civ": "galactic",
+    "summary": "A gravitational anomaly five light-years across rips through Kwejian and threatens worlds across the galaxy; it is later found to be an artificial mining device.",
+    "sources": [
+      "Kobayashi Maru (episode)",
+      "The Examples (episode)"
+    ],
+    "ma": "Dark Matter Anomaly",
+    "weight": 2
+  },
+  {
+    "id": "ni-var-rejoins-federation",
+    "title": "Ni'Var rejoins the Federation",
+    "t": 3190.3,
+    "tText": "3190",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Vulcan",
+    "summary": "After a century apart, Ni'Var votes to rejoin the Federation under President T'Rina.",
+    "sources": [
+      "All Is Possible (episode)",
+      "Coming Home (episode)"
+    ],
+    "ma": "Ni'Var",
+    "weight": 2
+  },
+  {
+    "id": "zora-recognized-sentient",
+    "title": "Discovery's AI Zora recognized as sentient",
+    "t": 3190.4,
+    "tText": "3190",
+    "confidence": "explicit",
+    "category": "culture",
+    "civ": "Federation",
+    "summary": "The ship's computer, merged since 3189 with the ancient Sphere's archive, is judged a new sentient lifeform and enlisted as a Starfleet specialist.",
+    "sources": [
+      "Forget Me Not (episode)",
+      "...But to Connect (episode)"
+    ],
+    "ma": "Zora",
+    "weight": 2
+  },
+  {
+    "id": "species-10c-first-contact",
+    "title": "First contact with Species 10-C",
+    "t": 3190.8,
+    "tText": "3190",
+    "confidence": "explicit",
+    "category": "first-contact",
+    "civ": "Species 10-C",
+    "summary": "Beyond the galactic barrier, a delegation of galactic powers led by Discovery reaches the extragalactic Species 10-C, whose mining had created the anomaly, and persuades them to stop.",
+    "sources": [
+      "Species Ten-C (episode)",
+      "Coming Home (episode)"
+    ],
+    "ma": "Species 10-C",
+    "weight": 3
+  },
+  {
+    "id": "earth-rejoins-federation",
+    "title": "United Earth rejoins the Federation",
+    "t": 3190.9,
+    "tText": "3190",
+    "confidence": "explicit",
+    "category": "politics",
+    "civ": "Human",
+    "summary": "Earth returns to the Federation it founded, a century after leaving it.",
+    "sources": [
+      "Coming Home (episode)"
+    ],
+    "ma": "United Earth",
+    "weight": 3
+  },
+  {
+    "id": "progenitor-hunt",
+    "title": "Red Directive hunt for Progenitor technology",
+    "t": 3191.1,
+    "tText": "3191",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "galactic",
+    "summary": "Under a classified Red Directive, Discovery follows clues hidden by 24th-century scientists toward the Progenitors' life-creating technology, racing the couriers Moll and L'ak and later the Breen.",
+    "sources": [
+      "Red Directive (episode)",
+      "Jinaal (episode)"
+    ],
+    "ma": "Life creation technology",
+    "weight": 2
+  },
+  {
+    "id": "chronophage-time-loop",
+    "title": "Krenim chronophage traps Discovery in time",
+    "t": 3191.3,
+    "tText": "3191",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Krenim",
+    "summary": "A Krenim chronophage planted aboard sends Discovery skipping through its own past and future, including a 3218 in which the Breen have destroyed Federation Headquarters; the crew breaks free.",
+    "sources": [
+      "Face the Strange (episode)"
+    ],
+    "ma": "Krenim",
+    "weight": 1
+  },
+  {
+    "id": "breen-imperium-infighting",
+    "title": "Breen Imperium torn by succession war",
+    "t": 3191.5,
+    "tText": "3191",
+    "confidence": "explicit",
+    "category": "war",
+    "civ": "Breen",
+    "summary": "The Breen Imperium, successor to the old Breen Confederacy, splits into warring factions over its leadership; rival Primarchs hunt the Progenitor technology, alarming Federation border worlds.",
+    "sources": [
+      "Erigah (episode)",
+      "Lagrange Point (episode)"
+    ],
+    "ma": "Breen Imperium",
+    "weight": 1
+  },
+  {
+    "id": "progenitor-technology-left",
+    "title": "Progenitor technology left unclaimed",
+    "t": 3191.9,
+    "tText": "3191",
+    "confidence": "explicit",
+    "category": "science",
+    "civ": "galactic",
+    "summary": "Burnham reaches the Progenitors' interface inside a portal between binary black holes, refuses to use the power to create life, and the technology withdraws to await another finder. The Red Directive is closed and classified.",
+    "sources": [
+      "Lagrange Point (episode)",
+      "Life, Itself (episode)"
+    ],
+    "ma": "Life creation technology",
+    "weight": 2
+  },
+  {
+    "id": "kovich-revealed-as-daniels",
+    "title": "Kovich revealed as Agent Daniels",
+    "t": 3191.95,
+    "tText": "3191",
+    "confidence": "explicit",
+    "category": "temporal",
+    "civ": "Federation",
+    "summary": "The Federation's enigmatic intelligence chief Kovich tells Burnham his real name: Agent Daniels, the temporal agent who once served aboard Archer's Enterprise.",
+    "sources": [
+      "Life, Itself (episode)",
+      "Die Trying (episode)"
+    ],
+    "ma": "Daniels (Crewman)",
+    "weight": 2
+  },
+  {
+    "id": "starfleet-academy-reopens-sf",
+    "title": "Starfleet Academy reopens in San Francisco",
+    "t": 3195.7,
+    "tText": "3195 (fall semester)",
+    "confidence": "inferred",
+    "category": "institution",
+    "civ": "Federation",
+    "summary": "The Academy welcomes its first San Francisco class in over a century under Chancellor Nahla Ake, with the USS Athena as training ship and Voyager's long-lived EMH on the faculty.",
+    "sources": [
+      "Kids These Days (episode)"
+    ],
+    "ma": "Starfleet Academy",
+    "conflict": "On-screen clues disagree: a personnel file and yearbook imply 3195–96, while the stardates convert to 3191–92, and DIS 'Kobayashi Maru' already shows the Academy reopened in 3190.",
+    "weight": 3
+  },
+  {
+    "id": "betazed-federation-capital",
+    "title": "Betazed rejoins as the new Federation capital",
+    "t": 3195.8,
+    "tText": "3195–3196",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Betazoid",
+    "summary": "Betazed agrees to lower its psionic wall and rejoin the Federation on condition that it becomes the new Federation capital; the new seat of government is dedicated there in 3196.",
+    "sources": [
+      "Beta Test (episode)"
+    ],
+    "ma": "Betazed",
+    "weight": 2
+  },
+  {
+    "id": "new-qonos-settled",
+    "title": "Klingons settle New Qo'noS",
+    "t": 3195.85,
+    "tText": "3195",
+    "confidence": "inferred",
+    "category": "politics",
+    "civ": "Klingon",
+    "summary": "The Klingons, scattered since the Burn devastated Qo'noS, claim Faan Alpha as their new homeworld in a staged, bloodless 'conquest' arranged with the Federation, renaming it New Qo'noS.",
+    "sources": [
+      "Vox In Excelso (episode)"
+    ],
+    "ma": "New Qo'noS",
+    "weight": 2
+  },
+  {
+    "id": "venari-ral-omega-mines",
+    "title": "Venari Ral ring the Federation with mines",
+    "t": 3196.3,
+    "tText": "3196",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Venari Ral",
+    "summary": "Nus Braka's Venari Ral seed Omega-47 mines — built around a synthetic Omega molecule stolen from Starbase J19-Alpha — around the core of Federation space.",
+    "sources": [
+      "300th Night (episode)",
+      "Rubincon (episode)"
+    ],
+    "ma": "Omega-47 mine",
+    "weight": 2
+  },
+  {
+    "id": "nus-braka-captured",
+    "title": "Braka's show trial fails; Braka captured",
+    "t": 3196.4,
+    "tText": "3196",
+    "confidence": "inferred",
+    "category": "war",
+    "civ": "Venari Ral",
+    "summary": "Nus Braka stages a broadcast 'Trial of the Federation' on the captured Sato Atrium while his Omega-47 mines hold worlds hostage. The USS Athena finds the atrium and seizes his mine-control frequency; Braka is arrested and discredited.",
+    "sources": [
+      "Rubincon (episode)"
+    ],
+    "ma": "Trial of the Federation",
+    "weight": 2
+  },
+  {
+    "id": "discovery-final-mission",
+    "title": "Discovery's final Red Directive mission",
+    "t": 3225.0,
+    "tText": "33rd century (decades after 3191)",
+    "confidence": "estimated",
+    "category": "ship",
+    "civ": "Federation",
+    "summary": "Decades later, Admiral Burnham takes Discovery, restored to its original configuration, on one last mission: leaving the ship and its AI Zora in deep space to await someone called Craft.",
+    "sources": [
+      "Life, Itself (episode)"
+    ],
+    "ma": "Zora",
+    "weight": 2
+  },
+  {
+    "id": "calypso-zora-rescues-craft",
+    "title": "Zora rescues Craft after a millennium",
+    "t": 4225.0,
+    "tText": "early 43rd century",
+    "confidence": "estimated",
+    "category": "culture",
+    "civ": "Human",
+    "summary": "After waiting about a thousand years, Discovery's AI Zora takes in Craft, a soldier adrift from a war between Alcor IV and the V'draysh, and sends him home in the ship's last shuttle.",
+    "sources": [
+      "Calypso (episode)",
+      "Life, Itself (episode)"
+    ],
+    "ma": "Zora",
+    "weight": 2
+  }
+]

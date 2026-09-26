@@ -879,7 +879,7 @@
    },
    {
     "from": 2436.5,
-    "to": 2374.0,
+    "to": 2374.5,
     "via": "escaped with Adreek-Hu in the Protostar through the Solum wormhole during a botched rescue, overshooting into the past and crash-landing on Ysida around 2374",
     "source": "Who Saves the Saviors (episode)"
    },
@@ -5843,7 +5843,6 @@
   ],
   "series": [
    "DIS",
-   "SNW",
    "TOS",
    "TAS",
    "FILM",
@@ -6567,8 +6566,8 @@
     "source": "Blink of an Eye (episode)"
    },
    {
-    "from": 3196.67,
-    "to": 3196.67,
+    "from": 3196.3,
+    "to": 3196.3,
     "via": "time differential: spent 17 years on time-accelerated Kasq raising the rebuilt SAM while about two weeks passed on Earth",
     "source": "The Life of the Stars (episode)"
    }
@@ -6936,7 +6935,6 @@
   "counterparts": [],
   "series": [
    "HISTORY",
-   "FILM",
    "TNG",
    "PRO",
    "PIC"
