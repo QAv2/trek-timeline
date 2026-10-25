@@ -1,0 +1,5 @@
+# Python packages used by tools/ (tested with requests 2.34.2, Markdown 3.11.2, Pillow 13.0.0 on Python 3.13)
+requests>=2.32
+markdown>=3.5
+pillow>=10.0
+# optional, for `python3 tools/smoke_test.py --browser`: playwright (then `playwright install chromium`)

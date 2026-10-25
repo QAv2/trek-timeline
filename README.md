@@ -16,15 +16,20 @@ A navigable timeline of the entire Star Trek canon, built as the console a futur
 
 Episode and film records, in-universe dates, stardates and cast lists come from [Memory Alpha](https://memory-alpha.fandom.com) through its API (CC BY-NC). Personnel portraits are small thumbnails of each character's lead image on Memory Alpha (screencaps and publicity stills © CBS Studios and Paramount), fetched in batches by `tools/fetch_portraits.py` and shown only to identify characters. History events, incursions, divergences, threads and dossiers were compiled for this archive from on-screen canon, and every entry cites its source episodes. Loglines are written for the archive.
 
-Rebuild the data:
+Rebuild the data (Python 3, network access to Memory Alpha):
 
 ```sh
+pip install -r requirements.txt
 python3 tools/fetch_records.py      # fetch episode and film pages into cache/ (idempotent)
 python3 tools/parse_records.py      # dates, stardates, cast -> build/records.raw.json
+python3 tools/canon_people.py       # optional: refresh character redirects -> data/person_redirects.json
 python3 tools/render_briefs.py      # research/<thread>.md -> docs/briefs/
 python3 tools/fetch_portraits.py resolve && python3 tools/fetch_portraits.py download   # portraits -> docs/img/p/
 python3 tools/build.py              # merge with data/curated/ -> docs/data/archive.json
+python3 tools/smoke_test.py         # check the output; add --browser to load it in headless Chromium
 ```
+
+`build.py` drops records that haven't aired as of the day it runs and stamps that date into the archive, so a rebuild also picks up any edits made on Memory Alpha since the last one.
 
 The site is static: `docs/` is served as-is by GitHub Pages. To run it locally, serve that folder, for example with `python3 -m http.server -d docs`.
 
