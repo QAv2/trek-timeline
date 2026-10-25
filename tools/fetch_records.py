@@ -10,6 +10,7 @@ FILMS = ['Star Trek: The Motion Picture', 'Star Trek II: The Wrath of Khan', 'St
          'Star Trek (film)', 'Star Trek Into Darkness', 'Star Trek Beyond', 'Star Trek: Section 31']
 
 if __name__ == '__main__':
+    os.makedirs(ma.CACHE, exist_ok=True)
     catf = os.path.join(ma.CACHE, 'categories.json')
     cats = json.load(open(catf)) if os.path.exists(catf) else {}
     for s in SERIES:

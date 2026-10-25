@@ -334,6 +334,7 @@ def main():
         })
     ids = [r['id'] for r in recs]
     dup = {i for i in ids if ids.count(i) > 1}
+    os.makedirs(os.path.join(ROOT, 'build'), exist_ok=True)
     json.dump(recs, open(os.path.join(ROOT, 'build', 'records.raw.json'), 'w'), indent=1, ensure_ascii=False)
     print(len(recs), 'records; dup ids:', dup)
 
